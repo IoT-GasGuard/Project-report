@@ -303,6 +303,22 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
 
 ## 2.4. Ubiquitous Language
 
+Internet of Things (IoT):
+<br>
+Sensor de gas:
+<br>
+Actuadores:
+<br>
+Aplicación móvil:
+<br>
+Dashboard:
+<br>
+Notificación SMS:
+<br>
+Dispositivo:
+<br>
+
+
 ---
 
 # Capítulo III: Requirements Specification
@@ -325,7 +341,9 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Monitoreo y respuesta del sensor</td>
       <td>
         Como usuario
+        <br>
         Quiero que el sensor detecte gases peligrosos
+        <br>
         Para tomar medidas necesarias
       </td>
     </tr>
@@ -334,7 +352,9 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Visualización de datos en la aplicación móvil</td>
       <td>
         Como usuario
+        <br>
         Quiero visualizar en mi celular la lecturas del sensor en tiempo real
+        <br>
         Para conocer el estado de la calidad del aire
       </td>
     </tr>
@@ -343,7 +363,9 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Gestión de usuarios</td>
       <td>
         Como usuario
+        <br>
         Quiero acceder a la aplicación móvil
+        <br>
         Para gestionar mi cuenta      
       </td>
     </tr>
@@ -352,7 +374,9 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Desarrollo del backend</td>
       <td>
         Como desarrollador
+        <br>
         Quiero construir una api rest, integrar servicios y distribuir los datos del sensor
+        <br>
         Para que la información sea recibida por la aplicación móvil, otros actuadores, y se ejecuten las acciones necesarias      
       </td>
     </tr>
@@ -361,7 +385,9 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Diseño de Landing Page</td>
       <td>
         Como visitante del sitio
+        <br>
         Quiero visualizar una página antarctica y clara
+        <br>
         Para conocer características y propósito de la aplicación      
       </td>
     </tr>
@@ -386,10 +412,28 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Detectar fuga de gas</td>
       <td>
         <strong>Como </strong>usuario
+        <br>
         <strong>Quiero </strong>que el sensor detecte niveles de gas en el ambiente
+        <br>
         <strong>Para </strong>que pueda identificar si son peligrosos
       </td>
-      <td></td>
+      <td>
+        <strong>Escenario 1: Detección de gas por encima del límite</strong>
+        <br>
+        <strong>Dado que </strong>el sensor está monitoreando el nivel de gas en el ambiente
+        <br>
+        <strong>Cuando </strong>detecte una concentración de gas mayor al límite permitido
+        <br>
+        <strong>Entonces </strong>se activa una alerta de fuga de gas
+        <br><br>
+        <strong>Escenario 2: Detección de gas dentro del límite establecido</strong>
+        <br>
+        <strong>Dado que </strong>el sensor está monitoreando el nivel de gas en el ambiente
+        <br>
+        <strong>Cuando </strong>detecte una concentración de gas dentro del límite permitido
+        <br>
+        <strong>Entonces </strong>el sensor continúa monitoreando el nivel de gas en el ambiente
+      </td>
       <td>E1</td>
     </tr>
     <tr>
@@ -397,11 +441,32 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Ejecutar protocolos de seguridad</td>
       <td>
         <strong>Como </strong>usuario
+        <br>
         <strong>Quiero </strong>que el sensor ejecute protocolos de seguridad cuando detecte niveles de gas peligrosos
         <br>
         <strong>Para </strong>reducir riesgos durante una fuga
       </td>
-      <td></td>
+      <td>
+        <strong>Escenario 1: Ejecución de protocolos</strong>
+        <br>
+        <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
+        <br>
+        <strong>Cuando </strong>detecte que el nivel de gas sobrepasa el límite
+        <br>
+        <strong>Entonces </strong>abrirá puertas y ventanas
+        <br>
+        <strong>Y </strong>cortará sistemas eléctricos
+        <br>
+        <strong>Y </strong>activará señales visuales
+        <br><br>
+        <strong>Escenario 2: Protocolos en espera</strong>
+        <br>
+        <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
+        <br>
+        <strong>Cuando </strong>detecte que el nivel de gas se encuentra dentro del límite
+        <br>
+        <strong>Entonces </strong>los protocolos de seguridad permanecerán a la espera
+      </td>
       <td>E1</td>
     </tr>
     <tr>
@@ -409,11 +474,28 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Ajustar automaticamente la iluminación</td>
       <td>
         <strong>Como </strong>usuario
+        <br>
         <strong>Quiero </strong>que las luces del ambiente se ajusten automaticamente a un nivel adecuado
         <br>
         <strong>Para </strong>tener suficiente iluminación durante la fuga de gas
       </td>
-      <td></td>
+      <td>
+        <strong>Escenario 1: Ajustar intensidad de la luz</strong>
+        <br>
+        <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
+        <br>
+        <strong>Cuando </strong>detecte que el nivel de gas sobrepasa el límite
+        <br>
+        <strong>Entonces </strong>se ajustará automaticamente la intensidad de las luces en el ambiente
+        <br><br>
+        <strong>Escenario 2: Luces en intensidad normal</strong>
+        <br>
+        <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
+        <br>
+        <strong>Cuando </strong>el nivel de gas se encuentra dentro del límite
+        <br>
+        <strong>Entonces </strong>la intensidad de las luces permanecen normales
+      </td>
       <td>E1</td>
     </tr>
     <tr>
@@ -421,11 +503,28 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Visualizar lecturas del sensor</td>
       <td>
         <strong>Como </strong>usuario
+        <br>
         <strong>Quiero </strong>ver en tiempo real las lecturas del sensor
         <br>
         <strong>Para </strong>estar informado de los niveles de gas en el ambiente
       </td>
-      <td></td>
+      <td>
+        <strong>Escenario 1: Visualización de datos en una gráfica</strong>
+        <br>
+        <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
+        <br>
+        <strong>Cuando </strong>envíe datos en tiempo real a la aplicación móvil
+        <br>
+        <strong>Entonces </strong>se mostrarán los datos en una gráfica intuitiva
+        <br><br>
+        <strong>Escenario 2: Fallo en recepción de datos</strong>
+        <br>
+        <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
+        <br>
+        <strong>Cuando </strong>la aplicación no reciba lecturas
+        <br>
+        <strong>Entonces </strong>se mostrará un mensaje indicando error al capturar datos
+      </td>
       <td>E2</td>
     </tr>
     <tr>
@@ -433,30 +532,68 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Notificar a miembros del hogar</td>
       <td>
         <strong>Como </strong>usuario
+        <br>
         <strong>Quiero </strong>que la aplicación notifique a los miembros registrados
         <br>
         <strong>Para </strong>que tomen sus medidas necesarias
       </td>
-      <td></td>
+      <td>
+        <strong>Escenario 1: Notificar alerta a miembros registrados en la aplicación</strong>
+        <br>
+        <strong>Dado que </strong>tengo a otros usuarios registrados en la aplicación
+        <br>
+        <strong>Cuando </strong>se detecte niveles peligrosos de gas en el ambiente
+        <br>
+        <strong>Entonces </strong>se notificará a esos usuarios
+        <br><br>
+        <strong>Escenario 2: Notificaciones de calma a miembros registrados en la aplicación</strong>
+        <br>
+        <strong>Dado que </strong>tengo a otros usuarios registrados en la aplicación
+        <br>
+        <strong>Cuando </strong>se detecte niveles de gas dentro del límite
+        <br>
+        <strong>Entonces </strong>se notificarán a otros usuarios con mensajes de calma
+      </td>
       <td>E2</td>
     </tr>
     <tr>
       <td>US06</td>
       <td>Notificar a servicios de emergencia</td>
       <td>
-        <strong>Como </strong>usuaqrio
+        <strong>Como </strong>usuario
+        <br>
         <strong>Quiero </strong>que la aplicación notifique a servicios de emrgencia cuando se detecte una fuga de gas
         <br>
         <strong>Para </strong>que actúen rapidamente
       </td>
-      <td></td>
+      <td>
+        <strong>Escenario 1: Notificar a servicios de emergencia</strong>
+        <strong>Dado que </strong>el sensor está monitoreando los niveles de gas del ambiente
+        <br>
+        <strong>Y </strong>está enviando datos en tiempo real a la aplicación
+        <br>
+        <strong>Cuando </strong>la gráfica muestre niveles de gas peligrosos
+        <br>
+        <strong>Entonces </strong>se enviará una alerta a los servicios de emergencia
+        <br><br>
+        <strong>Escenario 2: Sin alteraciones en la gráfica</strong>
+        <br>
+        <strong>Dado que </strong>el sensor está monitoreando los niveles de gas del ambiente
+        <br>
+        <strong>Y </strong>está enviando datos en tiempo real a la aplicación
+        <br>
+        <strong>Cuando </strong>detecte niveles de gas por debajo del límite
+        <br>
+        <strong>Entonces </strong>no se enviarán alertas a los servicios de emergencia
+      </td>
       <td>E2</td>
     </tr>
     <tr>
       <td>US07</td>
       <td>Registrar usuario</td>
       <td>
-        <strong>Como </strong>usuario 
+        <strong>Como </strong>usuario
+        <br>
         <strong>Quiero </strong>crear una cuenta
         <br>
         <strong>Para </strong>acceder a la aplicación y sus funciones
@@ -465,15 +602,21 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
         <strong>Escenario 1: Registro exitoso</strong>
         <br>
         <strong>Dado que</strong> el usuario ingresa por primera vez a la aplicación
+        <br>
         <strong>Cuando</strong> llene el formulario
+        <br>
         <strong>Y</strong> presione Registrar cuenta
+        <br>
         <strong>Entonces</strong> la aplicación muestra un mensajje que confirma la creación de su cuenta
         <br><br>
         <strong>Escenario 2: Registro fallido</strong>
         <br>
         <strong>Dado que</strong> el usuario ingresa por primera vez a la aplicación
+        <br>
         <strong>Cuando</strong> llene solo algunos campos del formulario
+        <br>
         <strong>Y</strong> presione Registrar cuenta
+        <br>
         <strong>Entonces</strong> la aplicación muestra un mensajje que indica que hubo un error al crear la cuenta
       </td>
       <td>E3</td>
@@ -483,24 +626,34 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Iniciar sesión</td>
       <td>
         <strong>Como </strong>usuario 
+        <br>
         <strong>Quiero </strong>iniciar sesión
+        <br>
         <strong>Para </strong>acceder a la aplicación y sus funciones
       </td>
       <td>
         <strong>Escenario 1: Inicio de sesión exitoso</strong>
         <br>
         <strong>Dado que</strong> el usuario está en la aplicación
+        <br>
         <strong>Y</strong> selecciona iniciar sesión
+        <br>
         <strong>Cuando</strong> llene el formulario con sus credenciales
+        <br>
         <strong>Y</strong> la aplicación valida sus datos
+        <br>
         <strong>Entonces</strong> el usuario ingresa al contenido de la aplicación
         <br><br>
         <strong>Escenario 2: Inicio de sesión fallido</strong>
         <br>
         <strong>Dado que</strong> el usuario está en la aplicación
+        <br>
         <strong>Y</strong> selecciona iniciar sesión
+        <br>
         <strong>Cuando</strong> llene el formulario con sus credenciales
+        <br>
         <strong>Y</strong> la aplicación detecta que sus credenciales no son correctas
+        <br>
         <strong>Entonces</strong> la aplicación muestra un mensaje indicando que sus datos son incorrectos
       </td>
       <td>E3</td>
@@ -510,6 +663,7 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Recuperar contraseña</td>
       <td>
         <strong>Como </strong>usuario 
+        <br>
         <strong>Quiero </strong> recibir un correo
         <br>
         <strong>Para </strong>reestablecer mi contraseña
@@ -518,17 +672,25 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
         <strong>Escenario 1: Recuperación de contraseña exitosa</strong>
         <br>
         <strong>Dado que</strong> el usuario ingresa a la aplicación
+        <br>
         <strong>Y</strong> selecciona Olvidé mi contraseña
+        <br>
         <strong>Cuando</strong> llene el formulario con su correo electrónico
+        <br>
         <strong>Y</strong> la aplicación valida que el correo existe
+        <br>
         <strong>Entonces</strong> se envía un enlace a su correo para que el usuario ingrese una nueva contraseña
         <br><br>
         <strong>Escenario 2: Recuperación de contraseña fallido</strong>
         <br>
         <strong>Dado que</strong> el usuario ingresa a la aplicación
+        <br>
         <strong>Y</strong> selecciona Olvidé mi contraseña
+        <br>
         <strong>Cuando</strong> llene el formulario con su correo electrónico
+        <br>
         <strong>Y</strong> la aplicación no logra encontrar el correo ingresado
+        <br>
         <strong>Entonces</strong> la aplicación muestra un mensaje de error
       </td>
       <td>E3</td>
@@ -538,11 +700,32 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Desarrollar API REST para comunicación de sistemas</td>
       <td>
         <strong>Como </strong>desarrollador
+        <br>
         <strong>Quiero </strong>construir una API REST que permita la comunicación entre dispositivos IoT y la aplicación móvil
         <br>
         <strong>Para </strong>que los datos sean distribuidos entre los sistemas
       </td>
-      <td></td>
+      <td>
+        <strong>Escenario 1: Envío exitoso de datos del sensor a la aplicación</strong>
+        <br>
+        <strong>Dado que </strong>soy desarrollador
+        <br>
+        <strong>Y </strong>he construido una API REST para recibir datos del sensor
+        <br>
+        <strong>Cuando </strong>el sensor de gas envíe valores mediante web sockets
+        <br>
+        <strong>Entonces </strong>la aplicación recepciona y muestra los datos correctamente
+        <br><br>
+        <strong>Escenario 2: Fallo al recepcionar datos del sensor</strong>
+        <br>
+        <strong>Dado que </strong>soy desarrollador
+        <br>
+        <strong>Y </strong>he construido una API REST para recibir datos del sensor
+        <br>
+        <strong>Cuando </strong>los valores no sean recepcionados correctamente
+        <br>
+        <strong>Entonces </strong>se mostrarán LOGS para realizar las respectivas correcciones
+      </td>
       <td>E4</td>
     </tr>
     <tr>
@@ -550,11 +733,36 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
       <td>Implementar servicio de notificación por SMS</td>
       <td>
         <strong>Como </strong>desarrollador
+        <br>
         <strong>Quiero </strong>integrar un servicio de notificaciones por SMS
         <br>
         <strong>Para </strong>notificar a los respectivos usuarios sobre una fuga de gas
       </td>
-      <td></td>
+      <td>
+        <strong>Escenario 1: Notificación enviada exitosamente</strong>
+        <br>
+        <strong>Dado que </strong>soy desarrollador
+        <br>
+        <strong>Y </strong>he implementado el servicio de notificación SMS
+        <br>
+        <strong>Cuando </strong>se haga una petición POST al endpoint correspondiente
+        <br>
+        <strong>Entonces </strong>se enviará mensajes a los respectivos números de telefono de los usuarios
+        <br><br>
+        <strong>Escenario 2: Fallo al enviar notificación SMS</strong>
+        <br>
+        <strong>Dado que </strong>soy desarrollador
+        <br>
+        <strong>Y </strong>he implementado el servicio de notificación SMS
+        <br>
+        <strong>Cuando </strong>se haga una petición POST al endpoint correspondiente
+        <br>
+        <strong>Y </strong>ocurra algun error
+        <br>
+        <strong>Entonces </strong>se manejarán las excepciones
+        <br>
+        <strong>Y </strong>se mostrarán LOGS para realizar las respectivas correcciones
+      </td>
       <td>E4</td>
     </tr>
     <tr>
@@ -567,7 +775,27 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
         <br>
         <strong>Para </strong>entender como funciona y cómo puede garantiza seguridad
       </td>
-      <td></td>
+      <td>
+        <strong>Escenario 1: Visualización detallada del contenido</strong>
+        <br>
+        <strong>Dado que </strong>soy visitante del sitio web
+        <br>
+        <strong>Y </strong>me encuentro en la landing page
+        <br>
+        <strong>Cuando </strong>seleccione Acerca del producto de GasGuard
+        <br>
+        <strong>Entonces </strong>se muestran puntos clave y detallados del funcionamiento del producto
+        <br><br>
+        <strong>Escenario 2: Poco detalle acerca del producto</strong>
+        <br>
+        <strong>Dado que </strong>soy visitante del sitio web
+        <br>
+        <strong>Y </strong>me encuentro en la landing page
+        <br>
+        <strong>Cuando </strong>seleccione Acerca del producto de GasGuard
+        <br>
+        <strong>Entonces </strong>se muestra información escasa o irrelevante
+      </td>
       <td>E5</td>
     </tr>
     <tr>
@@ -580,7 +808,25 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
         <br>
         <strong>Para </strong>tener una buena experiencia desde cualquier dispositivo 
       </td>
-      <td></td>
+      <td>
+        <strong>Escenario 1: Navegación desde dispositivo de preferencia</strong>
+        <br>
+        <strong>Dado que </strong>soy visitante del sitio web
+        <br>
+        <strong>Cuando </strong>ingrese al landing page
+        <br>
+        <strong>Entonces </strong>la página se adapta a la resolución de mi dispositivo
+        <br><br>
+        <strong>Escenario 2: Elementos desordenados en pantalla</strong>
+        <br>
+        <strong>Dado que </strong>soy visitante del sitio web
+        <br>
+        <strong>Cuando </strong>cuando ingrese al landing page
+        <br>
+        <strong>Y </strong>se muestre contenido desbordado y desordenado
+        <br>
+        <strong>Entonces </strong>entiendo que la landing page no es adaptable a distintas resoluciones
+      </td>
       <td>E5</td>
     </tr>
   </tbody>
