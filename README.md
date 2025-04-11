@@ -402,22 +402,29 @@ El impacto del problema es considerable, especialmente teniendo en cuenta la can
 
 ### 2.3.5. As-is Scenario Mapping
 
+<img src="./assets/scenario-mapping/as-is.png" alt="as-is scenario mapping">
+
+Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540110425&cot=14">As-Is Scenario Mapping - GasGuard</a>
+
 ## 2.4. Ubiquitous Language
 
-Internet of Things (IoT):
-<br>
-Sensor de gas:
-<br>
-Actuadores:
-<br>
-Aplicación móvil:
-<br>
-Dashboard:
-<br>
-Notificación SMS:
-<br>
-Dispositivo:
-<br>
+<strong>Dispositivo IoT:</strong> Integra el sensor de gas, el microcontrolador y los actuadores. Se encarga de detectar niveles de gas, procesar la información y ejecutar acciones automáticas en caso de emergencia.
+<br><br>
+<strong>Sensor de gas:</strong> Sensor de gas MQ-135, es un componente que mide la concentración de gases en el ambiente. Su lectura constante permite detectar posibles fugas de gas en zonas como la cocina, lavandería, etc.
+<br><br>
+<strong>Actuadores:</strong> Son dispositivos controlados electrónicamente que ejecutan respuestas físicas, como cortar la energía eléctrica, abrir ventanas o activar luces de emergencia cuando se detecta un nivel peligroso de gas.
+<br><br>
+<strong>Aplicación móvil:</strong> Interfaz desde la cual los usuarios monitorean el estado de su hogar, visualizan niveles de gas en tiempo real, reciben notificaciones y controlan funciones del sistema GasGuard, incluso de manera remota.
+<br><br>
+<strong>Gráfica en tiempo real:</strong> Representación visual dinámica que muestra la evolución del nivel de gas detectado por el sensor. Facilita al usuario la comprensión de la situación y la detección de patrones o irregularidades.
+<br><br>
+<strong>Notificación SMS:</strong> Alerta enviada automáticamente por mensaje de texto a los usuarios registrados o a los servicios de emergencia cuando se detecta una fuga crítica.
+<br><br>
+<strong>Protocolos de emergencia:</strong> Conjunto de acciones automáticas que se activan cuando se detecta una fuga peligrosa de gas. Incluyen la activación de alarmas, notificaciones, cortes eléctricos y apertura de ventilación.
+<br><br>
+<strong>Servicios de emergencia:</strong> Entidades externas como bomberos o compañías de gas que pueden ser notificadas automáticamente por el sistema ante una emergencia. Su inclusión busca acelerar la respuesta y mitigar el riesgo.
+<br><br>
+<strong>Iluminación inteligente:</strong> Función del sistema que regula la intensidad de las luces del hogar en base a la luz ambiental. También puede adaptarse a situaciones de emergencia, activando señales visuales para alertar a los ocupantes.
 
 
 ---
@@ -425,6 +432,10 @@ Dispositivo:
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+
+<img src="./assets/scenario-mapping/to-be.png" alt="to-be scenario">
+
+Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540224366&cot=14">To-Be Scenario Mapping - GasGuard</a>
 
 ## 3.2. User Stories
 
@@ -572,11 +583,11 @@ Dispositivo:
     </tr>
     <tr>
       <td>US03</td>
-      <td>Ajustar automaticamente la iluminación</td>
+      <td>Ajustar automáticamente la iluminación</td>
       <td>
         <strong>Como </strong>usuario
         <br>
-        <strong>Quiero </strong>que las luces del ambiente se ajusten automaticamente a un nivel adecuado
+        <strong>Quiero </strong>que las luces del ambiente se ajusten automáticamente a un nivel adecuado
         <br>
         <strong>Para </strong>tener suficiente iluminación durante la fuga de gas
       </td>
@@ -663,7 +674,7 @@ Dispositivo:
       <td>
         <strong>Como </strong>usuario
         <br>
-        <strong>Quiero </strong>que la aplicación notifique a servicios de emrgencia cuando se detecte una fuga de gas
+        <strong>Quiero </strong>que la aplicación notifique a servicios de emergencia cuando se detecte una fuga de gas
         <br>
         <strong>Para </strong>que actúen rapidamente
       </td>
@@ -935,7 +946,30 @@ Dispositivo:
 
 ## 3.3. Impact Mapping
 
+<img src="./assets/scenario-mapping/impact-mapping.png" alt="impact-mapping">
+
 ## 3.4. Product Backlog
+
+<table>
+  <thead>
+    <tr>
+      <th># Orden</th>
+      <th>User Story Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points<br>(1/2/3/5/8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
