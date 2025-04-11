@@ -295,6 +295,11 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
 | Amenazas                | Nuevos competidores low-cost.                                                 | Competencia asiática y precios bajos.                                     | Nuevas startups con soluciones ágiles.                                      |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+| Competidores | ¿Que se puede hacer para ganarle a la competencia?|
+|--------------|---------------------------------------------------|
+| Honeywell    |Ofrecer una solución más accesible y especializada para hogares, con menor costo y mayor automatización inmediata (sin depender de instalaciones complejas).|
+|Siemens|Presentar un producto más simple y enfocado en seguridad doméstica, evitando la complejidad y el enfoque corporativo de Siemens.|
+|Johnson Controls|Aprovechar la agilidad de una startup para innovar más rápido y con una solución más adaptable y fácil de instalar en viviendas comunes, no solo en grandes infraestructuras.|
 
 ## 2.2. Entrevistas
 
