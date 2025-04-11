@@ -303,7 +303,39 @@ Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de
 
 ## 2.2. Entrevistas
 
+
 ### 2.2.1. Diseño de entrevistas
+
+**Uso actual y percepcion de seguridad**
+1. ¿Actualmente usas algún sistema para detectar fugas de gas en tu hogar?
+
+2. ¿Cómo actuarías ante una fuga de gas? ¿Tienes un plan o herramienta que te ayude?
+
+3. ¿Qué tan seguro/a te sientes en tu hogar respecto al uso de gas?
+
+**Expectativas sobre una app de seguridad doméstica**
+
+4. Si existiera una app que te avisara automáticamente sobre una fuga de gas y tomara acciones de seguridad por ti, ¿qué funcionalidades te parecerían imprescindibles?
+
+5. ¿Te gustaría que la app se conecte con otros dispositivos del hogar (ventanas, luces, puertas, etc.)? ¿Con cuáles específicamente?
+
+6. ¿Qué tipo de notificaciones preferirías recibir (sonido, vibración, mensaje, llamada, etc.)?
+
+**Preferencias de diseño y experiencia de usuario**
+
+7. ¿Cómo debería ser la interfaz de una app así para que te resulte fácil de usar?
+
+8. ¿Qué tan cómodo/a te sientes usando apps relacionadas con seguridad del hogar?
+
+9. ¿Te gustaría tener un panel con el estado en tiempo real de los sensores o solo alertas cuando haya problemas?
+
+**Oportunidades de mejora / feedback**
+
+10. Si ya usaste alguna app de seguridad o domótica, ¿qué aspectos te gustaron y cuáles no?
+
+11. ¿Qué crees que podría mejorar una app de seguridad como esta para que realmente confíes en ella?
+
+12. ¿Estarías dispuesto/a a pagar por una app que proteja tu hogar de forma automática? ¿Qué precio te parecería justo?
 
 ### 2.2.2. Registro de entrevistas
 
