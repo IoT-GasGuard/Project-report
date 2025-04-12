@@ -962,11 +962,173 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
   </thead>
   <tbody>
     <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>1</td>
+      <td>E5-US12</td>
+      <td>Visualizar características del sistema GasGuard</td>
+      <td>
+        Como visitante del sitio web
+        <br>
+        Quiero ver las características principales de GasGuard en el landing page
+        <br>
+        Para entender como funciona y cómo puede garantiza seguridad
+      </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>E5-US13</td>
+      <td>Visualizar sitio web desde dispositivo de preferencia</td>
+      <td>
+        Como visitante del sitio web
+        <br>
+        Quiero que la landing page sea accesible desde mi computadora, tablet o móvil
+        <br>
+        Para tener una buena experiencia desde cualquier dispositivo
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>E1-US01</td>
+      <td>Detectar fuga de gas</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero que el sensor detecte niveles de gas en el ambiente
+        <br>
+        Para que pueda identificar si son peligrosos      
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>E1-US02</td>
+      <td>Ejecutar protocolos de seguridad</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero que el sensor ejecute protocolos de seguridad cuando detecte niveles de gas peligrosos
+        <br>
+        Para reducir riesgos durante una fuga      
+      </td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>E1-US03</td>
+      <td>Ajustar automáticamente la iluminación</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero que las luces del ambiente se ajusten automáticamente a un nivel adecuado
+        <br>
+        Para tener suficiente iluminación durante la fuga de gas      
+      </td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>E2-US04</td>
+      <td>Visualizar lecturas del sensor</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero ver en tiempo real las lecturas del sensor
+        <br>
+        Para estar informado de los niveles de gas en el ambiente      
+      </td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>E2-US05</td>
+      <td>Notificar a miembros del hogar</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero que la aplicación notifique a los miembros registrados
+        <br>
+        Para que tomen sus medidas necesarias      
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>E2-US06</td>
+      <td>Notificar a servicios de emergencia</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero que la aplicación notifique a servicios de emergencia cuando se detecte una fuga de gas
+        <br>
+        Para que actúen rapidamente      
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>E4-US10</td>
+      <td>Desarrollar API REST para comunicación de sistemas</td>
+      <td>
+        Como desarrollador
+        <br>
+        Quiero construir una API REST que permita la comunicación entre dispositivos IoT y la aplicación móvil
+        <br>
+        Para que los datos sean distribuidos entre los sistemas      
+      </td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>E4-US11</td>
+      <td>Implementar servicio de notificación por SMS</td>
+      <td>
+        Como desarrollador
+        <br>
+        Quiero integrar un servicio de notificaciones por SMS
+        <br>
+        Para notificar a los respectivos usuarios sobre una fuga de gas      
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>E3-US07</td>
+      <td>Registrar usuario</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero crear una cuenta
+        <br>
+        Para acceder a la aplicación y sus funciones      
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>E3-US08</td>
+      <td>Iniciar sesión</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero iniciar sesión
+        <br>
+        Para acceder a la aplicación y sus funciones      
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>E3-US09</td>
+      <td>Recuperar contraseña</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero recibir un correo
+        <br>
+        Para reestablecer mi contraseña      
+      </td>
+      <td>3</td>
     </tr>
   </tbody>
 </table>
