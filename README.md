@@ -411,28 +411,7 @@ El impacto del problema es considerable, especialmente teniendo en cuenta la can
 | Recomendar a otros              | Alto                        | Bajo                    | Alto                         |
 
 ### 2.3.3. User Journey Mapping
-#### Fase: Antes del uso
-
-| **Etapa**             | **Acción**                                   | **Emoción**             | **Oportunidad**                             |
-|-----------------------|----------------------------------------------|--------------------------|---------------------------------------------|
-| Toma de conciencia    | Ve publicidad de GasGuard en redes           | Curiosidad / interés     | Publicidad clara y con testimonios reales   |
-| Investigación         | Visita la web o app, lee beneficios          | Esperanza / duda         | Mostrar casos reales y cifras concretas     |
-| Evaluación            | Compara con detectores tradicionales         | Inseguridad              | Resaltar valor añadido y automatización     |
-
-#### Fase: Durante el uso
-
-| **Etapa**             | **Acción**                                   | **Emoción**              | **Oportunidad**                             |
-|-----------------------|----------------------------------------------|---------------------------|---------------------------------------------|
-| Instalación           | Configura con app móvil                      | Ligero estrés / alivio    | Tutorial amigable paso a paso               |
-| Uso diario            | Iluminación ambiental funciona bien          | Comodidad                 | Mantener valor en modo normal               |
-| Emergencia            | GasGuard detecta fuga y activa medidas       | Alivio / confianza        | Alertas en tiempo real + soporte remoto     |
-
-#### Fase: Después del uso
-
-| **Etapa**             | **Acción**                                   | **Emoción**              | **Oportunidad**                             |
-|-----------------------|----------------------------------------------|---------------------------|---------------------------------------------|
-| Revisión              | Mira historial en app                        | Tranquilidad              | Visualización clara y gráfica               |
-| Recomendación         | Recomienda a otros                           | Orgullo / satisfacción    | Incentivos por referidos                    |
+<img src="./assets/journey_map.png" alt="img" style="margin-bottom: 5px;" width="500"/>
 
 ### 2.3.4. Empathy Mapping
 
