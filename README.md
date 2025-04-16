@@ -394,9 +394,45 @@ El impacto del problema es considerable, especialmente teniendo en cuenta la can
 
 ### 2.3.1. User Personas
 
+<img src="./assets/user_personas/persona1.png" alt="img" style="margin-bottom: 5px;" width="500"/><br>   
+<img src="./assets/user_personas/persona2.png" alt="img" style="margin-bottom: 5px;" width="500"/><br>
+<img src="./assets/user_personas/persona3.png" alt="img" style="margin-bottom: 5px;" width="500"/><br>  
+
 ### 2.3.2. User Task Matrix
+| Tarea                            | Carolina (Madre de familia) | Jorge (Adulto mayor) | Claudia (Usuario tecnologico) |
+|----------------------------------|-----------------------------|-------------------------|------------------------------|
+| Instalar el dispositivo          | Medio                       | Bajo                    | Alto                         |
+| Configurar desde la app         | Medio                       | Bajo                    | Alto                         |
+| Recibir alertas de fuga         | Alto                        | Medio                   | Alto                         |
+| Ver historial de eventos        | Medio                       | Bajo                    | Alto                         |
+| Controlar iluminación           | Medio                       | Bajo                    | Alto                         |
+| Usar botón físico de emergencia | Bajo                        | Alto                    | Alto                         |
+| Contactar soporte técnico       | Medio                       | Medio                   | Alto                         |
+| Recomendar a otros              | Alto                        | Bajo                    | Alto                         |
 
 ### 2.3.3. User Journey Mapping
+#### Fase: Antes del uso
+
+| **Etapa**             | **Acción**                                   | **Emoción**             | **Oportunidad**                             |
+|-----------------------|----------------------------------------------|--------------------------|---------------------------------------------|
+| Toma de conciencia    | Ve publicidad de GasGuard en redes           | Curiosidad / interés     | Publicidad clara y con testimonios reales   |
+| Investigación         | Visita la web o app, lee beneficios          | Esperanza / duda         | Mostrar casos reales y cifras concretas     |
+| Evaluación            | Compara con detectores tradicionales         | Inseguridad              | Resaltar valor añadido y automatización     |
+
+#### Fase: Durante el uso
+
+| **Etapa**             | **Acción**                                   | **Emoción**              | **Oportunidad**                             |
+|-----------------------|----------------------------------------------|---------------------------|---------------------------------------------|
+| Instalación           | Configura con app móvil                      | Ligero estrés / alivio    | Tutorial amigable paso a paso               |
+| Uso diario            | Iluminación ambiental funciona bien          | Comodidad                 | Mantener valor en modo normal               |
+| Emergencia            | GasGuard detecta fuga y activa medidas       | Alivio / confianza        | Alertas en tiempo real + soporte remoto     |
+
+#### Fase: Después del uso
+
+| **Etapa**             | **Acción**                                   | **Emoción**              | **Oportunidad**                             |
+|-----------------------|----------------------------------------------|---------------------------|---------------------------------------------|
+| Revisión              | Mira historial en app                        | Tranquilidad              | Visualización clara y gráfica               |
+| Recomendación         | Recomienda a otros                           | Orgullo / satisfacción    | Incentivos por referidos                    |
 
 ### 2.3.4. Empathy Mapping
 
