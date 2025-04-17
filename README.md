@@ -415,6 +415,10 @@ El impacto del problema es considerable, especialmente teniendo en cuenta la can
 
 ### 2.3.4. Empathy Mapping
 
+<img src="./assets/empathy_maps/Empathy_map1.png" alt="img" style="margin-bottom: 5px;" width="500"/><br>
+<img src="./assets/empathy_maps/Empathy_map2.png" alt="img" style="margin-bottom: 5px;" width="500"/><br>
+<img src="./assets/empathy_maps/Empathy_map3.png" alt="img" style="margin-bottom: 5px;" width="500"/><br>
+
 ### 2.3.5. As-is Scenario Mapping
 
 <img src="./assets/scenario-mapping/as-is.png" alt="as-is scenario mapping">
