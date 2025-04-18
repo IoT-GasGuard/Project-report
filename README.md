@@ -127,7 +127,7 @@ Ser una empresa referente en el ámbito de la seguridad con tecnología IoT, cen
 <table border="1" width="70%" style="text-align:center;">
     <tr align="center">
         <td rowspan="3">
-            <img src="https://raw.githubusercontent.com/upc-pre-202401-si729-wx56-g3/Project-Report/main/assets/members-profile/Gerardo.png" alt="Jorge Quilla" style="margin-bottom: 5px;" width="150"/>
+            <img src="./assets/team_img/gerardo.jpeg" alt="Gerardo Quilla"  style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -151,11 +151,12 @@ Ser una empresa referente en el ámbito de la seguridad con tecnología IoT, cen
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
+            <img src="./assets/team_img/piero.jpeg" alt="Piero Ticona"  style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
-            <br>            
+            <br>
+            Rony Piero Ticona Luque            
         </td>
     </tr>
     <tr>
@@ -959,7 +960,11 @@ Dispositivo:
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
+<img src="./assets/diagrams_C4/Context.png" alt="Context"/>
+
 #### 4.1.3.3. Software Architecture Container Level Diagrams
+
+<img src="./assets/diagrams_C4/Container.png" alt="Container"/>
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
