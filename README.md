@@ -399,6 +399,108 @@ El sistema ofrece una respuesta automática ante la detección de una fuga de ga
 
 
 #### 1.2.2.4. Lean UX Canvas
+<TABLE BORDER>
+	<TR>
+		<TD ROWSPAN=2>
+
+**Lean UX Canvas**
+</TD>
+	    	<TD ROWSPAN=2></TD> <TD>
+
+**Fecha:** 10/04/2025
+
+</TD> 
+	</TR>
+	<TR>
+		<TD>
+
+**Iteración 1**
+</TD> 
+	</TR>
+    <TR>
+		<TD ROWSPAN>
+        
+**1. Problema de negocios:**
+        
+En Perú,el gas licuado es uno de los principales combustibles de energía domestica en cocinas, termas, calefacción, etc. Esto implica un mayor riesgo de sufrir alguna fuga de gas. Pese a esta amenaza, muchos hogares no cuentan con un sistema de seguridad que sea capaz de detectar y actuar frente a este tipo de emergencias. 
+
+Hemos observado que, pese a que en el mercado existen detectores de gas, estos se limitan a mostrar alarmas visuales o sonoras, sin tomar medidas para mitigar la fuga. Así mismo, muchas personas no saben como reaccionar ante estas situaciones, ya sea por desconocimiento o temor. 
+
+¿Cómo podríamos crear una solución accesible, confiable y automatizada que detecte de una fuga de gas, tome medidas de seguridad de manera innmediata para proteger a los habitantes de una vivienda y pueda integrarse en un hogar inteligente?
+
+</TD>
+	    	<TD ROWSPAN=2>
+
+**5. Ideas de solución:**
+- Detección de fugas de gas inmediata mediante sensores IoT.
+- Acciones automáticas de seguridad ante fugas de gas como: corte del servicio eléctrico, apertura de ventanas/puertas, alertas visuales y sonoras, etc.
+- Notificaciones de alerta a contactos seleccionados y a servicios de emergencia mediante la app móvil o sms.
+- Historial de eventos y monitereo remoto desde una aplicación web/móvil.
+- Gestor de iluminación inteligente en condiciones normales.
+</TD> <TD ROWSPAN=2>
+
+**2. Resultados comerciales:**
+- Tasa de conversión del 15% de usuarios gratuitos a suscriptores premium para acceder a funciones avanzadas.
+- Retención del 80% de clientes durante el primer año del sistema.
+- Integración en al menos el 5% de casas con servicios de gas licuado o con hogares inteligentes.
+- Reducción en un 85% de accidentes graves generados por fugas de gas en viviendas.
+</TD> 
+	</TR>
+	<TR>
+		<TD >
+        
+**3. Usuarios y Clientes:**
+Principalmente familias, adultos mayores, personas con movilidad reducida y cualquier usuario que utilice gas licuado en su hogar.
+</TD> 
+	</TR>
+    <TR>
+		<TD ROWSPAN=2>
+
+**6. Hipótesis**
+        
+**Creemos que** cuando los protocolos de seguridad sean ejecutados de manera autónoma en caso de una fuga de gas, los usuarios se sentirán más protegidos por el sistema.
+**Sabremos que** hemos tenido éxito **cuando** al menos el 70% de usuarios consultados en los primeros 6 meses de uso manifiesten sentirse más seguros gracias a la respuesta automática de la solución.
+
+**Creemos que** al integrar un sistema de control de iluminación inteligente aumentará el valor percibido por el cliente de la solución.
+**Sabremos que** hemos tenido éxito **cuando** al menos el 60% de usuarios utilicen de manera diaria esta función después del primer mes de instalación.
+
+**Creemos que** al ejecutar cortes automáticos del suministro de seguridad, así como la apertura de ventanas/puertas al detectar niveles anormales de gas cuando se detecte una fuga de gas, se disminuirá el riesgo de incendios, explosiones e intoxicaciones en las viviendas.
+**Sabremos que** hemos tenido éxito **cuando** no se reporten accidentes graves como consecuencias de una fuga de gas en los hogares con el sistema activado durante los primeros 12 meses.
+
+**Creemos que** implementar un modelo de suscripción freemium ofreciendo funciones adicionales avanzadas, incrementaremos la monetización del sistema.
+**Sabremos que** hemos tenido éxito **cuando** observemos que al menos el 20% de nuestros clientes adquieran una suscripción premium durante el primer año.</TD>
+
+<TD ROWSPAN=2>
+
+**7. ¿Qué es lo más importante que debemos aprender primero?**
+- El tiempo mínimo de reacción del sistema ante una fuga de gas para que esta sea efectiva para el usuario y pueda tomar medidas.
+- El nivel de confianza de los usuarios en las respuestas de sistemas automatizados de seguridad.
+- Que tan intuitivo deben ser la interfaz de la página web/móvil para que sea accesible a usuarios mayores o sin experiencia tecnológica.
+- Que tan dispuestos están los usuarios para adquirir una suscripcion premium.
+</TD> 
+
+<TD>
+
+**4. Beneficios del usuario:**
+- Mayor seguridad y protección ante una fuga de gas.
+- Posibilidad de actuar de manera remota sin encontrarse en el inmueble en caso de una emergencia.
+- Gestión automática de iluminación según la luz ambiental.
+- Reducción de accidentes graves como consecuencia de una fuga de gas.
+
+</TD> 
+	</TR>
+	<TR>
+		<TD>
+        
+**8. ¿Cuál es la menor cantidad de trabajo que necesitamos para resolver las dudas y para hacer lo siguiente más importante?**
+- Crear un prototipo funcional integrado a una aplicación web/móvil.
+- Realizar simulacros y pruebas con usuarios reales.
+- Validar la percepción el usuario con el sistema antes y después de su uso.
+- Desarrollar un análisis de mercado para detectar puntos de mejora o nuevas necesidades del segmento objetivo. 
+- Plantear estrategias de marketing para promocionar el sistema y su aplicación.
+</TD> 
+	</TR>
+</TABLE>
 
 ## 1.3. Segmentos objetivo
 
