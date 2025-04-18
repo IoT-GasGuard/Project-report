@@ -502,7 +502,33 @@ Principalmente familias, adultos mayores, personas con movilidad reducida y cual
 	</TR>
 </TABLE>
 
-## 1.3. Segmentos objetivo
+## 1.3. Segmentos Objetivo
+<TABLE BORDER>
+	<TR>
+		<TD>
+
+**Tipo de usuario**</TD> <TD>
+
+**Geográfico** </TD> <TD>
+
+**Psicográfico**</TD> <TD>
+
+**Demográfico**</TD>
+</TR>
+	<TR>
+		<TD>Personas con vivienda propia o alquilada</TD> <TD> Zonas urbanas en distritos residenciales y ciudades en crecimiento.</TD> 
+        <TD>
+
+Preocupado por la seguridad de su vivienda o las personas que viven en ella. Interesado en la integración de soluciones tecnológicas en el hogar. Priorizan la automatización de procesos.
+
+</TD> 
+<TD>
+
+- Edad: Desde jóvenes adultos hasta personas mayores.
+- Educación: Educación básica hasta educación superior.
+
+</TABLE>
+
 
 ---
 
