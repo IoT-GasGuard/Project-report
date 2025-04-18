@@ -563,17 +563,28 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>E2</td>
-      <td>Visualización de datos en la aplicación móvil</td>
+      <td>Visualización de datos</td>
       <td>
         Como usuario
         <br>
-        Quiero visualizar en mi celular la lecturas del sensor en tiempo real
+        Quiero visualizar las lecturas del sensor en tiempo real
         <br>
         Para conocer el estado de la calidad del aire
       </td>
     </tr>
     <tr>
       <td>E3</td>
+      <td>Notificaciones y alertas</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero enviar notificaciones y alertas a miembros de mi familia o conocidos, y a servicios de emergencia
+        <br>
+        Para que tomen las acciones necesarias
+      </td>
+    </tr>
+    <tr>
+      <td>E4</td>
       <td>Gestión de usuarios</td>
       <td>
         Como usuario
@@ -584,7 +595,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       </td>
     </tr>
     <tr>
-      <td>E4</td>
+      <td>E5</td>
       <td>Desarrollo del backend</td>
       <td>
         Como desarrollador
@@ -595,7 +606,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       </td>
     </tr>
     <tr>
-      <td>E5</td>
+      <td>E6</td>
       <td>Diseño de Landing Page</td>
       <td>
         Como visitante del sitio
@@ -768,11 +779,11 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Entonces </strong>se notificarán a otros usuarios con mensajes de calma
       </td>
-      <td>E2</td>
+      <td>E3</td>
     </tr>
     <tr>
       <td>US06</td>
-      <td>Notificar a servicios de emergencia</td>
+      <td>Alertar a servicios de emergencia</td>
       <td>
         <strong>Como </strong>usuario
         <br>
@@ -781,7 +792,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <strong>Para </strong>que actúen rapidamente
       </td>
       <td>
-        <strong>Escenario 1: Notificar a servicios de emergencia</strong>
+        <strong>Escenario 1: Alertar a servicios de emergencia</strong>
         <strong>Dado que </strong>el sensor está monitoreando los niveles de gas del ambiente
         <br>
         <strong>Y </strong>está enviando datos en tiempo real a la aplicación
@@ -800,10 +811,43 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Entonces </strong>no se enviarán alertas a los servicios de emergencia
       </td>
-      <td>E2</td>
+      <td>E3</td>
     </tr>
     <tr>
       <td>US07</td>
+      <td>Visualizar historial de alertas</td>
+      <td>
+        <strong>Como </strong>usuario
+        <br>
+        <strong>Quiero </strong>visualizar el historial de alertas
+        <br>
+        <strong>Para </strong>estar informado de las notificaciones y alertas que se enviaron
+      </td>
+      <td>
+        <strong>Escenario 1: Visualizar historial de notificaciones y alertas</strong>
+        <br>
+        <strong>Dado que </strong>el sensor está enviando datos en tiempo real a la aplicación
+        <br>
+        <strong>Y </strong>se detectaron niveles de gas peligrosos
+        <br>
+        <strong>Cuando </strong>se envíen notificaciones o alertas
+        <br>
+        <strong>Entonces </strong>puedo ver un historial
+        <br>
+        <strong>Y </strong>ver detalles de cada notificación o alerta enviada
+        <br><br>
+        <strong>Escenario 2: Historial de alertas vacío</strong>
+        <br>
+        <strong>Dado que </strong>el sensor está enviando datos en tiempo real a la aplicación
+        <br>
+        <strong>Cuando </strong>no se detecten niveles de gas peligrosos
+        <br>
+        <strong>Entonces </strong>el historial estará vacío
+      </td>
+      <td>E3</td>
+    </tr>    
+    <tr>
+      <td>US08</td>
       <td>Registrar usuario</td>
       <td>
         <strong>Como </strong>usuario
@@ -833,10 +877,10 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Entonces</strong> la aplicación muestra un mensajje que indica que hubo un error al crear la cuenta
       </td>
-      <td>E3</td>
+      <td>E4</td>
     </tr>
     <tr>
-      <td>US08</td>
+      <td>US09</td>
       <td>Iniciar sesión</td>
       <td>
         <strong>Como </strong>usuario 
@@ -870,10 +914,10 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Entonces</strong> la aplicación muestra un mensaje indicando que sus datos son incorrectos
       </td>
-      <td>E3</td>
+      <td>E4</td>
     </tr>
     <tr>
-      <td>US09</td>
+      <td>US10</td>
       <td>Recuperar contraseña</td>
       <td>
         <strong>Como </strong>usuario 
@@ -907,43 +951,47 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Entonces</strong> la aplicación muestra un mensaje de error
       </td>
-      <td>E3</td>
+      <td>E4</td>
     </tr>
     <tr>
-      <td>US10</td>
-      <td>Desarrollar API REST para comunicación de sistemas</td>
+      <td>US11</td>
+      <td>Implementar comunicación por WebSocket</td>
       <td>
         <strong>Como </strong>desarrollador
         <br>
-        <strong>Quiero </strong>construir una API REST que permita la comunicación entre dispositivos IoT y la aplicación móvil
+        <strong>Quiero </strong>implementar un canal WebSocket en el backend
         <br>
-        <strong>Para </strong>que los datos sean distribuidos entre los sistemas
+        <strong>Para </strong>recibir los datos en tiempo real desde el Edge Gateway
       </td>
       <td>
-        <strong>Escenario 1: Envío exitoso de datos del sensor a la aplicación</strong>
+        <strong>Escenario 1: Recepción exitosa de datos</strong>
         <br>
         <strong>Dado que </strong>soy desarrollador
         <br>
-        <strong>Y </strong>he construido una API REST para recibir datos del sensor
+        <strong>Y </strong>he implementado websockets para recepción de datos en tiempo real
         <br>
-        <strong>Cuando </strong>el sensor de gas envíe valores mediante web sockets
+        <strong>Cuando </strong>el sensor de gas envíe datos al Edge Gateway
         <br>
-        <strong>Entonces </strong>la aplicación recepciona y muestra los datos correctamente
+        <strong>Entonces </strong>se establece conexión con el backend por un canal WebSocket
+        <br>
+        <strong>Y </strong>se reciben los datos en tiempo real para ser mostrados en la aplicación
         <br><br>
         <strong>Escenario 2: Fallo al recepcionar datos del sensor</strong>
         <br>
         <strong>Dado que </strong>soy desarrollador
         <br>
-        <strong>Y </strong>he construido una API REST para recibir datos del sensor
+        <strong>Y </strong>he implementado websockets para recepción de datos en tiempo real
         <br>
-        <strong>Cuando </strong>los valores no sean recepcionados correctamente
+        <strong>Cuando </strong>el sensor de gas envíe datos al Edge Gateway
+        <br>
+        <strong>Y </strong>no se pueda establecer conexión WebSocket
         <br>
         <strong>Entonces </strong>se mostrarán LOGS para realizar las respectivas correcciones
       </td>
-      <td>E4</td>
+      <td>E5</td>
     </tr>
     <tr>
-      <td>US11</td>
+      <td>US12</td>
       <td>Implementar servicio de notificación por SMS</td>
       <td>
         <strong>Como </strong>desarrollador
@@ -977,10 +1025,10 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Y </strong>se mostrarán LOGS para realizar las respectivas correcciones
       </td>
-      <td>E4</td>
+      <td>E5</td>
     </tr>
     <tr>
-      <td>US12</td>
+      <td>US13</td>
       <td>Visualizar características del sistema GasGuard</td>
       <td>
         <strong>Como </strong>visitante del sitio web
@@ -1010,10 +1058,41 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Entonces </strong>se muestra información escasa o irrelevante
       </td>
-      <td>E5</td>
+      <td>E6</td>
     </tr>
     <tr>
-      <td>US13</td>
+      <td>US14</td>
+      <td>Visualizar planes</td>
+      <td>
+        <strong>Como </strong>visitante del sitio web
+        <br>
+        <strong>Quiero </strong>ver comparar los planes que ofrece GasGuard
+        <br>
+        <strong>Para </strong>elegir el que se adapte a mis necesidades
+      </td>
+      <td>
+        <strong>Escenario 1: Comparar planes</strong>
+        <br>
+        <strong>Dado que </strong>soy visitante del sitio web
+        <br>
+        <strong>Cuando </strong>me encuentre en la tabla de comparación de planes
+        <br>
+        <strong>Entonces </strong>visualizo los beneficios que ofrece cada uno
+        <br><br>
+        <strong>Escenario 2: Poco detalle de beneficios de planes</strong>
+        <br>
+        <strong>Dado que </strong>soy visitante del sitio web
+        <br>
+        <strong>Cuando </strong>me encuentre en la tabla de comparación de planes
+        <br>
+        <strong>Y </strong>no hay detalle de los beneficios de cada plan
+        <br>
+        <strong>Entonces </strong>no puedo tomar una decisión sobre que plan elegir
+      </td>
+      <td>E6</td>
+    </tr>
+    <tr>
+      <td>US15</td>
       <td>Visualizar sitio web desde dispositivo de preferencia</td>
       <td>
         <strong>Como </strong>visitante del sitio web
@@ -1041,7 +1120,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Entonces </strong>entiendo que la landing page no es adaptable a distintas resoluciones
       </td>
-      <td>E5</td>
+      <td>E6</td>
     </tr>
   </tbody>
 </table>
@@ -1065,7 +1144,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
   <tbody>
     <tr>
       <td>1</td>
-      <td>E5-US12</td>
+      <td>E6-US13</td>
       <td>Visualizar características del sistema GasGuard</td>
       <td>
         Como visitante del sitio web
@@ -1078,7 +1157,20 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>2</td>
-      <td>E5-US13</td>
+      <td>E6-US14</td>
+      <td>Visualizar planes</td>
+      <td>
+        Como visitante del sitio web
+        <br>
+        Quiero ver comparar los planes que ofrece GasGuard
+        <br>
+        Para elegir el que se adapte a mis necesidades      
+      </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>E6-US15</td>
       <td>Visualizar sitio web desde dispositivo de preferencia</td>
       <td>
         Como visitante del sitio web
@@ -1090,7 +1182,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>2</td>
     </tr>
     <tr>
-      <td>3</td>
+      <td>4</td>
       <td>E1-US01</td>
       <td>Detectar fuga de gas</td>
       <td>
@@ -1103,7 +1195,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>4</td>
+      <td>5</td>
       <td>E1-US02</td>
       <td>Ejecutar protocolos de seguridad</td>
       <td>
@@ -1116,7 +1208,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>5</td>
     </tr>
     <tr>
-      <td>5</td>
+      <td>6</td>
       <td>E1-US03</td>
       <td>Ajustar automáticamente la iluminación</td>
       <td>
@@ -1129,7 +1221,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>5</td>
     </tr>
     <tr>
-      <td>6</td>
+      <td>7</td>
       <td>E2-US04</td>
       <td>Visualizar lecturas del sensor</td>
       <td>
@@ -1142,8 +1234,8 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>5</td>
     </tr>
     <tr>
-      <td>7</td>
-      <td>E2-US05</td>
+      <td>8</td>
+      <td>E3-US05</td>
       <td>Notificar a miembros del hogar</td>
       <td>
         Como usuario
@@ -1155,8 +1247,8 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>8</td>
-      <td>E2-US06</td>
+      <td>9</td>
+      <td>E3-US06</td>
       <td>Notificar a servicios de emergencia</td>
       <td>
         Como usuario
@@ -1168,21 +1260,34 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>9</td>
-      <td>E4-US10</td>
-      <td>Desarrollar API REST para comunicación de sistemas</td>
+      <td>10</td>
+      <td>E3-US07</td>
+      <td>Visualizar historial de alertas</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero visualizar el historial de alertas
+        <br>
+        Para estar informado de las notificaciones y alertas que se enviaron
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>E5-US11</td>
+      <td>Implementar comunicación por WebSocket</td>
       <td>
         Como desarrollador
         <br>
-        Quiero construir una API REST que permita la comunicación entre dispositivos IoT y la aplicación móvil
+        Quiero implementar un canal WebSocket en el backend
         <br>
-        Para que los datos sean distribuidos entre los sistemas      
+        Para recibir los datos en tiempo real desde el Edge Gateway
       </td>
       <td>5</td>
     </tr>
     <tr>
-      <td>10</td>
-      <td>E4-US11</td>
+      <td>12</td>
+      <td>E5-US12</td>
       <td>Implementar servicio de notificación por SMS</td>
       <td>
         Como desarrollador
@@ -1194,8 +1299,8 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>11</td>
-      <td>E3-US07</td>
+      <td>13</td>
+      <td>E4-US08</td>
       <td>Registrar usuario</td>
       <td>
         Como usuario
@@ -1207,8 +1312,8 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>12</td>
-      <td>E3-US08</td>
+      <td>14</td>
+      <td>E4-US09</td>
       <td>Iniciar sesión</td>
       <td>
         Como usuario
@@ -1220,8 +1325,8 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>13</td>
-      <td>E3-US09</td>
+      <td>15</td>
+      <td>E4-US10</td>
       <td>Recuperar contraseña</td>
       <td>
         Como usuario
