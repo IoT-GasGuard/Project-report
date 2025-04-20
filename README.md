@@ -173,12 +173,12 @@ Ser una empresa referente en el ámbito de la seguridad con tecnología IoT, cen
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQESEoiwSF0wVg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711066191126?e=1750291200&v=beta&t=MjZOYpRFS9wjwe28DYvAkiGW4LOsiI8pupY9ohTLhbM" alt="Joseph" style="margin-bottom: 5px;" width="150"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
             <br>
-            Joseph Llacchua Peralta 
+            Joseph Ulysses Llacchua Peralta 
         </td>
     </tr>
     <tr>
@@ -192,6 +192,7 @@ Ser una empresa referente en el ámbito de la seguridad con tecnología IoT, cen
         <td align="left">
         <b>Acerca de:</b>
         <br>
+        Soy un estudiante de la carrera de Ingeniería de Software, con experiencia en lenguajes de programación como Java, TypeScript y C#. Soy una persona comprometida con lo que me propongo, puntual, responsable y con habilidades para trabajar en equipo.
         </td>
     </tr>
     <tr align="center">
@@ -1471,22 +1472,130 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
 ---
 
 # Capítulo IV: Solution Software Design
-
 ## 4.1. Strategic-Level Domain-Driven Design
+
+En esta sección se detalla el enfoque de Diseño Dirigido por el Dominio a nivel estratégico para el proyecto GasGuard. Este enfoque es fundamental para establecer una base sólida que permita definir y modelar los dominios complejos de nuestro sistema de detección y mitigación de fugas de gas. A través de técnicas como Event Storming, Context Mapping y la definición de la Arquitectura de Software, se ha logrado obtener una comprensión profunda de los elementos esenciales necesarios para crear un sistema efectivo y bien estructurado.
 
 ### 4.1.1. EventStorming
 
+El EventStorming es un enfoque colaborativo y visual que permitió modelar el contexto del dominio de GasGuard. Esta técnica nos ayudó a identificar los eventos clave, comandos, políticas y otros elementos que conforman el flujo del sistema.
+
 #### 4.1.1.1. Candidate Context Discovery
+
+Empleando la metodología de EventStorming con enfoque en la técnica "start-with-simple", realizamos una sesión colaborativa donde identificamos los siguientes contextos candidatos para nuestro sistema GasGuard:
+
+**Proceso de identificación:**
+
+ **Identificación de Valores del Negocio:**  
+   Analizamos los valores clave que nuestro sistema debe proporcionar:
+   - Seguridad preventiva ante situaciones de riesgo
+   - Automatización efectiva de respuestas ante emergencias
+   - Tranquilidad para los usuarios al saber que su hogar está protegido
+   - Reducción significativa de daños materiales y riesgos para la vida
+
+**Identificación de Funcionalidades Clave:**  
+   Determinamos las capacidades esenciales que el sistema debe ofrecer:
+   - Detección precisa de concentraciones de gas
+   - Ejecución automática de protocolos de emergencia
+   - Sistema de notificaciones a usuarios y servicios de emergencia
+   - Control adaptativo de iluminación y sistemas conectados
+
+1. **Gas Detection & Sensor Management**  
+   <img src="./assets/images/cap_4/iot_device_management.png" alt="Gas Detection & Sensor Management">  
+   Este contexto es responsable de la adquisición y procesamiento de datos desde los sensores de gas, incluyendo la calibración de dispositivos, monitoreo continuo de niveles de concentración y generación de alertas cuando se detectan niveles anormales.
+
+2. **Safety Protocol Automation**  
+   <img src="./assets/images/cap_4/security_protocol_management.png" alt="Safety Protocol Automation">  
+   
+   Gestiona los protocolos automáticos que se activan cuando se detecta una fuga, controlando actuadores para ventilación, apertura de puertas/ventanas, corte de suministro eléctrico, y activación de señales visuales de emergencia.
+
+3. **Resident Profile & Access Management**  
+   <img src="./assets/images/cap_4/user_profile_management.png" alt="Resident Profile & Access Management">  
+
+   Maneja la información de los residentes, sus preferencias de notificación, roles dentro del sistema, y permisos para controlar diferentes aspectos del sistema GasGuard, así como la configuración específica de cada hogar.
+
+4. **Emergency Alert & Notification**  
+   <img src="./assets/images/cap_4/notification_management.png" alt="Emergency Alert & Notification">  
+
+   Coordina todas las comunicaciones de emergencia, distribuyendo alertas a diferentes canales (app móvil, SMS, llamadas) según la gravedad de la situación, y manteniendo un registro auditable de todas las notificaciones enviadas.
+
+5. **Environment Analytics**  
+   <img src="./assets/images/cap_4/data_analytics.png" alt="Environment Analytics">  
+
+   Procesa los datos históricos recolectados por los sensores para proporcionar insights sobre patrones de calidad del aire, eficacia de los protocolos implementados, y generación de reportes preventivos para los usuarios.
+
+Estos contextos delimitados forman la base para nuestro diseño modular del sistema, permitiendo que cada área evolucione de manera independiente mientras mantiene interfaces claras para la comunicación entre ellas, asegurando así la escalabilidad y mantenibilidad de GasGuard.
+Empleando la metodología de EventStorming con enfoque en la técnica "start-with-simple", identificamos los siguientes contextos candidatos para nuestro sistema GasGuard:
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
+En esta sección presentamos los flujos de mensajes entre los diferentes contextos delimitados de GasGuard, modelando las interacciones clave que ocurren durante escenarios críticos del sistema.
+
+**Escenario 1: Registro en la Aplicación**
+
+<img src="./assets/images/cap_4/user_registration_flow.png" alt="User Registration Flow">
+
+Este flujo modela el proceso de registro de un nuevo usuario en el sistema GasGuard. Comienza con la solicitud de creación de cuenta desde la app móvil, donde los datos son validados por el contexto **Resident Profile & Access Management**. Una vez verificada la información, se crea el perfil con preferencias de notificación y se establecen los permisos correspondientes. El proceso finaliza con la confirmación del registro que permite al usuario comenzar a configurar los dispositivos de su hogar.
+
+**Escenario 2: Detección de Fuga de Gas**
+
+<img src="./assets/images/cap_4/gas_leak_detection.png" alt="Gas Leak Detection Flow">
+
+Este flujo representa el proceso desde que el sensor detecta concentraciones elevadas de gas hasta la generación de alertas. El contexto de **Gas Detection & Sensor Management** captura las lecturas y, al identificar niveles superiores al umbral establecido, genera el evento "GasLevelExceededThreshold" que es consumido por otros contextos para iniciar sus respectivas acciones.
+
+**Escenario 3: Ejecución de Protocolo de Seguridad**
+
+<img src="./assets/images/cap_4/security_protocol_execution.png" alt="Security Protocol Execution">
+
+Una vez detectada la fuga, este flujo muestra cómo el contexto **Safety Protocol Automation** orquesta la secuencia de respuestas automáticas. Se activan los actuadores que abren ventanas, cortan suministro eléctrico y activan señales visuales, generando eventos de confirmación que permiten el seguimiento del proceso de mitigación.
+
+**Escenario 4: Notificación a Usuarios y Servicios de Emergencia**
+
+<img src="./assets/images/cap_4/notifications_flow.png" alt="Notifications Flow">
+
+Este diagrama ilustra cómo el contexto **Emergency Alert & Notification** distribuye alertas a diferentes canales según la severidad de la fuga. Se consultan preferencias del usuario desde **Resident Profile & Access Management** y se priorizan notificaciones a residentes y servicios de emergencia, manteniendo un registro de todas las comunicaciones enviadas.
+
+
 #### 4.1.1.3. Bounded Context Canvases
+
+Para completar nuestro análisis de EventStorming, desarrollamos los Bounded Context Canvases para cada uno de los contextos delimitados de GasGuard, definiendo sus responsabilidades específicas y relaciones con otros componentes del sistema.
+
+1. Resident Profile & Access Management
+
+<img src="./assets/images/cap_4/boundedcontext_resident_profile.png" alt="Resident Profile Canvas">
+
+2. Gas Detection & Sensor Management
+
+<img src="./assets/images/cap_4/boundedcontext_gas_detection.png" alt="Gas Detection & Sensor Management Canvas">
+
+3. Safety Protocol Automation
+
+<img src="./assets/images/cap_4/boundedcontext_safety_protocol.png" alt="Safety Protocol Automation Canvas">
+
+4. Emergency Alert & Notification
+
+<img src="./assets/images/cap_4/boundedcontext_emergency_alert.png" alt="Emergency Alert Canvas">
+
+5. Environment Analytics
+
+<img src="./assets/images/cap_4/boundedcontext_environment_analytics.png" alt="Environment Analytics Canvas">
+
 
 ### 4.1.2. Context Mapping
 
+El Context Mapping representa cómo los diferentes módulos interactúan dentro del sistema GasGuard. En el centro se encuentra el Sistema de Gestión de Protocolos de Seguridad, que actúa como núcleo coordinando la interacción con otros componentes. La Gestión de Dispositivos IoT proporciona los datos de sensores y controla los actuadores, conformándose a los requisitos del sistema central. La Gestión de Perfiles de Usuario maneja las configuraciones personalizadas y se apoya en Gestión de Identidad y Accesos para controlar la autenticación y autorización.
+
+El sistema también interactúa con el módulo de Gestión de Notificaciones que maneja las alertas generadas por el sistema, mientras que el módulo de Análisis de Datos procesa la información para proporcionar insights sobre la calidad del aire, patrones de fugas y eficacia de los protocolos de seguridad.
+
 ### 4.1.3. Software Architecture
 
+Este diagrama muestra el panorama general del sistema GasGuard, destacando las principales entidades involucradas: Usuarios Residenciales, Servicios de Emergencia y Administradores del Sistema. También representa las interacciones con componentes externos como la API de Notificaciones SMS y el Sistema de Autenticación. Cada actor interactúa con el sistema GasGuard de forma diferente según su rol, accediendo a funcionalidades específicas como monitoreo, configuración o respuesta a emergencias.
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+El diagrama a continuación muestra el panorama general del sistema GasGuard, destacando las principales entidades involucradas: Usuarios Residenciales, Servicios de Emergencia y Administradores del Sistema. También representa las interacciones con componentes externos como la API de Notificaciones SMS y el Sistema de Autenticación. Cada actor interactúa con el sistema GasGuard de forma diferente según su rol, accediendo a funcionalidades específicas como monitoreo, configuración o respuesta a emergencias.
+
+<img src="./assets/images/cap_4/system_landscape_diagram.png" alt="System Landscape Diagram">
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
