@@ -968,25 +968,128 @@ Dispositivo:
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
+<img src="./assets/diagrams_C4/Deployment.png" alt="Deployment"/>
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.X. Bounded Context: <Bounded Context Name>
+### 4.2.1. Bounded Context: <Bounded Context Perfiles>
 
-#### 4.2.X.1. Domain Layer
+#### 4.2.1.1. Domain Layer
 
-#### 4.2.X.2. Interface Layer
+#### 4.2.1.2. Interface Layer
 
-#### 4.2.X.3. Application Layer
+#### 4.2.1.3. Application Layer
 
-#### 4.2.X.4. Infrastructure Layer
+#### 4.2.1.4. Infrastructure Layer
 
-#### 4.2.X.5. Component Level Diagrams
+#### 4.2.1.5. Component Level Diagrams
 
-#### 4.2.X.6. Code Level Diagrams
+<img src="./assets/diagrams_C4/IAM_Component.png" alt="Component"/>
+<img src="./assets/diagrams_C4/Perfiles_Component.png" alt="Component"/>
 
-##### 4.2.X.6.1. Domain Layer Class Diagrams
+#### 4.2.1.6. Code Level Diagrams
 
-##### 4.2.X.6.2. Database Design Diagram
+##### 4.2.1.6.1. Domain Layer Class Diagrams
+
+<img src="./assets/diagrams_C4/Diagrama_Bounded_Context_Acceso_Perfiles.png" alt="Diagraman"/>
+
+##### 4.2.1.6.2. Database Design Diagram
+
+
+### 4.2.2. Bounded Context: <Bounded Context Protocolo de Seguridad>
+
+#### 4.2.2.1. Domain Layer
+
+#### 4.2.2.2. Interface Layer
+
+#### 4.2.2.3. Application Layer
+
+#### 4.2.2.4. Infrastructure Layer
+
+#### 4.2.2.5. Component Level Diagrams
+
+<img src="./assets/diagrams_C4/IOTAPP_Component.png" alt="Component"/>
+
+#### 4.2.2.6. Code Level Diagrams
+
+##### 4.2.2.6.1. Domain Layer Class Diagrams
+
+<img src="./assets/diagrams_C4/Diagrama_Bounded_Context_Security_Protocol.png" alt="Diagraman"/>
+
+##### 4.2.2.6.2. Database Design Diagram
+
+
+
+### 4.2.3. Bounded Context: <Bounded Context Name Detector de Gas>
+
+#### 4.2.3.1. Domain Layer
+
+#### 4.2.3.2. Interface Layer
+
+#### 4.2.3.3. Application Layer
+
+#### 4.2.3.4. Infrastructure Layer
+
+#### 4.2.3.5. Component Level Diagrams
+
+<img src="./assets/diagrams_C4/EdgeAPI_Component.png" alt="Component"/>
+
+#### 4.2.3.6. Code Level Diagrams
+
+##### 4.2.3.6.1. Domain Layer Class Diagrams
+
+<img src="./assets/diagrams_C4/Diagrama_Bounded_Context_Gas_Detection.png" alt="Diagraman"/>
+
+##### 4.2.3.6.2. Database Design Diagram
+
+
+
+### 4.2.4. Bounded Context: <Bounded Context Notificacion>
+
+#### 4.2.4.1. Domain Layer
+
+#### 4.2.4.2. Interface Layer
+
+#### 4.2.4.3. Application Layer
+
+#### 4.2.4.4. Infrastructure Layer
+
+#### 4.2.4.5. Component Level Diagrams
+
+<img src="./assets/diagrams_C4/EdgeAPI_Component.png" alt="Component"/>
+
+#### 4.2.4.6. Code Level Diagrams
+
+##### 4.2.4.6.1. Domain Layer Class Diagrams
+
+<img src="./assets/diagrams_C4/Diagrama_Bounded_Context_Notificaciones.png" alt="Diagraman"/>
+
+##### 4.2.4.6.2. Database Design Diagram
+
+
+
+### 4.2.5. Bounded Context: <Bounded Context Reporte>
+
+#### 4.2.5.1. Domain Layer
+
+#### 4.2.5.2. Interface Layer
+
+#### 4.2.5.3. Application Layer
+
+#### 4.2.5.4. Infrastructure Layer
+
+#### 4.2.5.5. Component Level Diagrams
+
+<img src="./assets/diagrams_C4/Reporte_Component.png" alt="Component"/>
+
+#### 4.2.5.6. Code Level Diagrams
+
+##### 4.2.5.6.1. Domain Layer Class Diagrams
+
+<img src="./assets/diagrams_C4/Diagrama_Bounded_Context_Reporte.png" alt="Diagraman"/>
+
+##### 4.2.5.6.2. Database Design Diagram
+
 
 ---
 
