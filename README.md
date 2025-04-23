@@ -728,6 +728,28 @@ Preocupado por la seguridad de su vivienda o las personas que viven en ella. Int
 
 ### 2.2.2. Registro de entrevistas
 
+<strong>Entrevista 1</strong>
+
+Entrevistador: Jorge Gerardo Quilla Luyo
+
+Entrevistado: Jorge Carlos Quilla Luyo
+
+Edad: 18 años
+
+Residencia: Lima - La Victoria
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/ERD-BT5hLC5EpKAYPNymmsUB043RTDuk0x3Hc6QE13G2pA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1CcGsV">Link a la entrevista</a>
+
+<img src="./assets/interviews/entrevista_jorge_quilla.png" alt="Entrevista Jorge Quilla">
+
+Resumen:
+
+Se entrevistó a Jorge Carlos, joven de 18 años estudiante de la carrera de Derecho. Actualmente no cuenta con un dispositivo inteligente que sea capaz de detectar fugas de gas en ambientes de su hogar. Ante una fuga de gas, él y su familia conocen que medidas tomar, tales como abrir puertas y ventanas, y no encender las luces, además, en caso sea posible, usan una medida de contención, la cual consiste en poner un trapo mojado en la boca del balón de gas, así para  reducir la salida de gas momentáneamente y tener tiempo para llamar a servicios de emergencia.
+
+Jorge Carlos piensa que contar con una aplicación que te permita visualizar en tiempo real los niveles de gas en el ambiente serían de mucha ayuda, siempre y cuando tengan baja incertidumbre y tenga la mejor precisión en cuanto a los datos. También cree que las notificaciones a servicios de emergencia son muy importantes en caso la situación de fuga de gas se agrave. Menciona que recibir un mensaje y la inclusión de un sonido como tipo de notificación son necesarios para que una persona pueda darse cuenta de la fuga de gas detectada y así pueda tomar acciones.
+
+
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
@@ -1011,6 +1033,41 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>US05</td>
+      <td>Generar reporte</td>
+      <td>
+        <strong>Como </strong>usuario
+        <br>
+        <strong>Quiero </strong>que se genere un reporte sobre los niveles de gas que se detectaron
+        <br>
+        <strong>Para </strong>tomar precauciones necesarias
+      </td>
+      <td>
+        <strong>Escenario 1: Generar reporte de última fuga de gas</strong>
+        <br>
+        <strong>Dado que </strong>el sensor detectó una fuga de gas
+        <br>
+        <strong>Y </strong>ya se tomaron acciones necesarias
+        <br>
+        <strong>Cuando </strong>ingreso a la aplicación de GasGuard
+        <br>
+        <strong>Entonces </strong>tengo la opción de generar un reporte sobre el último incidente
+        <br>
+        <strong>Y </strong>puedo tomar las respectivas precauciones para evitar más problemas en un futuro
+        <br><br>
+        <strong>Escenario 2: Reporte con niveles bajos de gas</strong>
+        <br>
+        <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
+        <br>
+        <strong>Cuando </strong>ingreso a la aplicación de GasGuard
+        <br>
+        <strong>Y </strong>tengo la opción de generar un reporte sobre el último incidente
+        <br>
+        <strong>Entonces </strong>visualizo datos de niveles de gas normales sin lecturas peligrosas
+      </td>
+      <td>E2</td>
+    </tr>
+    <tr>
+      <td>US06</td>
       <td>Notificar a miembros del hogar</td>
       <td>
         <strong>Como </strong>usuario
@@ -1039,7 +1096,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>E3</td>
     </tr>
     <tr>
-      <td>US06</td>
+      <td>US07</td>
       <td>Alertar a servicios de emergencia</td>
       <td>
         <strong>Como </strong>usuario
@@ -1071,7 +1128,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>E3</td>
     </tr>
     <tr>
-      <td>US07</td>
+      <td>US08</td>
       <td>Visualizar historial de alertas</td>
       <td>
         <strong>Como </strong>usuario
@@ -1104,7 +1161,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>E3</td>
     </tr>    
     <tr>
-      <td>US08</td>
+      <td>US09</td>
       <td>Registrar usuario</td>
       <td>
         <strong>Como </strong>usuario
@@ -1137,7 +1194,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>E4</td>
     </tr>
     <tr>
-      <td>US09</td>
+      <td>US10</td>
       <td>Iniciar sesión</td>
       <td>
         <strong>Como </strong>usuario 
@@ -1174,7 +1231,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>E4</td>
     </tr>
     <tr>
-      <td>US10</td>
+      <td>US11</td>
       <td>Recuperar contraseña</td>
       <td>
         <strong>Como </strong>usuario 
@@ -1211,7 +1268,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>E4</td>
     </tr>
     <tr>
-      <td>US11</td>
+      <td>US12</td>
       <td>Implementar comunicación por WebSocket</td>
       <td>
         <strong>Como </strong>desarrollador
@@ -1248,7 +1305,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>E5</td>
     </tr>
     <tr>
-      <td>US12</td>
+      <td>US13</td>
       <td>Implementar servicio de notificación por SMS</td>
       <td>
         <strong>Como </strong>desarrollador
@@ -1285,7 +1342,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>E5</td>
     </tr>
     <tr>
-      <td>US13</td>
+      <td>US14</td>
       <td>Visualizar características del sistema GasGuard</td>
       <td>
         <strong>Como </strong>visitante del sitio web
@@ -1318,7 +1375,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>E6</td>
     </tr>
     <tr>
-      <td>US14</td>
+      <td>US15</td>
       <td>Visualizar planes</td>
       <td>
         <strong>Como </strong>visitante del sitio web
@@ -1349,7 +1406,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>E6</td>
     </tr>
     <tr>
-      <td>US15</td>
+      <td>US16</td>
       <td>Visualizar sitio web desde dispositivo de preferencia</td>
       <td>
         <strong>Como </strong>visitante del sitio web
@@ -1401,7 +1458,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
   <tbody>
     <tr>
       <td>1</td>
-      <td>E6-US13</td>
+      <td>E6-US14</td>
       <td>Visualizar características del sistema GasGuard</td>
       <td>
         Como visitante del sitio web
@@ -1414,7 +1471,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>2</td>
-      <td>E6-US14</td>
+      <td>E6-US15</td>
       <td>Visualizar planes</td>
       <td>
         Como visitante del sitio web
@@ -1427,7 +1484,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>3</td>
-      <td>E6-US15</td>
+      <td>E6-US16</td>
       <td>Visualizar sitio web desde dispositivo de preferencia</td>
       <td>
         Como visitante del sitio web
@@ -1492,7 +1549,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>8</td>
-      <td>E3-US05</td>
+      <td>E3-US06</td>
       <td>Notificar a miembros del hogar</td>
       <td>
         Como usuario
@@ -1505,7 +1562,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>9</td>
-      <td>E3-US06</td>
+      <td>E3-US07</td>
       <td>Notificar a servicios de emergencia</td>
       <td>
         Como usuario
@@ -1518,7 +1575,20 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>10</td>
-      <td>E3-US07</td>
+      <td>E2-US05</td>
+      <td>Generar reporte</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero que se genere un reporte sobre los niveles de gas que se detectaron
+        <br>
+        Para tomar precauciones necesarias
+      </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>E3-US08</td>
       <td>Visualizar historial de alertas</td>
       <td>
         Como usuario
@@ -1531,7 +1601,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>11</td>
-      <td>E5-US11</td>
+      <td>E5-US12</td>
       <td>Implementar comunicación por WebSocket</td>
       <td>
         Como desarrollador
@@ -1544,7 +1614,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>12</td>
-      <td>E5-US12</td>
+      <td>E5-US13</td>
       <td>Implementar servicio de notificación por SMS</td>
       <td>
         Como desarrollador
@@ -1557,7 +1627,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>13</td>
-      <td>E4-US08</td>
+      <td>E4-US09</td>
       <td>Registrar usuario</td>
       <td>
         Como usuario
@@ -1570,7 +1640,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>14</td>
-      <td>E4-US09</td>
+      <td>E4-US10</td>
       <td>Iniciar sesión</td>
       <td>
         Como usuario
@@ -1583,7 +1653,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     </tr>
     <tr>
       <td>15</td>
-      <td>E4-US10</td>
+      <td>E4-US11</td>
       <td>Recuperar contraseña</td>
       <td>
         Como usuario
