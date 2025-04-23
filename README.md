@@ -995,6 +995,8 @@ Dispositivo:
 
 ##### 4.2.1.6.2. Database Design Diagram
 
+<img src="./assets/diagrams_C4/Database_Perfiles.png" alt="Database"/>
+
 
 ### 4.2.2. Bounded Context: <Bounded Context Protocolo de Seguridad>
 
@@ -1017,6 +1019,8 @@ Dispositivo:
 <img src="./assets/diagrams_C4/Diagrama_Bounded_Context_Security_Protocol.png" alt="Diagraman"/>
 
 ##### 4.2.2.6.2. Database Design Diagram
+
+<img src="./assets/diagrams_C4/Database_Protocolo_Seguridad.png" alt="Database"/>
 
 
 
@@ -1042,6 +1046,8 @@ Dispositivo:
 
 ##### 4.2.3.6.2. Database Design Diagram
 
+<img src="./assets/diagrams_C4/Database_Detector_Gas.png" alt="Database"/>
+
 
 
 ### 4.2.4. Bounded Context: <Bounded Context Notificacion>
@@ -1066,6 +1072,8 @@ Dispositivo:
 
 ##### 4.2.4.6.2. Database Design Diagram
 
+<img src="./assets/diagrams_C4/Database_Notificacion.png" alt="Database"/>
+
 
 
 ### 4.2.5. Bounded Context: <Bounded Context Reporte>
@@ -1089,6 +1097,8 @@ Dispositivo:
 <img src="./assets/diagrams_C4/Diagrama_Bounded_Context_Reporte.png" alt="Diagraman"/>
 
 ##### 4.2.5.6.2. Database Design Diagram
+
+<img src="./assets/diagrams_C4/Database_Reporte.png" alt="Database"/>
 
 
 ---
