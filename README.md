@@ -188,8 +188,9 @@ Para esta entrega, el trabajo se llevó a cabo de manera cooperativa, involucran
 Apellidos y nombres <br>
 **TB1** <br>
 
-Apellidos y nombres <br>
+Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
+En esta entrega, se usaron herramientas visuales para la elaboración de escenarios donde nuestra propuesta resuelve la problemática planteada. Además, se usó un formato estándar y entendible para redactar los requerimientos de nuestros segmentos objetivos. La información recolectada por cada integrante del equipo fue necesario para la correcta elaboración de cada punto en esta entrega y así estar todos coordinados.
 
 Apellidos y nombres <br>
 **TB1** <br>
@@ -215,8 +216,9 @@ En esta etapa del proyecto, se logró determinar el estado actual del mercado re
 Apellidos y nombres <br>
 **TB1** <br>
 
-Apellidos y nombres <br>
+Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
+En esta entrega, se logró redactar las historias de usuario, tomando en cuenta los posibles módulos de nuestra solución propuesta. También se priorizaron estos requerimientos para agilizar el desarrollo de las principales necesidades identificadas. Además, se realizó escenarios donde nuestra solución lograr satisfacer necesidades, resolver problemas y marcar una diferencia frente a la competencia.
 
 Apellidos y nombres <br>
 **TB1** <br>
@@ -1563,7 +1565,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
     <tr>
       <td>9</td>
       <td>E3-US07</td>
-      <td>Notificar a servicios de emergencia</td>
+      <td>Alertar a servicios de emergencia</td>
       <td>
         Como usuario
         <br>
@@ -1587,7 +1589,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>10</td>
+      <td>11</td>
       <td>E3-US08</td>
       <td>Visualizar historial de alertas</td>
       <td>
@@ -1600,7 +1602,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>11</td>
+      <td>12</td>
       <td>E5-US12</td>
       <td>Implementar comunicación por WebSocket</td>
       <td>
@@ -1613,7 +1615,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>5</td>
     </tr>
     <tr>
-      <td>12</td>
+      <td>13</td>
       <td>E5-US13</td>
       <td>Implementar servicio de notificación por SMS</td>
       <td>
@@ -1626,7 +1628,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>13</td>
+      <td>14</td>
       <td>E4-US09</td>
       <td>Registrar usuario</td>
       <td>
@@ -1639,7 +1641,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>14</td>
+      <td>15</td>
       <td>E4-US10</td>
       <td>Iniciar sesión</td>
       <td>
@@ -1652,7 +1654,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <td>3</td>
     </tr>
     <tr>
-      <td>15</td>
+      <td>16</td>
       <td>E4-US11</td>
       <td>Recuperar contraseña</td>
       <td>
