@@ -1,4 +1,69 @@
 # Project-report
+<p align="center">
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
+    <strong>Ingeniería de Software</strong><br>
+    <strong>Desarrollo de Soluciones IOT - 2968</strong><br>
+    <strong>Profesor: Marco Antonio Leon Baca</strong><br>
+    <br>INFORME
+</p>
+<p align="center">
+    <strong>Startup:  GasGuard</strong><br>
+    <strong>Producto:  GasGuard</strong>
+</p>
+    <h3 align="center">Team Members:</h3>
+    </div>
+<div>
+     <table align="center">
+        <tr>
+            <th style="text-align:center;">Member</th>
+            <th style="text-align:center;">Code</th>
+        </tr>
+        <tr>
+            <td>Alvarez Araguache, Samira Jetzabel</td>
+            <td>U20211A046</td>
+        </tr>
+	<tr>
+            <td>Llacchua Peralta, Joseph Ulysses</td>
+            <td>u202317002</td>
+        </tr>
+        <tr>
+            <td>Quilla Luyo, Jorge Gerardo</td>
+            <td> u20211b197</td>
+        </tr>
+        <tr>
+            <td>Ramirez Contreras, Zaid Valentino</td>
+            <td>U202218472</td>
+        </tr>
+         <tr>
+            <td>Ticona Luque, Rony Piero</td>
+            <td>u201420422</td>
+        </tr>
+    </table>
+</div>
+
+<p align="center">
+    <strong>2025</strong>
+</p>
+
+<br>
+
+# Registro de Versiones del Informe
+<table>
+        <tr>
+            <th style="text-align:center;">Versión</th>
+            <th style="text-align:center;">Fecha</th>
+            <th style="text-align:center;">Autor</th>
+            <th style="text-align:center;">Descripción de la modificación</th>
+        </tr>
+        <tr>
+            <td align = "center">TB1</td>
+            <td>18/04/2025</td>
+            <td> Grupo 2
+            <td>Se agregó el contenido del capítulo 1, apartados 1.1, 1.2 y 1.3; el contenido del capítulo 2, apartados 2.1, 2.2, 2.3, 2.4; el contenido del capítulo 3, apartados 3.1, 3.2, 3.3 y 3.4; el contenido del capítulo 4, apartados 4.1 y 4.2</td>
+        </tr>
+</table>
+<br>
 
 # Tabla de Contenidos
 
@@ -103,9 +168,71 @@
 
 # Student Outcome
 
-| Student Name | Contribution Summary |
-|--------------|----------------------|
-|              |                      |
+# Student Outcome
+<table >
+        <tr>
+            <th style="text-align:center;">Criterio específico</th>
+            <th style="text-align:center;">Acciones realizadas</th>
+            <th style="text-align:center;">Conclusiones</th>
+        </tr>
+        <tr>
+            <td align = "center">Trabaja en equipo para
+proporcionar liderazgo en
+forma conjunta</td>
+            <td> 
+
+Alvarez Araguache, Samira Jetzabel <br>
+**TB1** <br>
+Para esta entrega, el trabajo se llevó a cabo de manera cooperativa, involucrando a todos los integrantes en el desarrollo de las tareas del proyecto. Para la realización de las entrevistas fue parte fundamental la participación de cada miembro en la recolección de información clave para definir las funcionalidades de nuestra solución. Asímismo, el uso de Gitflow facilitó un flujo de trabajo eficiente, permitiendo a cada miembro contribuir al desarrollo de la documentación de manera coordinada y fluida. 
+
+Apellidos y nombres <br>
+**TB1** <br>
+
+Apellidos y nombres <br>
+**TB1** <br>
+
+Apellidos y nombres <br>
+**TB1** <br>
+
+Apellidos y nombres <br>
+**TB1** <br>
+
+</td>
+         <td> TB1: Conclusiones <br>
+</td>         
+
+  <tr>
+            <td align = "center">Crea un entorno colaborativo e
+inclusivo, establece metas,
+planifica tareas y cumple
+objetivos</td>
+            <td>
+
+Alvarez Araguache, Samira Jetzabel  <br>
+**TB1** <br>
+En esta etapa del proyecto, se logró determinar el estado actual del mercado relacionado con soluciones tecnológicas orientadas a la seguridad del hogar, en particular aquellas vinculadas a IoT y detección de fugas de gas. Este análisis permitió identificar fortalezas y debilidades de productos similares, así como plantear estrategias para diferenciar a GasGuard, posicionándolo como una solución accesible, confiable y centrada en el usuario. Además, se profundizó en el comportamiento, necesidades y motivaciones de los potenciales usuarios mediante entrevistas y ejercicios de empatía, lo que permitió establecer los objetivos principales del proyecto a largo plazo.
+
+Apellidos y nombres <br>
+**TB1** <br>
+
+Apellidos y nombres <br>
+**TB1** <br>
+
+Apellidos y nombres <br>
+**TB1** <br>
+
+Apellidos y nombres <br>
+**TB1** <br>
+
+</td>
+            <td>TB1: Conclusiones<br>
+            
+
+</td>
+       <tr>
+</table>
+
+<br>
 
 ---
 
