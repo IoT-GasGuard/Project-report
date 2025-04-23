@@ -744,13 +744,30 @@ Residencia: Lima - La Victoria
 
 <img src="./assets/interviews/entrevista_jorge_quilla.png" alt="Entrevista Jorge Quilla">
 
-Resumen:
+**Resumen:**
 
 Se entrevistó a Jorge Carlos, joven de 18 años estudiante de la carrera de Derecho. Actualmente no cuenta con un dispositivo inteligente que sea capaz de detectar fugas de gas en ambientes de su hogar. Ante una fuga de gas, él y su familia conocen que medidas tomar, tales como abrir puertas y ventanas, y no encender las luces, además, en caso sea posible, usan una medida de contención, la cual consiste en poner un trapo mojado en la boca del balón de gas, así para  reducir la salida de gas momentáneamente y tener tiempo para llamar a servicios de emergencia.
 
 Jorge Carlos piensa que contar con una aplicación que te permita visualizar en tiempo real los niveles de gas en el ambiente serían de mucha ayuda, siempre y cuando tengan baja incertidumbre y tenga la mejor precisión en cuanto a los datos. También cree que las notificaciones a servicios de emergencia son muy importantes en caso la situación de fuga de gas se agrave. Menciona que recibir un mensaje y la inclusión de un sonido como tipo de notificación son necesarios para que una persona pueda darse cuenta de la fuga de gas detectada y así pueda tomar acciones.
 
+<strong>Entrevista 2</strong>
 
+Entrevistador: Diego Nicolas Ramirez Rodriguez
+
+Entrevistado: Diego Nicolas Ramirez Rodriguez
+
+Edad: 20 años
+
+Residencia: Lima - San Felipe
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218472_upc_edu_pe/EY2xMPNuv5ZFhTiGBvLWvTcBq1WC5vwQnOJlPXIKIMxn_Q?e=rskZbD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" >Link a la entrevista</a>
+
+<img src="./assets/interviews/entrevista_diego_ramirez.png" alt="Entrevista Diego Ramirez">
+
+**Resumen:**
+Se entrevisto a Diego Nicolas, joven de 20 años estudiante de la carrera de Ingeniería de Sistemas. Actualmente no tiene algun dispositivo capaz de detectar algun tipo de fuga o reaccionar al respecto.
+
+Él menciona que el considera que sería una buena opcion con contar con un dispositivo inteligente que le pueda notificar en caso haya una fuga de gas, a pesar de estar lejos del punto de fuga. Además de contar con una funcion para reaccionar ante la fuga de gas, como por ejemplo abrir ventanas o puertas. Tambien le gustaria tener un panel de control donde pueda ver el estado de los sensores y el historial de eventos. En cuanto a las notificaciones, menciona que le gustaria recibir una alarma que se pueda configurar, ya que no siempre tiene el celular a la mano. Finalemnte menciona que en otra aplicacion que ha usado, le gustaria que la interfaz sea sencilla y amigable, ya que pueden tener mucho texto y funciones que interrumpen la experiencia de usuario.
 
 ### 2.2.3. Análisis de entrevistas
 
