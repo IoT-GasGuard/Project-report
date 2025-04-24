@@ -192,9 +192,10 @@ Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
 En esta entrega, se usaron herramientas visuales para la elaboración de escenarios donde nuestra propuesta resuelve la problemática planteada. Además, se usó un formato estándar y entendible para redactar los requerimientos de nuestros segmentos objetivos. La información recolectada por cada integrante del equipo fue necesario para la correcta elaboración de cada punto en esta entrega y así estar todos coordinados.
 
-Apellidos y nombres <br>
+Ticona Luque, Rony Piero <br>
 **TB1** <br>
-
+En esta entrega, se utilizó una herramienta de modelado C4 en Structurizr para el desarrollo de los diagramas de contexto, contenedores y componentes que serán implementados en el proyecto. Además, se emplearon herramientas como Lucidchart y Vertabelo para crear los diagramas de las bases de datos. También se realizaron entrevistas para identificar y comprender mejor las necesidades del segmento de público objetivo, lo cual fue fundamental para definir las funcionalidades clave del proyecto.
+ 
 Apellidos y nombres <br>
 **TB1** <br>
 
@@ -220,8 +221,9 @@ Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
 En esta entrega, se logró redactar las historias de usuario, tomando en cuenta los posibles módulos de nuestra solución propuesta. También se priorizaron estos requerimientos para agilizar el desarrollo de las principales necesidades identificadas. Además, se realizó escenarios donde nuestra solución lograr satisfacer necesidades, resolver problemas y marcar una diferencia frente a la competencia.
 
-Apellidos y nombres <br>
+Ticona Luque Rony Piero <br>
 **TB1** <br>
+En esta entrega del proyecto, se avanzó en la definición y diseño de la solución tecnológica. Se desarrollaron diagramas de contexto, contenedores y componentes utilizando herramientas de modelado C4 en Structurizr, estableciendo una base sólida para la arquitectura del sistema. Adicionalmente, se emplearon Lucidchart y Vertabelo para crear diagramas detallados de las bases de datos. Adicional de realizaron entrevistas del segmento objetivo para profundizar en la comprensión de sus necesidades, expectativas y problemas clave.
 
 Apellidos y nombres <br>
 **TB1** <br>
@@ -299,6 +301,7 @@ Ser una empresa referente en el ámbito de la seguridad con tecnología IoT, cen
         <td align="left">
         <b>Acerca de:</b>
         <br>
+        Estudiante de la carrera de Ingeniería de Software con experiencia en lenguajes de programación como Java, Python y Flutter. Además, poseo conocimientos en el uso de Power BI para el análisis y visualización de datos. Me considero una persona responsable, dedicada y conprometida con los proyectos de la universidad.
         </td>
     </tr>
     <tr align="center">
