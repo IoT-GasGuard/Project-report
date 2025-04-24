@@ -389,6 +389,30 @@ El impacto del problema es considerable, especialmente teniendo en cuenta la can
 
 ### 2.2.2. Registro de entrevistas
 
+
+
+<strong>Entrevista 3</strong>
+
+Entrevistador: Rony Piero Ticona Luque
+
+Entrevistado: Alexandra Mariella Cabezas
+
+Edad: 29 años
+
+Residencia: Lima - Breña
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/ER6IMmm720xKssiJipPkNDgBu0oYowaPz2dTQ_KsdV0Vlw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KqPf7q">Link a la entrevista</a>
+
+<img src="./assets/interviews/entrevista_piero_ticona.png" alt="Entrevista Piero Ticona">
+
+Resumen:
+
+Se entrevistó a Alexandra Cabezas, licenciada en Derecho y Ciencias Políticas de 29 años. Actualmente no cuenta con un sistema para detectar fugas de gas en su hogar. Ante una fuga, indica que sus acciones serían cerrar las llaves de paso y abrir ventanas para ventilar el ambiente. Expresa preocupación por el uso de gas, especialmente porque en su hogar hay personas mayores de más de 80 años que en ocasiones han dejado la llave de gas abierta accidentalmente.
+
+Considera que una aplicación que detecte fugas y tome acciones automáticas sería muy útil, sobre todo si puede alertar mediante notificaciones sonoras y vibración, similares a las alertas de sismos. También ve valioso que la app ventile el ambiente, informe a familiares y pueda cortar el circuito eléctrico en caso necesario. Mencionó la posibilidad de vincular la app con puertas y luces de emergencia.
+
+Para ella, es importante que la interfaz sea dinámica y clara, con acceso al estado del ambiente en tiempo real. Aunque no ha usado apps similares, le interesa una que permita conexión desde cualquier dispositivo mediante cuenta y contraseña. Confía en aplicaciones que tengan actualizaciones constantes y buen rendimiento. Finalmente, estaría dispuesta a pagar hasta S/ 70 mensuales por este servicio.
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
@@ -960,29 +984,114 @@ Dispositivo:
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
+El System Context Diagram ofrece una vista general del sistema GasGuard, destacando cómo interactúa con actores externos como usuarios finales y operadores de dispositivos IoT, así como con sistemas externos como servicios de pago y envío de SMS. Este diagrama identifica los límites del sistema y resalta las interacciones clave, proporcionando un marco claro para entender cómo el sistema se integra en su entorno. Es una herramienta esencial para visualizar las relaciones principales entre el sistema y los actores o servicios externos.
+
 <img src="./assets/diagrams_C4/Context.png" alt="Context"/>
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
+
+El Container Diagram desglosa el sistema GasGuard en contenedores principales como la aplicación móvil, la aplicación web, las APIs REST y los servicios de backend (por ejemplo, IAM, Perfiles, Pago, y Reporte). Este diagrama ilustra cómo estos contenedores interactúan entre sí y con actores externos, detallando las tecnologías empleadas y las interfaces que conectan estos elementos. Proporciona un entendimiento claro de la arquitectura lógica del sistema y cómo los módulos principales colaboran para cumplir sus funciones.
 
 <img src="./assets/diagrams_C4/Container.png" alt="Container"/>
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
+El Deployment Diagram describe cómo los diferentes contenedores de GasGuard se implementan en infraestructura física o en la nube. Detalla dónde se ejecutan las aplicaciones móviles y web, y cómo se despliegan servicios clave como Web API, Edge API e IoT App en diferentes nodos. Este diagrama también incluye las conexiones de red necesarias para la comunicación entre dispositivos IoT y la infraestructura central, garantizando la disponibilidad, la escalabilidad y la seguridad del sistema en entornos de despliegue en tiempo real.
+
 <img src="./assets/diagrams_C4/Deployment.png" alt="Deployment"/>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.1. Bounded Context: <Bounded Context Perfiles>
+### 4.2.1. Bounded Context: Perfiles
 
 #### 4.2.1.1. Domain Layer
 
+Clases a tomar en cuenta para este bounded context:
+
+* Entities:
+
+  * Usuario: Representa a un usuario registrado en el sistema. Atributos:
+
+    * id: UUID
+    * email: string
+    * password: string
+
+  * Perfil: Representa el perfil asociado a un usuario. Atributos:
+
+    * userId: UUID
+    * id: String
+    * name: string
+
+* ValueObjects:
+
+  * Ninguno explícito en el modelo actual.
+
+* Servicios de Dominio:
+
+  * IAMService: Gestiona operaciones relacionadas con credenciales de usuarios:
+
+    * validarCredenciales()
+    * hashPassword()
+
+
 #### 4.2.1.2. Interface Layer
+
+Controllers a incluir en este contexto:
+
+* UserController:
+
+  * Gestiona las solicitudes de autenticación y registro de usuarios.
+
+  * Métodos:
+
+    * iniciarSesion()
+    * registrarUsuario()
+
+* ProfileController:
+
+  * Gestiona las solicitudes relacionadas con perfiles de usuario.
+
+  * Métodos:
+
+    * actualizarPerfil()
+    * consultarPerfil()
 
 #### 4.2.1.3. Application Layer
 
+Manejadores de eventos y comandos para este contexto:
+
+* CommandHandler:
+
+  * UserCommandHandler:
+
+    * RegisterUserCommand
+    * AuthenticateUserCommand
+
+  * ProfileCommandHandler:
+
+    * UpdateProfileCommand
+
+* EventHandler:
+
+  * UserEventHandler:
+
+    * UserRegisteredEvent
+    * UserAuthenticatedEvent
+
+  * ProfileEventHandler:
+
+    * ProfileUpdatedEvent
+
 #### 4.2.1.4. Infrastructure Layer
 
+Repositorios necesarios para gestionar la persistencia de datos:
+
+* UsuarioRepository: Gestiona la persistencia de los datos de usuarios.
+* PerfilRepository: Gestiona la persistencia de los perfiles asociados a los usuarios.
+
 #### 4.2.1.5. Component Level Diagrams
+
+El módulo IAM y Perfiles gestiona la autenticación, autorización y configuración de usuarios. IAMController y ProfileController manejan registro, inicio de sesión y gestión de perfiles, delegando la lógica a IAMService y ProfileService. Los repositorios asociados garantizan el acceso seguro y estructurado a la base de datos. Este módulo asegura una experiencia personalizada y segura para cada usuario.
 
 <img src="./assets/diagrams_C4/IAM_Component.png" alt="Component"/>
 <img src="./assets/diagrams_C4/Perfiles_Component.png" alt="Component"/>
@@ -998,17 +1107,74 @@ Dispositivo:
 <img src="./assets/diagrams_C4/Database_Perfiles.png" alt="Database"/>
 
 
-### 4.2.2. Bounded Context: <Bounded Context Protocolo de Seguridad>
+### 4.2.2. Bounded Context: Protocolo de Seguridad
 
 #### 4.2.2.1. Domain Layer
 
+Clases a tomar en cuenta para este bounded context:
+
+* Entities:
+
+  * IoTDevice: Representa el dispositivo IoT responsable de ejecutar los protocolos de seguridad.
+
+  * SensorGas: Clase encargada de medir los niveles de gas y determinar si existe un peligro.
+
+* ValueObjects:
+
+  * GasLevelStatus: Enum que define los estados del nivel de gas: BIEN, MODERADO, PELIGROSO.
+
+* Interfaces:
+
+  * ProtocolosDeSeguridad: Define los métodos necesarios para activar medidas de seguridad:
+
+    * abrirPuertas()
+    * abrirVentanas()
+    * ajustarIluminacion()
+    * deteccionGasPeligroso()
+
 #### 4.2.2.2. Interface Layer
+
+Controllers a incluir en este contexto:
+
+* ProtocolosDeSeguridadController:
+
+  * Gestiona las peticiones HTTPS para activar y supervisar los protocolos de seguridad.
+
+  * Métodos:
+
+    * activarProtocoloDeSeguridad()
+    * supervisarEstadoProtocolo()
 
 #### 4.2.2.3. Application Layer
 
+Manejadores de eventos y comandos para este contexto:
+
+* CommandHandler:
+
+  * SecurityProtocolCommandHandler:
+
+    * ActivateSecurityProtocolCommand
+    * AdjustIlluminationCommand
+    * OpenDoorsCommand
+    * OpenWindowsCommand
+
+* EventHandler:
+
+  * SecurityProtocolEventHandler:
+
+    * SecurityProtocolActivatedEvent
+    * GasDangerDetectedEvent
+
 #### 4.2.2.4. Infrastructure Layer
 
+Repositorios necesarios para gestionar la persistencia de datos:
+
+* IoTDeviceRepository: Gestiona la persistencia de los dispositivos IoT y su estado actual.
+* SensorGasRepository: Permite almacenar y recuperar datos sobre lecturas del sensor de gas y niveles de peligro detectados.
+
 #### 4.2.2.5. Component Level Diagrams
+
+El ActuatorController toma decisiones basadas en los datos de los sensores y ejecuta comandos para controlar los actuadores, como cerrar válvulas en caso de fuga de gas. Paralelamente, el SensorMonitor realiza una supervisión constante de los sensores, reportando anomalías y asegurando la integridad de los datos capturados. Juntos, estos componentes conforman el núcleo de la funcionalidad IoT del sistema.
 
 <img src="./assets/diagrams_C4/IOTAPP_Component.png" alt="Component"/>
 
@@ -1024,17 +1190,77 @@ Dispositivo:
 
 
 
-### 4.2.3. Bounded Context: <Bounded Context Name Detector de Gas>
+### 4.2.3. Bounded Context: Detector de Gas
 
 #### 4.2.3.1. Domain Layer
 
+Clases a tomar en cuenta para este bounded context:
+
+* Entities:
+
+  * IoTDevice: Clase que representa el dispositivo IoT encargado de procesar las lecturas de gas.
+
+  * SensorGas: Clase que representa el sensor que mide los niveles de gas.
+
+  * EdgeGateway: Clase que actúa como punto de conexión entre los dispositivos IoT y la red central.
+
+* ValueObjects:
+
+  * GasLevelStatus: Enum que define los estados del nivel de gas: BIEN, MODERADO, PELIGROSO.
+
+* Interfaces:
+
+  * ProtocolosDeSeguridad: Define los protocolos de seguridad que incluyen:
+
+    * abrirPuertas()
+    * abrirVentanas()
+    * ajustarIluminacion()
+    * deteccionGasPeligroso()
+
 #### 4.2.3.2. Interface Layer
+
+Controllers a incluir en este contexto:
+
+* GasLevelReadingsController: Controlador para gestionar las peticiones relacionadas con las lecturas del nivel de gas.
+
+* ReportsService: Servicio para generar y mostrar reportes sobre los niveles de gas.
+
+Componentes de comunicación:
+
+* WebSocket: Maneja la recepción de datos desde el dispositivo IoT.
 
 #### 4.2.3.3. Application Layer
 
+Manejadores de eventos y comandos para este contexto:
+
+* CommandHandler:
+
+  * GasDetectionCommandHandler:
+
+    * RegisterIoTDeviceCommand
+    * UpdateGasLevelStatusCommand
+    * ActivateSafetyProtocolsCommand
+
+* EventHandler:
+
+  * GasDetectionEventHandler:
+
+    * GasLevelUpdatedEvent
+    * SafetyProtocolsActivatedEvent
+
 #### 4.2.3.4. Infrastructure Layer
 
+Repositorios necesarios para gestionar la persistencia de datos:
+
+* IoTDeviceRepository: Maneja la persistencia de los dispositivos IoT.
+
+* SensorGasRepository: Almacena y recupera datos relacionados con los sensores de gas.
+
+* EdgeGatewayRepository: Gestiona los datos de los gateways de red.
+
 #### 4.2.3.5. Component Level Diagrams
+
+El Edge API sirve para la detección de gas. El IoTController recibe lecturas de los sensores de gas de los dispositivos IoT. El EventHandler analiza estos datos para detectar fugas o niveles peligrosos. Cuando se detecta una anomalía, el WebSocket envía alertas en tiempo real a las aplicaciones cliente.
 
 <img src="./assets/diagrams_C4/EdgeAPI_Component.png" alt="Component"/>
 
@@ -1050,17 +1276,83 @@ Dispositivo:
 
 
 
-### 4.2.4. Bounded Context: <Bounded Context Notificacion>
+### 4.2.4. Bounded Context: Notificacion
 
 #### 4.2.4.1. Domain Layer
 
+Clases a tomar en cuenta para este bounded context:
+
+* Entities:
+
+  * Notification: Representa una notificación enviada a un perfil.
+
+    * id: String
+    * date: DateTime
+    * message: String
+
+* ValueObjects:
+
+  * Ninguno explícito en el modelo actual.
+
+* Servicios de Dominio:
+
+  * NotificationService: Gestiona el envío de notificaciones y alertas a los usuarios.
+
+    * Métodos:
+
+      * enviarNotificacionSMS(): void
+      * alertarServiciosDeEmergencia(): void
+
 #### 4.2.4.2. Interface Layer
+
+Controllers a incluir en este contexto:
+
+* NotificationController:
+
+  * Gestiona las solicitudes relacionadas con el envío y visualización de notificaciones.
+
+  * Métodos:
+
+    * enviarNotificacion()
+    * consultarNotificaciones()
+
+* EventController (Opcional):
+
+  * Gestiona eventos provenientes del sistema IoT o sensores.
 
 #### 4.2.4.3. Application Layer
 
+Manejadores de eventos y comandos para este contexto:
+
+* CommandHandler:
+
+  * NotificationCommandHandler:
+
+    * EnviarNotificacionCommand
+    * AlertarServiciosCommand
+
+* EventHandler:
+
+  * GasLevelEventHandler: Responde a eventos de niveles peligrosos de gas:
+    * GasLevelDetectedEvent
+
 #### 4.2.4.4. Infrastructure Layer
 
+Repositorios necesarios para gestionar la persistencia de datos:
+
+* NotificationRepository: Gestiona la persistencia de las notificaciones enviadas y recibidas.
+
+* Integration Components:
+
+  * Edge Gateway: Interactúa con dispositivos IoT para recibir datos sobre el nivel de gas.
+
+  * WebSocket: Facilita la comunicación en tiempo real con los usuarios para notificaciones inmediatas.
+
+
+
 #### 4.2.4.5. Component Level Diagrams
+
+El Edge API gestiona las notificaciones en tiempo real. El IoTController recibe datos de los dispositivos, y el WebSocket envía estas notificaciones a los clientes suscritos. El EventHandler procesa los eventos de los sensores para determinar cuándo y qué notificaciones enviar a través del WebSocket.
 
 <img src="./assets/diagrams_C4/EdgeAPI_Component.png" alt="Component"/>
 
@@ -1076,17 +1368,101 @@ Dispositivo:
 
 
 
-### 4.2.5. Bounded Context: <Bounded Context Reporte>
+### 4.2.5. Bounded Context: Reporte
 
 #### 4.2.5.1. Domain Layer
 
+Clases a tomar en cuenta para este bounded context:
+
+* Entities:
+
+  * GasLevelReport: Representa un informe detallado del nivel de gas detectado.
+
+    * Atributos:
+
+      * status: ENUM (BIEN, MODERADO, PELIGROSO)
+      * valor: Float
+      * unidad: String
+      * incidentDate: datetime
+
+    * Métodos:
+
+      * esPeligroso(): Boolean
+
+* ValueObjects:
+
+  * GasLevelStatus (ENUM): Define los posibles estados de los niveles de gas (BIEN, MODERADO, PELIGROSO).
+
+* Servicios de Dominio:
+
+  * CalcularRiesgoServicio:
+
+    * Lógica para determinar el nivel de riesgo en función del reporte.
+
+    * Métodos:
+
+      * determinarRiesgo(valor: Float, unidad: String): GasLevelStatus
+      * Valores numéricos de gas a un estado ENUM (BIEN, MODERADO, PELIGROSO)
+
 #### 4.2.5.2. Interface Layer
+
+Controllers y Endpoints a incluir:
+
+* GasLevelReadingsController:
+
+  * Responsable de exponer los datos sobre los niveles de gas detectados.
+
+  * Métodos:
+
+    * showGasLevelReadings(): void
+
+* WebSocket:
+
+  * Proporciona una interfaz de comunicación en tiempo real para la transmisión de los reportes.
 
 #### 4.2.5.3. Application Layer
 
+* ReportsService:
+
+  * Gestiona la generación y visualización de reportes relacionados con los niveles de gas.
+
+  * Atributos:
+
+    * content: GasLevelReport
+
+  * Métodos:
+
+    * showReport(): void
+
+* Command/Event Handlers:
+
+  * Comandos para manejar solicitudes de reportes en tiempo real o programados:
+
+    * GenerateGasReportCommand
+
+  * Eventos para notificar cambios en los niveles de gas detectados.
+
 #### 4.2.5.4. Infrastructure Layer
 
+Componentes técnicos necesarios:
+
+* Data Adapters:
+
+  * Edge Gateway: Recibe y transmite datos desde los dispositivos IoT hacia el sistema de reportes.
+
+  * IoTDevice: Recopila información en tiempo real del estado del gas y su nivel.
+
+* Base de datos para reportes:
+
+  * Sistema de almacenamiento para mantener un historial de reportes generados.
+
+* Integración en tiempo real:
+
+  * WebSocket: Canal para notificaciones inmediatas relacionadas con los reportes.
+
 #### 4.2.5.5. Component Level Diagrams
+
+El ReportController permite a los usuarios visualizar y consultar reportes generados a partir de los datos del sistema IoT, como métricas de rendimiento y eventos de emergencia. Este controlador se apoya en el ReportService, que procesa y formatea los datos para generar reportes comprensibles y útiles. Finalmente, el ReportRepository interactúa con la base de datos para obtener la información necesaria y almacenarla para futuras consultas.
 
 <img src="./assets/diagrams_C4/Reporte_Component.png" alt="Component"/>
 
