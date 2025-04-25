@@ -214,8 +214,9 @@ Alvarez Araguache, Samira Jetzabel  <br>
 **TB1** <br>
 En esta etapa del proyecto, se logró determinar el estado actual del mercado relacionado con soluciones tecnológicas orientadas a la seguridad del hogar, en particular aquellas vinculadas a IoT y detección de fugas de gas. Este análisis permitió identificar fortalezas y debilidades de productos similares, así como plantear estrategias para diferenciar a GasGuard, posicionándolo como una solución accesible, confiable y centrada en el usuario. Además, se profundizó en el comportamiento, necesidades y motivaciones de los potenciales usuarios mediante entrevistas y ejercicios de empatía, lo que permitió establecer los objetivos principales del proyecto a largo plazo.
 
-Apellidos y nombres <br>
+Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
+Para esta entrega se identificaron los usuarios objetivos del proyecto, por lo que se analizaron sus habilidades, necesidades y frustraciones para diseñar el producto de manera que pueda cumplir de manera eficiente todas estas cosas. Además se identificaron los competidores para conocer las distintas tacticas y funciones que ofrecen para poder mejorar y apuntar a objetivos mas especifico y asi diferenciarnos de la competencia. Todo este estudio se llevo a cabo para ofrecer la mejor version de la solucion IoT y asi atacar eficientemente al problema al que se dirige nuestro proyecto.
 
 Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
