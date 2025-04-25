@@ -2422,4 +2422,12 @@ El ReportController permite a los usuarios visualizar y consultar reportes gener
 
 # Bibliografía
 
+Cuerpo General de Bomberos Voluntarios del Perú. (2024). *Estadísticas de emergencias - 2024*. https://www.bomberosperu.gob.pe/diprein/Estadisticas/po_muestra_esta.asp?a%F1o=2024&cboTipo=TipoEmer&cboNivel=Nac
+
+Cuerpo General de Bomberos Voluntarios del Perú. (2025). *Estadísticas de emergencias - 2025*. https://www.bomberosperu.gob.pe/diprein/Estadisticas/po_muestra_esta.asp?a%F1o=2025&cboTipo=TipoEmer&cboNivel=Nac
+
+Kumar, M., Naidu, V., Mohit, S., Avyakth, P., y Acharyulu, B. (2021). Design and implementation of IOT based Gas detection & fire extinguishing System. *International Journal* , 9(7), 944 - 949. https://www.warse.org/IJETER/static/pdf/file/ijeter18972021.pdf 
+
+Pereyra, G.(28 de enero de 2020). Bombas de tiempo: todos los días hay al menos 18 fugas de gas en el país. *El Comercio*. https://elcomercio.pe/lima/sucesos/villa-el-salvador-bombas-de-tiempo-todos-los-dias-hay-al-menos-18-fugas-de-gas-en-el-pais-glp-balon-de-gas-bomberos-noticia/ 
+
 # Anexos
