@@ -2421,6 +2421,9 @@ El ReportController permite a los usuarios visualizar y consultar reportes gener
 ---
 
 # Conclusiones y Recomendaciones
+En conclusión, el proyecto GasGuard se es sustendado baso un análisis riguroso de las necesidades reales de los usuarios, apoyado por entrevistas, investigación de mercado y herramientas de diseño centradas en las personas. A lo largo del proceso, se identificaron problemáticas críticas relacionadas con la seguridad doméstica frente a fugas de gas, así como oportunidades para ofrecer una solución tecnológica accesible, preventiva y automatizada.
+
+Hemos planteado hipótesis claras que orientan el desarrollo del sistema, priorizando funcionalidades clave como la detección temprana, la respuesta automática ante emergencias, la gestión inteligente del hogar y la notificación inmediata a los usuarios. A ello se suma una propuesta de valor que abarca tanto el diseño intuitivo de la interfaz, como el desarrollo de hardware confiable, estrategias de sensibilización, y un modelo de negocio sostenible. Todo esto con el fin de mejorar la seguridad de los hogares y generar confianza en el uso de tecnología IoT para proteger vidas.
 
 # Video About-the-Team
 
