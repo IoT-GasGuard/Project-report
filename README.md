@@ -609,7 +609,7 @@ Principalmente familias, adultos mayores, personas con movilidad reducida y cual
 **7. ¿Qué es lo más importante que debemos aprender primero?**
 - El tiempo mínimo de reacción del sistema ante una fuga de gas para que esta sea efectiva para el usuario y pueda tomar medidas.
 - El nivel de confianza de los usuarios en las respuestas de sistemas automatizados de seguridad.
-- Que tan intuitivo deben ser la interfaz de la página web/móvil para que sea accesible a usuarios mayores o sin experiencia tecnológica.
+- Que tan efectivas pueden ser las medidas que toma el sistema para evitar accidentes mayores.
 - Que tan dispuestos están los usuarios para adquirir una suscripcion premium.
 </TD> 
 
@@ -1490,6 +1490,8 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
 <img src="./assets/scenario-mapping/impact-mapping.png" alt="impact-mapping">
 
 ## 3.4. Product Backlog
+![imagen](https://github.com/user-attachments/assets/1c9a1693-26db-49aa-a697-65e5bf5cb365)
+Link al tablero de Trello: https://trello.com/b/RRNb2Jdg/gasguard-2968 
 
 <table>
   <thead>
