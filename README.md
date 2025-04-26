@@ -2446,3 +2446,8 @@ Kumar, M., Naidu, V., Mohit, S., Avyakth, P., y Acharyulu, B. (2021). Design and
 Pereyra, G.(28 de enero de 2020). Bombas de tiempo: todos los días hay al menos 18 fugas de gas en el país. *El Comercio*. https://elcomercio.pe/lima/sucesos/villa-el-salvador-bombas-de-tiempo-todos-los-dias-hay-al-menos-18-fugas-de-gas-en-el-pais-glp-balon-de-gas-bomberos-noticia/ 
 
 # Anexos
+Link de la exposición de la TB1: https://youtu.be/2CsRgKz3QEI 
+
+Link de la organización en GitHub: https://github.com/IoT-GasGuard
+
+Repositorio del informe: https://github.com/IoT-GasGuard/Project-report 
