@@ -197,11 +197,14 @@ Ticona Luque, Rony Piero <br>
 **TB1** <br>
 En esta entrega, se utilizó una herramienta de modelado C4 en Structurizr para el desarrollo de los diagramas de contexto, contenedores y componentes que serán implementados en el proyecto. Además, se emplearon herramientas como Lucidchart y Vertabelo para crear los diagramas de las bases de datos. También se realizaron entrevistas para identificar y comprender mejor las necesidades del segmento de público objetivo, lo cual fue fundamental para definir las funcionalidades clave del proyecto.
  
-Apellidos y nombres <br>
+Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
+En esta entrega, trabajamos en la definición de metas claras, distribuyendo responsabilidades según las habilidades individuales mientras manteníamos un propósito colectivo. Mediante una planificación colaborativa, establecimos hitos y mecanismos de seguimiento que permitieron ajustar estrategias de manera ágil. Este proceso no solo optimizó la eficiencia, sino que también reforzó la confianza y el compromiso mutuo.
+
 
 </td>
          <td> TB1: Conclusiones <br>
+		 El trabajo en equipo durante esta entrega demostró un liderazgo colaborativo, donde cada integrante aportó sus habilidades para alcanzar los objetivos comunes. Mediante herramientas como Gitflow, Structurizr, Lucidchart y entrevistas, logramos una coordinación eficiente, una comprensión profunda de las necesidades del usuario y una documentación bien estructurada. Este enfoque no solo optimizó el flujo de trabajo, sino que también fortaleció la cohesión del grupo, asegurando un avance sólido y alineado hacia el éxito del proyecto.
 </td>         
 
   <tr>
@@ -227,12 +230,15 @@ Ticona Luque Rony Piero <br>
 **TB1** <br>
 En esta entrega del proyecto, se avanzó en la definición y diseño de la solución tecnológica. Se desarrollaron diagramas de contexto, contenedores y componentes utilizando herramientas de modelado C4 en Structurizr, estableciendo una base sólida para la arquitectura del sistema. Adicionalmente, se emplearon Lucidchart y Vertabelo para crear diagramas detallados de las bases de datos. Adicional de realizaron entrevistas del segmento objetivo para profundizar en la comprensión de sus necesidades, expectativas y problemas clave.
 
-Apellidos y nombres <br>
+Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
+Durante esta fase, prioricé la creación de un espacio de trabajo en equipo, integrando diversas perspectivas y fortaleciendo la comunicación. Realizamos una revisión conjunta de la literatura existente, analizamos los segmentos objetivos de manera participativa y exploramos metodologías de resolución de problemas en conjunto. Este enfoque inclusivo permitió enriquecer el proyecto con aportes diversos y fomentar un sentido de pertenencia en el equipo.
 
 </td>
             <td>TB1: Conclusiones<br>
-            
+            n esta etapa del proyecto, el equipo logró consolidar los fundamentos estratégicos, técnicos y centrados en el usuario para el desarrollo de GasGuard. A través de un análisis exhaustivo del mercado y la competencia, se identificaron oportunidades clave para posicionar nuestra solución IoT como una alternativa accesible y diferenciada en seguridad del hogar.
+
+La investigación con usuarios permitió definir requerimientos prioritarios y diseñar historias de usuario alineadas a sus necesidades reales, mientras que el modelado arquitectónico (diagramas C4, bases de datos) sentó las bases técnicas para el desarrollo. El trabajo colaborativo, apoyado en metodologías ágiles y herramientas como Structurizr y Lucidchart, facilitó la integración de perspectivas diversas y aseguró una planificación eficiente.
 
 </td>
        <tr>
