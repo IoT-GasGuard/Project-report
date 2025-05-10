@@ -2509,12 +2509,342 @@ El ReportController permite a los usuarios visualizar y consultar reportes gener
 
 ### 6.2.1. Sprint 1
 ### 6.2.1.1. Sprint Planning 1 
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 1 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 9/05/2025 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 14:00 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de la aplicación Discord <td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Alvarez Araguache, Samira Jetzabel <td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> Alvarez Araguache, Samira Jetzabel
+        <br>
+          Llacchua Peralta, Joseph Ulysses
+           <br>
+         Quilla Luyo, Jorge Gerardo 
+          <br>
+           Luna Capuñay, Italo D'Alessandro
+          <br>
+         Ramirez Contreras, Zaid Valentino
+              <br>
+         Ticona Luque, Rony Piero
+         <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 0 Review Summary </td>
+        <td> El sprint 1 será el primero que involucra desarrollo, por lo que no se ha considerado un review summary del sprint anterior.<td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 0 Retrospective Summary </td>
+        <td> Como estamos en el primer sprint del proyecto, aún no se identifican planes de mejora.<td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 1 Goal</td>
+          <td>  En este sprint, se ha propuesto la implementación de una landing page, donde se muestre el propósito del proyecto, las características principales del sistema y los tipos de planes que ofrece el producto. De igual manera, se desarrollará parte de la aplicación web, donde se implementará las interfaces de las funciones clave de GasGuard, como la visualización de los niveles de gas en el ambiente, el estado de los actuadores y los sensores asociados al sistema. Finalizado este sprint, tanto la landing page como parte de la aplicación web debe estar desplegada, permitiendo a cualquier usario accedear a cualquiera de estas.
+        <td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+          <td>  19  <td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 19 <td>
+      </tr>
+
+
+  </table>
+
 ### 6.2.1.2. Aspect Leaders and Collaborators
+El alcance de este sprint se basa en el desarrollo de la primera versión de la landing page, donde se espera que esta funcione de base para futuras iteraciones. De igual manera, se considera la implementación parcial del prototipado de la aplicación web, donde se toma en cuenta las principales funcionalidades del sistema. Este avance es puramente de la interfaz, que será luego integrado con sus respectivas funcionalidades luego de la validación de el resultado de este sprint.
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Landing Page Leader (L) / Collaborator (C)</th>
+      <th> Feature Visualizar lecturas del sensor Leader (L) / Collaborator (C)</th>
+      <th> Feature Ejecutar protocolos de seguridad  Leader (L) / Collaborator (C)</th>
+      <th> Feature Ver estado de los sensores Leader (L) / Collaborator (C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alvarez Araguache, Samira Jetzabel</td>
+      <td>Samira-AA</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Llacchua Peralta, Joseph Ulysses</td>
+      <td>JosephLlachua</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Quilla Luyo, Jorge Gerardo</td>
+      <td>GerardoQuilla</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ramirez Contreras, Zaid Valentino</td>
+      <td>ZadoR205</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Ticona Luque, Rony Piero</td>
+      <td>pticona</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 6.2.1.3. Sprint backlog 1
+<img src="./assets/product-backlog/product-backlog-sprint-1.PNG">
+
+<table style="width:400px; height:100px;"> 
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 1 </th>
+   </tr>
+   <tr >
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item /Task</th>
+   </tr>
+   <tr>
+     <th > Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th > Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th> 
+     <th> Status (To-do / In-Process / To- Review / Done) </th>
+   </tr>
+     <tr>
+      <th> E6-US14 </th>
+     <th colspan="3"> Visualizar características del sistema GasGuard </th>
+      <th> W01  </th>
+     <th> Features Section  </th>
+     <th> Mostrar las funcionalidades del sistema en la landing page de GasGuard</th>
+     <th> 0.2  </th>
+     <th> Samira Alvarez </th> 
+     <th> Done </th>
+   </tr>
+    <tr>
+      <th> E6-US15 </th>
+     <th colspan="3">  Visualizar planes  </th>
+      <th> W02  </th>
+     <th> Payment Plans Section </th>
+     <th> Mostrar los planes de pago del sistema en la landing page de GasGuard  </th>
+     <th> 0.3  </th>
+     <th> Samira Alvarez </th> 
+     <th> Done </th>
+   </tr>
+    <tr>
+      <th> E6-US16 </th>
+     <th colspan="3"> Visualizar sitio web desde dispositivo de preferencia </th>
+      <th> W03  </th>
+     <th> Responsive Design </th>
+     <th> Adaptar el diseño de la landing page de GasGuard para distintos dispositivos  </th>
+     <th> 0.5  </th>
+     <th> Samira Alvarez </th> 
+     <th> Done </th>
+   </tr>
+     <tr>
+      <th> E2-US02 </th>
+     <th colspan="3"> Ejecutar protocolos de seguridad 
+     </th>
+      <th> W04  </th>
+     <th> Security protocol feature </th>
+     <th> Implementar el diseño inicial del estado de los protocolos de seguridad en la aplicación web </th>
+     <th> 5  </th>
+     <th> Zaid Ramirez/Joseph Llachua </th> 
+     <th> Done </th>
+   </tr>
+    <tr>
+      <th> E2-US04 </th>
+     <th colspan="3"> Visualizar lecturas del sensor
+     </th>
+      <th> W04  </th>
+     <th> Sensor Readings feature </th>
+     <th> Implementar el diseño inicial de las lecturas del sensor en la aplicación web</th>
+     <th> 4  </th>
+     <th> Piero Ticona/Gerardo Quilla </th> 
+     <th> Done </th>
+   </tr>
+   </tr>
+     <tr>
+      <th> E2-US09</th>
+     <th colspan="3"> E1-US04 Sección Colabora</th>
+      <th> W06  </th>
+     <th> Colabora Section </th>
+     <th> Implementar la sección Colabora con la finalidad de orientar al usuario sobre nuestros servicios   </th>
+     <th> 2  </th>
+     <th> Samira Alvarez </th> 
+     <th> To-do </th>
+   </tr>
+     </tr>
+
+
+
+</table>
+
 ### 6.2.1.4. Development Evidence for Sprint Review.
+
+<table>
+
+ <tr>
+    <th> <strong> Repository </strong> </th>
+    <th> <strong> Branch </strong> </th>
+    <th> <strong> Commit ID</strong> </th>
+    <th> <strong> Commit Message </strong> </th>
+     <th> <strong> Commit Message (Body) </strong> </th>
+     <th> <strong> Commited on (Date) </strong> </th>
+ </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th> e814a8ddf01b00910caaacc70224ff5759114361 </th>
+   <th> Initial commit </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th> 2b0c2c8193ab2e12450d6aaac3fad802dcd2c21f </th>
+   <th> feat: add hero section </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+   <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th> 02c1f97e38a6f14fc97637affbd9674397fac1d4 </th>
+   <th> feat: about section </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+   <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>1bf31a0547cdff9dde2871a46217f0aa8cebf37f</th>
+   <th> feat: best services section </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>849a94729e342c785fd7a745a29ae58609442eff</th>
+   <th> feat: add contact and footer </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+   <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>9abd230ff0414b78dbc79d5b7b3b162db6face5a</th>
+   <th> feat: add team members card </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>ef6b5a92410878f38ec4229b6f072734eed20573</th>
+   <th> feat: rebranding </th>
+   <th> </th>
+   <th> 09/05/2025 </th>
+  </tr>
+
+  </table>
+
 ### 6.2.1.5. Testing Suite Evidence for Sprint Review. 
 ### 6.2.1.6 Execution Evidence for Sprint Review.
+En este sprint se cumplió con la implementación de la versión inicial de la landing page de GasGuard para captar la atención de nuevos usuarios del sistemas.
+
+Link al deploy de la landing page: https://iot-gasguard.github.io/GasGuard-LandingPage/ 
+
+**Hero section**
+<img src="./assets/execution_evidence/sprint_1/hero-section.PNG">
+
+**About us section**
+<img src="./assets/execution_evidence/sprint_1/about-us.PNG">
+
+**Features section**
+<img src="./assets/execution_evidence/sprint_1/features.PNG">
+
+**Payment plans section**
+<img src="./assets/execution_evidence/sprint_1/payment-plans.PNG">
+
+**Our team section**
+<img src="./assets/execution_evidence/sprint_1/our-team.PNG">
+
+**Contact section**
+<img src="./assets/execution_evidence/sprint_1/contact.PNG">
+
+**Footer section**
+<img src="./assets/execution_evidence/sprint_1/footer.PNG">
+
+Así mismo, se desarrolló el prototipo inicial del diseño de la página web de GasGuard, donde se visualizan las principales funcionalidades y estadísticas del sistema.
+
+Link al deploy de la página web: 
+
+**Dashboard**
+<img src="./assets/execution_evidence/sprint_1/dashboard.PNG">
+
+**Devices section**
+<img src="./assets/execution_evidence/sprint_1/devices.PNG">
+
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review.
+Dentro del alcance del sprint 1 no se ha tomado en cuenta el desarrollo de web services, por lo que no se cuenta con evidencia de su implementación en el sistema.
+
 ### 6.2.1.8 Software Deployment Evidence for Sprint Review.
 ### 6.2.1.9 Team Collaboration Insights during Sprint.
 
