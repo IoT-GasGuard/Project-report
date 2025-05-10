@@ -2846,7 +2846,89 @@ Link al deploy de la página web:
 Dentro del alcance del sprint 1 no se ha tomado en cuenta el desarrollo de web services, por lo que no se cuenta con evidencia de su implementación en el sistema.
 
 ### 6.2.1.8 Software Deployment Evidence for Sprint Review.
+En este sprint 1, se ha desployado la versión inicial de la landing page y aplicación web de GasGuard. Para ello, se han realizado los siguientes pasos:
+
+**Despliegue Landing Page**
+1. Como el despliegue de la landing page lo estamos realizando con GitHub Pages, nos dirigimos al apartado de "Pages" en las configuraciones del repositorio, para indicar la rama la cual se usará para realizar el despliegue. En este caso, usaremos la rama develop.
+
+<img src="./assets/execution_evidence/sprint_1/pages-github.PNG">
+
+2. Una vez realizado esto, en el apartado de "Sections" se va a visualizar el estado del deploy, si se encuentra en progreso, ha ocurrido un error o si ha sido construido correctamente.
+
+<img src="./assets/execution_evidence/sprint_1/actions-github.PNG">
+
 ### 6.2.1.9 Team Collaboration Insights during Sprint.
+
+<table>
+  <tr> 
+   <th> <strong> Alumno </strong></th>
+   <th> <strong> Actividad </strong></th>
+   </tr>
+
+  <tr> 
+   <th> Alvarez Araguache, Samira Jetzabel  </th>
+   <th>  Implementación de la landing page en versión desktop y mobile. </th>
+ </tr>
+  <tr> 
+   <th> Llacchua Peralta, Joseph Ulysses </th>
+   <th> </th>
+ </tr>
+  <tr> 
+   <th> Quilla Luyo, Jorge Gerardo  </th>
+   <th>  </th>
+ </tr>
+  <tr> 
+   <th> Ramirez Contreras, Zaid Valentino 	 </th>
+   <th>   </th>
+ </tr> 
+ <tr> 
+   <th> Ticona Luque, Rony Piero  </th>
+   <th>   </th>
+ </tr>
+ </table>
+
+ </table>
+
+Se realizó en conjunto un total de 6 commits para el desarrollo de la landing page entre el agregado de secciones, corrección de bugs y cambios en el diseño. Mientras tanto, para el desarrollo de la web application se realizaron en total  commits.
+
+A continuación, se presentara la tabla de colaboradores en los repositorios para identificar las contribuciones de cada integrante del equipo en el desarrollo de los puntos establecidos en este sprint 1.
+
+Tabla de integrantes:
+
+<table>
+  <tr> 
+   <th> <strong> Username (GitHub) </strong></th>
+   <th> <strong> Nombre </strong></th>
+   </tr>
+
+  <tr> 
+   <th> Samira-AA  </th>
+   <th>Alvarez Araguache, Samira Jetzabel  </th>
+ </tr>
+  <tr> 
+  <th> JosephLlachua </th>
+   <th> Llacchua Peralta, Joseph Ulysses  </th>
+ </tr>
+  <tr> 
+   <th> GerardoQuilla </th>
+   <th> Quilla Luyo, Jorge Gerardo  </th>
+
+ </tr>
+  <tr> 
+   <th> ZadoR205 </th>
+   <th> Ramirez Contreras, Zaid Valentino 	  </th>
+ </tr> 
+   <tr> 
+   <th> pticona </th>
+   <th>Ticona Luque, Rony Piero  </th>
+ </tr> 
+
+
+</table>
+
+A continuación, se enseñarán los insights de ambos repositorios, donde se podrá observar los commits que se han realizado para cumplir con las metas de este sprint:
+
+
 
 # Conclusiones y Recomendaciones
 En conclusión, el proyecto GasGuard es sustendado bajo un análisis riguroso de las necesidades reales de los usuarios, apoyado por entrevistas, investigación de mercado y herramientas de diseño centradas en las personas. A lo largo del proceso, se identificaron problemáticas críticas relacionadas con la seguridad doméstica frente a fugas de gas, así como oportunidades para ofrecer una solución tecnológica accesible, preventiva y automatizada.
