@@ -2637,7 +2637,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
 </table>
 
 ### 6.2.1.3. Sprint backlog 1
-<img src="./assets/product-backlog/product-backlog-sprint-1.PNG">
+<img src="./assets/product_backlog/product-backlog-sprint-1.PNG">
 
 <table style="width:400px; height:100px;"> 
    <tr>
@@ -2713,10 +2713,10 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    </tr>
      <tr>
       <th> E2-US09</th>
-     <th colspan="3"> E1-US04 Sección Colabora</th>
+     <th colspan="3"> Gestión de sensores</th>
       <th> W06  </th>
-     <th> Colabora Section </th>
-     <th> Implementar la sección Colabora con la finalidad de orientar al usuario sobre nuestros servicios   </th>
+     <th> Devices management Section </th>
+     <th> Implementar el diseño inicial de la gestión de sensores en la aplicación web</th>
      <th> 2  </th>
      <th> Samira Alvarez </th> 
      <th> To-do </th>
@@ -2806,6 +2806,73 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
   </table>
 
 ### 6.2.1.5. Testing Suite Evidence for Sprint Review. 
+En este sprint se realizaron acceptance tests para las historias de usuario desarrolladas en esta iteración usando Gherkin.
+Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acceptance-Tests
+
+<table>
+  <tr>
+    <th> <strong> Repository </strong> </th>
+    <th> <strong> Branch </strong> </th>
+    <th> <strong> Commit ID</strong> </th>
+    <th> <strong> Commit Message </strong> </th>
+     <th> <strong> Commit Message (Body) </strong> </th>
+     <th> <strong> Commited on (Date) </strong> </th>
+ </tr>
+
+ <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>f23b6944db0b332e537727ab5f7928aea9d330ec  </strong> </th>
+    <th> <strong> Initial commit </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+   <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>34dfd0f668b7d842836dcbbe060c4d4cf2dfbfb7  </strong> </th>
+    <th> <strong> feat: add us-02 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+   <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>a836194d4d219c11f05194b31506f716ee816c9f  </strong> </th>
+    <th> <strong> feat: add us-04 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+  <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>5baea621c38a26bfd526b1f7c02755529fce188d  </strong> </th>
+    <th> <strong> feat: add us-15 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+   <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>8e349b0bd5e8ad7d29cc0648ac7f355da050b7b9  </strong> </th>
+    <th> <strong> feat: add us-14 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+    <tr>
+
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>06a3c128f170cf74e9f27062094270e5c29d6596  </strong> </th>
+    <th> <strong> feat: add us-16 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+
 ### 6.2.1.6 Execution Evidence for Sprint Review.
 En este sprint se cumplió con la implementación de la versión inicial de la landing page de GasGuard para captar la atención de nuevos usuarios del sistemas.
 
