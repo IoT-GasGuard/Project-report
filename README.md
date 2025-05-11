@@ -1654,7 +1654,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
   <td>E7</td>
 </tr>
 <tr>
-  <td>US19</td>
+  <td>US18</td>
   <td>Editar dispositivo</td>
   <td>
     <strong>Como </strong>usuario
@@ -1689,7 +1689,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
   <td>E7</td>
 </tr>
 <tr>
-  <td>US20</td>
+  <td>US19</td>
   <td>Eliminar dispositivo</td>
   <td>
     <strong>Como </strong>usuario
@@ -1722,7 +1722,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
   <td>E7</td>
 </tr>
 <tr>
-  <td>US21</td>
+  <td>US20</td>
   <td>Monitorear dispositivos</td>
   <td>
     <strong>Como </strong>usuario
@@ -2773,11 +2773,11 @@ El ReportController permite a los usuarios visualizar y consultar reportes gener
       </tr>
        <tr>
           <td style="font-weight: bold;"> Sprint 1 Velocity </td>
-          <td>  17  <td>
+          <td>  22  <td>
       </tr>
       <tr>
           <td style="font-weight: bold;"> Sum of Story Points </td>
-          <td> 17 <td>
+          <td> 22 <td>
       </tr>
 
 
@@ -2795,6 +2795,8 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th>Landing Page Leader (L) / Collaborator (C)</th>
       <th> Feature Visualizar lecturas del sensor Leader (L) / Collaborator (C)</th>
       <th> Feature Ejecutar protocolos de seguridad  Leader (L) / Collaborator (C)</th>
+      <th> Feature Agregar nuevo dispositivo Leader (L) / Collaborator (C)</th>
+      <th> Feature Eliminar dispositivo vinculado (L) / Collaborator (C)</th>
       <th> Feature Monitoriear dispositivos Leader (L) / Collaborator (C)</th>
     </tr>
   </thead>
@@ -2806,6 +2808,8 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <td>C</td>
       <td>C</td>
       <td>C</td>
+      <td>C</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>Llacchua Peralta, Joseph Ulysses</td>
@@ -2814,12 +2818,16 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <td>C</td>
       <td>L</td>
       <td>C</td>
+      <td>C</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>Quilla Luyo, Jorge Gerardo</td>
       <td>GerardoQuilla</td>
       <td>C</td>
       <td>L</td>
+      <td>C</td>
+      <td>C</td>
       <td>C</td>
       <td>C</td>
     </tr>
@@ -2830,6 +2838,8 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <td>C</td>
       <td>C</td>
       <td>L</td>
+      <td>C</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>Ticona Luque, Rony Piero</td>
@@ -2838,12 +2848,14 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <td>L</td>
       <td>C</td>
       <td>C</td>
+      <td>L</td>
+      <td>C</td>
     </tr>
   </tbody>
 </table>
 
 ### 6.2.1.3. Sprint backlog 1
-<img src="./assets/product_backlog/product-backlog-sprint-1.PNG">
+<img src="./assets/sprint_backlog/sprint-backlog-1.PNG">
 
 <table style="width:400px; height:100px;"> 
    <tr>
@@ -2916,6 +2928,28 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
      <th> Piero Ticona/Gerardo Quilla </th> 
      <th> Done </th>
    </tr>
+    <tr>
+      <th> E7-US17 </th>
+     <th colspan="3"> Agregar nuevo dispositivo
+     </th>
+      <th> W04  </th>
+     <th> Add device feature </th>
+     <th> Implementar el prototipo inicial para agregar un nuevo dispositivo </th>
+     <th> 2.5  </th>
+     <th> Zaid Ramirez</th> 
+     <th> Done </th>
+   </tr>
+   <tr>
+      <th> E7-US19 </th>
+     <th colspan="3"> Eliminar dispositivo vinculado
+     </th>
+      <th> W04  </th>
+     <th> Delete device feature </th>
+     <th> Implementar el prototipo inicial para eliminar un dispositivo </th>
+     <th> 0.3  </th>
+     <th> Piero Ticona</th> 
+     <th> Done </th>
+   </tr>
    </tr>
      </tr>
      <tr>
@@ -2925,7 +2959,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W04  </th>
      <th> Device Management </th>
      <th> Implementar el diseño inicial de la gestión de dispositivos para ver la actividad de los sensores y actuadores </th>
-     <th> 4  </th>
+     <th> 2  </th>
      <th> Samira Alvarez</th> 
      <th> Done </th>
    </tr>
@@ -3071,6 +3105,7 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong>  </strong> </th>
     <th> <strong> 10/05/2025 </strong> </th>
     <tr>
+ <tr>
 
    <th> <strong> Acceptance-Test </strong> </th>
     <th> <strong> main </strong> </th>
@@ -3080,6 +3115,33 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong> 10/05/2025 </strong> </th>
  <tr>
 
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>988cd66eb724f4c9121b6479ac10702cf2764bf7  </strong> </th>
+    <th> <strong> feat: add us-20 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+ <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>d00d32794234877d43b8281479d09cbfe0716d6c  </strong> </th>
+    <th> <strong>feat: add us-17 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+ <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>5c8ded31fed47fb45bbcc211edc5fd858638e66b  </strong> </th>
+    <th> <strong>feat: add us-19 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+</table>
 
 ### 6.2.1.6 Execution Evidence for Sprint Review.
 En este sprint se cumplió con la implementación de la versión inicial de la landing page de GasGuard para captar la atención de nuevos usuarios del sistemas.
@@ -3114,7 +3176,7 @@ Link al deploy de la página web:
 **Dashboard**
 <img src="./assets/execution_evidence/sprint_1/dashboard.PNG">
 
-**Devices section**
+**Device Management section**
 <img src="./assets/execution_evidence/sprint_1/devices.PNG">
 
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review.
@@ -3160,9 +3222,7 @@ En este sprint 1, se ha desployado la versión inicial de la landing page y apli
    <th> Ticona Luque, Rony Piero  </th>
    <th>   </th>
  </tr>
- </table>
-
- </table>
+</table>
 
 Se realizó en conjunto un total de 6 commits para el desarrollo de la landing page entre el agregado de secciones, corrección de bugs y cambios en el diseño. Mientras tanto, para el desarrollo de la web application se realizaron en total  commits.
 
