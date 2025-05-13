@@ -2716,8 +2716,38 @@ El ReportController permite a los usuarios visualizar y consultar reportes gener
 
 ## 5.4. Web Applications UX/UI Design.
 ### 5.4.1 Web Applications Wireframes.
+
+<img src="./assets/web-app-ui/wireframe/wf_login.png" alt="Wireframe Login"/>
+
+<img src="./assets/web-app-ui/wireframe/wf_register.png" alt="Wireframe Register"/>
+
+<img src="./assets/web-app-ui/wireframe/wf_dashboard_safe.png" alt="Wireframe Dashboard Safe"/>
+
+<img src="./assets/web-app-ui/wireframe/wf_dashboard_danger.png" alt="Wireframe Dashboard Danger"/>
+
+<img src="./assets/web-app-ui/wireframe/wf_devices.png" alt="Wireframe Devices"/>
+
+<img src="./assets/web-app-ui/wireframe/wf_no_devices.png" alt="Wireframe No Devices"/>
+
+<img src="./assets/web-app-ui/wireframe/wf_add_device.png" alt="Wireframe Add Device"/>
+
 ### 5.4.2.Web Applications Wireflow Diagrams.
 ### 5.4.3 Web Applications Mock-ups.
+
+<img src="./assets/web-app-ui/mockup/login.png" alt="Mockup Login"/>
+
+<img src="./assets/web-app-ui/mockup/register.png" alt="Mockup Register"/>
+
+<img src="./assets/web-app-ui/mockup/dashboard_safe.png" alt="Mockup Dashboard Safe"/>
+
+<img src="./assets/web-app-ui/mockup/dashboard_danger.png" alt="Mockup Dashboard Danger"/>
+
+<img src="./assets/web-app-ui/mockup/devices.png" alt="Mockup Devices"/>
+
+<img src="./assets/web-app-ui/mockup/no_devices.png" alt="Mockup No Devices"/>
+
+<img src="./assets/web-app-ui/mockup/add_device.png" alt="Mockup Add Devices"/>
+
 ### 5.4.4 Web Applications User Flow Diagrams.
 ## 5.5. Web Applications Prototyping.
 
