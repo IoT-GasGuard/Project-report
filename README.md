@@ -2690,13 +2690,29 @@ El ReportController permite a los usuarios visualizar y consultar reportes gener
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
 
+<strong>Desktop Web Browser</strong>
+
 <img src="./assets/landing-ui/landing_wf.png" alt="Landing Page Wireframe"/>
 
+<br>
+
+<strong>Mobile Web Browser</strong>
+
+<img src="./assets/landing-ui/wireframe_mobile.png" alt="Landing Page Wireframe Mobile"/>
+
 ### 5.3.2. Landing Page Mock-up
+
+<strong>Desktop Web Browser</strong>
 
 <img src="./assets/landing-ui/mockup_1.png" alt="Landing Page Mockup_1"/>
 
 <img src="./assets/landing-ui/mockup_2.png" alt="Landing Page Mockup_2"/>
+
+<br>
+
+<strong>Mobile Web Browser</strong>
+
+<img src="./assets/landing-ui/mockup_mobile.png" alt="Landing Page Mockup Mobile"/>
 
 ## 5.4. Web Applications UX/UI Design.
 ### 5.4.1 Web Applications Wireframes.
