@@ -3237,6 +3237,70 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> 13/05/2025  </th>
   </tr>
 
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> develop </th>
+   <th>a93dfb1d630423fc844dcdaf1d3d02ecbb4afe27</th>
+   <th> Initial commit  </th>
+   <th> </th>
+   <th> 09/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> develop </th>
+   <th>b3e92b494ab05e800802b2607130be96a69d838c</th>
+   <th> initial configuration  </th>
+   <th> </th>
+   <th> 13/05/2025  </th>
+  </tr>
+
+   <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-management </th>
+   <th> 39854df35b5f70389ed5d81b0599ebecce43d5eb</th>
+   <th> feat: add ui elements  </th>
+   <th> </th>
+   <th> 13/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-management </th>
+   <th> 5afa138e946a4a4bcb93bd3986514483a7db0684</th>
+   <th> feat: add device-management component  </th>
+   <th> </th>
+   <th> 13/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/dashboard </th>
+   <th> 0d9c61d36a98967a698461bd55d0d1b61848a8be</th>
+   <th> feat: add dashboard components  </th>
+   <th> </th>
+   <th> 14/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/dashboard </th>
+   <th> 0d9c61d36a98967a698461bd55d0d1b61848a8be</th>
+   <th> feat: add context and device pages </th>
+   <th> </th>
+   <th> 14/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> main </th>
+   <th> f2b89ac892cbb7fa646a8aac2a668c134e7c1321</th>
+   <th> Merge pull request #3 from IoT-GasGuard/develop
+</th>
+   <th> </th>
+   <th> 14/05/2025  </th>
+  </tr>
+
   </table>
 
 ### 6.2.1.5. Testing Suite Evidence for Sprint Review. 
@@ -3396,11 +3460,11 @@ En este sprint 1, se ha desployado la versión inicial de la landing page y apli
 
   <tr> 
    <th> Alvarez Araguache, Samira Jetzabel  </th>
-   <th>  Implementación de la landing page. Implementación del device management en la aplicación web  </th>
+   <th>  Implementación de la landing page. Implementación de device management en la aplicación web  </th>
  </tr>
   <tr> 
    <th> Llacchua Peralta, Joseph Ulysses </th>
-   <th> </th>
+   <th> Implementación del monitoreo de dispositivos. Mejoras en la landing page </th>
  </tr>
   <tr> 
    <th> Quilla Luyo, Jorge Gerardo  </th>
@@ -3408,15 +3472,14 @@ En este sprint 1, se ha desployado la versión inicial de la landing page y apli
  </tr>
   <tr> 
    <th> Ramirez Contreras, Zaid Valentino 	 </th>
-   <th>   </th>
+   <th>  Implementación de la vista de los protocolos de seguridad en la aplicación web. Mejoras en la landing page </th>
  </tr> 
  <tr> 
    <th> Ticona Luque, Rony Piero  </th>
-   <th>   </th>
+   <th>  Implementación de las lecturas en la aplicación web. Mejoras en la landing page</th>
  </tr>
 </table>
 
-Se realizó en conjunto un total de 6 commits para el desarrollo de la landing page entre el agregado de secciones, corrección de bugs y cambios en el diseño. Mientras tanto, para el desarrollo de la web application se realizaron en total  commits.
 
 A continuación, se presentara la tabla de colaboradores en los repositorios para identificar las contribuciones de cada integrante del equipo en el desarrollo de los puntos establecidos en este sprint 1.
 
@@ -3466,6 +3529,21 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 **Anexo:** Flujo de trabajo realizado en 1 mes
 
 <img src="./assets/collaboration_insights_sprint1/landing-insights.PNG">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+
+**Web App**
+
+<img src="./assets/collaboration_insights_sprint1/web-app-commits.PNG">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint1/web-app-flujo.PNG">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint1/web-app-insights.PNG">
 
 **Anexo:** Colaboration insights  en el periodo de 1 mes
 
