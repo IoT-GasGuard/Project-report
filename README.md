@@ -3045,6 +3045,78 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> 09/05/2025 </th>
   </tr>
 
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> refactor/structure </th>
+   <th>abac1951d48f420c1a8ac6152d267819c540cc65</th>
+   <th> style(nav): center align about section tabs </th>
+   <th> </th>
+   <th> 10/05/2025 </th>
+  </tr>
+
+   <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> refactor/structure </th>
+   <th>bc372591f2b4d9a1347285c9c2a511575f98a586</th>
+   <th> style(nav): move inline styles to stylesheet </th>
+   <th> </th>
+   <th> 10/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> refactor/structure </th>
+   <th>e33fb655ee0ebceaf2db4b6f356e4849268d3dd2</th>
+   <th> refactor(css): remove unused variables </th>
+   <th> </th>
+   <th> 10/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> dev-jllacchua </th>
+   <th>23877844bca0f4746ce43f709d23800db3506bc6</th>
+   <th> fix: mejorar estilo de tarjetas de equipo </th>
+   <th> </th>
+   <th> 10/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>29ad6ddf36e42e08c637c890256d2083c0a62e71</th>
+   <th> style(footer): add index hover effect </th>
+   <th> </th>
+   <th> 11/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>2212a09175c560414eedbbb6642597a514dfe077</th>
+   <th> style(section-title): titles background color </th>
+   <th> </th>
+   <th> 11/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> fix/-visual-bugs </th>
+   <th>647a69d9966c574ba93d71611ab348007abcf7f0</th>
+   <th> fix: div error </th>
+   <th> </th>
+   <th> 13/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> fix/-visual-bugs </th>
+   <th>e6f8d235d32a7238cc558c9de3d6eb076347918b</th>
+   <th> fix: style overstepping </th>
+   <th> </th>
+   <th> 13/05/2025  </th>
+  </tr>
+
   </table>
 
 ### 6.2.1.5. Testing Suite Evidence for Sprint Review. 
@@ -3171,7 +3243,7 @@ Link al deploy de la landing page: https://iot-gasguard.github.io/GasGuard-Landi
 
 Así mismo, se desarrolló el prototipo inicial del diseño de la página web de GasGuard, donde se visualizan las principales funcionalidades y estadísticas del sistema.
 
-Link al deploy de la página web: 
+Link al deploy de la aplicación web: 
 
 **Dashboard**
 <img src="./assets/execution_evidence/sprint_1/dashboard.PNG">
@@ -3204,7 +3276,7 @@ En este sprint 1, se ha desployado la versión inicial de la landing page y apli
 
   <tr> 
    <th> Alvarez Araguache, Samira Jetzabel  </th>
-   <th>  Implementación de la landing page en versión desktop y mobile. </th>
+   <th>  Implementación de la landing page. Implementación del device management en la aplicación web  </th>
  </tr>
   <tr> 
    <th> Llacchua Peralta, Joseph Ulysses </th>
@@ -3212,7 +3284,7 @@ En este sprint 1, se ha desployado la versión inicial de la landing page y apli
  </tr>
   <tr> 
    <th> Quilla Luyo, Jorge Gerardo  </th>
-   <th>  </th>
+   <th> Implementación del dashboard en la aplicación web. Mejoras en la landing page  </th>
  </tr>
   <tr> 
    <th> Ramirez Contreras, Zaid Valentino 	 </th>
@@ -3263,6 +3335,19 @@ Tabla de integrantes:
 
 A continuación, se enseñarán los insights de ambos repositorios, donde se podrá observar los commits que se han realizado para cumplir con las metas de este sprint:
 
+**Landing Page**
+
+<img src="./assets/collaboration_insights_sprint1/landing-commits.PNG">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint1/landing-flujo.PNG">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint1/landing-insights.PNG">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
 
 
 # Conclusiones y Recomendaciones
