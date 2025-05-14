@@ -276,6 +276,9 @@ Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
 En esta entrega, se usaron herramientas visuales para la elaboración de escenarios donde nuestra propuesta resuelve la problemática planteada. Además, se usó un formato estándar y entendible para redactar los requerimientos de nuestros segmentos objetivos. La información recolectada por cada integrante del equipo fue necesario para la correcta elaboración de cada punto en esta entrega y así estar todos coordinados.
 
+**TP** <br>
+Para esta entrega se utilizaron herramientas de maquetado de interfaces de usuario, además de documentar flujos acorde a los requerimientos core de la aplicación. También, se desarrollaron videos demostrativos para explicar el prototipo del landing page y de la aplicación web.
+
 Ticona Luque, Rony Piero <br>
 **TB1** <br>
 En esta entrega, se utilizó una herramienta de modelado C4 en Structurizr para el desarrollo de los diagramas de contexto, contenedores y componentes que serán implementados en el proyecto. Además, se emplearon herramientas como Lucidchart y Vertabelo para crear los diagramas de las bases de datos. También se realizaron entrevistas para identificar y comprender mejor las necesidades del segmento de público objetivo, lo cual fue fundamental para definir las funcionalidades clave del proyecto.
@@ -308,6 +311,9 @@ Para esta entrega se identificaron los usuarios objetivos del proyecto, por lo q
 Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
 En esta entrega, se logró redactar las historias de usuario, tomando en cuenta los posibles módulos de nuestra solución propuesta. También se priorizaron estos requerimientos para agilizar el desarrollo de las principales necesidades identificadas. Además, se realizó escenarios donde nuestra solución lograr satisfacer necesidades, resolver problemas y marcar una diferencia frente a la competencia.
+
+**TP** <br>
+En esta entrega se logró diseñar una interfaz de usuario que cumple con buenas prácticas y principios de usabilidad y consistencia. Por medio de la herramienta Figma, se elaboraron los prototipos respectivos para la landing page y la aplicacion web, además de definir los User Flow para conocer el recorrido y objetivo de cada pantalla o vista elaborada.
 
 Ticona Luque Rony Piero <br>
 **TB1** <br>
