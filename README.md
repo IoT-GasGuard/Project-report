@@ -4007,6 +4007,8 @@ Pereyra, G.(28 de enero de 2020). Bombas de tiempo: todos los días hay al menos
 # Anexos
 Link de la exposición de la TB1: https://youtu.be/2CsRgKz3QEI 
 
+Link de la exposición del TP1: https://youtu.be/XfZxd6zPQ2c
+
 Link de la organización en GitHub: https://github.com/IoT-GasGuard
 
 Repositorio del informe: https://github.com/IoT-GasGuard/Project-report
