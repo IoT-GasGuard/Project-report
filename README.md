@@ -66,6 +66,12 @@
             <td> Grupo 2
             <td>Se agregó el contenido del capítulo 1, apartados 1.1, 1.2 y 1.3; el contenido del capítulo 2, apartados 2.1, 2.2, 2.3, 2.4; el contenido del capítulo 3, apartados 3.1, 3.2, 3.3 y 3.4; el contenido del capítulo 4, apartados 4.1 y 4.2</td>
         </tr>
+	<tr>
+            <td align = "center">TB1</td>
+            <td>14/05/2025</td>
+            <td> Grupo 2
+            <td>Se agregó el contenido del capítulo 5 y 6</td>
+        </tr>
 </table>
 <br>
 
@@ -302,7 +308,11 @@ Durante esta fase, prioricé la creación de un espacio de trabajo colaborativo 
 </td>
          <td> TB1: Conclusiones <br>
 		 El trabajo en equipo durante esta entrega demostró un liderazgo colaborativo, donde cada integrante aportó sus habilidades para alcanzar los objetivos comunes. Mediante herramientas como Gitflow, Structurizr, Lucidchart y entrevistas, logramos una coordinación eficiente, una comprensión profunda de las necesidades del usuario y una documentación bien estructurada. Este enfoque no solo optimizó el flujo de trabajo, sino que también fortaleció la cohesión del grupo, asegurando un avance sólido y alineado hacia el éxito del proyecto.
-</td>         
+
+<br>
+TP: Conclusiones 
+		En conclusión, el desarrollo del Sprint Backlog 1 evidenció un trabajo colaborativo sólido, marcado por una distribución equitativa de responsabilidades, liderazgo compartido y una planificación orientada a resultados. La entrega incluyó avances significativos como el despliegue inicial de la aplicación web y la landing page, respaldados por documentación detallada, prototipos funcionales y videos demostrativos. El uso estratégico de herramientas especializadas, junto con la definición de buenas prácticas y convenciones de codificación, sentó una base técnica robusta para el proyecto. Además, se fortaleció la comunicación y cohesión del equipo, mientras que la investigación centrada en la experiencia de usuario aportó una visión valiosa para el diseño de interfaces en contextos críticos, garantizando un enfoque integral y orientado al usuario.
+     
 
   <tr>
             <td align = "center">Crea un entorno colaborativo e
@@ -352,6 +362,9 @@ En esta etapa, lideré el desarrollo de la arquitectura de información y direct
 
 La investigación con usuarios permitió definir requerimientos prioritarios y diseñar historias de usuario alineadas a sus necesidades reales, mientras que el modelado arquitectónico (diagramas C4, bases de datos) sentó las bases técnicas para el desarrollo. El trabajo colaborativo, apoyado en metodologías ágiles y herramientas como Structurizr y Lucidchart, facilitó la integración de perspectivas diversas y aseguró una planificación eficiente.
 
+<br>
+TP: Conclusiones <br>
+		En resumen, la primera entrega del proyecto destacó por su enfoque colaborativo, inclusivo y orientado a resultados, permitiendo que cada integrante contribuyera activamente desde sus habilidades individuales. Gracias a una planificación clara y una asignación eficiente de responsabilidades, se alcanzaron hitos importantes como el desarrollo y despliegue de la landing page, así como la elaboración de prototipos funcionales de la aplicación web y móvil. Se aplicaron buenas prácticas de diseño centrado en el usuario, asegurando interfaces accesibles, consistentes y adaptadas a situaciones críticas. Asimismo, se establecieron las herramientas clave y convenciones técnicas que guiarán el desarrollo del proyecto, garantizando cohesión y eficiencia en el trabajo conjunto. La definición de una arquitectura de información clara y una guía de estilo integral consolidó una base sólida para el diseño de una experiencia de usuario intuitiva y confiable, alineada con los objetivos de GasGuard.       
 </td>
        <tr>
 </table>
