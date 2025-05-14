@@ -279,6 +279,9 @@ En esta entrega, se usaron herramientas visuales para la elaboración de escenar
 Ticona Luque, Rony Piero <br>
 **TB1** <br>
 En esta entrega, se utilizó una herramienta de modelado C4 en Structurizr para el desarrollo de los diagramas de contexto, contenedores y componentes que serán implementados en el proyecto. Además, se emplearon herramientas como Lucidchart y Vertabelo para crear los diagramas de las bases de datos. También se realizaron entrevistas para identificar y comprender mejor las necesidades del segmento de público objetivo, lo cual fue fundamental para definir las funcionalidades clave del proyecto.
+
+**TP** <br>
+En esta entrega se detallaron las principales herramientas que se utilizarán a lo largo del proyecto, tales como Markdown, Git, GitHub, Figma, Miro, Structurizr, UXPressia y Visual Studio Code, todas seleccionadas por su utilidad en las distintas etapas del desarrollo. Además, se establecieron las convenciones de codificación y buenas prácticas que guiarán el trabajo del equipo. Finalmente, se documentó la configuración del despliegue de la landing page, la cual fue publicada a través de GitHub Pages.
  
 Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
@@ -312,6 +315,9 @@ En esta entrega, se logró redactar las historias de usuario, tomando en cuenta 
 Ticona Luque Rony Piero <br>
 **TB1** <br>
 En esta entrega del proyecto, se avanzó en la definición y diseño de la solución tecnológica. Se desarrollaron diagramas de contexto, contenedores y componentes utilizando herramientas de modelado C4 en Structurizr, estableciendo una base sólida para la arquitectura del sistema. Adicionalmente, se emplearon Lucidchart y Vertabelo para crear diagramas detallados de las bases de datos. Adicional de realizaron entrevistas del segmento objetivo para profundizar en la comprensión de sus necesidades, expectativas y problemas clave.
+
+**TP** <br>
+Durante esta entrega del proyecto, se identificaron y presentaron las herramientas clave que se utilizarán durante el ciclo de desarrollo, tales como Markdown, Git, GitHub, Figma, Miro, Structurizr, UXPressia y Visual Studio Code, seleccionadas por su relevancia en cada etapa del proceso. También se acordaron las convenciones de codificación y buenas prácticas que facilitarán el trabajo colaborativo. Por último, se dejó registrada la configuración y el despliegue inicial de la landing page a través de GitHub Pages.
 
 Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
@@ -2706,11 +2712,125 @@ El ReportController permite a los usuarios visualizar y consultar reportes gener
 ## 5.7. Mobile Applications Prototyping.
 
 # Capítulo VI: Product Implementation, Validation & Deployment
+
 ## 6.1. Software Configuration Management.
+
 ### 6.1.1. Software Development Environment Configuration.
+
+En este apartado se detallan las herramientas de software utilizadas por los integrantes del equipo, junto con los enlaces correspondientes que permiten asignar a cada miembro el rol de administrador y facilitar la implementación de sus modificaciones en el proyecto.
+
+Project Management:
+
+* Formato Markdown
+
+  * Objetivo: Estructurar el informe en varios archivos con extensión .md, divididos por capítulos, para facilitar su desarrollo y, posteriormente, generar a partir de ellos el archivo PDF que será entregado en el aula virtual.
+  * Ruta: <a href="https://github.com/IoT-GasGuard/Project-report/tree/main">Enlace al informe</a>
+
+* Git y Github
+
+  * Objetivo: Utilizado para gestionar el control de versiones del proyecto.
+  * Herramienta: <a href="https://github.com/">https://github.com/</a>
+
+* Whatsapp
+
+  * Objetivo: Facilitar la comunicación, coordinación de reuniones y el intercambio de documentación relevante entre los miembros del equipo.
+  * Herramienta: <a href="https://web.whatsapp.com/">https://web.whatsapp.com/</a>
+
+Product UX/UI Design:
+
+* Figma
+
+  * Objetivo: Creación de wireframes, Mock-ups y prototipos interactivos.
+  * Herramienta: <a href="https://www.figma.com/">https://www.figma.com/</a>
+
+* Miro
+
+  * Objetivo: Mapas de escenarios actuales (As-Is) y futuros (To-Be).
+  * Herramienta: <a href="https://miro.com/">https://miro.com/</a>
+
+* Structurizr
+
+  * Objetivo: Creación de diagramas C4.
+  * Herramienta: <a href="https://structurizr.com/">https://structurizr.com/</a>
+
+* UXPressia
+
+  * Objetivo: Creación de perfiles de usuarios (User Personas), mapas de empatía (Empathy Maps), mapas de recorrido (Journey Maps) y mapas de impacto (Impact Maps).
+  * Herramienta: <a href="https://uxpressia.com/">https://uxpressia.com/</a>
+
+Software Development:
+
+* Visual Studio Code y Next.js Framework
+
+  * Objetivo: El equipo empleó un editor de código para el desarrollo de la Landing Page, la aplicación web frontend y los servicios web. Para el frontend, se utilizó el framework Next.js junto con HTML5, CSS3 y JavaScript.
+
+Software Testing, Software Deployment:
+
+* GitHub Pages:
+
+  * Objetivo: Desplegar la landing Page.
+  * Herramienta: <a href="https://pages.github.com/">https://pages.github.com/</a>
+
 ### 6.1.2. Source Code Management.
+
+Conforme se indicó en la sección anterior, GitHub se utiliza como plataforma para el control de versiones, permitiendo una gestión estructurada y eficiente de las modificaciones realizadas en el desarrollo del proyecto de nuestra startup.
+
+En este sentido, se definieron dos ramas específicas para el desarrollo:
+
+* Main: Esta rama alberga la versión estable de nuestra landing page, después de que cada componente fuera validado y aprobado mediante una pull request.
+
+* Develop: En esta rama se encuentran las versiones en las que se llevaron a cabo pruebas de los componentes implementados por cada integrante del equipo en la landing page.
+
+Conventional Commits:
+
+* fix: Para corregir un error en el repositorio.
+* feat: Se emplea para agregar una nuevo  feature al repositorio.
+* add: Indica que se han incorporado nuevos archivos o carpetas.
+* test: Para indicar que se agregaron nuevos tests.
+
+Repositorios:
+
+* Landing page: <a href="https://github.com/IoT-GasGuard/GasGuard-LandingPage/tree/develop">Enlace al Landing page</a>
+* Frontend Web Application: <a href="https://github.com/IoT-GasGuard/GasGuard-App/tree/develop">Enlace al Frontend</a>
+* Informe: <a href="https://github.com/IoT-GasGuard/Project-report/tree/main">Enlace al informe</a>
+
 ### 6.1.3. Source Code Style Guide & Conventions.
+
+En la siguiente sección se detallarán las convenciones adoptadas para el desarrollo del proyecto, las cuales se fundamentan en las especificaciones Gherkin, la guía de estilo HTML, las convenciones de codificación Java.
+
+* HTML
+
+  Se seguirán las recomendaciones establecidas en la guía de estilo y codificación HTML de W3Schools, aplicando convenciones fundamentales como la declaración obligatoria del tipo de documento (<!DOCTYPE>), el uso consistente de etiquetas y atributos en minúsculas para asegurar un código ordenado, y el cierre correcto de todas las etiquetas para evitar errores. Asimismo, se utilizarán comillas en los valores de los atributos y se incluirán siempre los atributos alt, width y height en las imágenes, con el fin de mejorar tanto la accesibilidad como el posicionamiento en buscadores (SEO). También se evitará omitir etiquetas estructurales y metadatos relevantes para asegurar una correcta optimización en motores de búsqueda.
+
+* CSS
+
+  Siguiendo las recomendaciones de la “Guía de Estilo HTML/CSS de Google”, se adoptarán buenas prácticas como el uso de nombres de clase breves, descriptivos y generales, separados por guiones. Se dará preferencia a los selectores de clase sobre los selectores de ID, y se emplearán propiedades abreviadas como margin, padding y border para mejorar la legibilidad del código y optimizar su extensión. Estas directrices permiten mantener un estilo CSS más limpio, organizado y fácilmente escalable.
+
+* JavaScript
+
+  Se aplicarán las mejores prácticas de JavaScript recomendadas por el W3C, dando prioridad al uso de nombres breves y comprensibles para variables y funciones. Se evitará declarar variables en el ámbito global mediante var, optando por let o const para prevenir conflictos de nombres y errores en el mantenimiento del código. Además, se documentarán únicamente las secciones que lo requieran, especialmente aquellas de mayor complejidad, y se emplearán operadores y notaciones simples para trabajar con estructuras de datos de manera clara y eficiente.
+
+* Gherkin
+
+  Para la elaboración de pruebas, se adoptarán las convenciones establecidas en la guía “Gherkin Conventions for Readable Specifications”. Se estructurarán claramente los bloques Given-When-Then utilizando una indentación apropiada y la palabra clave "And" para agregar pasos adicionales. Cuando los escenarios requieran más detalles, se emplearán tablas, y los parámetros se expresarán entre comillas simples para mejorar la claridad. Además, los distintos escenarios se separarán mediante comentarios con el fin de facilitar su organización visual.
+
+* Control de versiones
+
+  El control de versiones se gestionará mediante Git a través de la plataforma GitHub, aplicando el flujo de trabajo GitFlow junto con las convenciones de Conventional Commits y Semantic Versioning. Esta combinación facilitará la integración continua, permitirá automatizar los despliegues y optimizará el manejo de correcciones rápidas (hotfixes).
+
 ### 6.1.4. Software Deployment Configuration.
+
+Despliegue de la landing page en GitHub Pages:
+
+Para el despliegue de la landing page del proyecto, se utilizó GitHub Pages como solución de hosting estático gratuita y eficiente. Esta plataforma permitió publicar directamente desde el repositorio, facilitando la visualización y prueba del sitio por parte de los miembros del equipo y usuarios interesados.
+
+El proceso de despliegue consistió en los siguientes pasos:
+
+* Configuración del repositorio para que apunte a la rama main como fuente del sitio.
+
+* Publicación automática a través de GitHub Actions o manual mediante la opción de GitHub Pages, seleccionando la carpeta correspondiente como directorio fuente.
+
+
 ## 6.2. Landing Page, Services & Applications Implementation.
 
 ### 6.2.1. Sprint 1
