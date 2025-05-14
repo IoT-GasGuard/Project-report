@@ -3058,7 +3058,7 @@ Prototipado AppWeb en Figma: <a href="https://www.figma.com/proto/yfrJ7FpIkPQnHK
 
 ## 5.6. Mobile Applications UX/UI Design.
 ### 5.6.1 Mobile Applications Wireframes.
-<img src="./assets/mobile_app/wireframe.png" alt="Mobile App Wireframe"/>
+<img src="./assets/mobile_app/Wireframe.png" alt="Mobile App Wireframe"/>
 
 ### 5.6.2.Mobile Applications Wireflow Diagrams.
 
