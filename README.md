@@ -3060,8 +3060,14 @@ Prototipado AppWeb en Figma: <a href="https://www.figma.com/proto/yfrJ7FpIkPQnHK
 ### 5.6.1 Mobile Applications Wireframes.
 ### 5.6.2.Mobile Applications Wireflow Diagrams.
 ### 5.6.3 Mobile Applications Mock-ups.
+<img src="./assets/mobile_app/App Mockups.png" alt="Mobile App Mockups"/>
+
 ### 5.6.4 Mobile Applications User Flow Diagrams.
 ## 5.7. Mobile Applications Prototyping.
+<img src="./assets/mobile_app/App prototype.png" alt="Mobile App Prototype"/>
+
+Prototipo
+[Link del prototipo](https://www.figma.com/proto/vUKkvFktm6YLhDpJcmccEe/Untitled?node-id=4-118&p=f&t=9t8WrTOrU3z0aaPk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3)
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management.
