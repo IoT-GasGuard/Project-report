@@ -2470,16 +2470,210 @@ El ReportController permite a los usuarios visualizar y consultar reportes gener
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
+
+Mediante la solución IoT GasGuard se busca que los usuarios gocen de una interfaz que transmite seguridad, confiabilidad y tranquilidad. Por ello, el equipo tomó la decisión de emplear recursos visuales que capten la atención de los segmentos objetivos y que sean fáciles de identificar.
+
 ### 5.1.1. General Style Guidelines
-### 5.1.2. Web Style Guidelines
+
+La solución IoT GasGuard surge a partir de la necesidad de mejorar la seguridad en hogares ante fugas de gas y automatizar la respuesta para prevenir accidentes graves. A partir de esto, se propuso desarrollar una solución completa incluyendo IoT que facilitará la detección temprana de fugas de gas, tomará medidas automáticas de protección, y brindará control remoto sobre el sistema, con el fin de atender las necesidades previamente mencionadas.
+
+**Branding**
+
+El nombre de la solución IoT es GasGuard. Este nombre nació de la combinación de "Gas" por el elemento que monitorea, y "Guard" (guardián) para representar la vigilancia y protección constante que ofrece el sistema. Por otro lado, el logo de GasGuard representa seguridad y protección a través de un escudo estilizado combinado con un símbolo de gas, transmitiendo la idea de vigilancia constante y defensa ante peligros.
+
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="https://raw.githubusercontent.com/IoT-GasGuard/GasGuard-LandingPage/2212a09175c560414eedbbb6642597a514dfe077/assets/images/logo-complete.svg" alt="GasGuard Logo Completo" style="height: 100px;">
+  <img src="https://raw.githubusercontent.com/IoT-GasGuard/GasGuard-LandingPage/2212a09175c560414eedbbb6642597a514dfe077/assets/images/logo.svg" alt="GasGuard Logo" style="height: 100px;">
+</div>
+/n
+
+**Colores**
+
+**Colores primarios:** El color primario empleado para el diseño del producto y para el logotipo es un verde-azulado (#3cbcbc ) que aparece en el logo y elementos destacados de la página. Este color transmite frescura, confianza y seguridad, representando la protección que ofrece el sistema. Se combina con un azul (#547c9c) utilizado en el fondo de la cabecera, que refuerza la sensación de profesionalismo y tranquilidad.
+
+**Colores secundarios:** Como color secundario se utiliza un blanco (#FFFFFF) que contrasta perfectamente con los fondos azulados, mejorando la legibilidad del texto y creando espacios limpios en la interfaz. También se emplean tonos grises claros para áreas de contenido alternativas, manteniendo la coherencia visual.
+
+**Colores de acento:** Se utiliza un azul más oscuro (#345F75) para botones y elementos interactivos principales como "INICIA AHORA", creando puntos focales que guían al usuario a través de las acciones importantes. En situaciones de alerta o emergencia, se incorpora un rojo (#E53935) que señaliza claramente situaciones de peligro.
+
+![Colores primarios](./assets/images/brand/primary_colors.png)
+
+**Tipografía**
+
+El equipo seleccionó la fuente de letra Montserrat para títulos y Open Sans para cuerpo de texto, estilos modernos y de alta legibilidad. La separación del interletraje es de 0,15 px, el interlineado es de 0,5 px y el tamaño de la fuente varía dependiendo de la finalidad de uso, por ejemplo:
+
+![Tipografía](https://private-user-images.githubusercontent.com/104078975/263751293-2e9abaf9-db14-4c7f-b000-2a60df98a8c6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDcxMzU1OTYsIm5iZiI6MTc0NzEzNTI5NiwicGF0aCI6Ii8xMDQwNzg5NzUvMjYzNzUxMjkzLTJlOWFiYWY5LWRiMTQtNGM3Zi1iMDAwLTJhNjBkZjk4YThjNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxM1QxMTIxMzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NzhmY2Q1NWUzOWMzOTdlNTMxZjI1MzAwMDMwMzcwZjY3MjM0YzZiNWU5MTNlODMzOGYxNjAyNGIzMDQ2ZDlhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.P2ScHDU30a8jfESiLs-W2tcHiQeELI6kWxhxGZrQ4Kk)
+
+**Tono de comunicación y lenguaje aplicado**
+
+El tipo de lenguaje a emplear será claro, directo y tranquilizador junto con profesionalismo y certeza. Dado que se trata de un sistema de seguridad, es crucial que la comunicación sea inequívoca y genere confianza en situaciones potencialmente críticas. Los mensajes seguirán estas características:
+
+- **Precisión**: Información exacta sin ambigüedades
+- **Brevedad**: Comunicación concisa que vaya directo al punto
+- **Claridad**: Uso de términos comprensibles sin tecnicismos innecesarios
+- **Confianza**: Tono seguro que refuerza la fiabilidad del sistema
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+## 5.2. Information Architecture
+Con respecto a la página web, está diseñada para mostrarse en el dispositivo que se esté usando, ya sea desde una computadora o dispositivo móvil (responsive), el sitio web estará disponible en ambas plataformas para proporcionar una mejor experiencia de usuario. Además, el patrón de diseño web usado es Flat Design con elementos de Material Design, para que el usuario tenga una alta comprensión y una fácil interacción al momento de estar en la interfaz.
+
+**Responsive web interfaces**
+
+Se tienen contemplados los siguientes puntos relacionados a interfaces web responsivas:
+
+- **Grid System**: Sistema de 12 columnas para permitir que la interfaz se adapte a diferentes tamaños de pantalla.
+- **Breakpoints**: Puntos de quiebre definidos para adaptarse a pantallas pequeñas (320px), medianas (768px) y grandes (1200px).
+- **Escalado en tipografía**: Tamaño mínimo de 16px para móviles, asegurando legibilidad en todas las pantallas.
+- **Consistencia en la paleta de colores**: Paleta uniforme con variaciones para estados interactivos (hover, focus, active).
+- **Botones y Links**: Dimensionados para interacción táctil (mínimo 44px de altura).
+- **Iconografía**: Iconos universales y reconocibles, especialmente para funciones críticas como alertas.
+
+**Interfaces de aplicación móvil**
+
+Para las interfaces de la aplicación móvil, se contemplan los siguientes patrones:
+
+- **Single Column**: Ideal para mostrar datos de sensores, alertas y control del sistema.
+- **Bottom Navigation**: Barra de navegación en la parte inferior para fácil acceso con el pulgar.
+- **Overlays**: Capas superpuestas para información adicional sin cambiar de pantalla.
+- **Floating Action Button**: Botón flotante para acceso rápido a acciones de emergencia.
+
+**Interfaces de dispositivos IoT**
+
+Para las interfaces físicas de los dispositivos IoT:
+
+- **LEDs indicadores**: Sistema de códigos de colores para mostrar el estado del sistema.
+- **Botones físicos**: Reconocibles y accesibles para operaciones críticas.
+- **Señales sonoras**: Patrones de sonido distintos según la gravedad de las alertas.
+- **Etiquetas claras**: Componentes marcados con iconos universales y texto simple.
 
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems
-### 5.2.2. Labelling Systems
-### 5.2.3. SEO Tags and Meta Tags
-### 5.2.4. Searching Systems
-### 5.2.5. Navegation Systems
 
+La organización de la información en GasGuard se diseña para facilitar la navegación y el acceso rápido a los datos críticos que requieren los usuarios. Se aplican diferentes sistemas de estructuración que permiten categorizar y presentar la información de forma intuitiva.
+
+**Sistemas de organización utilizados:**
+
+- **Jerárquico:**
+  - **Dashboard de seguridad:** Visualización prioritaria del estado actual de los sensores y alertas.
+  - **Historial de eventos:** Lista cronológica con filtros para identificar incidencias por fecha, tipo y nivel de urgencia.
+
+- **Secuencial:**
+  - **Configuración inicial:** Proceso guiado paso a paso para la instalación y puesta en marcha del sistema.
+  - **Protocolo de emergencia:** Secuencia ordenada de acciones recomendadas en caso de detección de fugas de gas.
+
+- **Matricial:**
+  - **Gestión de dispositivos:** Visualización cruzada que organiza los dispositivos (sensores y actuadores) por tipo y ubicación.
+  - **Registro de alertas:** Matriz temporal que permite revisar cuándo y dónde se han producido las incidencias.
+
+**Segmentos de usuario atendidos:**
+
+- **Personas con vivienda propia o alquilada:** Priorizando notificaciones de emergencia y contactos de alerta.
+
+### 5.2.2. Labeling Systems
+
+El sistema de etiquetado en GasGuard garantiza que cada sección y funcionalidad se identifique de manera clara, facilitando la comprensión y navegación tanto en la Landing Page como en las aplicaciones web y móviles.
+
+**Etiquetas en la Landing Page:**
+
+- **Inicio / Home:** Página principal que presenta el logo, mensaje central y una visión general del producto.
+- **Sobre Nosotros / About Us:** Sección dedicada a la información del equipo, misión, visión y valores.
+- **Características / Features:** Descripción de las funciones y beneficios principales del sistema GasGuard.
+- **Planes / Plans:** Información sobre las opciones de suscripción y modelos de servicio disponibles.
+- **Contáctanos / Contact Us:** Datos y formularios para que los usuarios puedan comunicarse con el equipo.
+
+**Etiquetas en la aplicación web y móvil:**
+
+- **Dashboard:** Pantalla principal que muestra los niveles de gas, alertas y estado en tiempo real.
+- **Dispositivos / Devices:** Sección para gestionar los sensores y actuadores conectados al sistema.
+- **Historial / History:** Registro de eventos pasados, permitiendo filtrar y consultar incidencias.
+- **Configuración / Settings:** Opciones para personalizar umbrales, notificaciones y preferencias del usuario.
+- **Perfil / Profile:** Área dedicada a la información personal del usuario y detalles de la cuenta.
+
+### 5.2.3. SEO Tags and Meta Tags
+
+Para mejorar el posicionamiento en buscadores y garantizar que GasGuard sea fácilmente encontrado, se implementarán las siguientes etiquetas SEO y meta tags en cada versión de la plataforma:
+
+**Sitio web estático:**
+- `<title>GasGuard - Sistema Inteligente de Prevención de Fugas de Gas</title>`
+- `<meta name="description" content="GasGuard proporciona detección temprana y respuesta automática ante fugas de gas en el hogar, brindando seguridad y tranquilidad.">`
+- `<meta name="keywords" content="detector de gas, seguridad hogar, IoT, prevención de accidentes, sensor de gas">`
+- `<meta name="authors" content="Equipo GasGuard">`
+
+**Aplicación web:**
+- `<title>GasGuard - Panel de Control</title>`
+- `<meta name="description" content="Monitorea y controla tu sistema GasGuard en tiempo real desde cualquier dispositivo.">`
+- `<meta name="keywords" content="monitoreo, control remoto, IoT, alertas de gas, seguridad">`
+- `<meta name="authors" content="Equipo GasGuard">`
+
+**Aplicación móvil:**
+- `<title>GasGuard Mobile</title>`
+- `<meta name="description" content="Controla tu sistema GasGuard desde la palma de tu mano y recibe notificaciones en tiempo real.">`
+- `<meta name="keywords" content="app de seguridad, móvil, notificaciones, IoT, detector de gas">`
+- `<meta name="authors" content="Equipo GasGuard">`
+
+---
+
+### 5.2.4. Searching Systems
+
+Para que los usuarios encuentren fácilmente la información relevante, se desarrollarán sistemas de búsqueda optimizados en las distintas plataformas, incluyendo:
+
+- **Búsqueda en el Historial de Eventos:**  
+  Permite filtrar y buscar eventos por fecha, tipo, nivel de gravedad y ubicación dentro del hogar.
+
+- **Panel de Control de Dispositivos:**  
+  Facilita la búsqueda de sensores, actuadores y otros dispositivos por nombre, tipo o ubicación.
+
+- **Sección de Ayuda y Soporte:**  
+  Incorpora una barra de búsqueda para explorar preguntas frecuentes, tutoriales y artículos de soporte.
+
+Estos sistemas garantizarán una respuesta rápida y precisa, mejorando la experiencia del usuario en todas las plataformas.
+
+### 5.2.5. Navigation Systems
+
+La navegación intuitiva es clave para que los usuarios accedan fácilmente a cualquier sección de GasGuard. Los sistemas de navegación a implementar son:
+
+- **Landing Page:**  
+  Un menú horizontal fijo en la parte superior con anclajes a secciones específicas, permitiendo saltar rápidamente a la información deseada.
+
+- **Aplicación Web:**  
+  Un menú lateral (sidebar) siempre visible en pantallas grandes, que se colapsa en dispositivos pequeños, junto con un sistema de breadcrumbs para mostrar la ruta de navegación actual y facilitar el regreso a secciones anteriores.
+
+- **Aplicación Móvil:**  
+  Una barra inferior (bottom navigation) con íconos representativos para funciones principales (Dashboard, Dispositivos, Alertas, Configuración), complementada con un menú hamburguesa para opciones secundarias y un botón flotante para acciones de emergencia.
+
+Estos mecanismos asegurarán una experiencia de navegación consistente y accesible en todos los dispositivos.
+
+### 5.2.4. Searching Systems
+
+Para que los usuarios encuentren fácilmente la información relevante, se desarrollarán sistemas de búsqueda optimizados en las distintas plataformas, incluyendo:
+
+- **Búsqueda en el Historial de Eventos:**  
+  Permite filtrar y buscar eventos por fecha, tipo, nivel de gravedad y ubicación dentro del hogar.
+
+- **Panel de Control de Dispositivos:**  
+  Facilita la búsqueda de sensores, actuadores y otros dispositivos por nombre, tipo o ubicación.
+
+- **Sección de Ayuda y Soporte:**  
+  Incorpora una barra de búsqueda para explorar preguntas frecuentes, tutoriales y artículos de soporte.
+
+Estos sistemas garantizarán una respuesta rápida y precisa, mejorando la experiencia del usuario en todas las plataformas.
+
+### 5.2.5. Navigation Systems
+
+La navegación intuitiva es clave para que los usuarios accedan fácilmente a cualquier sección de GasGuard. Los sistemas de navegación a implementar son:
+
+- **Landing Page:**  
+  Un menú horizontal fijo en la parte superior con anclajes a secciones específicas, permitiendo saltar rápidamente a la información deseada.
+
+- **Aplicación Web:**  
+  Un menú lateral (sidebar) siempre visible en pantallas grandes, que se colapsa en dispositivos pequeños, junto con un sistema de breadcrumbs para mostrar la ruta de navegación actual y facilitar el regreso a secciones anteriores.
+
+- **Aplicación Móvil:**  
+  Una barra inferior (bottom navigation) con íconos representativos para funciones principales (Dashboard, Dispositivos, Alertas, Configuración), complementada con un menú hamburguesa para opciones secundarias y un botón flotante para acciones de emergencia.
+
+Estos mecanismos asegurarán una experiencia de navegación consistente y accesible en todos los dispositivos.
+
+## 5.3. Landing Page UI Design
 
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
