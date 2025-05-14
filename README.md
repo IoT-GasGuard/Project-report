@@ -824,6 +824,7 @@ Preocupado por la seguridad de su vivienda o las personas que viven en ella. Int
 
 ## 2.2. Entrevistas
 
+Con el objetivo de comprender mejor las necesidades, percepciones y expectativas de los usuarios en torno a la seguridad doméstica relacionada con el uso de gas, se diseñaron entrevistas cualitativas para recopilar información clave que oriente el desarrollo de GasGuard. Estas entrevistas permitieron explorar el uso actual de sistemas de detección de fugas, el nivel de seguridad percibido en el hogar, las funcionalidades deseadas en una app de monitoreo automático, así como preferencias de diseño y experiencia de usuario. Además, se buscó identificar oportunidades de mejora a partir de experiencias previas con soluciones similares, evaluando la disposición de los usuarios a confiar y pagar por una herramienta como GasGuard.
 
 ### 2.2.1. Diseño de entrevistas
 
@@ -2771,6 +2772,11 @@ Software Testing, Software Deployment:
   * Objetivo: Desplegar la landing Page.
   * Herramienta: <a href="https://pages.github.com/">https://pages.github.com/</a>
 
+* Netlify:
+
+  * Objetivo: Desplegar la aplicación web.
+  * Herramienta: <a href="https://www.netlify.com/">https://www.netlify.com/</a>
+
 ### 6.1.2. Source Code Management.
 
 Conforme se indicó en la sección anterior, GitHub se utiliza como plataforma para el control de versiones, permitiendo una gestión estructurada y eficiente de las modificaciones realizadas en el desarrollo del proyecto de nuestra startup.
@@ -2820,7 +2826,7 @@ En la siguiente sección se detallarán las convenciones adoptadas para el desar
 
 ### 6.1.4. Software Deployment Configuration.
 
-Despliegue de la landing page en GitHub Pages:
+**Despliegue de la landing page en GitHub Pages:**
 
 Para el despliegue de la landing page del proyecto, se utilizó GitHub Pages como solución de hosting estático gratuita y eficiente. Esta plataforma permitió publicar directamente desde el repositorio, facilitando la visualización y prueba del sitio por parte de los miembros del equipo y usuarios interesados.
 
@@ -2830,6 +2836,17 @@ El proceso de despliegue consistió en los siguientes pasos:
 
 * Publicación automática a través de GitHub Actions o manual mediante la opción de GitHub Pages, seleccionando la carpeta correspondiente como directorio fuente.
 
+**Despliegue del frontend en React utilizando Netlify:**
+
+Para el despliegue del frontend del proyecto desarrollado con React, se utilizó Netlify como plataforma de hosting estático por su facilidad de uso, integración continua con GitHub y despliegue automatizado. Esta solución permitió compartir rápidamente versiones funcionales de la aplicación con el equipo de desarrollo y usuarios finales para su prueba y validación.
+
+El proceso de despliegue se realizó siguiendo estos pasos:
+
+* Conexión del repositorio de GitHub a Netlify, autorizando el acceso y seleccionando el repositorio del proyecto.
+
+* Configuración de los parámetros de construcción, especificando el comando de build (npm run build) y la carpeta de salida (build/).
+
+* Activación del despliegue automático, lo que permitió que cada push a la rama principal (main) generara una nueva versión del sitio en producción.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
@@ -3002,7 +3019,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W01  </th>
      <th> Features Section  </th>
      <th> Mostrar las funcionalidades del sistema en la landing page de GasGuard</th>
-     <th> 0.2  </th>
+     <th> 4.5 </th>
      <th> Gerardo Quilla </th> 
      <th> Done </th>
    </tr>
@@ -3012,7 +3029,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W02  </th>
      <th> Payment Plans Section </th>
      <th> Mostrar los planes de pago del sistema en la landing page de GasGuard  </th>
-     <th> 0.3  </th>
+     <th> 4.5 </th>
      <th> Samira Alvarez </th> 
      <th> Done </th>
    </tr>
@@ -3022,7 +3039,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W03  </th>
      <th> Responsive Design </th>
      <th> Adaptar el diseño de la landing page de GasGuard para distintos dispositivos  </th>
-     <th> 0.5  </th>
+     <th> 4 </th>
      <th> Joseph Llacchua </th> 
      <th> Done </th>
    </tr>
@@ -3055,7 +3072,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W04  </th>
      <th> Add device feature </th>
      <th> Implementar el prototipo inicial para agregar un nuevo dispositivo </th>
-     <th> 2.5  </th>
+     <th> 4  </th>
      <th> Zaid Ramirez</th> 
      <th> Done </th>
    </tr>
@@ -3066,7 +3083,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W04  </th>
      <th> Delete device feature </th>
      <th> Implementar el prototipo inicial para eliminar un dispositivo </th>
-     <th> 0.3  </th>
+     <th> 4  </th>
      <th> Piero Ticona</th> 
      <th> Done </th>
    </tr>
@@ -3079,7 +3096,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W04  </th>
      <th> Device Management </th>
      <th> Implementar el diseño inicial de la gestión de dispositivos para ver la actividad de los sensores y actuadores </th>
-     <th> 2  </th>
+     <th> 4  </th>
      <th> Samira Alvarez</th> 
      <th> Done </th>
    </tr>
@@ -3427,7 +3444,7 @@ Link al deploy de la landing page: https://iot-gasguard.github.io/GasGuard-Landi
 
 Así mismo, se desarrolló el prototipo inicial del diseño de la página web de GasGuard, donde se visualizan las principales funcionalidades y estadísticas del sistema.
 
-Link al deploy de la aplicación web: 
+Link al deploy de la aplicación web: https://gasguardiot.netlify.app/ 
 
 **Dashboard**
 <img src="./assets/execution_evidence/sprint_1/dashboard.PNG">
@@ -3449,6 +3466,22 @@ En este sprint 1, se ha desployado la versión inicial de la landing page y apli
 2. Una vez realizado esto, en el apartado de "Sections" se va a visualizar el estado del deploy, si se encuentra en progreso, ha ocurrido un error o si ha sido construido correctamente.
 
 <img src="./assets/execution_evidence/sprint_1/actions-github.PNG">
+
+**Despliegue Aplicación Web**
+1. Dado que realizamos el despliegue de la app web mediante Netlify, no dirigimos al apartado "Projects" y presionamos el botón "Add new project". De esta lista, seleccionamos "Import an existing project".
+
+<img src="./assets/execution_evidence/sprint_1/netlify-add.PNG">
+
+2. Elegimos la opción de deployar con GitHub para iniciar sesión con la cuenta de la plataforma.
+
+<img src="./assets/execution_evidence/sprint_1/netlify-deploy.PNG">
+
+3. Ahora seleccionamos la organización en la que se encuentra el repositorio que se desea deployar, en nuestro caso la organización es "IoT - GasGuard", y el repositorio donde se encuentra nuestra aplicación web es "GasGuard-App".
+<img src="./assets/execution_evidence/sprint_1/netlify-organization.PNG">
+   
+4. Una vez en el proyecto, procederemos a configurar el nombre del depoy, así como la rama en donde se construirá el despliegue. Finalizaremos dandole click al botón de "Deploy gasguardiot" en el final de la página.
+<img src="./assets/execution_evidence/sprint_1/netlify-configuration.PNG">
+<img src="./assets/execution_evidence/sprint_1/netlify-configuration-2.PNG">
 
 ### 6.2.1.9 Team Collaboration Insights during Sprint.
 
@@ -3571,3 +3604,7 @@ Link de la exposición de la TB1: https://youtu.be/2CsRgKz3QEI
 Link de la organización en GitHub: https://github.com/IoT-GasGuard
 
 Repositorio del informe: https://github.com/IoT-GasGuard/Project-report
+
+Link al deploy de la landing page: https://iot-gasguard.github.io/GasGuard-LandingPage/ 
+
+Link al deploy de la aplicación web: https://gasguardiot.netlify.app/  
