@@ -3977,6 +3977,9 @@ En conclusión, el proyecto GasGuard es sustendado bajo un análisis riguroso de
 
 Hemos planteado hipótesis claras que orientan el desarrollo del sistema, priorizando funcionalidades clave como la detección temprana, la respuesta automática ante emergencias, la gestión inteligente del hogar y la notificación inmediata a los usuarios. A ello se suma una propuesta de valor que abarca tanto el diseño intuitivo de la interfaz, como el desarrollo de hardware confiable, estrategias de sensibilización, y un modelo de negocio sostenible. Todo esto con el fin de mejorar la seguridad de los hogares y generar confianza en el uso de tecnología IoT para proteger vidas.
 
+Luego de validar las necesidades del usuario y definir la arquitectura y los procesos clave del sistema, se desarrolló y desplegó la landing page de GasGuard, junto con una maqueta inicial de la aplicación web que muestra sus primeras interfaces, a la espera de conexión con el backend para habilitar su funcionalidad.
+
+
 
 # Bibliografía
 
