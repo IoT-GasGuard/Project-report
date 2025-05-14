@@ -268,6 +268,9 @@ Alvarez Araguache, Samira Jetzabel <br>
 **TB1** <br>
 Para esta entrega, el trabajo se llevó a cabo de manera cooperativa, involucrando a todos los integrantes en el desarrollo de las tareas del proyecto. Para la realización de las entrevistas fue parte fundamental la participación de cada miembro en la recolección de información clave para definir las funcionalidades de nuestra solución. Asímismo, el uso de Gitflow facilitó un flujo de trabajo eficiente, permitiendo a cada miembro contribuir al desarrollo de la documentación de manera coordinada y fluida. 
 
+**TP** <br>
+Se trabajó de manera colaborativa en el desarrollo del Sprint Backlog 1, asignando de forma equitativa las historias de usuario entre los integrantes del equipo, lo cual permitió una organización efectiva y liderazgo compartido. Como resultado, se presentó la evidencia del avance logrado, incluyendo el despliegue inicial de la aplicación web y de la landing page, mostrando el compromiso y la coordinación del equipo en alcanzar los objetivos establecidos.
+
 Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
 En esta etapa, el trabajo se hizo en conjunto donde cada integrante aportó su conocimiento y habilidad para el diseño del proyecto. Se usaron, además, herramientas para la creación de las user personas que nos ayudaran a entender correctamente y en su totalidad las necesidades de nuestro segmento objetivo e idear un plan de acción para abarcarlas.
@@ -285,6 +288,9 @@ Para esta entrega se utilizaron herramientas de maquetado de interfaces de usuar
 Ticona Luque, Rony Piero <br>
 **TB1** <br>
 En esta entrega, se utilizó una herramienta de modelado C4 en Structurizr para el desarrollo de los diagramas de contexto, contenedores y componentes que serán implementados en el proyecto. Además, se emplearon herramientas como Lucidchart y Vertabelo para crear los diagramas de las bases de datos. También se realizaron entrevistas para identificar y comprender mejor las necesidades del segmento de público objetivo, lo cual fue fundamental para definir las funcionalidades clave del proyecto.
+
+**TP** <br>
+En esta entrega se detallaron las principales herramientas que se utilizarán a lo largo del proyecto, tales como Markdown, Git, GitHub, Figma, Miro, Structurizr, UXPressia y Visual Studio Code, todas seleccionadas por su utilidad en las distintas etapas del desarrollo. Además, se establecieron las convenciones de codificación y buenas prácticas que guiarán el trabajo del equipo. Finalmente, se documentó la configuración del despliegue de la landing page, la cual fue publicada a través de GitHub Pages.
  
 Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
@@ -309,6 +315,9 @@ Alvarez Araguache, Samira Jetzabel  <br>
 **TB1** <br>
 En esta etapa del proyecto, se logró determinar el estado actual del mercado relacionado con soluciones tecnológicas orientadas a la seguridad del hogar, en particular aquellas vinculadas a IoT y detección de fugas de gas. Este análisis permitió identificar fortalezas y debilidades de productos similares, así como plantear estrategias para diferenciar a GasGuard, posicionándolo como una solución accesible, confiable y centrada en el usuario. Además, se profundizó en el comportamiento, necesidades y motivaciones de los potenciales usuarios mediante entrevistas y ejercicios de empatía, lo que permitió establecer los objetivos principales del proyecto a largo plazo.
 
+**TP** <br>
+Se fomentó un entorno colaborativo e inclusivo mediante la participación activa de todos los integrantes en la definición de metas claras, planificación de tareas y asignación de responsabilidades durante el Sprint 1. Esta organización permitió cumplir los objetivos trazados, como el desarrollo y despliegue de la landing page y la maqueta funcional de la aplicación web, asegurando que cada miembro contribuyera desde sus fortalezas y con autonomía.
+
 Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
 Para esta entrega se identificaron los usuarios objetivos del proyecto, por lo que se analizaron sus habilidades, necesidades y frustraciones para diseñar el producto de manera que pueda cumplir de manera eficiente todas estas cosas. Además se identificaron los competidores para conocer las distintas tacticas y funciones que ofrecen para poder mejorar y apuntar a objetivos mas especifico y asi diferenciarnos de la competencia. Todo este estudio se llevo a cabo para ofrecer la mejor version de la solucion IoT y asi atacar eficientemente al problema al que se dirige nuestro proyecto.
@@ -326,6 +335,9 @@ En esta entrega se logró diseñar una interfaz de usuario que cumple con buenas
 Ticona Luque Rony Piero <br>
 **TB1** <br>
 En esta entrega del proyecto, se avanzó en la definición y diseño de la solución tecnológica. Se desarrollaron diagramas de contexto, contenedores y componentes utilizando herramientas de modelado C4 en Structurizr, estableciendo una base sólida para la arquitectura del sistema. Adicionalmente, se emplearon Lucidchart y Vertabelo para crear diagramas detallados de las bases de datos. Adicional de realizaron entrevistas del segmento objetivo para profundizar en la comprensión de sus necesidades, expectativas y problemas clave.
+
+**TP** <br>
+Durante esta entrega del proyecto, se identificaron y presentaron las herramientas clave que se utilizarán durante el ciclo de desarrollo, tales como Markdown, Git, GitHub, Figma, Miro, Structurizr, UXPressia y Visual Studio Code, seleccionadas por su relevancia en cada etapa del proceso. También se acordaron las convenciones de codificación y buenas prácticas que facilitarán el trabajo colaborativo. Por último, se dejó registrada la configuración y el despliegue inicial de la landing page a través de GitHub Pages.
 
 Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
@@ -835,6 +847,7 @@ Preocupado por la seguridad de su vivienda o las personas que viven en ella. Int
 
 ## 2.2. Entrevistas
 
+Con el objetivo de comprender mejor las necesidades, percepciones y expectativas de los usuarios en torno a la seguridad doméstica relacionada con el uso de gas, se diseñaron entrevistas cualitativas para recopilar información clave que oriente el desarrollo de GasGuard. Estas entrevistas permitieron explorar el uso actual de sistemas de detección de fugas, el nivel de seguridad percibido en el hogar, las funcionalidades deseadas en una app de monitoreo automático, así como preferencias de diseño y experiencia de usuario. Además, se buscó identificar oportunidades de mejora a partir de experiencias previas con soluciones similares, evaluando la disposición de los usuarios a confiar y pagar por una herramienta como GasGuard.
 
 ### 2.2.1. Diseño de entrevistas
 
@@ -3103,11 +3116,141 @@ Prototipo
 [Link del prototipo](https://www.figma.com/proto/vUKkvFktm6YLhDpJcmccEe/Untitled?node-id=4-118&p=f&t=9t8WrTOrU3z0aaPk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3)
 
 # Capítulo VI: Product Implementation, Validation & Deployment
+
 ## 6.1. Software Configuration Management.
+
 ### 6.1.1. Software Development Environment Configuration.
+
+En este apartado se detallan las herramientas de software utilizadas por los integrantes del equipo, junto con los enlaces correspondientes que permiten asignar a cada miembro el rol de administrador y facilitar la implementación de sus modificaciones en el proyecto.
+
+Project Management:
+
+* Formato Markdown
+
+  * Objetivo: Estructurar el informe en varios archivos con extensión .md, divididos por capítulos, para facilitar su desarrollo y, posteriormente, generar a partir de ellos el archivo PDF que será entregado en el aula virtual.
+  * Ruta: <a href="https://github.com/IoT-GasGuard/Project-report/tree/main">Enlace al informe</a>
+
+* Git y Github
+
+  * Objetivo: Utilizado para gestionar el control de versiones del proyecto.
+  * Herramienta: <a href="https://github.com/">https://github.com/</a>
+
+* Whatsapp
+
+  * Objetivo: Facilitar la comunicación, coordinación de reuniones y el intercambio de documentación relevante entre los miembros del equipo.
+  * Herramienta: <a href="https://web.whatsapp.com/">https://web.whatsapp.com/</a>
+
+Product UX/UI Design:
+
+* Figma
+
+  * Objetivo: Creación de wireframes, Mock-ups y prototipos interactivos.
+  * Herramienta: <a href="https://www.figma.com/">https://www.figma.com/</a>
+
+* Miro
+
+  * Objetivo: Mapas de escenarios actuales (As-Is) y futuros (To-Be).
+  * Herramienta: <a href="https://miro.com/">https://miro.com/</a>
+
+* Structurizr
+
+  * Objetivo: Creación de diagramas C4.
+  * Herramienta: <a href="https://structurizr.com/">https://structurizr.com/</a>
+
+* UXPressia
+
+  * Objetivo: Creación de perfiles de usuarios (User Personas), mapas de empatía (Empathy Maps), mapas de recorrido (Journey Maps) y mapas de impacto (Impact Maps).
+  * Herramienta: <a href="https://uxpressia.com/">https://uxpressia.com/</a>
+
+Software Development:
+
+* Visual Studio Code y Next.js Framework
+
+  * Objetivo: El equipo empleó un editor de código para el desarrollo de la Landing Page, la aplicación web frontend y los servicios web. Para el frontend, se utilizó el framework Next.js junto con HTML5, CSS3 y JavaScript.
+
+Software Testing, Software Deployment:
+
+* GitHub Pages:
+
+  * Objetivo: Desplegar la landing Page.
+  * Herramienta: <a href="https://pages.github.com/">https://pages.github.com/</a>
+
+* Netlify:
+
+  * Objetivo: Desplegar la aplicación web.
+  * Herramienta: <a href="https://www.netlify.com/">https://www.netlify.com/</a>
+
 ### 6.1.2. Source Code Management.
+
+Conforme se indicó en la sección anterior, GitHub se utiliza como plataforma para el control de versiones, permitiendo una gestión estructurada y eficiente de las modificaciones realizadas en el desarrollo del proyecto de nuestra startup.
+
+En este sentido, se definieron dos ramas específicas para el desarrollo:
+
+* Main: Esta rama alberga la versión estable de nuestra landing page, después de que cada componente fuera validado y aprobado mediante una pull request.
+
+* Develop: En esta rama se encuentran las versiones en las que se llevaron a cabo pruebas de los componentes implementados por cada integrante del equipo en la landing page.
+
+Conventional Commits:
+
+* fix: Para corregir un error en el repositorio.
+* feat: Se emplea para agregar una nuevo  feature al repositorio.
+* add: Indica que se han incorporado nuevos archivos o carpetas.
+* test: Para indicar que se agregaron nuevos tests.
+
+Repositorios:
+
+* Landing page: <a href="https://github.com/IoT-GasGuard/GasGuard-LandingPage/tree/develop">Enlace al Landing page</a>
+* Frontend Web Application: <a href="https://github.com/IoT-GasGuard/GasGuard-App/tree/develop">Enlace al Frontend</a>
+* Informe: <a href="https://github.com/IoT-GasGuard/Project-report/tree/main">Enlace al informe</a>
+
 ### 6.1.3. Source Code Style Guide & Conventions.
+
+En la siguiente sección se detallarán las convenciones adoptadas para el desarrollo del proyecto, las cuales se fundamentan en las especificaciones Gherkin, la guía de estilo HTML, las convenciones de codificación Java.
+
+* HTML
+
+  Se seguirán las recomendaciones establecidas en la guía de estilo y codificación HTML de W3Schools, aplicando convenciones fundamentales como la declaración obligatoria del tipo de documento (<!DOCTYPE>), el uso consistente de etiquetas y atributos en minúsculas para asegurar un código ordenado, y el cierre correcto de todas las etiquetas para evitar errores. Asimismo, se utilizarán comillas en los valores de los atributos y se incluirán siempre los atributos alt, width y height en las imágenes, con el fin de mejorar tanto la accesibilidad como el posicionamiento en buscadores (SEO). También se evitará omitir etiquetas estructurales y metadatos relevantes para asegurar una correcta optimización en motores de búsqueda.
+
+* CSS
+
+  Siguiendo las recomendaciones de la “Guía de Estilo HTML/CSS de Google”, se adoptarán buenas prácticas como el uso de nombres de clase breves, descriptivos y generales, separados por guiones. Se dará preferencia a los selectores de clase sobre los selectores de ID, y se emplearán propiedades abreviadas como margin, padding y border para mejorar la legibilidad del código y optimizar su extensión. Estas directrices permiten mantener un estilo CSS más limpio, organizado y fácilmente escalable.
+
+* JavaScript
+
+  Se aplicarán las mejores prácticas de JavaScript recomendadas por el W3C, dando prioridad al uso de nombres breves y comprensibles para variables y funciones. Se evitará declarar variables en el ámbito global mediante var, optando por let o const para prevenir conflictos de nombres y errores en el mantenimiento del código. Además, se documentarán únicamente las secciones que lo requieran, especialmente aquellas de mayor complejidad, y se emplearán operadores y notaciones simples para trabajar con estructuras de datos de manera clara y eficiente.
+
+* Gherkin
+
+  Para la elaboración de pruebas, se adoptarán las convenciones establecidas en la guía “Gherkin Conventions for Readable Specifications”. Se estructurarán claramente los bloques Given-When-Then utilizando una indentación apropiada y la palabra clave "And" para agregar pasos adicionales. Cuando los escenarios requieran más detalles, se emplearán tablas, y los parámetros se expresarán entre comillas simples para mejorar la claridad. Además, los distintos escenarios se separarán mediante comentarios con el fin de facilitar su organización visual.
+
+* Control de versiones
+
+  El control de versiones se gestionará mediante Git a través de la plataforma GitHub, aplicando el flujo de trabajo GitFlow junto con las convenciones de Conventional Commits y Semantic Versioning. Esta combinación facilitará la integración continua, permitirá automatizar los despliegues y optimizará el manejo de correcciones rápidas (hotfixes).
+
 ### 6.1.4. Software Deployment Configuration.
+
+**Despliegue de la landing page en GitHub Pages:**
+
+Para el despliegue de la landing page del proyecto, se utilizó GitHub Pages como solución de hosting estático gratuita y eficiente. Esta plataforma permitió publicar directamente desde el repositorio, facilitando la visualización y prueba del sitio por parte de los miembros del equipo y usuarios interesados.
+
+El proceso de despliegue consistió en los siguientes pasos:
+
+* Configuración del repositorio para que apunte a la rama main como fuente del sitio.
+
+* Publicación automática a través de GitHub Actions o manual mediante la opción de GitHub Pages, seleccionando la carpeta correspondiente como directorio fuente.
+
+**Despliegue del frontend en React utilizando Netlify:**
+
+Para el despliegue del frontend del proyecto desarrollado con React, se utilizó Netlify como plataforma de hosting estático por su facilidad de uso, integración continua con GitHub y despliegue automatizado. Esta solución permitió compartir rápidamente versiones funcionales de la aplicación con el equipo de desarrollo y usuarios finales para su prueba y validación.
+
+El proceso de despliegue se realizó siguiendo estos pasos:
+
+* Conexión del repositorio de GitHub a Netlify, autorizando el acceso y seleccionando el repositorio del proyecto.
+
+* Configuración de los parámetros de construcción, especificando el comando de build (npm run build) y la carpeta de salida (build/).
+
+* Activación del despliegue automático, lo que permitió que cada push a la rama principal (main) generara una nueva versión del sitio en producción.
+
 ## 6.2. Landing Page, Services & Applications Implementation.
 
 ### 6.2.1. Sprint 1
@@ -3279,7 +3422,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W01  </th>
      <th> Features Section  </th>
      <th> Mostrar las funcionalidades del sistema en la landing page de GasGuard</th>
-     <th> 0.2  </th>
+     <th> 4.5 </th>
      <th> Gerardo Quilla </th> 
      <th> Done </th>
    </tr>
@@ -3289,7 +3432,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W02  </th>
      <th> Payment Plans Section </th>
      <th> Mostrar los planes de pago del sistema en la landing page de GasGuard  </th>
-     <th> 0.3  </th>
+     <th> 4.5 </th>
      <th> Samira Alvarez </th> 
      <th> Done </th>
    </tr>
@@ -3299,7 +3442,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W03  </th>
      <th> Responsive Design </th>
      <th> Adaptar el diseño de la landing page de GasGuard para distintos dispositivos  </th>
-     <th> 0.5  </th>
+     <th> 4 </th>
      <th> Joseph Llacchua </th> 
      <th> Done </th>
    </tr>
@@ -3332,7 +3475,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W04  </th>
      <th> Add device feature </th>
      <th> Implementar el prototipo inicial para agregar un nuevo dispositivo </th>
-     <th> 2.5  </th>
+     <th> 4  </th>
      <th> Zaid Ramirez</th> 
      <th> Done </th>
    </tr>
@@ -3343,7 +3486,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W04  </th>
      <th> Delete device feature </th>
      <th> Implementar el prototipo inicial para eliminar un dispositivo </th>
-     <th> 0.3  </th>
+     <th> 4  </th>
      <th> Piero Ticona</th> 
      <th> Done </th>
    </tr>
@@ -3356,7 +3499,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
       <th> W04  </th>
      <th> Device Management </th>
      <th> Implementar el diseño inicial de la gestión de dispositivos para ver la actividad de los sensores y actuadores </th>
-     <th> 2  </th>
+     <th> 4  </th>
      <th> Samira Alvarez</th> 
      <th> Done </th>
    </tr>
@@ -3440,6 +3583,142 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> feat: rebranding </th>
    <th> </th>
    <th> 09/05/2025 </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> refactor/structure </th>
+   <th>abac1951d48f420c1a8ac6152d267819c540cc65</th>
+   <th> style(nav): center align about section tabs </th>
+   <th> </th>
+   <th> 10/05/2025 </th>
+  </tr>
+
+   <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> refactor/structure </th>
+   <th>bc372591f2b4d9a1347285c9c2a511575f98a586</th>
+   <th> style(nav): move inline styles to stylesheet </th>
+   <th> </th>
+   <th> 10/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> refactor/structure </th>
+   <th>e33fb655ee0ebceaf2db4b6f356e4849268d3dd2</th>
+   <th> refactor(css): remove unused variables </th>
+   <th> </th>
+   <th> 10/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> dev-jllacchua </th>
+   <th>23877844bca0f4746ce43f709d23800db3506bc6</th>
+   <th> fix: mejorar estilo de tarjetas de equipo </th>
+   <th> </th>
+   <th> 10/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>29ad6ddf36e42e08c637c890256d2083c0a62e71</th>
+   <th> style(footer): add index hover effect </th>
+   <th> </th>
+   <th> 11/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>2212a09175c560414eedbbb6642597a514dfe077</th>
+   <th> style(section-title): titles background color </th>
+   <th> </th>
+   <th> 11/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> fix/-visual-bugs </th>
+   <th>647a69d9966c574ba93d71611ab348007abcf7f0</th>
+   <th> fix: div error </th>
+   <th> </th>
+   <th> 13/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> fix/-visual-bugs </th>
+   <th>e6f8d235d32a7238cc558c9de3d6eb076347918b</th>
+   <th> fix: style overstepping </th>
+   <th> </th>
+   <th> 13/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> develop </th>
+   <th>a93dfb1d630423fc844dcdaf1d3d02ecbb4afe27</th>
+   <th> Initial commit  </th>
+   <th> </th>
+   <th> 09/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> develop </th>
+   <th>b3e92b494ab05e800802b2607130be96a69d838c</th>
+   <th> initial configuration  </th>
+   <th> </th>
+   <th> 13/05/2025  </th>
+  </tr>
+
+   <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-management </th>
+   <th> 39854df35b5f70389ed5d81b0599ebecce43d5eb</th>
+   <th> feat: add ui elements  </th>
+   <th> </th>
+   <th> 13/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-management </th>
+   <th> 5afa138e946a4a4bcb93bd3986514483a7db0684</th>
+   <th> feat: add device-management component  </th>
+   <th> </th>
+   <th> 13/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/dashboard </th>
+   <th> 0d9c61d36a98967a698461bd55d0d1b61848a8be</th>
+   <th> feat: add dashboard components  </th>
+   <th> </th>
+   <th> 14/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/dashboard </th>
+   <th> 0d9c61d36a98967a698461bd55d0d1b61848a8be</th>
+   <th> feat: add context and device pages </th>
+   <th> </th>
+   <th> 14/05/2025  </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> main </th>
+   <th> f2b89ac892cbb7fa646a8aac2a668c134e7c1321</th>
+   <th> Merge pull request #3 from IoT-GasGuard/develop
+</th>
+   <th> </th>
+   <th> 14/05/2025  </th>
   </tr>
 
   </table>
@@ -3568,7 +3847,7 @@ Link al deploy de la landing page: https://iot-gasguard.github.io/GasGuard-Landi
 
 Así mismo, se desarrolló el prototipo inicial del diseño de la página web de GasGuard, donde se visualizan las principales funcionalidades y estadísticas del sistema.
 
-Link al deploy de la página web: 
+Link al deploy de la aplicación web: https://gasguardiot.netlify.app/ 
 
 **Dashboard**
 <img src="./assets/execution_evidence/sprint_1/dashboard.PNG">
@@ -3591,6 +3870,22 @@ En este sprint 1, se ha desployado la versión inicial de la landing page y apli
 
 <img src="./assets/execution_evidence/sprint_1/actions-github.PNG">
 
+**Despliegue Aplicación Web**
+1. Dado que realizamos el despliegue de la app web mediante Netlify, no dirigimos al apartado "Projects" y presionamos el botón "Add new project". De esta lista, seleccionamos "Import an existing project".
+
+<img src="./assets/execution_evidence/sprint_1/netlify-add.PNG">
+
+2. Elegimos la opción de deployar con GitHub para iniciar sesión con la cuenta de la plataforma.
+
+<img src="./assets/execution_evidence/sprint_1/netlify-deploy.PNG">
+
+3. Ahora seleccionamos la organización en la que se encuentra el repositorio que se desea deployar, en nuestro caso la organización es "IoT - GasGuard", y el repositorio donde se encuentra nuestra aplicación web es "GasGuard-App".
+<img src="./assets/execution_evidence/sprint_1/netlify-organization.PNG">
+   
+4. Una vez en el proyecto, procederemos a configurar el nombre del depoy, así como la rama en donde se construirá el despliegue. Finalizaremos dandole click al botón de "Deploy gasguardiot" en el final de la página.
+<img src="./assets/execution_evidence/sprint_1/netlify-configuration.PNG">
+<img src="./assets/execution_evidence/sprint_1/netlify-configuration-2.PNG">
+
 ### 6.2.1.9 Team Collaboration Insights during Sprint.
 
 <table>
@@ -3601,27 +3896,26 @@ En este sprint 1, se ha desployado la versión inicial de la landing page y apli
 
   <tr> 
    <th> Alvarez Araguache, Samira Jetzabel  </th>
-   <th>  Implementación de la landing page en versión desktop y mobile. </th>
+   <th>  Implementación de la landing page. Implementación de device management en la aplicación web  </th>
  </tr>
   <tr> 
    <th> Llacchua Peralta, Joseph Ulysses </th>
-   <th> </th>
+   <th> Implementación del monitoreo de dispositivos. Mejoras en la landing page </th>
  </tr>
   <tr> 
    <th> Quilla Luyo, Jorge Gerardo  </th>
-   <th>  </th>
+   <th> Implementación del dashboard en la aplicación web. Mejoras en la landing page  </th>
  </tr>
   <tr> 
    <th> Ramirez Contreras, Zaid Valentino 	 </th>
-   <th>   </th>
+   <th>  Implementación de la vista de los protocolos de seguridad en la aplicación web. Mejoras en la landing page </th>
  </tr> 
  <tr> 
    <th> Ticona Luque, Rony Piero  </th>
-   <th>   </th>
+   <th>  Implementación de las lecturas en la aplicación web. Mejoras en la landing page</th>
  </tr>
 </table>
 
-Se realizó en conjunto un total de 6 commits para el desarrollo de la landing page entre el agregado de secciones, corrección de bugs y cambios en el diseño. Mientras tanto, para el desarrollo de la web application se realizaron en total  commits.
 
 A continuación, se presentara la tabla de colaboradores en los repositorios para identificar las contribuciones de cada integrante del equipo en el desarrollo de los puntos establecidos en este sprint 1.
 
@@ -3660,12 +3954,43 @@ Tabla de integrantes:
 
 A continuación, se enseñarán los insights de ambos repositorios, donde se podrá observar los commits que se han realizado para cumplir con las metas de este sprint:
 
+**Landing Page**
+
+<img src="./assets/collaboration_insights_sprint1/landing-commits.PNG">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint1/landing-flujo.PNG">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint1/landing-insights.PNG">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+
+**Web App**
+
+<img src="./assets/collaboration_insights_sprint1/web-app-commits.PNG">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint1/web-app-flujo.PNG">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint1/web-app-insights.PNG">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
 
 
 # Conclusiones y Recomendaciones
 En conclusión, el proyecto GasGuard es sustendado bajo un análisis riguroso de las necesidades reales de los usuarios, apoyado por entrevistas, investigación de mercado y herramientas de diseño centradas en las personas. A lo largo del proceso, se identificaron problemáticas críticas relacionadas con la seguridad doméstica frente a fugas de gas, así como oportunidades para ofrecer una solución tecnológica accesible, preventiva y automatizada.
 
 Hemos planteado hipótesis claras que orientan el desarrollo del sistema, priorizando funcionalidades clave como la detección temprana, la respuesta automática ante emergencias, la gestión inteligente del hogar y la notificación inmediata a los usuarios. A ello se suma una propuesta de valor que abarca tanto el diseño intuitivo de la interfaz, como el desarrollo de hardware confiable, estrategias de sensibilización, y un modelo de negocio sostenible. Todo esto con el fin de mejorar la seguridad de los hogares y generar confianza en el uso de tecnología IoT para proteger vidas.
+
+Luego de validar las necesidades del usuario y definir la arquitectura y los procesos clave del sistema, se desarrolló y desplegó la landing page de GasGuard, junto con una maqueta inicial de la aplicación web que muestra sus primeras interfaces, a la espera de conexión con el backend para habilitar su funcionalidad.
+
 
 
 # Bibliografía
@@ -3685,3 +4010,7 @@ Link de la exposición de la TB1: https://youtu.be/2CsRgKz3QEI
 Link de la organización en GitHub: https://github.com/IoT-GasGuard
 
 Repositorio del informe: https://github.com/IoT-GasGuard/Project-report
+
+Link al deploy de la landing page: https://iot-gasguard.github.io/GasGuard-LandingPage/ 
+
+Link al deploy de la aplicación web: https://gasguardiot.netlify.app/  
