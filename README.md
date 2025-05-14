@@ -284,6 +284,8 @@ Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
 En esta entrega, trabajamos en la definición de metas claras, distribuyendo responsabilidades según las habilidades individuales mientras manteníamos un propósito colectivo. Mediante una planificación colaborativa, establecimos hitos y mecanismos de seguimiento que permitieron ajustar estrategias de manera ágil. Este proceso no solo optimizó la eficiencia, sino que también reforzó la confianza y el compromiso mutuo.
 
+**TP** <br>
+Durante esta fase, prioricé la creación de un espacio de trabajo colaborativo e integrador, fortaleciendo la comunicación entre los miembros del equipo. Lideré la investigación sobre experiencia de usuario en sistemas de seguridad, enfocándome en optimizar interfaces para situaciones de emergencia. Desarrollé wireframes iniciales para las aplicaciones móvil y web aplicando principios de diseño centrado en el usuario, lo que enriqueció el proyecto con diversas perspectivas técnicas y creativas.
 
 </td>
          <td> TB1: Conclusiones <br>
@@ -316,6 +318,9 @@ En esta entrega del proyecto, se avanzó en la definición y diseño de la soluc
 Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
 Durante esta fase, prioricé la creación de un espacio de trabajo en equipo, integrando diversas perspectivas y fortaleciendo la comunicación. Realizamos una revisión conjunta de la literatura existente, analizamos los segmentos objetivos de manera participativa y exploramos metodologías de resolución de problemas en conjunto. Este enfoque inclusivo permitió enriquecer el proyecto con aportes diversos y fomentar un sentido de pertenencia en el equipo.
+
+**TP** <br>
+En esta etapa, lideré el desarrollo de la arquitectura de información y directrices de estilo para GasGuard, definiendo sistemas de navegación intuitivos y patrones de diseño optimizados para situaciones críticas. Implementé la guía completa de estilo (tipografía, paleta de colores, y elementos de interfaz) y desarrollé un sistema de organización y etiquetado que facilita el uso de la aplicación en momentos de emergencia, considerando distintos niveles de alfabetización digital.
 
 </td>
             <td> TB1: Conclusiones<br>
@@ -2495,7 +2500,7 @@ El nombre de la solución IoT es GasGuard. Este nombre nació de la combinación
 
 **Colores de acento:** Se utiliza un azul más oscuro (#345F75) para botones y elementos interactivos principales como "INICIA AHORA", creando puntos focales que guían al usuario a través de las acciones importantes. En situaciones de alerta o emergencia, se incorpora un rojo (#E53935) que señaliza claramente situaciones de peligro.
 
-![Colores primarios](./assets/images/brand/primary_colors.png)
+![Colores primarios](https://i.imgur.com/RaXLVCG.png)
 
 **Tipografía**
 
@@ -2514,7 +2519,6 @@ El tipo de lenguaje a emplear será claro, directo y tranquilizador junto con pr
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
-## 5.2. Information Architecture
 Con respecto a la página web, está diseñada para mostrarse en el dispositivo que se esté usando, ya sea desde una computadora o dispositivo móvil (responsive), el sitio web estará disponible en ambas plataformas para proporcionar una mejor experiencia de usuario. Además, el patrón de diseño web usado es Flat Design con elementos de Material Design, para que el usuario tenga una alta comprensión y una fácil interacción al momento de estar en la interfaz.
 
 **Responsive web interfaces**
@@ -2628,35 +2632,7 @@ Para que los usuarios encuentren fácilmente la información relevante, se desar
 
 Estos sistemas garantizarán una respuesta rápida y precisa, mejorando la experiencia del usuario en todas las plataformas.
 
-### 5.2.5. Navigation Systems
-
-La navegación intuitiva es clave para que los usuarios accedan fácilmente a cualquier sección de GasGuard. Los sistemas de navegación a implementar son:
-
-- **Landing Page:**  
-  Un menú horizontal fijo en la parte superior con anclajes a secciones específicas, permitiendo saltar rápidamente a la información deseada.
-
-- **Aplicación Web:**  
-  Un menú lateral (sidebar) siempre visible en pantallas grandes, que se colapsa en dispositivos pequeños, junto con un sistema de breadcrumbs para mostrar la ruta de navegación actual y facilitar el regreso a secciones anteriores.
-
-- **Aplicación Móvil:**  
-  Una barra inferior (bottom navigation) con íconos representativos para funciones principales (Dashboard, Dispositivos, Alertas, Configuración), complementada con un menú hamburguesa para opciones secundarias y un botón flotante para acciones de emergencia.
-
-Estos mecanismos asegurarán una experiencia de navegación consistente y accesible en todos los dispositivos.
-
-### 5.2.4. Searching Systems
-
-Para que los usuarios encuentren fácilmente la información relevante, se desarrollarán sistemas de búsqueda optimizados en las distintas plataformas, incluyendo:
-
-- **Búsqueda en el Historial de Eventos:**  
-  Permite filtrar y buscar eventos por fecha, tipo, nivel de gravedad y ubicación dentro del hogar.
-
-- **Panel de Control de Dispositivos:**  
-  Facilita la búsqueda de sensores, actuadores y otros dispositivos por nombre, tipo o ubicación.
-
-- **Sección de Ayuda y Soporte:**  
-  Incorpora una barra de búsqueda para explorar preguntas frecuentes, tutoriales y artículos de soporte.
-
-Estos sistemas garantizarán una respuesta rápida y precisa, mejorando la experiencia del usuario en todas las plataformas.
+---
 
 ### 5.2.5. Navigation Systems
 
