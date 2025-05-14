@@ -276,6 +276,9 @@ Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
 En esta entrega, se usaron herramientas visuales para la elaboración de escenarios donde nuestra propuesta resuelve la problemática planteada. Además, se usó un formato estándar y entendible para redactar los requerimientos de nuestros segmentos objetivos. La información recolectada por cada integrante del equipo fue necesario para la correcta elaboración de cada punto en esta entrega y así estar todos coordinados.
 
+**TP** <br>
+Para esta entrega se utilizaron herramientas de maquetado de interfaces de usuario, además de documentar flujos acorde a los requerimientos core de la aplicación. También, se desarrollaron videos demostrativos para explicar el prototipo del landing page y de la aplicación web.
+
 Ticona Luque, Rony Piero <br>
 **TB1** <br>
 En esta entrega, se utilizó una herramienta de modelado C4 en Structurizr para el desarrollo de los diagramas de contexto, contenedores y componentes que serán implementados en el proyecto. Además, se emplearon herramientas como Lucidchart y Vertabelo para crear los diagramas de las bases de datos. También se realizaron entrevistas para identificar y comprender mejor las necesidades del segmento de público objetivo, lo cual fue fundamental para definir las funcionalidades clave del proyecto.
@@ -310,6 +313,9 @@ Para esta entrega se identificaron los usuarios objetivos del proyecto, por lo q
 Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
 En esta entrega, se logró redactar las historias de usuario, tomando en cuenta los posibles módulos de nuestra solución propuesta. También se priorizaron estos requerimientos para agilizar el desarrollo de las principales necesidades identificadas. Además, se realizó escenarios donde nuestra solución lograr satisfacer necesidades, resolver problemas y marcar una diferencia frente a la competencia.
+
+**TP** <br>
+En esta entrega se logró diseñar una interfaz de usuario que cumple con buenas prácticas y principios de usabilidad y consistencia. Por medio de la herramienta Figma, se elaboraron los prototipos respectivos para la landing page y la aplicacion web, además de definir los User Flow para conocer el recorrido y objetivo de cada pantalla o vista elaborada.
 
 Ticona Luque Rony Piero <br>
 **TB1** <br>
@@ -988,7 +994,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
 
 ## 3.1. To-Be Scenario Mapping
 
-<img src="./assets/scenario-mapping/to-be.png" alt="to-be scenario">
+<img src="./assets/scenario_mapping/to-be.png" alt="to-be scenario">
 
 Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540224366&cot=14">To-Be Scenario Mapping - GasGuard</a>
 
@@ -1069,6 +1075,17 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         Para conocer características y propósito de la aplicación      
       </td>
     </tr>
+    <tr>
+      <td>E7</td>
+      <td>Gestión de dispositivos</td>
+      <td>
+        Como usuario
+        <br>
+        Quiero vincular, nombrar y administrar mis dispositivos GasGuard desde la plataforma
+        <br>
+        Para controlar qué sensores están activos y supervisando mi hogar    
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -1102,7 +1119,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Cuando </strong>detecte una concentración de gas mayor al límite permitido
         <br>
-        <strong>Entonces </strong>se activa una alerta de fuga de gas
+        <strong>Entonces </strong>el sistema activará una alerta de fuga de gas
         <br><br>
         <strong>Escenario 2: Detección de gas dentro del límite establecido</strong>
         <br>
@@ -1110,7 +1127,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Cuando </strong>detecte una concentración de gas dentro del límite permitido
         <br>
-        <strong>Entonces </strong>el sensor continúa monitoreando el nivel de gas en el ambiente
+        <strong>Entonces </strong>el sensor continuará monitoreando el nivel de gas en el ambiente
       </td>
       <td>E1</td>
     </tr>
@@ -1131,9 +1148,9 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Cuando </strong>detecte que el nivel de gas sobrepasa el límite
         <br>
-        <strong>Entonces </strong>abrirá puertas y ventanas
+        <strong>Entonces </strong>el sistema abrirá puertas y ventanas
         <br>
-        <strong>Y </strong>cortará sistemas eléctricos
+        <strong>Y </strong>cortará los sistemas eléctricos
         <br>
         <strong>Y </strong>activará señales visuales
         <br><br>
@@ -1143,7 +1160,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Cuando </strong>detecte que el nivel de gas se encuentra dentro del límite
         <br>
-        <strong>Entonces </strong>los protocolos de seguridad permanecerán a la espera
+        <strong>Entonces </strong>los protocolos de seguridad permanecerán inactivos
       </td>
       <td>E1</td>
     </tr>
@@ -1155,24 +1172,24 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Quiero </strong>que las luces del ambiente se ajusten automáticamente a un nivel adecuado
         <br>
-        <strong>Para </strong>tener suficiente iluminación durante la fuga de gas
+        <strong>Para </strong>tener iluminación automática durante el día
       </td>
       <td>
-        <strong>Escenario 1: Ajustar intensidad de la luz</strong>
+        <strong>Escenario 1: Aumentar la intensidad de la luz</strong>
         <br>
-        <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
+        <strong>Dado que </strong>el sistema se encuentre activo
         <br>
-        <strong>Cuando </strong>detecte que el nivel de gas sobrepasa el límite
+        <strong>Cuando </strong>los sensores detecten un bajo nivel de luz en el ambiente
         <br>
-        <strong>Entonces </strong>se ajustará automaticamente la intensidad de las luces en el ambiente
+        <strong>Entonces </strong>el sistema aumentará automáticamente la intensidad de las luces
         <br><br>
-        <strong>Escenario 2: Luces en intensidad normal</strong>
+        <strong>Escenario 2: Disminuir la intensidad de la luz</strong>
         <br>
-        <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
+        <strong>Dado que </strong>el sistema se encuentre activo
         <br>
-        <strong>Cuando </strong>el nivel de gas se encuentra dentro del límite
+        <strong>Cuando </strong>los sensores detecten un alto nivel de luz en el ambiente
         <br>
-        <strong>Entonces </strong>la intensidad de las luces permanecen normales
+        <strong>Entonces </strong>el sistema disminuirá automáticamente la intensidad de las luces
       </td>
       <td>E1</td>
     </tr>
@@ -1191,9 +1208,9 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
         <br>
-        <strong>Cuando </strong>envíe datos en tiempo real a la aplicación móvil
+        <strong>Cuando </strong>envíe datos en tiempo real a la aplicación
         <br>
-        <strong>Entonces </strong>se mostrarán los datos en una gráfica intuitiva
+        <strong>Entonces </strong>la aplicación mostrará los datos en una gráfica intuitiva
         <br><br>
         <strong>Escenario 2: Fallo en recepción de datos</strong>
         <br>
@@ -1201,7 +1218,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Cuando </strong>la aplicación no reciba lecturas
         <br>
-        <strong>Entonces </strong>se mostrará un mensaje indicando error al capturar datos
+        <strong>Entonces </strong>la aplicación mostrará un mensaje indicando error al capturar datos
       </td>
       <td>E2</td>
     </tr>
@@ -1220,402 +1237,545 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
         <br>
         <strong>Dado que </strong>el sensor detectó una fuga de gas
         <br>
-        <strong>Y </strong>ya se tomaron acciones necesarias
+        <strong>Y </strong>ya se tomaron las acciones necesarias
         <br>
-        <strong>Cuando </strong>ingreso a la aplicación de GasGuard
+        <strong>Cuando </strong>el usuario acceda a la aplicación
         <br>
-        <strong>Entonces </strong>tengo la opción de generar un reporte sobre el último incidente
+        <strong>Entonces </strong>el sistema mostrará la opción de generar un reporte sobre el último incidente
         <br>
-        <strong>Y </strong>puedo tomar las respectivas precauciones para evitar más problemas en un futuro
-        <br><br>
         <strong>Escenario 2: Reporte con niveles bajos de gas</strong>
         <br>
         <strong>Dado que </strong>el sensor se encuentra monitoreando el nivel de gas en el ambiente
         <br>
-        <strong>Cuando </strong>ingreso a la aplicación de GasGuard
+        <strong>Cuando </strong>el usuario acceda a la aplicación 
         <br>
-        <strong>Y </strong>tengo la opción de generar un reporte sobre el último incidente
+        <strong>Y </strong>solicite generar un reporte
         <br>
-        <strong>Entonces </strong>visualizo datos de niveles de gas normales sin lecturas peligrosas
+        <strong>Entonces </strong>el sistema mostrará datos de niveles de gas normales sin lecturas peligrosas
       </td>
       <td>E2</td>
     </tr>
     <tr>
-      <td>US06</td>
-      <td>Notificar a miembros del hogar</td>
-      <td>
-        <strong>Como </strong>usuario
-        <br>
-        <strong>Quiero </strong>que la aplicación notifique a los miembros registrados
-        <br>
-        <strong>Para </strong>que tomen sus medidas necesarias
-      </td>
-      <td>
-        <strong>Escenario 1: Notificar alerta a miembros registrados en la aplicación</strong>
-        <br>
-        <strong>Dado que </strong>tengo a otros usuarios registrados en la aplicación
-        <br>
-        <strong>Cuando </strong>se detecte niveles peligrosos de gas en el ambiente
-        <br>
-        <strong>Entonces </strong>se notificará a esos usuarios
-        <br><br>
-        <strong>Escenario 2: Notificaciones de calma a miembros registrados en la aplicación</strong>
-        <br>
-        <strong>Dado que </strong>tengo a otros usuarios registrados en la aplicación
-        <br>
-        <strong>Cuando </strong>se detecte niveles de gas dentro del límite
-        <br>
-        <strong>Entonces </strong>se notificarán a otros usuarios con mensajes de calma
-      </td>
-      <td>E3</td>
-    </tr>
+    <td>US06</td>
+    <td>Notificar a miembros del hogar</td>
+    <td>
+      <strong>Como </strong>usuario
+      <br>
+      <strong>Quiero </strong>que la aplicación notifique a los miembros asociados al sistema
+      <br>
+      <strong>Para </strong>que tomen medidas necesarias
+    </td>
+    <td>
+      <strong>Escenario 1: Notificar alerta por niveles peligrosos</strong>
+      <br>
+      <strong>Dado que </strong>existen usuarios asociados al sistema
+      <br>
+      <strong>Cuando </strong>se detecten niveles de gas superiores al límite seguro
+      <br>
+      <strong>Entonces </strong>el sistema enviará notificaciones de alerta a todos los usuarios
+      <br><br>
+      <strong>Escenario 2: Confirmación de niveles seguros</strong>
+      <br>
+      <strong>Dado que </strong>se activó previamente una alerta por niveles peligrosos
+      <br>
+      <strong>Cuando </strong>los niveles de gas vuelvan al rango seguro
+      <br>
+      <strong>Entonces </strong>el sistema enviará una notificación confirmando que la situación está controlada
+    </td>
+    <td>E3</td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Alertar a servicios de emergencia</td>
+    <td>
+      <strong>Como </strong>usuario
+      <br>
+      <strong>Quiero </strong>que la aplicación notifique a servicios de emergencia
+      <br>
+      <strong>Para </strong>que actúen rápidamente
+    </td>
+    <td>
+      <strong>Escenario 1: Alertar a servicios de emergencia</strong>
+      <br>
+      <strong>Dado que </strong>el sensor está monitoreando los niveles de gas
+      <br>
+      <strong>Y </strong>envía datos en tiempo real a la aplicación
+      <br>
+      <strong>Cuando </strong>la gráfica muestre niveles peligrosos
+      <br>
+      <strong>Entonces </strong>el sistema enviará una alerta a los servicios de emergencia
+      <br><br>
+      <strong>Escenario 2: Sin alteraciones en la gráfica</strong>
+      <br>
+      <strong>Dado que</strong> se detectaron niveles peligrosos de gas
+      <br>
+      <strong>Cuando</strong> el sistema no pueda contactar a los servicios de emergencia
+      <br>
+      <strong>Entonces</strong> el sistema reintentará el envío cada 30 segundos
+      <strong>Y </strong> activará todas las medidas de seguridad
+    </td>
+    <td>E3</td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Visualizar historial de alertas</td>
+    <td>
+      <strong>Como </strong>usuario
+      <br>
+      <strong>Quiero </strong>visualizar el historial de alertas
+      <br>
+      <strong>Para </strong>estar informado de las notificaciones enviadas
+    </td>
+    <td>
+      <strong>Escenario 1: Visualizar historial de notificaciones</strong>
+      <br>
+      <strong>Dado que </strong>el sistema ha enviado alertas
+      <br>
+      <strong>Y </strong>existen registros de notificaciones
+      <br>
+      <strong>Cuando </strong>el usuario acceda al historial
+      <br>
+      <strong>Entonces </strong>la aplicación mostrará el registro completo
+      <br>
+      <strong>Y </strong>permitirá ver detalles de cada alerta
+      <br><br>
+      <strong>Escenario 2: Historial vacío</strong>
+      <br>
+      <strong>Dado que </strong>no se han detectado incidentes
+      <br>
+      <strong>Cuando </strong>el usuario acceda al historial
+      <br>
+      <strong>Entonces </strong>la aplicación mostrará un historial vacío
+    </td>
+    <td>E3</td>
+  </tr>    
+  <tr>
+    <td>US09</td>
+    <td>Registrar usuario</td>
+    <td>
+      <strong>Como </strong>usuario
+      <br>
+      <strong>Quiero </strong>crear una cuenta
+      <br>
+      <strong>Para </strong>acceder a la aplicación
+    </td>
+    <td>
+      <strong>Escenario 1: Registro exitoso</strong>
+      <br>
+      <strong>Dado que</strong> un nuevo usuario accede a la aplicación
+      <br>
+      <strong>Cuando</strong> complete el formulario de registro
+      <br>
+      <strong>Y</strong> envíe la solicitud
+      <br>
+      <strong>Entonces</strong> el sistema guardará la información del usuario
+      <strong>Y</strong> mostrará un mensaje confirmando la creación de la cuenta
+      <br><br>
+      <strong>Escenario 2: Registro fallido</strong>
+      <br>
+      <strong>Dado que</strong> un nuevo usuario accede a la aplicación
+      <br>
+      <strong>Cuando</strong> complete solo algunos campos o escriba datos inválidos
+      <br>
+      <strong>Y</strong> presione el botón de "Register" 
+      <br>
+      <strong>Entonces</strong> el sistema no guardará la información del usuario
+      <strong>Y</strong> mostrará un mensaje indicando que no se ha podido registrar la cuenta
+    </td>
+    <td>E4</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Iniciar sesión</td>
+    <td>
+      <strong>Como </strong>usuario 
+      <br>
+      <strong>Quiero </strong>iniciar sesión
+      <br>
+      <strong>Para </strong>acceder a la aplicación
+    </td>
+    <td>
+      <strong>Escenario 1: Inicio de sesión exitoso</strong>
+      <br>
+      <strong>Dado que</strong> el usuario tiene una cuenta creada
+      <br>
+      <strong>Cuando</strong> ingrese credenciales correctas
+      <br>
+      <strong>Entonces</strong> el sistema permitirá el acceso
+      <br><br>
+      <strong>Escenario 2: Inicio fallido</strong>
+      <br>
+      <strong>Dado que</strong> el usuario tiene una cuenta creada
+      <br>
+      <strong>Cuando</strong> ingrese credenciales incorrectas
+      <br>
+      <strong>Entonces</strong> el sistema mostrará un error
+    </td>
+    <td>E4</td>
+  </tr>
+  <tr>
+    <td>US11</td>
+    <td>Recuperar contraseña</td>
+    <td>
+      <strong>Como </strong>usuario 
+      <br>
+      <strong>Quiero </strong>recibir un correo
+      <br>
+      <strong>Para </strong>reestablecer mi contraseña
+    </td>
+    <td>
+      <strong>Escenario 1: Recuperación exitosa</strong>
+      <br>
+      <strong>Dado que</strong> el usuario solicitó recuperación
+      <br>
+      <strong>Cuando</strong> ingrese un correo registrado
+      <br>
+      <strong>Entonces</strong> el sistema enviará un enlace de recuperación
+      <br><br>
+      <strong>Escenario 2: Recuperación fallida</strong>
+      <br>
+      <strong>Dado que</strong> el usuario solicitó recuperación
+      <br>
+      <strong>Cuando</strong> ingrese un correo no registrado
+      <br>
+      <strong>Entonces</strong> el sistema mostrará un error
+    </td>
+    <td>E4</td>
+  </tr>
+  <tr>
+    <td>US12</td>
+    <td>Implementar comunicación por WebSocket</td>
+    <td>
+      <strong>Como </strong>desarrollador
+      <br>
+      <strong>Quiero </strong>implementar WebSocket
+      <br>
+      <strong>Para </strong>recibir datos en tiempo real
+    </td>
+    <td>
+      <strong>Escenario 1: Conexión exitosa</strong>
+      <br>
+      <strong>Dado que</strong> el sistema tiene WebSocket implementado
+      <br>
+      <strong>Cuando</strong> el sensor envíe datos
+      <br>
+      <strong>Entonces</strong> el sistema establecerá la conexión
+      <br>
+      <strong>Y</strong> procesará los datos recibidos
+      <br><br>
+      <strong>Escenario 2: Fallo de conexión</strong>
+      <br>
+      <strong>Dado que</strong> el sistema tiene WebSocket implementado
+      <br>
+      <strong>Cuando</strong> falle la conexión
+      <br>
+      <strong>Entonces</strong> el sistema registrará el error
+    </td>
+    <td>E5</td>
+  </tr>
+  <tr>
+    <td>US13</td>
+    <td>Implementar servicio de notificación por SMS</td>
+    <td>
+      <strong>Como </strong>desarrollador
+      <br>
+      <strong>Quiero </strong>integrar notificaciones SMS
+      <br>
+      <strong>Para </strong>alertar sobre fugas de gas
+    </td>
+    <td>
+      <strong>Escenario 1: Notificación exitosa</strong>
+      <br>
+      <strong>Dado que</strong> el servicio SMS está configurado
+      <br>
+      <strong>Cuando</strong> se active una alerta
+      <br>
+      <strong>Entonces</strong> el sistema enviará los SMS
+      <br><br>
+      <strong>Escenario 2: Fallo en envío</strong>
+      <br>
+      <strong>Dado que</strong> el servicio SMS está configurado
+      <br>
+      <strong>Cuando</strong> ocurra un error
+      <br>
+      <strong>Entonces</strong> el sistema registrará el fallo
+    </td>
+    <td>E5</td>
+  </tr>
     <tr>
-      <td>US07</td>
-      <td>Alertar a servicios de emergencia</td>
-      <td>
-        <strong>Como </strong>usuario
-        <br>
-        <strong>Quiero </strong>que la aplicación notifique a servicios de emergencia cuando se detecte una fuga de gas
-        <br>
-        <strong>Para </strong>que actúen rapidamente
-      </td>
-      <td>
-        <strong>Escenario 1: Alertar a servicios de emergencia</strong>
-        <strong>Dado que </strong>el sensor está monitoreando los niveles de gas del ambiente
-        <br>
-        <strong>Y </strong>está enviando datos en tiempo real a la aplicación
-        <br>
-        <strong>Cuando </strong>la gráfica muestre niveles de gas peligrosos
-        <br>
-        <strong>Entonces </strong>se enviará una alerta a los servicios de emergencia
-        <br><br>
-        <strong>Escenario 2: Sin alteraciones en la gráfica</strong>
-        <br>
-        <strong>Dado que </strong>el sensor está monitoreando los niveles de gas del ambiente
-        <br>
-        <strong>Y </strong>está enviando datos en tiempo real a la aplicación
-        <br>
-        <strong>Cuando </strong>detecte niveles de gas por debajo del límite
-        <br>
-        <strong>Entonces </strong>no se enviarán alertas a los servicios de emergencia
-      </td>
-      <td>E3</td>
-    </tr>
-    <tr>
-      <td>US08</td>
-      <td>Visualizar historial de alertas</td>
-      <td>
-        <strong>Como </strong>usuario
-        <br>
-        <strong>Quiero </strong>visualizar el historial de alertas
-        <br>
-        <strong>Para </strong>estar informado de las notificaciones y alertas que se enviaron
-      </td>
-      <td>
-        <strong>Escenario 1: Visualizar historial de notificaciones y alertas</strong>
-        <br>
-        <strong>Dado que </strong>el sensor está enviando datos en tiempo real a la aplicación
-        <br>
-        <strong>Y </strong>se detectaron niveles de gas peligrosos
-        <br>
-        <strong>Cuando </strong>se envíen notificaciones o alertas
-        <br>
-        <strong>Entonces </strong>puedo ver un historial
-        <br>
-        <strong>Y </strong>ver detalles de cada notificación o alerta enviada
-        <br><br>
-        <strong>Escenario 2: Historial de alertas vacío</strong>
-        <br>
-        <strong>Dado que </strong>el sensor está enviando datos en tiempo real a la aplicación
-        <br>
-        <strong>Cuando </strong>no se detecten niveles de gas peligrosos
-        <br>
-        <strong>Entonces </strong>el historial estará vacío
-      </td>
-      <td>E3</td>
-    </tr>    
-    <tr>
-      <td>US09</td>
-      <td>Registrar usuario</td>
-      <td>
-        <strong>Como </strong>usuario
-        <br>
-        <strong>Quiero </strong>crear una cuenta
-        <br>
-        <strong>Para </strong>acceder a la aplicación y sus funciones
-      </td>
-      <td>
-        <strong>Escenario 1: Registro exitoso</strong>
-        <br>
-        <strong>Dado que</strong> el usuario ingresa por primera vez a la aplicación
-        <br>
-        <strong>Cuando</strong> llene el formulario
-        <br>
-        <strong>Y</strong> presione Registrar cuenta
-        <br>
-        <strong>Entonces</strong> la aplicación muestra un mensajje que confirma la creación de su cuenta
-        <br><br>
-        <strong>Escenario 2: Registro fallido</strong>
-        <br>
-        <strong>Dado que</strong> el usuario ingresa por primera vez a la aplicación
-        <br>
-        <strong>Cuando</strong> llene solo algunos campos del formulario
-        <br>
-        <strong>Y</strong> presione Registrar cuenta
-        <br>
-        <strong>Entonces</strong> la aplicación muestra un mensajje que indica que hubo un error al crear la cuenta
-      </td>
-      <td>E4</td>
-    </tr>
-    <tr>
-      <td>US10</td>
-      <td>Iniciar sesión</td>
-      <td>
-        <strong>Como </strong>usuario 
-        <br>
-        <strong>Quiero </strong>iniciar sesión
-        <br>
-        <strong>Para </strong>acceder a la aplicación y sus funciones
-      </td>
-      <td>
-        <strong>Escenario 1: Inicio de sesión exitoso</strong>
-        <br>
-        <strong>Dado que</strong> el usuario está en la aplicación
-        <br>
-        <strong>Y</strong> selecciona iniciar sesión
-        <br>
-        <strong>Cuando</strong> llene el formulario con sus credenciales
-        <br>
-        <strong>Y</strong> la aplicación valida sus datos
-        <br>
-        <strong>Entonces</strong> el usuario ingresa al contenido de la aplicación
-        <br><br>
-        <strong>Escenario 2: Inicio de sesión fallido</strong>
-        <br>
-        <strong>Dado que</strong> el usuario está en la aplicación
-        <br>
-        <strong>Y</strong> selecciona iniciar sesión
-        <br>
-        <strong>Cuando</strong> llene el formulario con sus credenciales
-        <br>
-        <strong>Y</strong> la aplicación detecta que sus credenciales no son correctas
-        <br>
-        <strong>Entonces</strong> la aplicación muestra un mensaje indicando que sus datos son incorrectos
-      </td>
-      <td>E4</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Recuperar contraseña</td>
-      <td>
-        <strong>Como </strong>usuario 
-        <br>
-        <strong>Quiero </strong> recibir un correo
-        <br>
-        <strong>Para </strong>reestablecer mi contraseña
-      </td>
-      <td>
-        <strong>Escenario 1: Recuperación de contraseña exitosa</strong>
-        <br>
-        <strong>Dado que</strong> el usuario ingresa a la aplicación
-        <br>
-        <strong>Y</strong> selecciona Olvidé mi contraseña
-        <br>
-        <strong>Cuando</strong> llene el formulario con su correo electrónico
-        <br>
-        <strong>Y</strong> la aplicación valida que el correo existe
-        <br>
-        <strong>Entonces</strong> se envía un enlace a su correo para que el usuario ingrese una nueva contraseña
-        <br><br>
-        <strong>Escenario 2: Recuperación de contraseña fallido</strong>
-        <br>
-        <strong>Dado que</strong> el usuario ingresa a la aplicación
-        <br>
-        <strong>Y</strong> selecciona Olvidé mi contraseña
-        <br>
-        <strong>Cuando</strong> llene el formulario con su correo electrónico
-        <br>
-        <strong>Y</strong> la aplicación no logra encontrar el correo ingresado
-        <br>
-        <strong>Entonces</strong> la aplicación muestra un mensaje de error
-      </td>
-      <td>E4</td>
-    </tr>
-    <tr>
-      <td>US12</td>
-      <td>Implementar comunicación por WebSocket</td>
-      <td>
-        <strong>Como </strong>desarrollador
-        <br>
-        <strong>Quiero </strong>implementar un canal WebSocket en el backend
-        <br>
-        <strong>Para </strong>recibir los datos en tiempo real desde el Edge Gateway
-      </td>
-      <td>
-        <strong>Escenario 1: Recepción exitosa de datos</strong>
-        <br>
-        <strong>Dado que </strong>soy desarrollador
-        <br>
-        <strong>Y </strong>he implementado websockets para recepción de datos en tiempo real
-        <br>
-        <strong>Cuando </strong>el sensor de gas envíe datos al Edge Gateway
-        <br>
-        <strong>Entonces </strong>se establece conexión con el backend por un canal WebSocket
-        <br>
-        <strong>Y </strong>se reciben los datos en tiempo real para ser mostrados en la aplicación
-        <br><br>
-        <strong>Escenario 2: Fallo al recepcionar datos del sensor</strong>
-        <br>
-        <strong>Dado que </strong>soy desarrollador
-        <br>
-        <strong>Y </strong>he implementado websockets para recepción de datos en tiempo real
-        <br>
-        <strong>Cuando </strong>el sensor de gas envíe datos al Edge Gateway
-        <br>
-        <strong>Y </strong>no se pueda establecer conexión WebSocket
-        <br>
-        <strong>Entonces </strong>se mostrarán LOGS para realizar las respectivas correcciones
-      </td>
-      <td>E5</td>
-    </tr>
-    <tr>
-      <td>US13</td>
-      <td>Implementar servicio de notificación por SMS</td>
-      <td>
-        <strong>Como </strong>desarrollador
-        <br>
-        <strong>Quiero </strong>integrar un servicio de notificaciones por SMS
-        <br>
-        <strong>Para </strong>notificar a los respectivos usuarios sobre una fuga de gas
-      </td>
-      <td>
-        <strong>Escenario 1: Notificación enviada exitosamente</strong>
-        <br>
-        <strong>Dado que </strong>soy desarrollador
-        <br>
-        <strong>Y </strong>he implementado el servicio de notificación SMS
-        <br>
-        <strong>Cuando </strong>se haga una petición POST al endpoint correspondiente
-        <br>
-        <strong>Entonces </strong>se enviará mensajes a los respectivos números de telefono de los usuarios
-        <br><br>
-        <strong>Escenario 2: Fallo al enviar notificación SMS</strong>
-        <br>
-        <strong>Dado que </strong>soy desarrollador
-        <br>
-        <strong>Y </strong>he implementado el servicio de notificación SMS
-        <br>
-        <strong>Cuando </strong>se haga una petición POST al endpoint correspondiente
-        <br>
-        <strong>Y </strong>ocurra algun error
-        <br>
-        <strong>Entonces </strong>se manejarán las excepciones
-        <br>
-        <strong>Y </strong>se mostrarán LOGS para realizar las respectivas correcciones
-      </td>
-      <td>E5</td>
-    </tr>
-    <tr>
-      <td>US14</td>
-      <td>Visualizar características del sistema GasGuard</td>
-      <td>
-        <strong>Como </strong>visitante del sitio web
-        <br>
-        <strong>Quiero </strong>ver las características principales de GasGuard en el landing page
-        <br>
-        <strong>Para </strong>entender como funciona y cómo puede garantiza seguridad
-      </td>
-      <td>
-        <strong>Escenario 1: Visualización detallada del contenido</strong>
-        <br>
-        <strong>Dado que </strong>soy visitante del sitio web
-        <br>
-        <strong>Y </strong>me encuentro en la landing page
-        <br>
-        <strong>Cuando </strong>seleccione Acerca del producto de GasGuard
-        <br>
-        <strong>Entonces </strong>se muestran puntos clave y detallados del funcionamiento del producto
-        <br><br>
-        <strong>Escenario 2: Poco detalle acerca del producto</strong>
-        <br>
-        <strong>Dado que </strong>soy visitante del sitio web
-        <br>
-        <strong>Y </strong>me encuentro en la landing page
-        <br>
-        <strong>Cuando </strong>seleccione Acerca del producto de GasGuard
-        <br>
-        <strong>Entonces </strong>se muestra información escasa o irrelevante
-      </td>
-      <td>E6</td>
-    </tr>
-    <tr>
-      <td>US15</td>
-      <td>Visualizar planes</td>
-      <td>
-        <strong>Como </strong>visitante del sitio web
-        <br>
-        <strong>Quiero </strong>ver comparar los planes que ofrece GasGuard
-        <br>
-        <strong>Para </strong>elegir el que se adapte a mis necesidades
-      </td>
-      <td>
-        <strong>Escenario 1: Comparar planes</strong>
-        <br>
-        <strong>Dado que </strong>soy visitante del sitio web
-        <br>
-        <strong>Cuando </strong>me encuentre en la tabla de comparación de planes
-        <br>
-        <strong>Entonces </strong>visualizo los beneficios que ofrece cada uno
-        <br><br>
-        <strong>Escenario 2: Poco detalle de beneficios de planes</strong>
-        <br>
-        <strong>Dado que </strong>soy visitante del sitio web
-        <br>
-        <strong>Cuando </strong>me encuentre en la tabla de comparación de planes
-        <br>
-        <strong>Y </strong>no hay detalle de los beneficios de cada plan
-        <br>
-        <strong>Entonces </strong>no puedo tomar una decisión sobre que plan elegir
-      </td>
-      <td>E6</td>
-    </tr>
-    <tr>
-      <td>US16</td>
-      <td>Visualizar sitio web desde dispositivo de preferencia</td>
-      <td>
-        <strong>Como </strong>visitante del sitio web
-        <br>
-        <strong>Quiero </strong>que la landing page sea accesible desde mi computadora, tablet o móvil
-        <br>
-        <strong>Para </strong>tener una buena experiencia desde cualquier dispositivo 
-      </td>
-      <td>
-        <strong>Escenario 1: Navegación desde dispositivo de preferencia</strong>
-        <br>
-        <strong>Dado que </strong>soy visitante del sitio web
-        <br>
-        <strong>Cuando </strong>ingrese al landing page
-        <br>
-        <strong>Entonces </strong>la página se adapta a la resolución de mi dispositivo
-        <br><br>
-        <strong>Escenario 2: Elementos desordenados en pantalla</strong>
-        <br>
-        <strong>Dado que </strong>soy visitante del sitio web
-        <br>
-        <strong>Cuando </strong>cuando ingrese al landing page
-        <br>
-        <strong>Y </strong>se muestre contenido desbordado y desordenado
-        <br>
-        <strong>Entonces </strong>entiendo que la landing page no es adaptable a distintas resoluciones
-      </td>
-      <td>E6</td>
-    </tr>
+  <td>US13</td>
+  <td>Implementar servicio de notificación por SMS</td>
+  <td>
+    <strong>Como </strong>desarrollador
+    <br>
+    <strong>Quiero </strong>integrar un servicio de notificaciones por SMS
+    <br>
+    <strong>Para </strong>notificar a los usuarios sobre fugas de gas
+  </td>
+  <td>
+    <strong>Escenario 1: Notificación exitosa</strong>
+    <br>
+    <strong>Dado que </strong>el sistema tiene configurado el servicio SMS
+    <br>
+    <strong>Y </strong>el endpoint está implementado
+    <br>
+    <strong>Cuando </strong>se realice una petición POST al endpoint
+    <br>
+    <strong>Entonces </strong>el sistema enviará SMS a los números registrados
+    <br><br>
+    <strong>Escenario 2: Fallo en notificación</strong>
+    <br>
+    <strong>Dado que </strong>el sistema tiene configurado el servicio SMS
+    <br>
+    <strong>Y </strong>el endpoint está implementado
+    <br>
+    <strong>Cuando </strong>ocurra un error al enviar
+    <br>
+    <strong>Entonces </strong>el sistema registrará la excepción
+    <br>
+  </td>
+  <td>E5</td>
+</tr>
+<tr>
+  <td>US14</td>
+  <td>Visualizar características del sistema</td>
+  <td>
+    <strong>Como </strong>visitante
+    <br>
+    <strong>Quiero </strong>ver las características en el landing page
+    <br>
+    <strong>Para </strong>entender su funcionamiento
+  </td>
+  <td>
+    <strong>Escenario 1: Visualización detallada</strong>
+    <br>
+    <strong>Dado que </strong>un visitante accede al sitio
+    <br>
+    <strong>Y </strong>navega a la sección de características
+    <br>
+    <strong>Cuando </strong>consulte la información
+    <br>
+    <strong>Entonces </strong>el sistema mostrará detalles clave del producto
+    <br><br>
+    <strong>Escenario 2: Información incompleta</strong>
+    <br>
+    <strong>Dado que </strong>un visitante accede al sitio
+    <br>
+    <strong>Y </strong>navega a la sección de características
+    <br>
+    <strong>Cuando </strong>consulte la información
+    <br>
+    <strong>Entonces </strong>el sistema mostrará contenido insuficiente
+  </td>
+  <td>E6</td>
+</tr>
+<tr>
+  <td>US15</td>
+  <td>Visualizar planes</td>
+  <td>
+    <strong>Como </strong>visitante
+    <br>
+    <strong>Quiero </strong>comparar los planes disponibles
+    <br>
+    <strong>Para </strong>elegir el adecuado
+  </td>
+  <td>
+    <strong>Escenario 1: Comparación de planes</strong>
+    <br>
+    <strong>Dado que </strong>un visitante accede al sitio
+    <br>
+    <strong>Cuando </strong>consulte la sección de planes
+    <br>
+    <strong>Entonces </strong>el sistema mostrará beneficios de cada opción
+    <br><br>
+    <strong>Escenario 2: Información limitada</strong>
+    <br>
+    <strong>Dado que </strong>un visitante accede al sitio
+    <br>
+    <strong>Cuando </strong>consulte la sección de planes
+    <br>
+    <strong>Y </strong>no encuentre detalles suficientes
+    <br>
+    <strong>Entonces </strong>el sistema no facilitará la decisión
+  </td>
+  <td>E6</td>
+</tr>
+<tr>
+  <td>US16</td>
+  <td>Accesibilidad multiplataforma</td>
+  <td>
+    <strong>Como </strong>visitante
+    <br>
+    <strong>Quiero </strong>acceder desde cualquier dispositivo
+    <br>
+    <strong>Para </strong>tener buena experiencia
+  </td>
+  <td>
+    <strong>Escenario 1: Visualización adaptable</strong>
+    <br>
+    <strong>Dado que </strong>un visitante accede al sitio
+    <br>
+    <strong>Cuando </strong>use cualquier dispositivo
+    <br>
+    <strong>Entonces </strong>el sistema adaptará la interfaz
+    <br><br>
+    <strong>Escenario 2: Problemas de visualización</strong>
+    <br>
+    <strong>Dado que </strong>un visitante accede al sitio
+    <br>
+    <strong>Cuando </strong>encuentre contenido desordenado
+    <br>
+    <strong>Entonces </strong>el sistema no será responsive
+  </td>
+  <td>E6</td>
+</tr>
+<tr>
+  <td>US17</td>
+  <td>Agregar dispositivo</td>
+  <td>
+    <strong>Como </strong>usuario
+    <br>
+    <strong>Quiero </strong>agregar un nuevo dispositivo (sensor o actuador)
+    <br>
+    <strong>Para </strong>extender el monitoreo
+  </td>
+  <td>
+    <strong>Escenario 1: Registro exitoso</strong>
+    <br>
+    <strong>Dado que </strong>el usuario accede a la sección Devices en la aplicación
+    <br>
+    <strong>Y </strong>completa el formulario con un ID y un nombre válido
+    <br>
+    <strong>Cuando </strong>presione el botón Pair Device
+    <br>
+    <strong>Entonces </strong>el sistema registra el dispositivo
+    <br>
+    <strong>Y </strong>este aparece en la lista con estado "Online" y el tiempo de su última lectura
+    <br><br>
+    <strong>Escenario 2: Datos inválidos</strong>
+    <br>
+    <strong>Dado que </strong>el usuario accede a la sección Devices en la aplicación
+    <br>
+    <strong>Cuando </strong>ingrese información incorrecta en el formulario
+    <br>
+     <strong>Entonces </strong>el sistema no registrará el nuevo dispositivo
+    <br>
+    <strong>Y </strong>mostrará un mensaje de error
+  </td>
+  <td>E7</td>
+</tr>
+<tr>
+  <td>US18</td>
+  <td>Editar dispositivo</td>
+  <td>
+    <strong>Como </strong>usuario
+    <br>
+    <strong>Quiero </strong>editar la información de un dispositivo ya registrado
+    <br>
+    <strong>Para </strong>corregir datos o actualizar su configuración
+  </td>
+  <td>
+    <strong>Escenario 1: Actualización exitosa</strong>
+    <br>
+    <strong>Dado que </strong>el usuario seleccione la opción de editar un dispositivo
+    <br>
+    <strong>Y </strong>modifica los campos de nombre o ID con valores válidos
+    <br>
+    <strong>Cuando </strong>presione el botón Save
+    <br>
+    <strong>Entonces </strong>el sistema guarda los cambios 
+    <br>
+    <strong>Y </strong>mostrará un mensaje de que los cambios se han guardado correctamente
+    <br><br>
+    <strong>Escenario 2: Datos inválidos</strong>
+    <br>
+    <strong>Dado que </strong>el usuario seleccione la opción de editar un dispositivo
+    <br>
+    <strong>Y </strong>ingrese información incorrecta en el campo de nombre o ID
+    <br>
+    <strong>Cuando </strong>presione el botón Save
+    <br>
+    <strong>Entonces </strong> el sistema mostrará un mensaje indicando que los valores ingresados son inválidos
+  </td>
+  <td>E7</td>
+</tr>
+<tr>
+  <td>US19</td>
+  <td>Eliminar dispositivo</td>
+  <td>
+    <strong>Como </strong>usuario
+    <br>
+    <strong>Quiero </strong>eliminar un dispositivo previamente vinculado
+    <br>
+    <strong>Para </strong>gestionar los dispositivos activos en mi hogar
+  </td>
+  <td>
+    <strong>Escenario 1: Eliminación exitosa de un dispositivo inactivo</strong>
+    <br>
+    <strong>Dado que </strong>el usuario ha iniciado sesión en la aplicación
+    <br>
+    <strong>Cuando </strong>se encuentra en la sección de "Devices"
+    <br>
+    <strong>Y </strong>presiona el icono de papelera al lado del dispositivo que quiero eliminar
+    <br>
+    <strong>Entonces </strong>el dispositivo se desvincula del sistema
+    <br>
+    <strong>Y </strong>el sistema mostrará un mensaje confirmando la desvinculación
+    <br><br>
+    <strong>Escenario 2: Eliminar un dispositivo con alerta activa</strong>
+    <br>
+    <strong>Dado que </strong>un dispositivo está ejecutando una acción
+    <br>
+    <strong>Cuando </strong>el usuario intente eliminarlo
+    <br>
+    <strong>Entonces </strong> el sistema impide la acción
+    <strong>Y </strong> mostrará  un mensaje indicando que no es posible eliminar el dispositivo en ese estado.
+  <td>E7</td>
+</tr>
+<tr>
+  <td>US20</td>
+  <td>Monitorear dispositivos</td>
+  <td>
+    <strong>Como </strong>usuario
+    <br>
+    <strong>Quiero </strong>ver el estado de los dispositivos
+    <br>
+    <strong>Para </strong> saber si están funcionando correctamente o requieren mantenimiento
+  </td>
+  <td>
+    <strong>Escenario 1: Listado completo</strong>
+    <br>
+     <strong>Dado que </strong>el usuario ha iniciado sesión en la aplicación
+    <br>
+    <strong>Cuando </strong>accede a la sección Devices
+    <br>
+    <strong>Entonces </strong>el sistema mostrará todos los dispositivos(sensores o actuadores) asociados al sistema y un apartado para agregar un nuevo dispositivo.
+    <br><br>
+    <strong>Escenario 2: Dispositivo conectado</strong>
+    <br>
+    <strong>Dado que </strong>un sensor/actuador está encendido y en funcionamiento
+    <br>
+    <strong>Cuando </strong>el usuario accede a la sección Devices
+    <br>
+    <strong>Entonces </strong>el sistema lo mostrará en la lista de dispositivos con estado Online
+    <br><br>
+    <strong>Escenario 3: Dispositivo desconectado</strong>
+    <br>
+    <strong>Dado que </strong>un sensor/actuador no responde o no está enviando datos
+    <br>
+    <strong>Cuando </strong>el usuario se encuentre en la sección Devices
+    <br>
+    <strong>Entonces </strong> podrá ver en la lista de dispositivos al dispositivo con estado Disconnected
+  </td>
+  <td>E7</td>
+</tr>
+
   </tbody>
 </table>
 
 ## 3.3. Impact Mapping
 
-<img src="./assets/scenario-mapping/impact-mapping.png" alt="impact-mapping">
+<img src="./assets/scenario_mapping/impact-mapping.png" alt="impact-mapping">
 
 <br>
 <br>
@@ -1624,7 +1784,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
 <br>
 
 ## 3.4. Product Backlog
-![imagen](https://github.com/user-attachments/assets/1c9a1693-26db-49aa-a697-65e5bf5cb365)
+<img src="./assets/product_backlog/product-backlog.PNG" alt="product backlog">
 Link al tablero de Trello: https://trello.com/b/RRNb2Jdg/gasguard-2968 
 
 <table>
@@ -1846,6 +2006,58 @@ Link al tablero de Trello: https://trello.com/b/RRNb2Jdg/gasguard-2968
       </td>
       <td>3</td>
     </tr>
+    <tr>
+    <td>17</td>
+    <td>E7-US17</td>
+    <td>Agregar nuevo dispositivo</td>
+    <td>
+      Como usuario
+      <br>
+      Quiero agregar nuevos sensores/actuadores al sistema
+      <br>
+      Para expandir la cobertura de monitoreo
+    </td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>E7-US18</td>
+    <td>Editar dispositivo registrado</td>
+    <td>
+      Como usuario
+      <br>
+      Quiero modificar la configuración de dispositivos existentes
+      <br>
+      Para corregir información o ajustar parámetros
+    </td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>E7-US19</td>
+    <td>Eliminar dispositivo vinculado</td>
+    <td>
+      Como usuario
+      <br>
+      Quiero remover dispositivos desinstalados
+      <br>
+      Para mantener mi lista actualizada
+    </td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>E7-US20</td>
+    <td>Monitorear dispositivos</td>
+    <td>
+      Como usuario
+      <br>
+      Quiero ver el estado de conexión de todos mis dispositivos
+      <br>
+      Para identificar posibles fallos técnicos
+    </td>
+    <td>3</td>
+  </tr>
   </tbody>
 </table>
 
@@ -2653,14 +2865,181 @@ Estos mecanismos asegurarán una experiencia de navegación consistente y accesi
 
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
+
+<strong>Desktop Web Browser</strong>
+
+<img src="./assets/landing-ui/landing_wf.png" alt="Landing Page Wireframe"/>
+
+<br>
+
+<strong>Mobile Web Browser</strong>
+
+<img src="./assets/landing-ui/wireframe_mobile.png" alt="Landing Page Wireframe Mobile"/>
+
 ### 5.3.2. Landing Page Mock-up
+
+<strong>Desktop Web Browser</strong>
+
+<img src="./assets/landing-ui/mockup_1.png" alt="Landing Page Mockup_1"/>
+
+<img src="./assets/landing-ui/mockup_2.png" alt="Landing Page Mockup_2"/>
+
+<br>
+
+<strong>Mobile Web Browser</strong>
+
+<img src="./assets/landing-ui/mockup_mobile.png" alt="Landing Page Mockup Mobile"/>
 
 ## 5.4. Web Applications UX/UI Design.
 ### 5.4.1 Web Applications Wireframes.
+
+<strong>Login Page</strong>
+
+<img src="./assets/web-app-ui/wireframe/wf_login.png" alt="Wireframe Login"/>
+
+<br>
+
+<strong>Register Page</strong>
+
+<img src="./assets/web-app-ui/wireframe/wf_register.png" alt="Wireframe Register"/>
+
+<br>
+
+<strong>Dashboard - Good Air Quality</strong>
+
+<img src="./assets/web-app-ui/wireframe/wf_dashboard_safe.png" alt="Wireframe Dashboard Safe"/>
+
+<br>
+
+<strong>Dashboard - Bad Air Quality</strong>
+
+<img src="./assets/web-app-ui/wireframe/wf_dashboard_danger.png" alt="Wireframe Dashboard Danger"/>
+
+<br>
+
+<strong>Devices Page</strong>
+
+<img src="./assets/web-app-ui/wireframe/wf_devices.png" alt="Wireframe Devices"/>
+
+<br>
+
+<strong>No Devices</strong>
+
+<img src="./assets/web-app-ui/wireframe/wf_no_devices.png" alt="Wireframe No Devices"/>
+
+<br>
+
+<strong>Add Device</strong>
+
+<img src="./assets/web-app-ui/wireframe/wf_add_device.png" alt="Wireframe Add Device"/>
+
 ### 5.4.2.Web Applications Wireflow Diagrams.
+
+<img src="./assets/web-app-ui/wireflow/wflow_login.png" alt="Login Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_register.png" alt="Register Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_dashboard.png" alt="Air Quality Levels Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_protocolos.png" alt="Security Protocols Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_add_device.png" alt="Add Device Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_remove_device.png" alt="Delete Device Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_monitor_device.png" alt="Monitor Devices Wireflow"/>
+
 ### 5.4.3 Web Applications Mock-ups.
+
+<strong>Login Page</strong>
+
+<img src="./assets/web-app-ui/mockup/login.png" alt="Mockup Login"/>
+
+<br>
+
+<strong>Register Page</strong>
+
+<img src="./assets/web-app-ui/mockup/register.png" alt="Mockup Register"/>
+
+<br>
+
+<strong>Dashboard - Good Air Quality</strong>
+
+<img src="./assets/web-app-ui/mockup/dashboard_safe.png" alt="Mockup Dashboard Safe"/>
+
+<br>
+
+<strong>Dashboard - Bad Air Quality</strong>
+
+<img src="./assets/web-app-ui/mockup/dashboard_danger.png" alt="Mockup Dashboard Danger"/>
+
+<br>
+
+<strong>Devices Page</strong>
+
+<img src="./assets/web-app-ui/mockup/devices.png" alt="Mockup Devices"/>
+
+<br>
+
+<strong>No Devices</strong>
+
+<img src="./assets/web-app-ui/mockup/no_devices.png" alt="Mockup No Devices"/>
+
+<br>
+
+<strong>Add Device</strong>
+
+<img src="./assets/web-app-ui/mockup/add_device.png" alt="Mockup Add Devices"/>
+
 ### 5.4.4 Web Applications User Flow Diagrams.
+
+<img src="./assets/web-app-ui/userflow/login.png" alt="Login Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/register.png" alt="Register Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/lecturas.png" alt="Air Quality Levels Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/protocolos.png" alt="Security Protocols Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/add_device.png" alt="Add Device Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/delete_device.png" alt="Delete Device Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/monitor_device.png" alt="Monitor Devices Userflow"/>
+
 ## 5.5. Web Applications Prototyping.
+
+En esta sección mostramos los prototipos de la Landing Page y la Aplicación Web tanto para navegadores de escritorio como móviles, desarrollados en Figma. Las decisiones de diseño e interacción se guiaron por principios de usabilidad, accesibilidad y consistencia visual, alineándose con la arquitectura de información planteada. Hemos priorizado una navegación clara y flujos de interacción eficientes, los cuales se ilustran mediante videos demostrativos que recorren los caminos principales definidos en los diagramas de User Flow.
+
+<br>
+
+<img src="./assets/web-app-ui/evidenceLanding.png" alt="Screenshot Landing Page Prototype"/>
+
+<strong>Prototipado Landing Page (Desktop and Mobile Web Browser) Video:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EemBRjtb5MlOk8nAIgqTWNUBSFwhtIrIbxoA-q3umruodw?e=WArdYf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Link to Video</a>
+
+<br>
+
+Prototipado Landing Page (Desktop Web Browser) en Figma: <a href="https://www.figma.com/proto/yfrJ7FpIkPQnHKeVujGgUm/GasGuard-IoT?node-id=64-971&p=f&t=5UMgq7izEyio9Kpm-1&scaling=scale-down&content-scaling=fixed&page-id=64%3A970">Link to Figma</a>
+
+<br>
+
+Prototipado Landing Page (Mobile Web Browser) en Figma: <a href="https://www.figma.com/proto/yfrJ7FpIkPQnHKeVujGgUm/GasGuard-IoT?node-id=64-1343&p=f&t=NMtaplEXQ6FRpPfA-1&scaling=scale-down&content-scaling=fixed&page-id=64%3A1342">Link to Figma</a>
+
+<br>
+
+----
+
+<br>
+
+<img src="./assets/web-app-ui/evidenceAppWeb.png" alt="Screenshot AppWeb Prototype"/>
+
+<br>
+
+<strong>Prototipado AppWeb Video:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EX2bbTvoSABAr20AwZYVCkABthf5jxT1PBj6Avz93PrfYg?e=lqupyh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Link to Video</a>
+
+<br>
+
+Prototipado AppWeb en Figma: <a href="https://www.figma.com/proto/yfrJ7FpIkPQnHKeVujGgUm/GasGuard-IoT?node-id=29-1186&p=f&t=bXCzF7PdyCL4wnVJ-1&scaling=scale-down&content-scaling=fixed&page-id=29%3A1185&starting-point-node-id=29%3A1186">Link to Figma</a>
 
 ## 5.6. Mobile Applications UX/UI Design.
 ### 5.6.1 Mobile Applications Wireframes.
@@ -2679,14 +3058,555 @@ Estos mecanismos asegurarán una experiencia de navegación consistente y accesi
 
 ### 6.2.1. Sprint 1
 ### 6.2.1.1. Sprint Planning 1 
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 1 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 9/05/2025 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 14:00 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de la aplicación Discord <td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Alvarez Araguache, Samira Jetzabel <td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> Alvarez Araguache, Samira Jetzabel
+        <br>
+          Llacchua Peralta, Joseph Ulysses
+           <br>
+         Quilla Luyo, Jorge Gerardo 
+          <br>
+           Luna Capuñay, Italo D'Alessandro
+          <br>
+         Ramirez Contreras, Zaid Valentino
+              <br>
+         Ticona Luque, Rony Piero
+         <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 0 Review Summary </td>
+        <td> El sprint 1 será el primero que involucra desarrollo, por lo que no se ha considerado un review summary del sprint anterior.<td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 0 Retrospective Summary </td>
+        <td> Como estamos en el primer sprint del proyecto, aún no se identifican planes de mejora.<td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 1 Goal</td>
+          <td>  En este sprint, se ha propuesto la implementación de una landing page, donde se muestre el propósito del proyecto, las características principales del sistema y los tipos de planes que ofrece el producto. De igual manera, se desarrollará parte de la aplicación web, donde se implementará las interfaces de las funciones clave de GasGuard, como la visualización de los niveles de gas en el ambiente, el estado de los actuadores y los sensores asociados al sistema. Finalizado este sprint, tanto la landing page como parte de la aplicación web debe estar desplegada, permitiendo a cualquier usario accedear a cualquiera de estas.
+        <td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+          <td>  22  <td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 22 <td>
+      </tr>
+
+
+  </table>
+
 ### 6.2.1.2. Aspect Leaders and Collaborators
+El alcance de este sprint se basa en el desarrollo de la primera versión de la landing page, donde se espera que esta funcione de base para futuras iteraciones. De igual manera, se considera la implementación parcial del prototipado de la aplicación web, donde se toma en cuenta las principales funcionalidades del sistema. Este avance es puramente de la interfaz, que será luego integrado con sus respectivas funcionalidades luego de la validación de el resultado de este sprint.
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Landing Page Leader (L) / Collaborator (C)</th>
+      <th> Feature Visualizar lecturas del sensor Leader (L) / Collaborator (C)</th>
+      <th> Feature Ejecutar protocolos de seguridad  Leader (L) / Collaborator (C)</th>
+      <th> Feature Agregar nuevo dispositivo Leader (L) / Collaborator (C)</th>
+      <th> Feature Eliminar dispositivo vinculado (L) / Collaborator (C)</th>
+      <th> Feature Monitoriear dispositivos Leader (L) / Collaborator (C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alvarez Araguache, Samira Jetzabel</td>
+      <td>Samira-AA</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Llacchua Peralta, Joseph Ulysses</td>
+      <td>JosephLlachua</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Quilla Luyo, Jorge Gerardo</td>
+      <td>GerardoQuilla</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ramirez Contreras, Zaid Valentino</td>
+      <td>ZadoR205</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ticona Luque, Rony Piero</td>
+      <td>pticona</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 6.2.1.3. Sprint backlog 1
+<img src="./assets/sprint_backlog/sprint-backlog-1.PNG">
+
+<table style="width:400px; height:100px;"> 
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 1 </th>
+   </tr>
+   <tr >
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item /Task</th>
+   </tr>
+   <tr>
+     <th > Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th > Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th> 
+     <th> Status (To-do / In-Process / To- Review / Done) </th>
+   </tr>
+     <tr>
+      <th> E6-US14 </th>
+     <th colspan="3"> Visualizar características del sistema GasGuard </th>
+      <th> W01  </th>
+     <th> Features Section  </th>
+     <th> Mostrar las funcionalidades del sistema en la landing page de GasGuard</th>
+     <th> 0.2  </th>
+     <th> Gerardo Quilla </th> 
+     <th> Done </th>
+   </tr>
+    <tr>
+      <th> E6-US15 </th>
+     <th colspan="3">  Visualizar planes  </th>
+      <th> W02  </th>
+     <th> Payment Plans Section </th>
+     <th> Mostrar los planes de pago del sistema en la landing page de GasGuard  </th>
+     <th> 0.3  </th>
+     <th> Samira Alvarez </th> 
+     <th> Done </th>
+   </tr>
+    <tr>
+      <th> E6-US16 </th>
+     <th colspan="3"> Visualizar sitio web desde dispositivo de preferencia </th>
+      <th> W03  </th>
+     <th> Responsive Design </th>
+     <th> Adaptar el diseño de la landing page de GasGuard para distintos dispositivos  </th>
+     <th> 0.5  </th>
+     <th> Joseph Llacchua </th> 
+     <th> Done </th>
+   </tr>
+     <tr>
+      <th> E2-US02 </th>
+     <th colspan="3"> Ejecutar protocolos de seguridad 
+     </th>
+      <th> W04  </th>
+     <th> Security protocol </th>
+     <th> Implementar el diseño inicial del estado de los protocolos de seguridad en la aplicación web </th>
+     <th> 5  </th>
+     <th> Zaid Ramirez/Joseph Llachua </th> 
+     <th> Done </th>
+   </tr>
+    <tr>
+      <th> E2-US04 </th>
+     <th colspan="3"> Visualizar lecturas del sensor
+     </th>
+      <th> W04  </th>
+     <th> Sensor Readings </th>
+     <th> Implementar el diseño inicial de las lecturas del sensor en la aplicación web</th>
+     <th> 4  </th>
+     <th> Piero Ticona/Gerardo Quilla </th> 
+     <th> Done </th>
+   </tr>
+    <tr>
+      <th> E7-US17 </th>
+     <th colspan="3"> Agregar nuevo dispositivo
+     </th>
+      <th> W04  </th>
+     <th> Add device feature </th>
+     <th> Implementar el prototipo inicial para agregar un nuevo dispositivo </th>
+     <th> 2.5  </th>
+     <th> Zaid Ramirez</th> 
+     <th> Done </th>
+   </tr>
+   <tr>
+      <th> E7-US19 </th>
+     <th colspan="3"> Eliminar dispositivo vinculado
+     </th>
+      <th> W04  </th>
+     <th> Delete device feature </th>
+     <th> Implementar el prototipo inicial para eliminar un dispositivo </th>
+     <th> 0.3  </th>
+     <th> Piero Ticona</th> 
+     <th> Done </th>
+   </tr>
+   </tr>
+     </tr>
+     <tr>
+      <th> E7-US20 </th>
+     <th colspan="3"> Monitorear dispositivos
+     </th>
+      <th> W04  </th>
+     <th> Device Management </th>
+     <th> Implementar el diseño inicial de la gestión de dispositivos para ver la actividad de los sensores y actuadores </th>
+     <th> 2  </th>
+     <th> Samira Alvarez</th> 
+     <th> Done </th>
+   </tr>
+   </tr>
+
+
+
+</table>
+
 ### 6.2.1.4. Development Evidence for Sprint Review.
+
+<table>
+
+ <tr>
+    <th> <strong> Repository </strong> </th>
+    <th> <strong> Branch </strong> </th>
+    <th> <strong> Commit ID</strong> </th>
+    <th> <strong> Commit Message </strong> </th>
+     <th> <strong> Commit Message (Body) </strong> </th>
+     <th> <strong> Commited on (Date) </strong> </th>
+ </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th> e814a8ddf01b00910caaacc70224ff5759114361 </th>
+   <th> Initial commit </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th> 2b0c2c8193ab2e12450d6aaac3fad802dcd2c21f </th>
+   <th> feat: add hero section </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+   <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th> 02c1f97e38a6f14fc97637affbd9674397fac1d4 </th>
+   <th> feat: about section </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+   <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>1bf31a0547cdff9dde2871a46217f0aa8cebf37f</th>
+   <th> feat: best services section </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>849a94729e342c785fd7a745a29ae58609442eff</th>
+   <th> feat: add contact and footer </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+   <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>9abd230ff0414b78dbc79d5b7b3b162db6face5a</th>
+   <th> feat: add team members card </th>
+   <th> </th>
+   <th> 19/04/2025 </th>
+  </tr>
+
+  <tr>
+   <th> GasGuard-LandingPage </th> 
+   <th> develop </th>
+   <th>ef6b5a92410878f38ec4229b6f072734eed20573</th>
+   <th> feat: rebranding </th>
+   <th> </th>
+   <th> 09/05/2025 </th>
+  </tr>
+
+  </table>
+
 ### 6.2.1.5. Testing Suite Evidence for Sprint Review. 
+En este sprint se realizaron acceptance tests para las historias de usuario desarrolladas en esta iteración usando Gherkin.
+Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acceptance-Tests
+
+<table>
+  <tr>
+    <th> <strong> Repository </strong> </th>
+    <th> <strong> Branch </strong> </th>
+    <th> <strong> Commit ID</strong> </th>
+    <th> <strong> Commit Message </strong> </th>
+     <th> <strong> Commit Message (Body) </strong> </th>
+     <th> <strong> Commited on (Date) </strong> </th>
+ </tr>
+
+ <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>f23b6944db0b332e537727ab5f7928aea9d330ec  </strong> </th>
+    <th> <strong> Initial commit </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+   <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>34dfd0f668b7d842836dcbbe060c4d4cf2dfbfb7  </strong> </th>
+    <th> <strong> feat: add us-02 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+   <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>a836194d4d219c11f05194b31506f716ee816c9f  </strong> </th>
+    <th> <strong> feat: add us-04 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+  <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>5baea621c38a26bfd526b1f7c02755529fce188d  </strong> </th>
+    <th> <strong> feat: add us-15 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+   <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>8e349b0bd5e8ad7d29cc0648ac7f355da050b7b9  </strong> </th>
+    <th> <strong> feat: add us-14 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+    <tr>
+ <tr>
+
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>06a3c128f170cf74e9f27062094270e5c29d6596  </strong> </th>
+    <th> <strong> feat: add us-16 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>988cd66eb724f4c9121b6479ac10702cf2764bf7  </strong> </th>
+    <th> <strong> feat: add us-20 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+ <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>d00d32794234877d43b8281479d09cbfe0716d6c  </strong> </th>
+    <th> <strong>feat: add us-17 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+ <tr>
+   <th> <strong> Acceptance-Test </strong> </th>
+    <th> <strong> main </strong> </th>
+    <th> <strong>5c8ded31fed47fb45bbcc211edc5fd858638e66b  </strong> </th>
+    <th> <strong>feat: add us-19 acceptance test </strong> </th>
+    <th> <strong>  </strong> </th>
+    <th> <strong> 10/05/2025 </strong> </th>
+ <tr>
+
+</table>
+
 ### 6.2.1.6 Execution Evidence for Sprint Review.
+En este sprint se cumplió con la implementación de la versión inicial de la landing page de GasGuard para captar la atención de nuevos usuarios del sistemas.
+
+Link al deploy de la landing page: https://iot-gasguard.github.io/GasGuard-LandingPage/ 
+
+**Hero section**
+<img src="./assets/execution_evidence/sprint_1/hero-section.PNG">
+
+**About us section**
+<img src="./assets/execution_evidence/sprint_1/about-us.PNG">
+
+**Features section**
+<img src="./assets/execution_evidence/sprint_1/features.PNG">
+
+**Payment plans section**
+<img src="./assets/execution_evidence/sprint_1/payment-plans.PNG">
+
+**Our team section**
+<img src="./assets/execution_evidence/sprint_1/our-team.PNG">
+
+**Contact section**
+<img src="./assets/execution_evidence/sprint_1/contact.PNG">
+
+**Footer section**
+<img src="./assets/execution_evidence/sprint_1/footer.PNG">
+
+Así mismo, se desarrolló el prototipo inicial del diseño de la página web de GasGuard, donde se visualizan las principales funcionalidades y estadísticas del sistema.
+
+Link al deploy de la página web: 
+
+**Dashboard**
+<img src="./assets/execution_evidence/sprint_1/dashboard.PNG">
+
+**Device Management section**
+<img src="./assets/execution_evidence/sprint_1/devices.PNG">
+
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review.
+Dentro del alcance del sprint 1 no se ha tomado en cuenta el desarrollo de web services, por lo que no se cuenta con evidencia de su implementación en el sistema.
+
 ### 6.2.1.8 Software Deployment Evidence for Sprint Review.
+En este sprint 1, se ha desployado la versión inicial de la landing page y aplicación web de GasGuard. Para ello, se han realizado los siguientes pasos:
+
+**Despliegue Landing Page**
+1. Como el despliegue de la landing page lo estamos realizando con GitHub Pages, nos dirigimos al apartado de "Pages" en las configuraciones del repositorio, para indicar la rama la cual se usará para realizar el despliegue. En este caso, usaremos la rama develop.
+
+<img src="./assets/execution_evidence/sprint_1/pages-github.PNG">
+
+2. Una vez realizado esto, en el apartado de "Sections" se va a visualizar el estado del deploy, si se encuentra en progreso, ha ocurrido un error o si ha sido construido correctamente.
+
+<img src="./assets/execution_evidence/sprint_1/actions-github.PNG">
+
 ### 6.2.1.9 Team Collaboration Insights during Sprint.
+
+<table>
+  <tr> 
+   <th> <strong> Alumno </strong></th>
+   <th> <strong> Actividad </strong></th>
+   </tr>
+
+  <tr> 
+   <th> Alvarez Araguache, Samira Jetzabel  </th>
+   <th>  Implementación de la landing page en versión desktop y mobile. </th>
+ </tr>
+  <tr> 
+   <th> Llacchua Peralta, Joseph Ulysses </th>
+   <th> </th>
+ </tr>
+  <tr> 
+   <th> Quilla Luyo, Jorge Gerardo  </th>
+   <th>  </th>
+ </tr>
+  <tr> 
+   <th> Ramirez Contreras, Zaid Valentino 	 </th>
+   <th>   </th>
+ </tr> 
+ <tr> 
+   <th> Ticona Luque, Rony Piero  </th>
+   <th>   </th>
+ </tr>
+</table>
+
+Se realizó en conjunto un total de 6 commits para el desarrollo de la landing page entre el agregado de secciones, corrección de bugs y cambios en el diseño. Mientras tanto, para el desarrollo de la web application se realizaron en total  commits.
+
+A continuación, se presentara la tabla de colaboradores en los repositorios para identificar las contribuciones de cada integrante del equipo en el desarrollo de los puntos establecidos en este sprint 1.
+
+Tabla de integrantes:
+
+<table>
+  <tr> 
+   <th> <strong> Username (GitHub) </strong></th>
+   <th> <strong> Nombre </strong></th>
+   </tr>
+
+  <tr> 
+   <th> Samira-AA  </th>
+   <th>Alvarez Araguache, Samira Jetzabel  </th>
+ </tr>
+  <tr> 
+  <th> JosephLlachua </th>
+   <th> Llacchua Peralta, Joseph Ulysses  </th>
+ </tr>
+  <tr> 
+   <th> GerardoQuilla </th>
+   <th> Quilla Luyo, Jorge Gerardo  </th>
+
+ </tr>
+  <tr> 
+   <th> ZadoR205 </th>
+   <th> Ramirez Contreras, Zaid Valentino 	  </th>
+ </tr> 
+   <tr> 
+   <th> pticona </th>
+   <th>Ticona Luque, Rony Piero  </th>
+ </tr> 
+
+
+</table>
+
+A continuación, se enseñarán los insights de ambos repositorios, donde se podrá observar los commits que se han realizado para cumplir con las metas de este sprint:
+
+
 
 # Conclusiones y Recomendaciones
 En conclusión, el proyecto GasGuard es sustendado bajo un análisis riguroso de las necesidades reales de los usuarios, apoyado por entrevistas, investigación de mercado y herramientas de diseño centradas en las personas. A lo largo del proceso, se identificaron problemáticas críticas relacionadas con la seguridad doméstica frente a fugas de gas, así como oportunidades para ofrecer una solución tecnológica accesible, preventiva y automatizada.
