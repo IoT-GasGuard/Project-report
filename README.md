@@ -268,6 +268,9 @@ Alvarez Araguache, Samira Jetzabel <br>
 **TB1** <br>
 Para esta entrega, el trabajo se llevó a cabo de manera cooperativa, involucrando a todos los integrantes en el desarrollo de las tareas del proyecto. Para la realización de las entrevistas fue parte fundamental la participación de cada miembro en la recolección de información clave para definir las funcionalidades de nuestra solución. Asímismo, el uso de Gitflow facilitó un flujo de trabajo eficiente, permitiendo a cada miembro contribuir al desarrollo de la documentación de manera coordinada y fluida. 
 
+**TP** <br>
+Se trabajó de manera colaborativa en el desarrollo del Sprint Backlog 1, asignando de forma equitativa las historias de usuario entre los integrantes del equipo, lo cual permitió una organización efectiva y liderazgo compartido. Como resultado, se presentó la evidencia del avance logrado, incluyendo el despliegue inicial de la aplicación web y de la landing page, mostrando el compromiso y la coordinación del equipo en alcanzar los objetivos establecidos.
+
 Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
 En esta etapa, el trabajo se hizo en conjunto donde cada integrante aportó su conocimiento y habilidad para el diseño del proyecto. Se usaron, además, herramientas para la creación de las user personas que nos ayudaran a entender correctamente y en su totalidad las necesidades de nuestro segmento objetivo e idear un plan de acción para abarcarlas.
@@ -308,6 +311,9 @@ objetivos</td>
 Alvarez Araguache, Samira Jetzabel  <br>
 **TB1** <br>
 En esta etapa del proyecto, se logró determinar el estado actual del mercado relacionado con soluciones tecnológicas orientadas a la seguridad del hogar, en particular aquellas vinculadas a IoT y detección de fugas de gas. Este análisis permitió identificar fortalezas y debilidades de productos similares, así como plantear estrategias para diferenciar a GasGuard, posicionándolo como una solución accesible, confiable y centrada en el usuario. Además, se profundizó en el comportamiento, necesidades y motivaciones de los potenciales usuarios mediante entrevistas y ejercicios de empatía, lo que permitió establecer los objetivos principales del proyecto a largo plazo.
+
+**TP** <br>
+Se fomentó un entorno colaborativo e inclusivo mediante la participación activa de todos los integrantes en la definición de metas claras, planificación de tareas y asignación de responsabilidades durante el Sprint 1. Esta organización permitió cumplir los objetivos trazados, como el desarrollo y despliegue de la landing page y la maqueta funcional de la aplicación web, asegurando que cada miembro contribuyera desde sus fortalezas y con autonomía.
 
 Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
