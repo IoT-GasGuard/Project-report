@@ -3058,11 +3058,38 @@ Prototipado AppWeb en Figma: <a href="https://www.figma.com/proto/yfrJ7FpIkPQnHK
 
 ## 5.6. Mobile Applications UX/UI Design.
 ### 5.6.1 Mobile Applications Wireframes.
+<img src="./assets/mobile_app/wireframe.png" alt="Mobile App Wireframe"/>
+
 ### 5.6.2.Mobile Applications Wireflow Diagrams.
+
+**Wireflow del inicio de sesión y creacion de cuenta:**
+<img src="./assets/mobile_app/Login Wireflow.png" alt="Login Wireflow"/>
+
+**Wireflow del dashboard:**
+<img src="./assets/mobile_app/Actuator Wireflow.png" alt="Actuator Wireflow"/>
+
+**Wireflow de los sensores:**
+<img src="./assets/mobile_app/Sesnors Wireflow.png" alt="Sensor Wireflow"/>
+
+
+[Link de Wireflow](https://miro.com/app/board/uXjVKVjVgwc=/?share_link_id=84254043463)
+
 ### 5.6.3 Mobile Applications Mock-ups.
 <img src="./assets/mobile_app/App Mockups.png" alt="Mobile App Mockups"/>
 
 ### 5.6.4 Mobile Applications User Flow Diagrams.
+
+**Userflow del inicio de sesión y creacion de cuenta:**
+<img src="./assets/mobile_app/Login UserFlow.png" alt="Login UserFlow"/>
+
+**userflow del dashboard:**
+<img src="./assets/mobile_app/Actuators UserFlow.png" alt="Actuator UserFlow"/>
+
+**Userflow de los sensores:**
+<img src="./assets/mobile_app/Sensors UserFlow.png" alt="Sensor UserFlow"/>
+
+[Link de User Flow](https://miro.com/app/board/uXjVKVjVgwc=/?share_link_id=84254043463)
+
 ## 5.7. Mobile Applications Prototyping.
 <img src="./assets/mobile_app/App prototype.png" alt="Mobile App Prototype"/>
 
