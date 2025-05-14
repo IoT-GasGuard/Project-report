@@ -2890,6 +2890,11 @@ Estos mecanismos asegurarán una experiencia de navegación consistente y accesi
 
 <img src="./assets/landing-ui/mockup_mobile.png" alt="Landing Page Mockup Mobile"/>
 
+<br>
+<br>
+
+<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/yfrJ7FpIkPQnHKeVujGgUm/GasGuard-IoT?node-id=0-1">Wireframes</a>
+
 ## 5.4. Web Applications UX/UI Design.
 ### 5.4.1 Web Applications Wireframes.
 
@@ -2932,6 +2937,11 @@ Estos mecanismos asegurarán una experiencia de navegación consistente y accesi
 <strong>Add Device</strong>
 
 <img src="./assets/web-app-ui/wireframe/wf_add_device.png" alt="Wireframe Add Device"/>
+
+<br>
+<br>
+
+<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/yfrJ7FpIkPQnHKeVujGgUm/GasGuard-IoT?node-id=20-107">Wireframes</a>
 
 ### 5.4.2.Web Applications Wireflow Diagrams.
 
@@ -2990,6 +3000,11 @@ Estos mecanismos asegurarán una experiencia de navegación consistente y accesi
 <strong>Add Device</strong>
 
 <img src="./assets/web-app-ui/mockup/add_device.png" alt="Mockup Add Devices"/>
+
+<br>
+<br>
+
+<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/yfrJ7FpIkPQnHKeVujGgUm/GasGuard-IoT?node-id=1-2">Mock-ups</a>
 
 ### 5.4.4 Web Applications User Flow Diagrams.
 
