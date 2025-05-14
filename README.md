@@ -2717,39 +2717,153 @@ El ReportController permite a los usuarios visualizar y consultar reportes gener
 ## 5.4. Web Applications UX/UI Design.
 ### 5.4.1 Web Applications Wireframes.
 
+<strong>Login Page</strong>
+
 <img src="./assets/web-app-ui/wireframe/wf_login.png" alt="Wireframe Login"/>
+
+<br>
+
+<strong>Register Page</strong>
 
 <img src="./assets/web-app-ui/wireframe/wf_register.png" alt="Wireframe Register"/>
 
+<br>
+
+<strong>Dashboard - Good Air Quality</strong>
+
 <img src="./assets/web-app-ui/wireframe/wf_dashboard_safe.png" alt="Wireframe Dashboard Safe"/>
+
+<br>
+
+<strong>Dashboard - Bad Air Quality</strong>
 
 <img src="./assets/web-app-ui/wireframe/wf_dashboard_danger.png" alt="Wireframe Dashboard Danger"/>
 
+<br>
+
+<strong>Devices Page</strong>
+
 <img src="./assets/web-app-ui/wireframe/wf_devices.png" alt="Wireframe Devices"/>
 
+<br>
+
+<strong>No Devices</strong>
+
 <img src="./assets/web-app-ui/wireframe/wf_no_devices.png" alt="Wireframe No Devices"/>
+
+<br>
+
+<strong>Add Device</strong>
 
 <img src="./assets/web-app-ui/wireframe/wf_add_device.png" alt="Wireframe Add Device"/>
 
 ### 5.4.2.Web Applications Wireflow Diagrams.
+
+<img src="./assets/web-app-ui/wireflow/wflow_login.png" alt="Login Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_register.png" alt="Register Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_dashboard.png" alt="Air Quality Levels Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_protocolos.png" alt="Security Protocols Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_add_device.png" alt="Add Device Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_remove_device.png" alt="Delete Device Wireflow"/>
+
+<img src="./assets/web-app-ui/wireflow/wflow_monitor_device.png" alt="Monitor Devices Wireflow"/>
+
 ### 5.4.3 Web Applications Mock-ups.
+
+<strong>Login Page</strong>
 
 <img src="./assets/web-app-ui/mockup/login.png" alt="Mockup Login"/>
 
+<br>
+
+<strong>Register Page</strong>
+
 <img src="./assets/web-app-ui/mockup/register.png" alt="Mockup Register"/>
+
+<br>
+
+<strong>Dashboard - Good Air Quality</strong>
 
 <img src="./assets/web-app-ui/mockup/dashboard_safe.png" alt="Mockup Dashboard Safe"/>
 
+<br>
+
+<strong>Dashboard - Bad Air Quality</strong>
+
 <img src="./assets/web-app-ui/mockup/dashboard_danger.png" alt="Mockup Dashboard Danger"/>
+
+<br>
+
+<strong>Devices Page</strong>
 
 <img src="./assets/web-app-ui/mockup/devices.png" alt="Mockup Devices"/>
 
+<br>
+
+<strong>No Devices</strong>
+
 <img src="./assets/web-app-ui/mockup/no_devices.png" alt="Mockup No Devices"/>
+
+<br>
+
+<strong>Add Device</strong>
 
 <img src="./assets/web-app-ui/mockup/add_device.png" alt="Mockup Add Devices"/>
 
 ### 5.4.4 Web Applications User Flow Diagrams.
+
+<img src="./assets/web-app-ui/userflow/login.png" alt="Login Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/register.png" alt="Register Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/lecturas.png" alt="Air Quality Levels Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/protocolos.png" alt="Security Protocols Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/add_device.png" alt="Add Device Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/delete_device.png" alt="Delete Device Userflow"/>
+
+<img src="./assets/web-app-ui/userflow/monitor_device.png" alt="Monitor Devices Userflow"/>
+
 ## 5.5. Web Applications Prototyping.
+
+En esta sección mostramos los prototipos de la Landing Page y la Aplicación Web tanto para navegadores de escritorio como móviles, desarrollados en Figma. Las decisiones de diseño e interacción se guiaron por principios de usabilidad, accesibilidad y consistencia visual, alineándose con la arquitectura de información planteada. Hemos priorizado una navegación clara y flujos de interacción eficientes, los cuales se ilustran mediante videos demostrativos que recorren los caminos principales definidos en los diagramas de User Flow.
+
+<br>
+
+<img src="./assets/web-app-ui/evidenceLanding.png" alt="Screenshot Landing Page Prototype"/>
+
+<strong>Prototipado Landing Page (Desktop and Mobile Web Browser) Video:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EemBRjtb5MlOk8nAIgqTWNUBSFwhtIrIbxoA-q3umruodw?e=WArdYf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Link to Video</a>
+
+<br>
+
+Prototipado Landing Page (Desktop Web Browser) en Figma: <a href="https://www.figma.com/proto/yfrJ7FpIkPQnHKeVujGgUm/GasGuard-IoT?node-id=64-971&p=f&t=5UMgq7izEyio9Kpm-1&scaling=scale-down&content-scaling=fixed&page-id=64%3A970">Link to Figma</a>
+
+<br>
+
+Prototipado Landing Page (Mobile Web Browser) en Figma: <a href="https://www.figma.com/proto/yfrJ7FpIkPQnHKeVujGgUm/GasGuard-IoT?node-id=64-1343&p=f&t=NMtaplEXQ6FRpPfA-1&scaling=scale-down&content-scaling=fixed&page-id=64%3A1342">Link to Figma</a>
+
+<br>
+
+----
+
+<br>
+
+<img src="./assets/web-app-ui/evidenceAppWeb.png" alt="Screenshot AppWeb Prototype"/>
+
+<br>
+
+<strong>Prototipado AppWeb Video:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EX2bbTvoSABAr20AwZYVCkABthf5jxT1PBj6Avz93PrfYg?e=lqupyh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Link to Video</a>
+
+<br>
+
+Prototipado AppWeb en Figma: <a href="https://www.figma.com/proto/yfrJ7FpIkPQnHKeVujGgUm/GasGuard-IoT?node-id=29-1186&p=f&t=bXCzF7PdyCL4wnVJ-1&scaling=scale-down&content-scaling=fixed&page-id=29%3A1185&starting-point-node-id=29%3A1186">Link to Figma</a>
 
 ## 5.6. Mobile Applications UX/UI Design.
 ### 5.6.1 Mobile Applications Wireframes.
