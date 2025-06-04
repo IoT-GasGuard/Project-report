@@ -51,6 +51,17 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br><br>
 
 # Registro de Versiones del Informe
 <table>
@@ -89,46 +100,10 @@
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [Antecedentes:](#antecedentes)
-    - [Problemática (5Ws y 2Hs)](#problemática-5ws-y-2hs)
-    - [What/Qué](#whatqué)
-      - [¿Cuál es el problema?](#cuál-es-el-problema)
-    - [Where / Dónde](#where--dónde)
-      - [¿Dónde está el usuario cuando usa el producto?](#dónde-está-el-usuario-cuando-usa-el-producto)
-      - [¿Dónde surge el problema?](#dónde-surge-el-problema)
-    - [Why / Por Qué](#why--por-qué)
-      - [¿Cuál es la causa del problema?](#cuál-es-la-causa-del-problema)
-    - [When / Cuándo](#when--cuándo)
-      - [¿Cuándo sucede el problema?](#cuándo-sucede-el-problema)
-    - [Who / Quién](#who--quién)
-      - [¿Quiénes están involucrados?](#quiénes-están-involucrados)
-      - [¿A quién le sucede el problema?](#a-quién-le-sucede-el-problema)
-      - [¿Quién lo utilizará?](#quién-lo-utilizará)
-    - [How / Cómo](#how--cómo)
-      - [¿En qué condiciones los usuarios usan nuestro producto?](#en-qué-condiciones-los-usuarios-usan-nuestro-producto)
-      - [¿Cómo nos conocieron los usuarios?](#cómo-nos-conocieron-los-usuarios)
-      - [¿Cómo prefieren los usuarios acceder a nuestro servicio?](#cómo-prefieren-los-usuarios-acceder-a-nuestro-servicio)
-    - [How much / Cuánto](#how-much--cuánto)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [Features](#features)
-      - [Business Outcomes](#business-outcomes)
-      - [Users](#users)
-      - [User Outcomes \& Benefits](#user-outcomes--benefits)
-      - [User assumptions](#user-assumptions)
-      - [¿Quién es el usuario?](#quién-es-el-usuario)
-      - [¿Dónde encaja nuestro producto en sus trabajos o vidas?](#dónde-encaja-nuestro-producto-en-sus-trabajos-o-vidas)
-      - [¿Qué problema resuelve nuestro producto?](#qué-problema-resuelve-nuestro-producto)
-      - [¿Cuándo y cómo es usado nuestro producto?](#cuándo-y-cómo-es-usado-nuestro-producto)
-      - [¿Qué características son importantes?](#qué-características-son-importantes)
-      - [¿Cómo debería verse y comportarse nuestro producto?](#cómo-debería-verse-y-comportarse-nuestro-producto)
-      - [Business Assumptions](#business-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [Hipótesis 1:](#hipótesis-1)
-    - [Hipótesis 2:](#hipótesis-2)
-    - [Hipótesis 3:](#hipótesis-3)
-    - [Hipótesis 4:](#hipótesis-4)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
@@ -212,14 +187,15 @@
 - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-    - [5.1.2. Web Style Guidelines](#512-web-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
   - [5.2. Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems](#521-organization-systems)
-    - [5.2.2. Labelling Systems](#522-labelling-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
     - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
     - [5.2.4. Searching Systems](#524-searching-systems)
-    - [5.2.5. Navegation Systems](#525-navegation-systems)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
   - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design-1)
     - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
     - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
   - [5.4. Web Applications UX/UI Design.](#54-web-applications-uxui-design)
@@ -242,15 +218,30 @@
     - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
   - [6.2. Landing Page, Services \& Applications Implementation.](#62-landing-page-services--applications-implementation)
     - [6.2.1. Sprint 1](#621-sprint-1)
-    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
-    - [6.2.1.3. Sprint backlog 1](#6213-sprint-backlog-1)
-    - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
-    - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
-    - [6.2.1.6 Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
-    - [6.2.1.7 Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
-    - [6.2.1.8 Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
-    - [6.2.1.9 Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6 Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7 Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8 Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9 Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product](#64-video-about-the-product)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -522,7 +513,7 @@ Esta parte del contendo se encuentra dividida en dos partes:
 - Lean UX Process: En esta sección se implementa el enfoque Lean UX. Se describe de manera detallada la manera en la que se abordará la problemática según el modelo de negocio del proyecto. 
  
 ### 1.2.1. Antecedentes y problemática
-### Antecedentes:
+**Antecedentes:**
 
 En la actualidad, el avance en la tecnología ha transformado nuestra interacción con nuestro entorno. Dichos avances han ganado fuerza en el ámbito doméstico, donde la integración con distintas tecnologías ha llevado a la creación del concepto de "hogares inteligentes". El internet de las cosas (IoT) ha formado una parte crucial de este proceso, aportando bienestar y comodidad facilitando tareas y optimizando el consumo de recursos. Sin embargo, la mayoría de estas soluciones se enfocan más en la comodidad, y no en la seguridad de los habitantes antes situaciones de riesgo.
 
@@ -532,51 +523,65 @@ Pese a existir sistemas de detección ante estas situaciones, la mayoría se lim
 
 Frente a este contexto, surge GasGuard como un sistema inteligente ante fugas de gas. Con el uso de tecnología IoT, se ejecutan medidas automáticas antes este tipo de emergencia, con protocolos de seguridad como la apertura de puertas, ventanas y corte de sistemas eléctricos, activación de señales visuales, así como notificaciones a los miembros del hogar y los servicios de emergencia. Mientras tanto, en condiciones normales, GasGuard se integra como un gestor inteligente de iluminación, controlando la intensidad de las luces del innmueble según la luz ambiental. 
 
-### Problemática (5Ws y 2Hs)
-### What/Qué
-#### ¿Cuál es el problema?
+**Problemática (5Ws y 2Hs)**
+<br>
+
+**What/Qué**
+<br>
+
+**¿Cuál es el problema?**
 Los hogares inteligentes muchas veces optan por la comodidad y conveniencia, descuidando situaciones de riesgo. La gran parte de sensores de detección requieren intervención humana inmediata para tomar acciones contra una fuga de gas. Estos se limitan a emitir señales visuales o sonoras, por lo que se tiene una respuesta más pasiva sobre estos incidentes.
 
-### Where / Dónde
-#### ¿Dónde está el usuario cuando usa el producto?
+**Where / Dónde**
+<br>
+
+**¿Dónde está el usuario cuando usa el producto?**
 El usuario puede encontrarse en cualquier lugar, siempre y cuando tenga conexión a internet. Gracias a la naturaleza de los dispositivos IoT, es posible interactuar con GasGuard de manera remota, ya sea desde un teléfono inteligente o una computadora, siendo más accesible que los sistemas tradicionales de alarma.
 
-#### ¿Dónde surge el problema?
+**¿Dónde surge el problema?**
 El problema surge dentro del hogar, específicamente en zonas con instalaciones de gas o donde el uso de GLP es recurrente como en cocinas y lavanderías.
 
-### Why / Por Qué
-#### ¿Cuál es la causa del problema?
+**Why / Por Qué**
+<br>
+
+**¿Cuál es la causa del problema?**
 La causa del problema incluye factores como la necesidad de los sistemas tradicionales de alarma de requerir intervención humana, así como la falta de integración con otros sistemas del hogar para una reacción inmediata. Estas circunstancias aumentan la vunerabilidad de las familias en el hogar ante una fuga de gas.
 
-### When / Cuándo
-#### ¿Cuándo sucede el problema?
+**When / Cuándo**
+<br>
+
+**¿Cuándo sucede el problema?**
 El problema puede suceder en cualquier momento, especialmente cuando no se han tomado medidas preventivas para reducir las posibilidades de una fuga de gas. Esto empeora cuando no hay personas en casa que puedan actuar rápida.   
 
-### Who / Quién
-#### ¿Quiénes están involucrados?
+**Who / Quién**
+<br>
+
+**¿Quiénes están involucrados?**
 Los involucrados son principalmente las personas residentes de hogares que utilizan gas licuado. 
 
-#### ¿A quién le sucede el problema?
+**¿A quién le sucede el problema?**
 El problema perjudica a cualquier persona que cuente con una instalación de gas licuado. Esto incluye a personas que viven solas, familias y condominios donde una fuga de gas puede tener consecuencias de mayor alcance.
 
-#### ¿Quién lo utilizará?
+**¿Quién lo utilizará?**
 Lo utilizaría cualquier persona que quiera mejorar la seguridad de su casa usando tecnología IoT. Esto incluye a familias que buscan hacer su hogar un espacio más seguro, así como adultos mayores o personas con problemas de movilidad que puedan tener dificultades a la hora de actuar en caso de una emergencia.
 
-### How / Cómo
-#### ¿En qué condiciones los usuarios usan nuestro producto?
+**How / Cómo**
+<br>
+
+**¿En qué condiciones los usuarios usan nuestro producto?**
 Los usuarios utilizarían el sistema como parte de su hogar inteligente, siendo un complemento junto con otros dispositivos IoT en este tipo de viviendas. De manera predeterminada, GasGuard cumple con la función de regular la iluminación según el ambiente cuando la persona se encuentre en casa. Por otra parte, sus protocolos de seguridad se activan en caso de emergencia, ya sea que el usuario esté en su vivienda o fuera de ella.
 
-#### ¿Cómo nos conocieron los usuarios?
+**¿Cómo nos conocieron los usuarios?**
 Los usuarios pueden conocer el sistema a través de:
 - Publicaciones o anuncios en plataformas de redes sociales como Instagram, Twitter, Facebook, TikTok, etc.
 - Campañas de publicidad en línea mediante SEO en nuestra página web y artículos en periódicos o blogs.
 - Eventos y exposiciones de tecnología IoT centrados en la domótica.
 - Recomendaciones de usuarios actuales a amigos o familiares interesados en iniciar o complementar su hogar inteligente implementando un sistema de seguridad.
 
-#### ¿Cómo prefieren los usuarios acceder a nuestro servicio?
+**¿Cómo prefieren los usuarios acceder a nuestro servicio?**
 Los usuarios prefieren acceder desde cualquier lugar de manera sencilla y conveniente. Por ello, pueden gestionar el sistema por medio de una aplicación web accesible desde computadoras de escritorio. Sin embargo, la mayoría de usuarios valoran la disponibilidad de una aplicación móvil, donde pueden recibir notificaciones a tiempo real sobre el estado de su hogar, así como controlar de manera remota los dispositivos del sistema.
 
-### How much / Cuánto
+**How much / Cuánto**
 El impacto del problema es considerable, especialmente teniendo en cuenta la cantidad de incidentes reportados anualmente relacionados a fugas de gas licuado. Las consecuencias de este tipo de emergencias implican un grave riesgo la integridad de las personas, así como perdidas materiales significativas. Por ello, es invaluable un sistema que pueda anticiparse ante este tipo de situaciones, que permita un accionar rápido que proteja no solo a una familia y sus bienes, sino también a los vecinos y a edificaciones de su entorno.
 
 ### 1.2.2. Lean UX Process
@@ -590,7 +595,7 @@ Hemos observado que, pese a que en el mercado existen detectores de gas, estos s
 ¿Cómo podríamos crear una solución accesible, confiable y automatizada que detecte de una fuga de gas, tome medidas de seguridad de manera innmediata para proteger a los habitantes de una vivienda y pueda integrarse en un hogar inteligente?
 
 #### 1.2.2.2. Lean UX Assumptions
-#### Features
+**Features**
 
 - Detección a tiempo real de fuga de gas licuado: Sensores de gas para detectar altas concentraciones de GLP.
 - Activación automática de protocolos de seguridad: Alerta visual, corte del suministro eléctrico y apertura de ventanas y puertas ante una fuga de gas.
@@ -599,45 +604,49 @@ Hemos observado que, pese a que en el mercado existen detectores de gas, estos s
 - Estado e historial: Aplicación para la consulta del estado actual del sistema y el historial de alertas.
 
 
-#### Business Outcomes
+**Business Outcomes**
 - Aumento de usuarios: Mayor demanda de integración de sistemas automatizados de seguridad.
 - Reducción de accidentes por fuga de gas: Reducir incidentes generadas como consecuencias de una fuga de gas doméstica.
 - Reconocimiento de marca: Establecer GasGuard como lider en soluciones de seguridad para hogares inteligentes.
 - Ingresos sostenibles: Ejecutar un modelo de ingreso en base a la venta e instalación de dispositivos, así como suscripciones en la aplicación para producir beneficios.
 
-#### Users
+**Users**
 Los usuarios serán principalmente aquellas personas que viven en hogares que emplean uso de GLP y busquen un sistema de seguridad ante fugas de gas que sea autónomo.
 
-#### User Outcomes & Benefits
+**User Outcomes & Benefits**
 - Mayor seguridad en casos de fugas de gas: Disminuición del estrés por quedar en riesgo de sufrir accidentes debido a una fuga de GLP.
 - Respuesta inmediata: Ejecución de sistemas de seguridad automáticas antes la detección de una fuga de gas.
 - Integración como gestor de iluminación: Controlador inteligente de luces en el inmueble según la luz ambiental o intervención del usuario.
 - Prevención de fugas: Informes, estadísticas y estadísticas acerca de los niveles de gas licuado en el inmueble.
 
-#### User assumptions
-#### ¿Quién es el usuario?
+**User assumptions**
+<br>
+
+**¿Quién es el usuario?**
 El usuario es cualquier persona que desee mejorar la seguridad en su hogar ante la amenzada de una fuga de gas.
-#### ¿Dónde encaja nuestro producto en sus trabajos o vidas?
+**¿Dónde encaja nuestro producto en sus trabajos o vidas?**
 Nuestro producto se integra en la vida diaria de nuestros usuarios como un sistema de seguridad instalado en su hogar para actuar en situaciones de emergencia, donde podrá monitorearlo desde una aplicación web y móvil.
-#### ¿Qué problema resuelve nuestro producto?
+**¿Qué problema resuelve nuestro producto?**
 Nuestro producto reduce los incidentes producidos por fugas de gas licuado, ya sea por ausencia de personas en la vivienda, la presencia de personas que no puedan reaccionar de manera rápida o el desconocimiento de los protocolos a seguir en caso de este tipo de emergencias.
 El sistema ofrece una respuesta automática ante la detección de una fuga de gas, alertando a las personas dentro o fuera de la vivienda, así como ejecutando protocolos de seguridad físicos sin necesitar intervención humana.
-#### ¿Cuándo y cómo es usado nuestro producto?
+**¿Cuándo y cómo es usado nuestro producto?**
 - Funciona 24/7 desde que el sistema en instalado en el hogar del usuario.
 - Cuando los niveles de gas son normales, controla de manera automática los niveles de luz en el inmueble. El usuario también puede gestionar la iluminación mediante la aplicación móvil.
 - Cuando se detecta niveles altos de gas, se ejecutan medidas de seguridad para disminuir el riesgo ante fugas de gas. El usuario puede revisar el nivel de gas desde sus dispositivos.
-#### ¿Qué características son importantes?
+**¿Qué características son importantes?**
 - Sistema de alerta: El sistema debe detectar y notificar de manera rápida los niveles anormales de gas licuado en el aire.
 - Respuesta automática: Se ejecutan protocolos de seguridad de manera autónoma sin necesitar intervención humana.
 - Control remoto: El usuario puede controlar el nivel de luminosidad en el hogar, así como abrir/cerrar ventanas o puertas de su vivienda desde cualquier dispositivo.
 - Reportes: Reportes e historial acerca de los niveles de gas en el inmueble y el estado de los dispositivos asociados al sistema.
 
-#### ¿Cómo debería verse y comportarse nuestro producto?
+**¿Cómo debería verse y comportarse nuestro producto?**
 - Interacción simple: Un rápido flujo de interacción para cada acción que pueda realizar el usuario.
 - Comportamiento predecible: Funcionamiento fluido, sin comportamientos inesperados o errores de conexión con los dispositivos asociados al sistema.
 - Comunicación clara: Informar de manera simple el estado actual del sistema y las acciones disponibles.
 
-#### Business Assumptions
+**Business Assumptions**
+<br>
+
 1. **Creemos que nuestros clientes necesitan** una solución tecnológica confiable que actúe y detecte de manera innmediata una fuga de gas en sus hogares, así como ayude en la gestión inteligente en el hogar. 
 2. **Estas necesidades se pueden resolver con un** un sistema IoT con sensores de gas que automatice la respuesta ante una fuga de gas (apertura de ventanas o puertas, corte de electricidad, notificaciones, etc) y pueda ser controlado de manera remota.
 3. **El valor #1 que mi cliente quiere de mi servicio** es un sistema íntegro, que le permita sentirse seguro ante este tipo de emergencias, incluso estando fuera de casa.
@@ -645,27 +654,36 @@ El sistema ofrece una respuesta automática ante la detección de una fuga de ga
 - Control de iluminación según la luz ambiental.
 - Reportes acerca de los niveles de gas en el hogar e historial de alertas.
 - Gestión remota del sistema mediante plataformas web y móvil.
-5. **Voy a adquirir la mayoría de mis clientes** mediante marketing digital en redes sociales, asociaciones con inmobiliarias o empresas de gas y ferias o eventos de tecnología y seguridad.
-6. **Haré dinero a través de** la venta directa e instalación del sistema, así como un modelo freemium de suscripción para brindar funcionalidades avanzadas.
-7. **Mi competencia principal en el mercado** serán detectores de gas, otras soluciones IoT con acción limitada y alarmas tradicionales sin respuesta autónoma.
-8. **Los venceremos debido a** nuestro elemento diferenciador: acción inmediata ante un accidente. De igual manera, ofreceremos un modo reposo, que se integrará junto a otros dispositivos smart-home para la gestión inteligente de iluminación.
-9. **El mayor riesgo es que** no cumplamos con las expectativas de seguridad de nuestros usuarios y la desconfianza hacia los sistemas automatizados en el hogar.
-10. **Resolveremos esto a través de** pruebas pilotos, demostraciones en vivo y testimonios de clientes, así como la mejora continua de nuestro sistema ante el feedback de nuestros usuarios.
+1. **Voy a adquirir la mayoría de mis clientes** mediante marketing digital en redes sociales, asociaciones con inmobiliarias o empresas de gas y ferias o eventos de tecnología y seguridad.
+2. **Haré dinero a través de** la venta directa e instalación del sistema, así como un modelo freemium de suscripción para brindar funcionalidades avanzadas.
+3. **Mi competencia principal en el mercado** serán detectores de gas, otras soluciones IoT con acción limitada y alarmas tradicionales sin respuesta autónoma.
+4. **Los venceremos debido a** nuestro elemento diferenciador: acción inmediata ante un accidente. De igual manera, ofreceremos un modo reposo, que se integrará junto a otros dispositivos smart-home para la gestión inteligente de iluminación.
+5. **El mayor riesgo es que** no cumplamos con las expectativas de seguridad de nuestros usuarios y la desconfianza hacia los sistemas automatizados en el hogar.
+6.  **Resolveremos esto a través de** pruebas pilotos, demostraciones en vivo y testimonios de clientes, así como la mejora continua de nuestro sistema ante el feedback de nuestros usuarios.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-### Hipótesis 1:
+
+**Hipótesis 1:**
+<br>
+
 **Creemos que** cuando los protocolos de seguridad sean ejecutados de manera autónoma en caso de una fuga de gas, los usuarios se sentirán más protegidos por el sistema.
 **Sabremos que** hemos tenido éxito **cuando** al menos el 70% de usuarios consultados en los primeros 6 meses de uso manifiesten sentirse más seguros gracias a la respuesta automática de la solución.
 
-### Hipótesis 2:
+**Hipótesis 2:**
+<br>
+
 **Creemos que** al integrar un sistema de control de iluminación inteligente aumentará el valor percibido por el cliente de la solución.
 **Sabremos que** hemos tenido éxito **cuando** al menos el 60% de usuarios utilicen de manera diaria esta función después del primer mes de instalación.
 
-### Hipótesis 3:
+**Hipótesis 3:**
+<br>
+
 **Creemos que** al ejecutar cortes automáticos del suministro de seguridad, así como la apertura de ventanas/puertas al detectar niveles anormales de gas cuando se detecte una fuga de gas, se disminuirá el riesgo de incendios, explosiones e intoxicaciones en las viviendas.
 **Sabremos que** hemos tenido éxito **cuando** no se reporten accidentes graves como consecuencias de una fuga de gas en los hogares con el sistema activado durante los primeros 12 meses.
 
-### Hipótesis 4:
+**Hipótesis 4:**
+<br>
+
 **Creemos que** implementar un modelo de suscripción freemium ofreciendo funciones adicionales avanzadas, incrementaremos la monetización del sistema.
 **Sabremos que** hemos tenido éxito **cuando** observemos que al menos el 20% de nuestros clientes adquieran una suscripción premium durante el primer año.
 
@@ -3267,7 +3285,7 @@ El proceso de despliegue se realizó siguiendo estos pasos:
 ## 6.2. Landing Page, Services & Applications Implementation.
 
 ### 6.2.1. Sprint 1
-### 6.2.1.1. Sprint Planning 1 
+#### 6.2.1.1. Sprint Planning 1 
 
 <table>
      <tr> 
@@ -3336,7 +3354,7 @@ El proceso de despliegue se realizó siguiendo estos pasos:
 
   </table>
 
-### 6.2.1.2. Aspect Leaders and Collaborators
+#### 6.2.1.2. Aspect Leaders and Collaborators
 El alcance de este sprint se basa en el desarrollo de la primera versión de la landing page, donde se espera que esta funcione de base para futuras iteraciones. De igual manera, se considera la implementación parcial del prototipado de la aplicación web, donde se toma en cuenta las principales funcionalidades del sistema. Este avance es puramente de la interfaz, que será luego integrado con sus respectivas funcionalidades luego de la validación de el resultado de este sprint.
 
 
@@ -3407,7 +3425,7 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
   </tbody>
 </table>
 
-### 6.2.1.3. Sprint backlog 1
+#### 6.2.1.3. Sprint backlog 1
 <img src="./assets/sprint_backlog/sprint-backlog-1.PNG">
 
 <table style="width:400px; height:100px;"> 
@@ -3522,10 +3540,9 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
 
 </table>
 
-### 6.2.1.4. Development Evidence for Sprint Review.
+#### 6.2.1.4. Development Evidence for Sprint Review.
 
-<table>
-
+<table style="width:400px; height:100px;">
  <tr>
     <th> <strong> Repository </strong> </th>
     <th> <strong> Branch </strong> </th>
@@ -3534,7 +3551,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
      <th> <strong> Commit Message (Body) </strong> </th>
      <th> <strong> Commited on (Date) </strong> </th>
  </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> develop </th>
@@ -3543,7 +3559,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 19/04/2025 </th>
   </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> develop </th>
@@ -3552,7 +3567,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 19/04/2025 </th>
   </tr>
-
    <tr>
    <th> GasGuard-LandingPage </th> 
    <th> develop </th>
@@ -3561,7 +3575,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 19/04/2025 </th>
   </tr>
-
    <tr>
    <th> GasGuard-LandingPage </th> 
    <th> develop </th>
@@ -3570,7 +3583,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 19/04/2025 </th>
   </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> develop </th>
@@ -3579,7 +3591,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 19/04/2025 </th>
   </tr>
-
    <tr>
    <th> GasGuard-LandingPage </th> 
    <th> develop </th>
@@ -3588,7 +3599,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 19/04/2025 </th>
   </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> develop </th>
@@ -3597,7 +3607,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 09/05/2025 </th>
   </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> refactor/structure </th>
@@ -3606,7 +3615,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 10/05/2025 </th>
   </tr>
-
    <tr>
    <th> GasGuard-LandingPage </th> 
    <th> refactor/structure </th>
@@ -3615,7 +3623,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 10/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> refactor/structure </th>
@@ -3624,7 +3631,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 10/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> dev-jllacchua </th>
@@ -3633,7 +3639,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 10/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> develop </th>
@@ -3642,7 +3647,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 11/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> develop </th>
@@ -3651,7 +3655,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 11/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> fix/-visual-bugs </th>
@@ -3660,7 +3663,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 13/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-LandingPage </th> 
    <th> fix/-visual-bugs </th>
@@ -3669,7 +3671,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 13/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-App </th> 
    <th> develop </th>
@@ -3678,7 +3679,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 09/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-App </th> 
    <th> develop </th>
@@ -3687,7 +3687,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 13/05/2025  </th>
   </tr>
-
    <tr>
    <th> GasGuard-App </th> 
    <th> feature/device-management </th>
@@ -3696,7 +3695,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 13/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-App </th> 
    <th> feature/device-management </th>
@@ -3705,7 +3703,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 13/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-App </th> 
    <th> feature/dashboard </th>
@@ -3714,7 +3711,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 14/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-App </th> 
    <th> feature/dashboard </th>
@@ -3723,7 +3719,6 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 14/05/2025  </th>
   </tr>
-
   <tr>
    <th> GasGuard-App </th> 
    <th> main </th>
@@ -3733,14 +3728,17 @@ El alcance de este sprint se basa en el desarrollo de la primera versión de la 
    <th> </th>
    <th> 14/05/2025  </th>
   </tr>
-
   </table>
 
-### 6.2.1.5. Testing Suite Evidence for Sprint Review. 
+<br><br>
+<br><br>
+<br><br>
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review. 
 En este sprint se realizaron acceptance tests para las historias de usuario desarrolladas en esta iteración usando Gherkin.
 Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acceptance-Tests
 
-<table>
+<table style="width:400px; height:100px;">
   <tr>
     <th> <strong> Repository </strong> </th>
     <th> <strong> Branch </strong> </th>
@@ -3749,7 +3747,6 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
      <th> <strong> Commit Message (Body) </strong> </th>
      <th> <strong> Commited on (Date) </strong> </th>
  </tr>
-
  <tr>
    <th> <strong> Acceptance-Test </strong> </th>
     <th> <strong> main </strong> </th>
@@ -3758,7 +3755,6 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong>  </strong> </th>
     <th> <strong> 10/05/2025 </strong> </th>
  <tr>
-
    <tr>
    <th> <strong> Acceptance-Test </strong> </th>
     <th> <strong> main </strong> </th>
@@ -3767,7 +3763,6 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong>  </strong> </th>
     <th> <strong> 10/05/2025 </strong> </th>
  <tr>
-
    <tr>
    <th> <strong> Acceptance-Test </strong> </th>
     <th> <strong> main </strong> </th>
@@ -3776,7 +3771,6 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong>  </strong> </th>
     <th> <strong> 10/05/2025 </strong> </th>
  <tr>
-
   <tr>
    <th> <strong> Acceptance-Test </strong> </th>
     <th> <strong> main </strong> </th>
@@ -3785,7 +3779,6 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong>  </strong> </th>
     <th> <strong> 10/05/2025 </strong> </th>
  <tr>
-
    <tr>
    <th> <strong> Acceptance-Test </strong> </th>
     <th> <strong> main </strong> </th>
@@ -3795,7 +3788,6 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong> 10/05/2025 </strong> </th>
     <tr>
  <tr>
-
    <th> <strong> Acceptance-Test </strong> </th>
     <th> <strong> main </strong> </th>
     <th> <strong>06a3c128f170cf74e9f27062094270e5c29d6596  </strong> </th>
@@ -3803,7 +3795,6 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong>  </strong> </th>
     <th> <strong> 10/05/2025 </strong> </th>
  <tr>
-
    <th> <strong> Acceptance-Test </strong> </th>
     <th> <strong> main </strong> </th>
     <th> <strong>988cd66eb724f4c9121b6479ac10702cf2764bf7  </strong> </th>
@@ -3811,7 +3802,6 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong>  </strong> </th>
     <th> <strong> 10/05/2025 </strong> </th>
  <tr>
-
  <tr>
    <th> <strong> Acceptance-Test </strong> </th>
     <th> <strong> main </strong> </th>
@@ -3820,7 +3810,6 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong>  </strong> </th>
     <th> <strong> 10/05/2025 </strong> </th>
  <tr>
-
  <tr>
    <th> <strong> Acceptance-Test </strong> </th>
     <th> <strong> main </strong> </th>
@@ -3829,10 +3818,9 @@ Repositorio con las pruebas de aceptación: https://github.com/IoT-GasGuard/Acce
     <th> <strong>  </strong> </th>
     <th> <strong> 10/05/2025 </strong> </th>
  <tr>
-
 </table>
 
-### 6.2.1.6 Execution Evidence for Sprint Review.
+#### 6.2.1.6 Execution Evidence for Sprint Review.
 En este sprint se cumplió con la implementación de la versión inicial de la landing page de GasGuard para captar la atención de nuevos usuarios del sistemas.
 
 Link al deploy de la landing page: https://iot-gasguard.github.io/GasGuard-LandingPage/ 
@@ -3868,10 +3856,10 @@ Link al deploy de la aplicación web: https://gasguardiot.netlify.app/
 **Device Management section**
 <img src="./assets/execution_evidence/sprint_1/devices.PNG">
 
-### 6.2.1.7 Services Documentation Evidence for Sprint Review.
+#### 6.2.1.7 Services Documentation Evidence for Sprint Review.
 Dentro del alcance del sprint 1 no se ha tomado en cuenta el desarrollo de web services, por lo que no se cuenta con evidencia de su implementación en el sistema.
 
-### 6.2.1.8 Software Deployment Evidence for Sprint Review.
+#### 6.2.1.8 Software Deployment Evidence for Sprint Review.
 En este sprint 1, se ha desployado la versión inicial de la landing page y aplicación web de GasGuard. Para ello, se han realizado los siguientes pasos:
 
 **Despliegue Landing Page**
@@ -3899,14 +3887,13 @@ En este sprint 1, se ha desployado la versión inicial de la landing page y apli
 <img src="./assets/execution_evidence/sprint_1/netlify-configuration.PNG">
 <img src="./assets/execution_evidence/sprint_1/netlify-configuration-2.PNG">
 
-### 6.2.1.9 Team Collaboration Insights during Sprint.
+#### 6.2.1.9 Team Collaboration Insights during Sprint.
 
 <table>
   <tr> 
    <th> <strong> Alumno </strong></th>
    <th> <strong> Actividad </strong></th>
    </tr>
-
   <tr> 
    <th> Alvarez Araguache, Samira Jetzabel  </th>
    <th>  Implementación de la landing page. Implementación de device management en la aplicación web  </th>
@@ -3939,7 +3926,6 @@ Tabla de integrantes:
    <th> <strong> Username (GitHub) </strong></th>
    <th> <strong> Nombre </strong></th>
    </tr>
-
   <tr> 
    <th> Samira-AA  </th>
    <th>Alvarez Araguache, Samira Jetzabel  </th>
@@ -3951,7 +3937,6 @@ Tabla de integrantes:
   <tr> 
    <th> GerardoQuilla </th>
    <th> Quilla Luyo, Jorge Gerardo  </th>
-
  </tr>
   <tr> 
    <th> ZadoR205 </th>
@@ -3961,8 +3946,6 @@ Tabla de integrantes:
    <th> pticona </th>
    <th>Ticona Luque, Rony Piero  </th>
  </tr> 
-
-
 </table>
 
 A continuación, se enseñarán los insights de ambos repositorios, donde se podrá observar los commits que se han realizado para cumplir con las metas de este sprint:
@@ -3984,6 +3967,10 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 **Web App**
 
+<img src="./assets/collaboration_insights_sprint1/web-app-branches.PNG">
+
+**Anexo:** Flujo entre ramas
+
 <img src="./assets/collaboration_insights_sprint1/web-app-commits.PNG">
 
 **Anexo:** Tabla de commits en el periodo de 1 mes
@@ -3996,6 +3983,27 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 **Anexo:** Colaboration insights  en el periodo de 1 mes
 
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+#### 6.2.2.3. Sprint Backlog 2
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+### 6.3.2. Registro de Entrevistas
+### 6.3.3. Evaluaciones según heurísticas
+
+## 6.4. Video About-the-Product
 
 # Conclusiones y Recomendaciones
 En conclusión, el proyecto GasGuard es sustendado bajo un análisis riguroso de las necesidades reales de los usuarios, apoyado por entrevistas, investigación de mercado y herramientas de diseño centradas en las personas. A lo largo del proceso, se identificaron problemáticas críticas relacionadas con la seguridad doméstica frente a fugas de gas, así como oportunidades para ofrecer una solución tecnológica accesible, preventiva y automatizada.
