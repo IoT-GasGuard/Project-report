@@ -1298,24 +1298,24 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
   </tr>
   <tr>
   <td>US06</td>
-  <td>Ver reporte de niveles diarios de gas</td>
+  <td>Ver reporte de niveles de gas en promedio</td>
   <td>
     <strong>Como </strong>usuario
     <br>
-    <strong>Quiero </strong>ver un reporte con el promedio diario del nivel de gas
+    <strong>Quiero </strong>ver un reporte con el promedio del nivel de gas detectado
     <br>
     <strong>Para </strong>hacer seguimiento al ambiente de mi hogar
   </td>
   <td>
-    <strong>Escenario 1: Visualización de promedio diario</strong>
+    <strong>Escenario 1: Visualización de promedio de niveles de gas</strong>
     <br>
     <strong>Dado que </strong>el sistema almacena lecturas diarias del sensor
     <br>
     <strong>Cuando </strong>el usuario acceda al módulo de reportes
     <br>
-    <strong>Y </strong> se dirija al apartdo de "Operaciones"
+    <strong>Y </strong> se dirija al apartado de "Operación Normal"
     <br>
-    <strong>Entonces </strong> verá analítica del funcionamiento diario de los sensores
+    <strong>Entonces </strong> verá analítica del las lecturas de gas de los sensores
     <strong>Y </strong> un listado con el promedio diario del nivel de gas
     <br><br>
     <strong>Escenario 2: Reporte sin datos disponibles</strong>
@@ -4005,6 +4005,232 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 #### 6.2.2.2. Aspect Leaders and Collaborators
 
 #### 6.2.2.3. Sprint Backlog 2
+
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #:</td>
+            <td colspan="7">Sprint 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td>Title</td>
+            <td>ID</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned to</td>
+            <td>Status</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="4">E3-US05</td>
+            <td rowspan="4">Ver historial de alertas por fugas</td>
+            <td>W01</td>
+            <td>Historial de alertas UI (Web)</td>
+            <td>Desarrollar pantalla web de historial de alertas </td>
+            <td>6</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W02</td>
+            <td>Historial de alertas  UI (Mobile)</td>
+            <td>Desarrollar versión mobile del historial de alertas</td>
+            <td>5</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W03</td>
+            <td>Historial de alertas API</td>
+            <td>Implementar endpoint para obtener alertas históricas</td>
+            <td>5</td>
+            <td></td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W04</td>
+            <td>Historial de alertas Storage</td>
+            <td>Implementar lógica para registrar alertas en base de datos</td>
+            <td>4</td>
+            <td></td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E3-US06</td>
+            <td rowspan="3">Ver reporte de niveles diarios de gas</td>
+            <td>W05</td>
+            <td>Reporte de Funcionamiento Estándar UI (Web)</td>
+            <td>Desarrollar pantalla web de los reportes de lectura estándar de los sensores</td>
+            <td>5</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W06</td>
+            <td>Reporte de Funcionamiento Estándar UI (Mobile)</td>
+            <td>Desarrollar versión mobile de  los reportes de lectura estándar de los sensores</td>
+            <td>4</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W07</td>
+            <td>Events Logger</td>
+            <td>Implementar servicio para registrar la lectura de los sensores del sistema</td>
+            <td>6</td>
+            <td>Backend Team</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E4-US08</td>
+            <td rowspan="3">Ajuste automático de iluminación</td>
+            <td>W08</td>
+            <td>Iluminación automática UI (Web)</td>
+            <td>Desarrollar panel web de control para iluminación automática</td>
+            <td>5</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W09</td>
+            <td>Iluminación automática UI (Mobile)</td>
+            <td>Desarrollar versión mobile del control de iluminación automática</td>
+            <td>4</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W10</td>
+            <td>Iluminación API</td>
+            <td>Implementar lógica de ajuste automático en backend</td>
+            <td>7</td>
+            <td>Backend Team</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E4-US09</td>
+            <td rowspan="3">Modificar manualmente la iluminación</td>
+            <td>W11</td>
+            <td>Iluminación Manual UI (Web)</td>
+            <td>Desarrollar control deslizante web para ajuste manual</td>
+            <td>4</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W12</td>
+            <td>Iluminación Manual UI (Mobile)</td>
+            <td>Desarrollar versión mobile del control manual</td>
+            <td>3</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W13</td>
+            <td>Control de iluminación API</td>
+            <td>Implementar endpoint para control manual</td>
+            <td>5</td>
+            <td>Backend Team</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E7-US17</td>
+            <td rowspan="3">Notificar a miembros del hogar</td>
+            <td>W14</td>
+            <td>Miembros del hogar UI (Web)</td>
+            <td>Desarrollar pantalla web de gestión de miembros</td>
+            <td>6</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W15</td>
+            <td>Miembros del hogar (Mobile)</td>
+            <td>Desarrollar versión mobile de gestión de miembros</td>
+            <td>5</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W16</td>
+            <td>Miembros del hogar API</td>
+            <td>Implementar CRUD para miembros del hogar</td>
+            <td>8</td>
+            <td>Backend Team</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="4">E5-US10</td>
+            <td rowspan="4">Agregar nuevo dispositivo</td>
+            <td>W18</td>
+            <td>Registro de dispositivos UI (Web)</td>
+            <td>Desarrollar formulario web de registro de dispositivos</td>
+            <td>5</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W19</td>
+            <td>Registro de dispositivos UI (Mobile)</td>
+            <td>Desarrollar versión mobile del registro de dispositivos</td>
+            <td>4</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W20</td>
+            <td>Dispositivos API</td>
+            <td>Implementar endpoint para registrar dispositivos</td>
+            <td>6</td>
+            <td>Backend Team</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">E5-US11</td>
+            <td rowspan="2">Editar información de dispositivo</td>
+            <td>W22</td>
+            <td>Editar dispositivos UI (Web)</td>
+            <td>Desarrollar pantalla web para editar dispositivos</td>
+            <td>4</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W23</td>
+            <td>Editar dispositivos UI (Mobile)</td>
+            <td>Desarrollar versión mobile de edición de dispositivos</td>
+            <td>3</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">E5-US12</td>
+            <td rowspan="2">Eliminar dispositivo</td>
+            <td>W24</td>
+            <td>Eliminar dispositivo UI (Web)</td>
+            <td>Desarrollar pantalla web para eliminar dispositivos</td>
+            <td>3</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W25</td>
+            <td>DEliminar dispositivo UI (Mobile)</td>
+            <td>Desarrollar versión mobile para eliminar dispositivos</td>
+            <td>2</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
+
 #### 6.2.2.4. Development Evidence for Sprint Review
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
