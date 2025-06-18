@@ -4241,10 +4241,282 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
+<table>
+  <thead>
+    <tr> 
+      <th> <strong> Alumno </strong></th>
+      <th> <strong> Actividad </strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr> 
+      <td> Alvarez Araguache, Samira Jetzabel  </td>
+      <td>  Desarrollo de la aplicación web. Conexión al API.  </td>
+    </tr>
+    <tr> 
+      <td> Llacchua Peralta, Joseph Ulysses </td>
+      <td> Desarrollo de la aplicación móvil. Conexión al API.  </td>
+    </tr>
+    <tr> 
+      <td> Quilla Luyo, Jorge Gerardo  </td>
+      <td> Desarrollo del API REST.   </td>
+    </tr>
+    <tr> 
+      <td> Ramirez Contreras, Zaid Valentino 	 </td>
+      <td> Desarrollo del código del Wokwi. </td>
+    </tr> 
+    <tr> 
+      <td> Ticona Luque, Rony Piero  </td>
+      <td> Desarrollo del API REST. </td>
+    </tr>
+  </tbody>
+</table>
+
+
+A continuación, se presentara la tabla de colaboradores en los repositorios para identificar las contribuciones de cada integrante del equipo en el desarrollo de los puntos establecidos en este sprint 1.
+
+<strong>Tabla de integrantes:</strong>
+
+<table>
+    <thead>
+        <tr>
+            <th>Username (GitHub)</th>
+            <th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Samira-AA</td>
+            <td>Alvarez Araguache, Samira Jetzabel</td>
+        </tr>
+        <tr>
+            <td>JosephLlachua</td>
+            <td>Llacchua Peralta, Joseph Ulysses</td>
+        </tr>
+        <tr>
+            <td>GerardoQuilla</td>
+            <td>Quilla Luyo, Jorge Gerardo</td>
+        </tr>
+        <tr>
+            <td>ZadoR205</td>
+            <td>Ramirez Contreras, Zaid Valentino</td>
+        </tr>
+        <tr>
+            <td>pticona</td>
+            <td>Ticona Luque, Rony Piero</td>
+        </tr>
+    </tbody>
+</table>
+
+A continuación, se enseñarán los insights de ambos repositorios, donde se podrá observar los commits que se han realizado para cumplir con las metas de este sprint:
+
+**Web App**
+
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
+
+Introducción
+
+¿Cuantos años tiene, y en que trabaja o estudia?
+
+Presentación de la aplicación web.
+
+¿Te resulta clara la interfaz de la app al momento de visualizar el nivel de gas y el estado de los dispositivos?
+
+¿Consideras útil poder ver el historial de alertas y eventos dentro de la aplicación? ¿Con qué frecuencia crees que consultarías esta información?
+
+¿Confías en que un sistema automático (como GasGuard) pueda ejecutar protocolos de seguridad sin intervención humana? ¿Por qué sí o por qué no?
+
+¿Te gustaría recibir notificaciones personalizables (por ejemplo, elegir entre sonido, vibración, mensaje o llamada) en caso de una fuga de gas?
+
+¿La posibilidad de controlar la iluminación de tu hogar desde la app representa un valor añadido o una distracción? ¿La usarías frecuentemente?
+
+¿Cómo valorarías tener un resumen diario o semanal del comportamiento del sistema, incluyendo niveles de gas e intervenciones realizadas?
+
+¿Qué tan fácil o difícil te resulta agregar, editar o eliminar un dispositivo desde la app (sensor, actuador, etc.)?
+
+¿Crees que el sistema debería contar con una opción de “modo prueba” para simular una fuga y ver cómo actúa sin generar pánico o notificar a otros?
+
+¿El diseño visual y los flujos de interacción de la app (tanto móvil como web) te parecen intuitivos y rápidos de aprender? ¿Qué mejorarías?
+
+¿Sientes que los protocolos activados en una emergencia (abrir ventanas, cortar electricidad, enviar SMS, etc.) son suficientes? ¿Agregarías algo más?
+
 ### 6.3.2. Registro de Entrevistas
+
+<strong>Entrevista 1</strong>
+
+Entrevistador: Jorge Gerardo Quilla Luyo
+
+Entrevistado: Jorge Carlos Quilla Luyo
+
+Edad: 18 años
+
+Residencia: Lima - La Victoria
+
+<a href="">Link a la entrevista</a>
+
+<img src="./assets/validation-interviews/" alt="Entrevista Jorge Quilla">
+
+**Resumen:**
+
+<br>
+
+<strong>Entrevista 2</strong>
+
+Entrevistador: Diego Nicolas Ramirez Rodriguez
+
+Entrevistado: Diego Nicolas Ramirez Rodriguez
+
+Edad: 20 años
+
+Residencia: Lima - San Felipe
+
+<a href="" >Link a la entrevista</a>
+
+<img src="./assets/validation-interviews/" alt="Entrevista Diego Ramirez">
+
+**Resumen:**
+
+<br>
+
+
+<strong>Entrevista 3</strong>
+
+Entrevistador: Rony Piero Ticona Luque
+
+Entrevistado: Alexandra Mariella Cabezas
+
+Edad: 29 años
+
+Residencia: Lima - Breña
+
+<a href="">Link a la entrevista</a>
+
+<img src="./assets/validation-interviews/" alt="Entrevista Piero Ticona">
+
+**Resumen:**
+
+<br>
+
 ### 6.3.3. Evaluaciones según heurísticas
+
+<br>
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability - Inclusive Design - Information Architecture**
+
+<br>
+
+**Site o App a evaluar:**
+GasGuard
+<br>
+
+**Tareas a evaluar:**
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+7. -
+8. -
+
+<br>
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|**Nivel**|**Descripción**|
+| - | - |
+|1|Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+<br>
+
+**TABLA DE RESUMEN:**
+
+|N|Problema|Escala de severidad|Heurística/Principio violada(o)|
+| - | - | - | - |
+|1| - | - | - |
+|2| - | - | - |
+|3| - | - | - |
+
+<br>
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+<br>
+
+**Problema 1: -**
+
+Severidad: -
+
+Heurística violada: -
+
+Problema:
+
+-
+
+<img src="./assets/heuristics/" alt="problema">
+
+<br>Recomendación:
+
+-
+
+<br><br>
+
+**Problema #2: -**
+
+Severidad: -
+
+Heurística violada: -
+
+Problema:
+
+-
+
+<img src="./assets/heuristics/" alt="problema">
+
+<br>Recomendación:
+
+-
+
+<br>
+
+**Problema 3: -**
+
+Severidad: .
+
+Heurística violada: -
+
+Problema:
+
+-
+
+<img src="./assets/heuristics/" alt="problema">
+
+<br>Recomendación:
+
+-
 
 ## 6.4. Video About-the-Product
 
