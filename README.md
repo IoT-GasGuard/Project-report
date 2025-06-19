@@ -1298,24 +1298,24 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
   </tr>
   <tr>
   <td>US06</td>
-  <td>Ver reporte de niveles de gas en promedio</td>
+  <td>Ver reporte de niveles diarios de gas</td>
   <td>
     <strong>Como </strong>usuario
     <br>
-    <strong>Quiero </strong>ver un reporte con el promedio del nivel de gas detectado
+    <strong>Quiero </strong>ver un reporte con el promedio diario del nivel de gas
     <br>
     <strong>Para </strong>hacer seguimiento al ambiente de mi hogar
   </td>
   <td>
-    <strong>Escenario 1: Visualización de promedio de niveles de gas</strong>
+    <strong>Escenario 1: Visualización de promedio diario</strong>
     <br>
     <strong>Dado que </strong>el sistema almacena lecturas diarias del sensor
     <br>
     <strong>Cuando </strong>el usuario acceda al módulo de reportes
     <br>
-    <strong>Y </strong> se dirija al apartado de "Operación Normal"
+    <strong>Y </strong> se dirija al apartdo de "Operaciones"
     <br>
-    <strong>Entonces </strong> verá analítica del las lecturas de gas de los sensores
+    <strong>Entonces </strong> verá analítica del funcionamiento diario de los sensores
     <strong>Y </strong> un listado con el promedio diario del nivel de gas
     <br><br>
     <strong>Escenario 2: Reporte sin datos disponibles</strong>
@@ -4387,11 +4387,12 @@ Edad: 20 años
 
 Residencia: Lima - San Felipe
 
-<a href="" >Link a la entrevista</a>
+<a href="https://youtu.be/5WOUu7lO8LY" >Link a la entrevista</a>
 
-<img src="./assets/validation-interviews/" alt="Entrevista Diego Ramirez">
+<img src="./assets/validation-interviews/Diego.png" alt="Entrevista Diego Ramirez">
 
 **Resumen:**
+Luego de mostrarle la aplicación, tanto movil como web, y el prototipo del dispositivo, el entrevistado mostró interés en la aplicación y su funcionalidad. Considera que la interfaz es clara y fácil de usar, destacando la importancia de poder ver el historial de alertas y eventos. Expresó confianza en que un sistema automático pueda ejecutar protocolos de seguridad, aunque sugirió que sería útil tener una opción de "modo prueba" para simular situaciones sin generar pánico. También valoró positivamente la posibilidad de recibir notificaciones personalizables y controlar la iluminación del hogar desde la app. En general, mostró una actitud positiva hacia el proyecto y sugirió algunas mejoras en el diseño visual para hacerlo más intuitivo.
 
 <br>
 
