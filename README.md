@@ -1013,7 +1013,7 @@ Las entrevistas realizadas muestran una clara preocupación por la seguridad fre
 
 ### 2.3.5. As-is Scenario Mapping
 
-<img src="./assets/scenario-mapping/as-is.png" alt="as-is scenario mapping">
+<img src="./assets/scenario_mapping/as-is.png" alt="as-is scenario mapping">
 
 Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540110425&cot=14">As-Is Scenario Mapping - GasGuard</a>
 
@@ -2908,27 +2908,27 @@ Estos mecanismos asegurarán una experiencia de navegación consistente y accesi
 
 <strong>Desktop Web Browser</strong>
 
-<img src="./assets/landing-ui/landing_wf.png" alt="Landing Page Wireframe"/>
+<img style="display: block; margin: auto" width="500px" src="./assets/landing-ui/landing_wf.png" alt="Landing Page Wireframe"/>
 
 <br>
 
 <strong>Mobile Web Browser</strong>
 
-<img src="./assets/landing-ui/wireframe_mobile.png" alt="Landing Page Wireframe Mobile"/>
+<img style="display: block; margin: auto" width="250px" src="./assets/landing-ui/wireframe_mobile.png" alt="Landing Page Wireframe Mobile"/>
 
 ### 5.3.2. Landing Page Mock-up
 
 <strong>Desktop Web Browser</strong>
 
-<img src="./assets/landing-ui/mockup_1.png" alt="Landing Page Mockup_1"/>
+<img style="display: block; margin: auto" width="500px" src="./assets/landing-ui/mockup_1.png" alt="Landing Page Mockup_1"/>
 
-<img src="./assets/landing-ui/mockup_2.png" alt="Landing Page Mockup_2"/>
+<img style="display: block; margin: auto" width="500px" src="./assets/landing-ui/mockup_2.png" alt="Landing Page Mockup_2"/>
 
 <br>
 
 <strong>Mobile Web Browser</strong>
 
-<img src="./assets/landing-ui/mockup_mobile.png" alt="Landing Page Mockup Mobile"/>
+<img style="display: block; margin: auto" width="250px" src="./assets/landing-ui/mockup_mobile.png" alt="Landing Page Mockup Mobile"/>
 
 <br>
 <br>
@@ -4273,7 +4273,7 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 </table>
 
 
-A continuación, se presentara la tabla de colaboradores en los repositorios para identificar las contribuciones de cada integrante del equipo en el desarrollo de los puntos establecidos en este sprint 1.
+A continuación, se presentara la tabla de colaboradores en los repositorios para identificar las contribuciones de cada integrante del equipo en el desarrollo de los puntos establecidos en este sprint 2.
 
 <strong>Tabla de integrantes:</strong>
 
