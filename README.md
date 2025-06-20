@@ -4312,19 +4312,19 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 **Web App**
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Flujo entre ramas">
+<img src="./assets/collaboration_insights_sprint2/webapp/branch_flow.png" alt="Sprint 2 Web App - Flujo entre ramas">
 
 **Anexo:** Flujo entre ramas
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Tabla de commits">
+<!-- <img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Tabla de commits">
 
-**Anexo:** Tabla de commits en el periodo de 1 mes
+**Anexo:** Tabla de commits en el periodo de 1 mes -->
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Flujo de trabajo">
+<img src="./assets/collaboration_insights_sprint2/webapp/commits_over_time.png" alt="Sprint 2 Web App - Flujo de trabajo">
 
 **Anexo:** Flujo de trabajo realizado en 1 mes
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Insights">
+<img src="./assets/collaboration_insights_sprint2/webapp/insights.png" alt="Sprint 2 Web App - Insights">
 
 **Anexo:** Colaboration insights  en el periodo de 1 mes
 
@@ -4352,19 +4352,19 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 **Wowki**
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Flujo entre ramas">
+<!-- <img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Flujo entre ramas">
 
 **Anexo:** Flujo entre ramas
 
 <img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Tabla de commits">
 
-**Anexo:** Tabla de commits en el periodo de 1 mes
+**Anexo:** Tabla de commits en el periodo de 1 mes -->
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Flujo de trabajo">
+<img src="./assets/collaboration_insights_sprint2/wokwi/commits.png" alt="Sprint 2 Wokwi - Flujo de trabajo">
 
 **Anexo:** Flujo de trabajo realizado en 1 mes
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Insights">
+<img src="./assets/collaboration_insights_sprint2/wokwi/insights.png" alt="Sprint 2 Wokwi - Insights">
 
 **Anexo:** Colaboration insights  en el periodo de 1 mes
 
