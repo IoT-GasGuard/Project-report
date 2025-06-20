@@ -4312,21 +4312,103 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 **Web App**
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 - Flujo entre ramas">
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Flujo entre ramas">
 
 **Anexo:** Flujo entre ramas
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 - Tabla de commits">
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Tabla de commits">
 
 **Anexo:** Tabla de commits en el periodo de 1 mes
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 - Flujo de trabajo">
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Flujo de trabajo">
 
 **Anexo:** Flujo de trabajo realizado en 1 mes
 
-<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 - Insights">
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Insights">
 
 **Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**API REST**
+
+<img src="./assets/collaboration_insights_sprint2/api_rest/branch_flow.png" alt="Sprint 2 API REST - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint2/api_rest/overview.png" alt="Sprint 2 API REST - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/api_rest/commits_over_time.png" alt="Sprint 2 API REST - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/api_rest/insights.png" alt="Sprint 2 API REST - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Wowki**
+
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Mobile App**
+
+<img src="./assets/collaboration_insights_sprint2/mobile_app/branch_flow.png" alt="Sprint 2 Mobile App - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint2/mobile_app/overview.png" alt="Sprint 2 Mobile App - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/mobile_app/commits_over_time.png" alt="Sprint 2 Mobile App - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/mobile_app/insights.png" alt="Sprint 2 Mobile App - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Edge API**
+
+<img src="./assets/collaboration_insights_sprint2/edge_api/branch_flow.png" alt="Sprint 2 Edge Api - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint2/edge_api/overview.png" alt="Sprint 2 Edge Api - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/edge_api/commit_over_time.png" alt="Sprint 2 Edge Api - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/edge_api/insights.png" alt="Sprint 2 Edge Api - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
