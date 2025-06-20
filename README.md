@@ -4175,8 +4175,8 @@ En este sprint, el equipo se organizó según los principales componentes del si
     </thead>
     <tbody>
         <tr>
-            <td rowspan="5">E1-US01</td>
-            <td rowspan="5">Detectar niveles peligrosos de gas</td>
+            <td rowspan="4">E1-US01</td>
+            <td rowspan="4">Detectar niveles peligrosos de gas</td>
             <td>W26</td>
             <td>Integración de sensores en WoWKi</td>
             <td>Integrar sensores de gas con prototipo WoWKi</td>
@@ -4483,11 +4483,11 @@ En este sprint, el equipo se organizó según los principales componentes del si
 <br>
 - Lista de dispositivos
 <br></br>
-<img src="./assets/sprint2/mobileListDevices.PNG">
+<img src="./assets/sprint2/mobileListDevices.png">
 
 - Crear dispositivo
 <br></br>
-<img src="./assets/sprint2/mobileNewDevice.PNG">
+<img src="./assets/sprint2/mobileNewDevice.png">
 
 
 <br></br>
@@ -4496,19 +4496,19 @@ En este sprint, el equipo se organizó según los principales componentes del si
 
 - Lista miembros del hogar
 <br></br>
-<img src="./assets/sprint2/mobileListMembers.PNG">
+<img src="./assets/sprint2/mobileListMembers.png">
 
 - Agregar miembro del hogar
 <br></br>
-<img src="./assets/sprint2/mobileAddMember (2).PNG">
+<img src="./assets/sprint2/mobileAddMember (2).png">
 
 **Reports**
 - Lista de alertas
-  <img src="./assets/sprint2/mobileReports.PNG">
+  <img src="./assets/sprint2/mobileReports.png">
 
 **Lights management**
 - Dashboard de control
-  <img src="./assets/sprint2/mobileLights.PNG">
+  <img src="./assets/sprint2/mobileLights.png">
 
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
