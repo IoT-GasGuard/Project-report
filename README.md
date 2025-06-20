@@ -296,6 +296,10 @@ En esta entrega, trabajamos en la definición de metas claras, distribuyendo res
 **TP** <br>
 Durante esta fase, prioricé la creación de un espacio de trabajo colaborativo e integrador, fortaleciendo la comunicación entre los miembros del equipo. Lideré la investigación sobre experiencia de usuario en sistemas de seguridad, enfocándome en optimizar interfaces para situaciones de emergencia. Desarrollé wireframes iniciales para las aplicaciones móvil y web aplicando principios de diseño centrado en el usuario, lo que enriqueció el proyecto con diversas perspectivas técnicas y creativas.
 
+**TB2** <br>
+En este sprint, participé activamente en la coordinación y comunicación del equipo, apoyando la integración de los diferentes componentes (frontend, backend, edge API, simulador IoT y app móvil). Colaboré en la planificación de tareas y en la revisión de avances, procurando que todos los miembros pudieran aportar y resolver dudas técnicas en conjunto. Gracias a este trabajo colaborativo, logramos cumplir con los objetivos principales del sprint y avanzar en la integración de los módulos del sistema.
+
+
 </td>
          <td> TB1: Conclusiones <br>
 		 El trabajo en equipo durante esta entrega demostró un liderazgo colaborativo, donde cada integrante aportó sus habilidades para alcanzar los objetivos comunes. Mediante herramientas como Gitflow, Structurizr, Lucidchart y entrevistas, logramos una coordinación eficiente, una comprensión profunda de las necesidades del usuario y una documentación bien estructurada. Este enfoque no solo optimizó el flujo de trabajo, sino que también fortaleció la cohesión del grupo, asegurando un avance sólido y alineado hacia el éxito del proyecto.
@@ -346,6 +350,9 @@ Durante esta fase, prioricé la creación de un espacio de trabajo en equipo, in
 
 **TP** <br>
 En esta etapa, lideré el desarrollo de la arquitectura de información y directrices de estilo para GasGuard, definiendo sistemas de navegación intuitivos y patrones de diseño optimizados para situaciones críticas. Implementé la guía completa de estilo (tipografía, paleta de colores, y elementos de interfaz) y desarrollé un sistema de organización y etiquetado que facilita el uso de la aplicación en momentos de emergencia, considerando distintos niveles de alfabetización digital.
+
+**TB2** <br>
+Durante esta entrega, contribuí a mantener un ambiente de trabajo participativo y ordenado, ayudando a definir metas semanales y a distribuir tareas según las fortalezas del equipo. Fomenté la comunicación constante y la colaboración, lo que permitió cumplir con los objetivos planteados y avanzar en el desarrollo de los distintos componentes del proyecto.
 
 </td>
             <td> TB1: Conclusiones<br>
