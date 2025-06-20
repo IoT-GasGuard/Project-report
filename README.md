@@ -4006,52 +4006,77 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 #### 6.2.2.3. Sprint Backlog 2
 
-<table>
+<table border="1" style="width:100%; border-collapse:collapse; text-align:center;">
     <thead>
         <tr>
-            <td>Sprint #:</td>
-            <td colspan="7">Sprint 2</td>
+            <th colspan="8">Sprint Backlog - Sprint 2</th>
         </tr>
         <tr>
-            <td colspan="2">User Story</td>
-            <td colspan="6">Work-Item / Task</td>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Engineering Tasks</th>
         </tr>
         <tr>
-            <td>ID</td>
-            <td>Title</td>
-            <td>ID</td>
-            <td>Title</td>
-            <td>Description</td>
-            <td>Estimation (Hours)</td>
-            <td>Assigned to</td>
-            <td>Status</td>
+            <th>ID</th>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned to</th>
+            <th>Status</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan="4">E3-US05</td>
-            <td rowspan="4">Ver historial de alertas por fugas</td>
+            <td rowspan="5">E1-US01</td>
+            <td rowspan="5">Detectar niveles peligrosos de gas</td>
+            <td>W26</td>
+            <td>Integración de sensores en WoWKi</td>
+            <td>Integrar sensores de gas con prototipo WoWKi</td>
+            <td>6</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W27</td>
+            <td>Configuración del umbral</td>
+            <td>Configurar umbrales de peligrosidad en WoWKi</td>
+            <td>3</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W28</td>
+            <td>Sistema de alarmas</td>
+            <td>Implementar alarmas auditivas en prototipo</td>
+            <td>5</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W29</td>
+            <td>Integración de WebSocket</td>
+            <td>Desarrollar WebSocket para los niveles de gas</td>
+            <td>6</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E3-US05</td>
+            <td rowspan="3">Ver historial de alertas por fugas</td>
             <td>W01</td>
             <td>Historial de alertas UI (Web)</td>
-            <td>Desarrollar pantalla web de historial de alertas </td>
+            <td>Desarrollar pantalla web de historial de alertas</td>
             <td>6</td>
             <td>Samira Alvarez</td>
             <td>Done</td>
         </tr>
         <tr>
             <td>W02</td>
-            <td>Historial de alertas  UI (Mobile)</td>
+            <td>Historial de alertas UI (Mobile)</td>
             <td>Desarrollar versión mobile del historial de alertas</td>
             <td>5</td>
             <td>Joseph Llacchua</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>W03</td>
-            <td>Historial de alertas API</td>
-            <td>Implementar endpoint para obtener alertas históricas</td>
-            <td>5</td>
-            <td></td>
             <td>Done</td>
         </tr>
         <tr>
@@ -4059,7 +4084,7 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
             <td>Historial de alertas Storage</td>
             <td>Implementar lógica para registrar alertas en base de datos</td>
             <td>4</td>
-            <td></td>
+            <td>Gerardo Quilla</td>
             <td>Done</td>
         </tr>
         <tr>
@@ -4067,7 +4092,7 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
             <td rowspan="3">Ver reporte de niveles diarios de gas</td>
             <td>W05</td>
             <td>Reporte de Funcionamiento Estándar UI (Web)</td>
-            <td>Desarrollar pantalla web de los reportes de lectura estándar de los sensores</td>
+            <td>Desarrollar pantalla web de reportes de lectura estándar</td>
             <td>5</td>
             <td>Samira Alvarez</td>
             <td>Done</td>
@@ -4075,7 +4100,7 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
         <tr>
             <td>W06</td>
             <td>Reporte de Funcionamiento Estándar UI (Mobile)</td>
-            <td>Desarrollar versión mobile de  los reportes de lectura estándar de los sensores</td>
+            <td>Desarrollar versión mobile de reportes de lectura</td>
             <td>4</td>
             <td>Joseph Llacchua</td>
             <td>Done</td>
@@ -4083,14 +4108,14 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
         <tr>
             <td>W07</td>
             <td>Events Logger</td>
-            <td>Implementar servicio para registrar la lectura de los sensores del sistema</td>
+            <td>Implementar servicio para registrar lecturas de sensores</td>
             <td>6</td>
-            <td>Backend Team</td>
+            <td>Gerardo Quilla</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td rowspan="3">E4-US08</td>
-            <td rowspan="3">Ajuste automático de iluminación</td>
+            <td rowspan="2">E4-US08</td>
+            <td rowspan="2">Ajuste automático de iluminación</td>
             <td>W08</td>
             <td>Iluminación automática UI (Web)</td>
             <td>Desarrollar panel web de control para iluminación automática</td>
@@ -4101,17 +4126,9 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
         <tr>
             <td>W09</td>
             <td>Iluminación automática UI (Mobile)</td>
-            <td>Desarrollar versión mobile del control de iluminación automática</td>
+            <td>Desarrollar versión mobile del control de iluminación</td>
             <td>4</td>
             <td>Joseph Llacchua</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>W10</td>
-            <td>Iluminación API</td>
-            <td>Implementar lógica de ajuste automático en backend</td>
-            <td>7</td>
-            <td>Backend Team</td>
             <td>Done</td>
         </tr>
         <tr>
@@ -4134,10 +4151,10 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
         </tr>
         <tr>
             <td>W13</td>
-            <td>Control de iluminación API</td>
-            <td>Implementar endpoint para control manual</td>
-            <td>5</td>
-            <td>Backend Team</td>
+            <td>Iluminación Manual en Wowki</td>
+            <td>Desarrollar simulación del ajuste de iluminación en Wowki</td>
+            <td>3</td>
+            <td>Zaid Ramirez</td>
             <td>Done</td>
         </tr>
         <tr>
@@ -4152,7 +4169,7 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
         </tr>
         <tr>
             <td>W15</td>
-            <td>Miembros del hogar (Mobile)</td>
+            <td>Miembros del hogar UI (Mobile)</td>
             <td>Desarrollar versión mobile de gestión de miembros</td>
             <td>5</td>
             <td>Joseph Llacchua</td>
@@ -4163,7 +4180,7 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
             <td>Miembros del hogar API</td>
             <td>Implementar CRUD para miembros del hogar</td>
             <td>8</td>
-            <td>Backend Team</td>
+            <td>Piero Ticona</td>
             <td>Done</td>
         </tr>
         <tr>
@@ -4189,12 +4206,20 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
             <td>Dispositivos API</td>
             <td>Implementar endpoint para registrar dispositivos</td>
             <td>6</td>
-            <td>Backend Team</td>
+            <td>Piero Ticona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td rowspan="2">E5-US11</td>
-            <td rowspan="2">Editar información de dispositivo</td>
+            <td>W21</td>
+            <td>Validación de dispositivos</td>
+            <td>Implementar lógica de validación de dispositivos</td>
+            <td>4</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E5-US11</td>
+            <td rowspan="3">Editar información de dispositivo</td>
             <td>W22</td>
             <td>Editar dispositivos UI (Web)</td>
             <td>Desarrollar pantalla web para editar dispositivos</td>
@@ -4211,9 +4236,17 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
             <td>Done</td>
         </tr>
         <tr>
-            <td rowspan="2">E5-US12</td>
-            <td rowspan="2">Eliminar dispositivo</td>
             <td>W24</td>
+            <td>Dispositivos API</td>
+            <td>Implementar endpoint para editar dispositivos</td>
+            <td>6</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E5-US12</td>
+            <td rowspan="3">Eliminar dispositivo</td>
+            <td>W25</td>
             <td>Eliminar dispositivo UI (Web)</td>
             <td>Desarrollar pantalla web para eliminar dispositivos</td>
             <td>3</td>
@@ -4221,17 +4254,115 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
             <td>Done</td>
         </tr>
         <tr>
-            <td>W25</td>
-            <td>DEliminar dispositivo UI (Mobile)</td>
+            <td>W26</td>
+            <td>Eliminar dispositivo UI (Mobile)</td>
             <td>Desarrollar versión mobile para eliminar dispositivos</td>
             <td>2</td>
             <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W27</td>
+            <td>Dispositivos API</td>
+            <td>Implementar endpoint para eliminar dispositivos</td>
+            <td>6</td>
+            <td>Piero Ticona</td>
             <td>Done</td>
         </tr>
     </tbody>
 </table>
 
 #### 6.2.2.4. Development Evidence for Sprint Review
+
+**Web App**
+**Protipo en Wowki integrado al FrontEnd**
+<br></br>
+<img src="./assets/sprint2/webExecution.png">
+- Link al deploy de la aplicación web: https://gasguardiot.netlify.app/
+- Link al prototipo en Wowki: https://wokwi.com/projects/433132853696941057 
+
+**Device Managment**
+<br>
+- Lista de dispositivos
+<br></br>
+<img src="./assets/sprint2/listDevices.PNG">
+
+- Crear dispositivo
+<br></br>
+<img src="./assets/sprint2/newDevice.PNG">
+
+- Editar dispositivo
+<br></br>
+<img src="./assets/sprint2/editDevice1.PNG">
+<img src="./assets/sprint2/editDevice2.PNG">
+
+- Eliminar dispositivo
+<br></br>
+<img src="./assets/sprint2/deleteDevice.PNG">
+
+<br></br>
+
+**Household Management**
+
+- Lista miembros del hogar
+<br></br>
+<img src="./assets/sprint2/listHouseholdMembers.PNG">
+
+- Agregar miembro del hogar
+<br></br>
+<img src="./assets/sprint2/newMember1.PNG">
+<img src="./assets/sprint2/newMember2.PNG">
+
+- Editar miembro del hogar
+<br></br>
+<img src="./assets/sprint2/editMember1.PNG">
+<img src="./assets/sprint2/editMember2.PNG">
+
+- Eliminar miembro del hogar
+<br></br>
+<img src="./assets/sprint2/deleteMember.PNG">
+
+**Reports**
+- Lista de alertas
+  <img src="./assets/sprint2/reports.PNG">
+
+**Lights management**
+- Dashboard de control
+  <img src="./assets/sprint2/lights.PNG">
+
+---
+**Mobile App**
+**Device Managment**
+<br>
+- Lista de dispositivos
+<br></br>
+<img src="./assets/sprint2/mobileListDevices.PNG">
+
+- Crear dispositivo
+<br></br>
+<img src="./assets/sprint2/mobileNewDevice.PNG">
+
+
+<br></br>
+
+**Household Management**
+
+- Lista miembros del hogar
+<br></br>
+<img src="./assets/sprint2/mobileListMembers.PNG">
+
+- Agregar miembro del hogar
+<br></br>
+<img src="./assets/sprint2/mobileAddMember (2).PNG">
+
+**Reports**
+- Lista de alertas
+  <img src="./assets/sprint2/mobileReports.PNG">
+
+**Lights management**
+- Dashboard de control
+  <img src="./assets/sprint2/mobileLights.PNG">
+
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 #### 6.2.2.6. Execution Evidence for Sprint Review
@@ -4247,6 +4378,9 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 ### 6.3.3. Evaluaciones según heurísticas
 
 ## 6.4. Video About-the-Product
+En esta sección, presentamos un video detallado que muestra las características, beneficios y usos de nuestro producto. El video está diseñado para ofrecer una experiencia visual atractiva e informativa, permitiendo a los clientes entender fácilmente cómo el producto puede satisfacer sus necesidades.
+
+Link al video About The Product: https://youtu.be/UXmic8v83xk 
 
 # Conclusiones y Recomendaciones
 En conclusión, el proyecto GasGuard es sustendado bajo un análisis riguroso de las necesidades reales de los usuarios, apoyado por entrevistas, investigación de mercado y herramientas de diseño centradas en las personas. A lo largo del proceso, se identificaron problemáticas críticas relacionadas con la seguridad doméstica frente a fugas de gas, así como oportunidades para ofrecer una solución tecnológica accesible, preventiva y automatizada.
@@ -4280,3 +4414,7 @@ Repositorio del informe: https://github.com/IoT-GasGuard/Project-report
 Link al deploy de la landing page: https://iot-gasguard.github.io/GasGuard-LandingPage/ 
 
 Link al deploy de la aplicación web: https://gasguardiot.netlify.app/  
+
+Link al prototipo en Wowki: https://wokwi.com/projects/433132853696941057 
+
+Link al video About The Product: https://youtu.be/UXmic8v83xk 
