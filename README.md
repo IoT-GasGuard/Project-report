@@ -282,6 +282,9 @@ En esta entrega, se usaron herramientas visuales para la elaboración de escenar
 **TP** <br>
 Para esta entrega se utilizaron herramientas de maquetado de interfaces de usuario, además de documentar flujos acorde a los requerimientos core de la aplicación. También, se desarrollaron videos demostrativos para explicar el prototipo del landing page y de la aplicación web.
 
+**TB2** <br>
+Para esta entrega se crearon los repositorios de Edege Api y el backend, los cuales serán intermediarios para lograr la visualización de niveles de gas en tiepo real. También se evaluaron heurísticas sobre las entrevistas de validación hechas a usuarios objetivo.
+
 Ticona Luque, Rony Piero <br>
 **TB1** <br>
 En esta entrega, se utilizó una herramienta de modelado C4 en Structurizr para el desarrollo de los diagramas de contexto, contenedores y componentes que serán implementados en el proyecto. Además, se emplearon herramientas como Lucidchart y Vertabelo para crear los diagramas de las bases de datos. También se realizaron entrevistas para identificar y comprender mejor las necesidades del segmento de público objetivo, lo cual fue fundamental para definir las funcionalidades clave del proyecto.
@@ -332,6 +335,9 @@ En esta entrega, se logró redactar las historias de usuario, tomando en cuenta 
 
 **TP** <br>
 En esta entrega se logró diseñar una interfaz de usuario que cumple con buenas prácticas y principios de usabilidad y consistencia. Por medio de la herramienta Figma, se elaboraron los prototipos respectivos para la landing page y la aplicacion web, además de definir los User Flow para conocer el recorrido y objetivo de cada pantalla o vista elaborada.
+
+**TB2** <br>
+En esta entrega se desarrolló el Edge API y el backend utilizando frameworks adecuados, se aplicaron metodologías Domain Driven Design para la estructura y lógica de ambos repositorios. Además, se clasificaron en niveles de severidad los problemas identificados por nuestros usuarios a través de entrevistas de validación.
 
 Ticona Luque Rony Piero <br>
 **TB1** <br>
