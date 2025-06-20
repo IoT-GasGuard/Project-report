@@ -4369,11 +4369,12 @@ Edad: 18 años
 
 Residencia: Lima - La Victoria
 
-<a href="">Link a la entrevista</a>
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EeloiKs0aS5KqFQOUFUaR8IBoh3KHAilAePJIfLlsmgOBA?e=IVwhX5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Link a la entrevista</a>
 
-<img src="./assets/validation-interviews/" alt="Entrevista Jorge Quilla">
+<img src="./assets/validation-interviews/carlos.png" alt="Entrevista Jorge Quilla">
 
 **Resumen:**
+Se presentó la aplicación web al entrevistado, y pudo apreciar la detección de niveles de gas en tiempo real a través de una gráfica. Considera que la interfaz ofrece una vista intuitiva y clara de su principal propósito que es la detección de fugas de gas en un hogar. Se mostró positivo sobre confiarle su seguridad a un dispositivo de Internet de las Cosas (IoT). Cree que es necesario que la aplicación ofrezca una simulación ante una fuga de gas para que los miembros del hogar puedan evaluar acciones. También sugirió que se implemente inteligencia artificial para la toma de decisiones basada en datos.
 
 <br>
 
