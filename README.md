@@ -4402,17 +4402,18 @@ Luego de mostrarle la aplicación, tanto movil como web, y el prototipo del disp
 
 Entrevistador: Rony Piero Ticona Luque
 
-Entrevistado: Alexandra Mariella Cabezas
+Entrevistada: Alexandra Mariella Cabezas
 
 Edad: 29 años
 
 Residencia: Lima - Breña
 
-<a href="">Link a la entrevista</a>
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/EZdJ9LyttsFBo-pZQtgZELABf5r6dMRep0tcDbwU4DLExA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SYQWmQ">Link a la entrevista</a>
 
-<img src="./assets/validation-interviews/" alt="Entrevista Piero Ticona">
+<img src="./assets/validation-interviews/alexandra.png" alt="Entrevista Piero Ticona">
 
 **Resumen:**
+En la entrevista con Alexandra Cabezas logramos validar las primeras vistas de la aplicación web en donde va a poder apreciar los niveles de gas en el ambiente, histórico de niveles, dispositivos, reportes de alertas. En las primeras impresiones le pareció un a aplicación fácil de utilizar muy intuitiva gracias a los iconos y datos bien señalados, menciono que vive con 2 personas adultos mayores y le gastaría recibir las notificaciones de un alerta, el modo prueba le ayudaria a comprobar si el sistema siempre esta alerta con el protocolo y que los datos historicos lo revisaria de forma semanal o mensual. Adicional nos menciono como parte de mejora en el diseño que sea personalizable para que puede cambiarle el fondo de la aplicacion.
 
 <br>
 
@@ -4431,14 +4432,11 @@ GasGuard
 <br>
 
 **Tareas a evaluar:**
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
-7. -
-8. -
+1. Visualización de niveles de gas en tiempo real
+2. Activar automaticamente los protocolos de seguridad
+3. Crear, editar y eliminar dispositivos
+4. Visualización de reportes
+5. Controlar iluminación en el ambiente
 
 <br>
 
@@ -4458,9 +4456,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 |N|Problema|Escala de severidad|Heurística/Principio violada(o)|
 | - | - | - | - |
-|1| - | - | - |
-|2| - | - | - |
-|3| - | - | - |
+|1| Comparación limitada entre sensores | 2 | Arquitectura de información |
+|2| Adulto mayor con limitaciones visuales o tecnológicas | 3 | Usabilidad/Inclusión |
+|3| Falta de personalización virtual | 2 | Diseño inclusivo |
 
 <br>
 
@@ -4468,57 +4466,63 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 <br>
 
-**Problema 1: -**
+**Problema 1:**
 
-Severidad: -
+Severidad: 2
 
-Heurística violada: -
+Heurística violada: Arquitectura de Información / Visibilidad del estado del sistema / Flexibilidad y eficiencia de uso
 
 Problema:
 
--
+La aplicación no permite visualizar los niveles de gas de múltiples sensores simultáneamente, obligando al usuario a cambiar entre dispositivos para comparar datos.
 
-<img src="./assets/heuristics/" alt="problema">
+<img src="./assets/heuristics/problema1.png" alt="problema1">
 
 <br>Recomendación:
 
--
+Añadir una vista comparativa con una gráfica multi-dispositivo donde se diferencien por colores o etiquetas.
+Permitir filtrar y seleccionar sensores para análisis conjunto.
+Esto mejoraría eficiencia y claridad para usuarios con múltiples dispositivos.
 
 <br><br>
 
-**Problema #2: -**
+**Problema #2:**
 
-Severidad: -
+Severidad: 3
 
-Heurística violada: -
+Heurística violada: Usabilidad / Inclusión
 
 Problema:
 
--
+La alerta de fuga de gas es solo visual o textual, lo que dificulta que adultos mayores con limitaciones visuales o tecnológicas la perciban rápidamente.
 
-<img src="./assets/heuristics/" alt="problema">
+<img src="./assets/heuristics/problema2.png" alt="problema2">
 
 <br>Recomendación:
 
--
+Incorporar alertas auditivas claras (como una voz o sirena) que acompañen al mensaje visual.
+Permitir configuración personalizada de alertas según necesidades del usuario.
+Incluir accesibilidad por hardware (como altavoz local) si es posible.
 
 <br>
 
-**Problema 3: -**
+**Problema 3:**
 
-Severidad: .
+Severidad: 2
 
-Heurística violada: -
+Heurística violada: Estética y diseño minimalista / Flexibilidad y eficiencia de uso / Diseño inclusivo
 
 Problema:
 
--
+La aplicación no permite personalizar el diseño visual, como cambiar el fondo o estilos gráficos, lo cual limita la experiencia para usuarios con preferencias visuales distintas.
 
-<img src="./assets/heuristics/" alt="problema">
+<img src="./assets/heuristics/problema3.png" alt="problema3">
 
 <br>Recomendación:
 
--
+Agregar opciones de personalización visual como temas, fondos o estilos gráficos.
+Permitir seleccionar paletas de color o vista clara/oscura.
+Esto mejora la conexión emocional y accesibilidad visual.
 
 ## 6.4. Video About-the-Product
 
