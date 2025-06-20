@@ -4002,7 +4002,147 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 2 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 09/06/2025 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 16:00 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de la aplicación Discord <td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> LLacchua Peralta, Joseph Ulysses <td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> Alvarez Araguache, Samira Jetzabel
+        <br>
+          Llacchua Peralta, Joseph Ulysses
+           <br>
+         Quilla Luyo, Jorge Gerardo 
+          <br>
+         Ramirez Contreras, Zaid Valentino
+              <br>
+         Ticona Luque, Rony Piero
+         <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+        <td> En el Sprint 1, se logró implementar con éxito la landing page, mostrando el propósito del proyecto, sus características principales y los planes disponibles. También se desarrolló parte de la aplicación web con funciones clave como la visualización de niveles de gas, estado de actuadores y sensores asociados al sistema. Se consiguió desplegar tanto la landing page como la aplicación web, permitiendo acceso a cualquier usuario. La retroalimentación ha sido positiva, destacando la facilidad de uso de las interfaces y la claridad en la información presentada.<td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+        <td><strong>Lo que hicimos bien:</strong>
+        <br>- Coordinación efectiva para el desarrollo de la landing page
+        <br>- Despliegue sin problemas de ambas plataformas
+        <br>- Interfaz clara e intuitiva
+        <br><strong>Lo que podemos mejorar:</strong>
+        <br>- Mayor anticipación en la asignación de tareas
+        <br>- Mejorar la documentación durante el desarrollo
+        <br>- Aumentar las pruebas de aceptación
+        <br><strong>Plan de acción:</strong>
+        <br>- Establecer reuniones breves de sincronización cada dos días
+        <br>- Documentar el código durante el desarrollo
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Goal</td>
+          <td>  En este sprint, nos enfocaremos en implementar las funcionalidades de autenticación y registro de usuarios, permitiendo crear cuentas e iniciar sesión en la aplicación. Ampliaremos las capacidades de la aplicación web desarrollando funcionalidades para la visualización de historial de alertas y reportes de niveles de gas, así como mejoras en la gestión de dispositivos con opciones para editar dispositivos registrados. Además, comenzaremos con el desarrollo inicial de la simulación IoT (Wokwi), la API de Edge y la aplicación móvil implementando las interfaces principales para visualización de datos de sensores. Al finalizar este sprint, los usuarios podrán registrarse, acceder a la plataforma e interactuar con las principales funcionalidades tanto en versión web como móvil.
+        <td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Velocity </td>
+          <td>  25  <td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 25 <td>
+      </tr>
+</table>
+
 #### 6.2.2.2. Aspect Leaders and Collaborators
+
+En este sprint, el equipo se organizó según los principales componentes del sistema, asignando líderes y colaboradores para cada uno:
+
+<table>
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Frontend Web (L/C)</th>
+      <th>Backend API (L/C)</th>
+      <th>Edge API (L/C)</th>
+      <th>Simulación IoT Wokwi (L/C)</th>
+      <th>App Móvil (L/C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alvarez Araguache, Samira Jetzabel</td>
+      <td>Samira-AA</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Llacchua Peralta, Joseph Ulysses</td>
+      <td>JosephLlachua</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Quilla Luyo, Jorge Gerardo</td>
+      <td>GerardoQuilla</td>
+      <td>C</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ramirez Contreras, Zaid Valentino</td>
+      <td>ZadoR205</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ticona Luque, Rony Piero</td>
+      <td>pticona</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
+
+**L = Líder del componente**
+**C = Colaborador en el componente**
 
 #### 6.2.2.3. Sprint Backlog 2
 #### 6.2.2.4. Development Evidence for Sprint Review
