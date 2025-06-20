@@ -4034,15 +4034,8 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 | PATCH  | /api/v1/devices/{id}              | Actualiza la configuración o datos de un dispositivo.     |
 | GET    | /api/v1/devices/profile/{id}      | Lista todos los dispositivos asociados a un perfil.       |
 
-**Reports**
-| Método | Endpoint                          | Descripción                                               |
-|--------|-----------------------------------|-----------------------------------------------------------|
-| POST   | /api/v1/devices                   | Crea un nuevo dispositivo vinculado al usuario o perfil.  |
-| DELETE | /api/v1/devices/{id}              | Elimina un dispositivo existente por ID.                  |
-| PATCH  | /api/v1/devices/{id}              | Actualiza la configuración o datos de un dispositivo.     |
-| GET    | /api/v1/devices/profile/{id}      | Lista todos los dispositivos asociados a un perfil.       |
 
-**Gas Leak Reports**
+**Reports**
 | Método | Endpoint                               | Descripción                                                        |
 |--------|----------------------------------------|--------------------------------------------------------------------|
 | GET    | /api/v1/reports/device/{deviceId}      | Obtiene reportes de fuga de gas vinculados a un dispositivo.       |
