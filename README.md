@@ -78,10 +78,16 @@
             <td>Se agregó el contenido del capítulo 1, apartados 1.1, 1.2 y 1.3; el contenido del capítulo 2, apartados 2.1, 2.2, 2.3, 2.4; el contenido del capítulo 3, apartados 3.1, 3.2, 3.3 y 3.4; el contenido del capítulo 4, apartados 4.1 y 4.2</td>
         </tr>
 	<tr>
-            <td align = "center">TB1</td>
+            <td align = "center">TP</td>
             <td>14/05/2025</td>
             <td> Grupo 2
             <td>Se agregó el contenido del capítulo 5 y 6</td>
+        </tr>
+        <tr>
+            <td align = "center">TB2</td>
+            <td>20/06/2025</td>
+            <td> Grupo 2
+            <td>Se agregó el contenido del capítulo 6 </td>
         </tr>
 </table>
 <br>
@@ -268,6 +274,9 @@ Para esta entrega, el trabajo se llevó a cabo de manera cooperativa, involucran
 **TP** <br>
 Se trabajó de manera colaborativa en el desarrollo del Sprint Backlog 1, asignando de forma equitativa las historias de usuario entre los integrantes del equipo, lo cual permitió una organización efectiva y liderazgo compartido. Como resultado, se presentó la evidencia del avance logrado, incluyendo el despliegue inicial de la aplicación web y de la landing page, mostrando el compromiso y la coordinación del equipo en alcanzar los objetivos establecidos.
 
+**TB2** 
+Para esta entrega, el equipo trabajó de manera coordinada bajo un liderazgo conjunto, logrando avances clave en el proyecto. Se crearon los repositorios de Edge API y Backend, que servirán como intermediarios para la visualización de niveles de gas en tiempo real, y se completó su conexión con el frontend de la aplicación. Además, se realizaron entrevistas de validación con usuarios para asegurar que el desarrollo se alinee con sus necesidades. 
+
 Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
 En esta etapa, el trabajo se hizo en conjunto donde cada integrante aportó su conocimiento y habilidad para el diseño del proyecto. Se usaron, además, herramientas para la creación de las user personas que nos ayudaran a entender correctamente y en su totalidad las necesidades de nuestro segmento objetivo e idear un plan de acción para abarcarlas.
@@ -325,6 +334,9 @@ En esta etapa del proyecto, se logró determinar el estado actual del mercado re
 
 **TP** <br>
 Se fomentó un entorno colaborativo e inclusivo mediante la participación activa de todos los integrantes en la definición de metas claras, planificación de tareas y asignación de responsabilidades durante el Sprint 1. Esta organización permitió cumplir los objetivos trazados, como el desarrollo y despliegue de la landing page y la maqueta funcional de la aplicación web, asegurando que cada miembro contribuyera desde sus fortalezas y con autonomía.
+
+**TB2** <br>
+En esta etapa del proyecto, el equipo estableció metas claras, planificó tareas estratégicas y cumplió los objetivos trazados para esta entrega. Se crearon los repositorios de Edge API y Backend, fundamentales para visualizar los niveles de gas en tiempo real, y se integraron exitosamente con el frontend de la aplicación. Además, mediante entrevistas de validación, se recopiló feedback clave para alinear el desarrollo con las necesidades reales de los usuarios.
 
 Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
@@ -4426,6 +4438,330 @@ En este sprint, el equipo se organizó según los principales componentes del si
 </table>
 
 #### 6.2.2.4. Development Evidence for Sprint Review
+
+<table style="width:400px; height:100px;">
+ <tr>
+    <th> <strong> Repository </strong> </th>
+    <th> <strong> Branch </strong> </th>
+    <th> <strong> Commit ID</strong> </th>
+    <th> <strong> Commit Message </strong> </th>
+     <th> <strong> Commit Message (Body) </strong> </th>
+     <th> <strong> Commited on (Date) </strong> </th>
+ </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> 197c4a2f6ba0e58509bb97f18f5d34cded550492 </th>
+   <th> Initial commit </th>
+   <th> </th>
+   <th> 07/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> e9b6a0e75fdda4e2760d02ef0d8313f3a2a1d2e8 </th>
+   <th> feat(monitoring): add websocket config </th>
+   <th> </th>
+   <th> 07/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> e41e4e3b4fd7f50e5bc651fbf6face2eebb012da </th>
+   <th> feat(user): add user authentication </th>
+   <th> </th>
+   <th> 07/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> d246463c2d4d56b3a454b6b31152c94564bc0949 </th>
+   <th> feat: add Dockerfile </th>
+   <th> </th>
+   <th> 10/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> e668bc46ec2ed0aeea2ff28e5c0e77523ecc42ba </th>
+   <th> refactor(websocket): fix config </th>
+   <th> </th>
+   <th> 11/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/profiles </th>
+   <th> fdad61d850ed7ff4f4f377c5c93f2db30b34af47 </th>
+   <th> feat: add profile </th>
+   <th> </th>
+   <th> 11/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/devices </th>
+   <th> 9253b361fdd4b60bd009035bba1ceebea8e93745 </th>
+   <th> feat(devices): add create device </th>
+   <th> </th>
+   <th> 12/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/devices </th>
+   <th> e688d40209e8abd7325b8c6dc48e874ca6118d44 </th>
+   <th> feat(devices): add update and delete </th>
+   <th> </th>
+   <th> 12/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/devices </th>
+   <th> 88d27f41bacb79206e6fd2f2613f3f5cbeadb36e </th>
+   <th> feat(monitoring): add websocket deviceId channels </th>
+   <th> </th>
+   <th> 12/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/reports </th>
+   <th> ad282adf62bf8cef89268731f58b4c886b36f7b6 </th>
+   <th> feat: add report </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/reports </th>
+   <th> 6c414e99e9101d71b33c18200c1253d5334dfbb5 </th>
+   <th> feat(mqtt): add mqtt event </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/household-member </th>
+   <th> 6c414e99e9101d71b33c18200c1253d5334dfbb5 </th>
+   <th> feat: add household member </th>
+   <th> </th>
+   <th> 16/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> 75f4adf200325c3105fa214689ea714be432d1cb </th>
+   <th> chore: add mqtts credentials </th>
+   <th> </th>
+   <th> 16/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> develop </th>
+   <th> 4d2a94264361062c3032b774502100b3378a9453 </th>
+   <th> initial commit </th>
+   <th> </th>
+   <th> 10/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> develop </th>
+   <th> 4d2a94264361062c3032b774502100b3378a9453 </th>
+   <th> initial commit </th>
+   <th> </th>
+   <th> 10/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> refactor/structure </th>
+   <th> 845675ba639b29503a6aea06c50b0d160f4d00bb </th>
+   <th> refactor(websocket): add validations  </th>
+   <th> </th>
+   <th> 11/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> refactor/structure </th>
+   <th> 845675ba639b29503a6aea06c50b0d160f4d00bb </th>
+   <th> refactor: websocket payload  </th>
+   <th> </th>
+   <th> 12/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> refactor/structure </th>
+   <th> 1adeab31b3b75081b9132620a1ec380dd1d45153 </th>
+   <th> feat: add report  </th>
+   <th> </th>
+   <th> 14/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> feat/alert-report </th>
+   <th> 94772869368a83ad253922fdb4445d046f47b2dd </th>
+   <th> feat: add sqlite connection  </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> feat/alert-report </th>
+   <th> dc311cf2f446e1a1b95289262c3c20037173acd4 </th>
+   <th> feat: add publish report topic  </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> feat/alert-report </th>
+   <th> 3f7a9d3b126c3e95cfb0c23711d175e6ad259f48 </th>
+   <th> fix: report attribute  </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> chore/env-variables </th>
+   <th> 0a98af166cfaf66ba3da149200e9de4dd48cb788 </th>
+   <th> chore: add mqtts variables  </th>
+   <th> </th>
+   <th> 16/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> develop </th>
+   <th> 0a98af166cfaf66ba3da149200e9de4dd48cb788 </th>
+   <th> feat: add Windows runner files for Flutter application  </th>
+   <th> </th>
+   <th> 09/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/ousehold_members_screen </th>
+   <th> 3539b9888b925c12c53dd8e4877b11d7bf8eb661 </th>
+   <th> feat: add screen auth and common  </th>
+   <th> </th>
+   <th> 09/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/ousehold_members_screen </th>
+   <th> 6a3465677b2b7d8e60149f434f9ae28e68dcfcce </th>
+   <th>feat: add screen dashboard an menu top utils </th>
+   <th> </th>
+   <th> 09/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/ousehold_members_screen </th>
+   <th> ca6a0cb46e3d94edb9408b0c2828afa0b49f705a </th>
+   <th>feat: add screen devices </th>
+   <th> </th>
+   <th> 09/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/reports_analytics_screen </th>
+   <th> 6424f6e2d91d0ab7e905bf6945ae824e3c275c51 </th>
+   <th>feat: Implement gas reading and system status models </th>
+   <th> </th>
+   <th> 13/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/reports_analytics_screen </th>
+   <th> 0213c71070689d16adba5e87163e3a37a7eb2d9b </th>
+   <th>feat: Refactor DevicesScreen to use Device model and improve loading state </th>
+   <th> </th>
+   <th> 13/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/reports_analytics_screen </th>
+   <th> b35a45b41d30ab989efb0f776df4647212ddabc0 </th>
+   <th>feat: Add device chart and status components </th>
+   <th> </th>
+   <th> 13/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/lighting_screen </th>
+   <th> 7aadf56b0e64dcbebe00cb6dd727f71abe25beb1 </th>
+   <th>feat: add lighting screen with master control and zone control components </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/household_members_screen </th>
+   <th> 6ef106b9d49f8e2bc34fd384cf3bdd7dd18feef4 </th>
+   <th>feat: add household members management screen with add/edit functionality </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/household_members_screen </th>
+   <th> 7101e1bcfd3ea8839a1dc170addbc2c3c1a645a1 </th>
+   <th>feat: implement multi-step dialog for adding/editing household members with enhanced UI and validation </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/household_members_screen </th>
+   <th> e39abbf2d1414fc89ccf5ecc10f68cffbfce3f12 </th>
+   <th>feat: add search filter bar for household members with emergency contact toggle </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/household_members_screen </th>
+   <th> 1c2db1a5451642b0a3909dca5a2db6d07dd0fa75 </th>
+   <th>feat: remove back button from household members screen header </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App</th> 
+   <th> feature/monitoring </th>
+   <th> 13437a96e76d212cea43b108f91a1e6f9f42b0d3 </th>
+   <th>feat: add websocket connection </th>
+   <th> </th>
+   <th> 14/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App</th> 
+   <th> feature/monitoring </th>
+   <th> 4986c72219a39ad7c92fad4634e35c4073489df5 </th>
+   <th>feat: add login and authentication </th>
+   <th> </th>
+   <th> 20/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App</th> 
+   <th> feature/monitoring </th>
+   <th> e6f3aa3a949f99df4fa43a85a768eb05d3fced1d </th>
+   <th>feat: add device CRUD and refactor device management </th>
+   <th> </th>
+   <th> 20/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App</th> 
+   <th> feature/monitoring </th>
+   <th> 23a5cb028603cd6368173f898a519a854935c08a </th>
+   <th>feat: add and edit household members with API</th>
+   <th> </th>
+   <th> 20/06/2025 </th>
+  </tr>
+   <tr>
+   <th> GasGuard-App</th> 
+   <th> feature/release </th>
+   <th> e8692244f3813c0c1da300819f3fa4ef1a30c33b </th>
+   <th>fix: localhost access only in client </th>
+   <th> </th>
+   <th> 20/06/2025 </th>
+  </tr>
+  
+  </table>
 
 **Web App**
 **Protipo en Wowki integrado al FrontEnd**
