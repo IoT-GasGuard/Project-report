@@ -4775,6 +4775,15 @@ En este sprint, el equipo se organizó según los principales componentes del si
   
   </table>
 
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de pruebas Testing Suite Evidence, desarrolladas con el lenguaje Gherkin. Este lenguaje permitió describir de forma clara y comprensible los comportamientos esperados del sistema mediante escenarios en lenguaje natural. Gracias a esto, se facilitó la colaboración entre el equipo de desarrollo y los stakeholders, logrando una mejor definición y entendimiento de los criterios de aceptación del sprint.
+
+<img src="./assets/images/Evidence/Testing.png">
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
 **Web App**
 **Protipo en Wowki integrado al FrontEnd**
 <br></br>
@@ -4863,17 +4872,6 @@ En este sprint, el equipo se organizó según los principales componentes del si
 **Lights management**
 - Dashboard de control
   <img src="./assets/sprint2/mobileLights.png">
-
-
-#### 6.2.2.5. Testing Suite Evidence for Sprint Review
-
-Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de pruebas Testing Suite Evidence, desarrolladas con el lenguaje Gherkin. Este lenguaje permitió describir de forma clara y comprensible los comportamientos esperados del sistema mediante escenarios en lenguaje natural. Gracias a esto, se facilitó la colaboración entre el equipo de desarrollo y los stakeholders, logrando una mejor definición y entendimiento de los criterios de aceptación del sprint.
-
-<img src="./assets/images/Evidence/Testing.png">
-
-#### 6.2.2.6. Execution Evidence for Sprint Review
-
-
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
