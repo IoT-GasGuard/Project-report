@@ -78,10 +78,16 @@
             <td>Se agregó el contenido del capítulo 1, apartados 1.1, 1.2 y 1.3; el contenido del capítulo 2, apartados 2.1, 2.2, 2.3, 2.4; el contenido del capítulo 3, apartados 3.1, 3.2, 3.3 y 3.4; el contenido del capítulo 4, apartados 4.1 y 4.2</td>
         </tr>
 	<tr>
-            <td align = "center">TB1</td>
+            <td align = "center">TP</td>
             <td>14/05/2025</td>
             <td> Grupo 2
             <td>Se agregó el contenido del capítulo 5 y 6</td>
+        </tr>
+        <tr>
+            <td align = "center">TB2</td>
+            <td>20/06/2025</td>
+            <td> Grupo 2
+            <td>Se agregó el contenido del capítulo 6 </td>
         </tr>
 </table>
 <br>
@@ -268,6 +274,9 @@ Para esta entrega, el trabajo se llevó a cabo de manera cooperativa, involucran
 **TP** <br>
 Se trabajó de manera colaborativa en el desarrollo del Sprint Backlog 1, asignando de forma equitativa las historias de usuario entre los integrantes del equipo, lo cual permitió una organización efectiva y liderazgo compartido. Como resultado, se presentó la evidencia del avance logrado, incluyendo el despliegue inicial de la aplicación web y de la landing page, mostrando el compromiso y la coordinación del equipo en alcanzar los objetivos establecidos.
 
+**TB2** 
+Para esta entrega, el equipo trabajó de manera coordinada bajo un liderazgo conjunto, logrando avances clave en el proyecto. Se crearon los repositorios de Edge API y Backend, que servirán como intermediarios para la visualización de niveles de gas en tiempo real, y se completó su conexión con el frontend de la aplicación. Además, se realizaron entrevistas de validación con usuarios para asegurar que el desarrollo se alinee con sus necesidades. 
+
 Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
 En esta etapa, el trabajo se hizo en conjunto donde cada integrante aportó su conocimiento y habilidad para el diseño del proyecto. Se usaron, además, herramientas para la creación de las user personas que nos ayudaran a entender correctamente y en su totalidad las necesidades de nuestro segmento objetivo e idear un plan de acción para abarcarlas.
@@ -275,12 +284,18 @@ En esta etapa, el trabajo se hizo en conjunto donde cada integrante aportó su c
 **TP** <br>
 Para esta entrega se usaron herramientas de maquetado de interfaces de usuario, además de documentar flujos acorde a los requerimientos core de la aplicación. También, se desarrollaron videos demostrativos para explicar el prototipo del landing page y de la aplicación web.
 
+**TB2**<br>
+En este avance cada integrante se enfoco en una parte integral del proyecto en conectamos los componentes. El dispositivo IoT será simulado en wokwi, se conectara con la api mediante websockets lo que nos permitira conocer la información del dispositivo fisico al frontend movil y web.
+
 Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
 En esta entrega, se usaron herramientas visuales para la elaboración de escenarios donde nuestra propuesta resuelve la problemática planteada. Además, se usó un formato estándar y entendible para redactar los requerimientos de nuestros segmentos objetivos. La información recolectada por cada integrante del equipo fue necesario para la correcta elaboración de cada punto en esta entrega y así estar todos coordinados.
 
 **TP** <br>
 Para esta entrega se utilizaron herramientas de maquetado de interfaces de usuario, además de documentar flujos acorde a los requerimientos core de la aplicación. También, se desarrollaron videos demostrativos para explicar el prototipo del landing page y de la aplicación web.
+
+**TB2** <br>
+Para esta entrega se crearon los repositorios de Edege Api y el backend, los cuales serán intermediarios para lograr la visualización de niveles de gas en tiepo real. También se evaluaron heurísticas sobre las entrevistas de validación hechas a usuarios objetivo.
 
 Ticona Luque, Rony Piero <br>
 **TB1** <br>
@@ -326,6 +341,9 @@ En esta etapa del proyecto, se logró determinar el estado actual del mercado re
 **TP** <br>
 Se fomentó un entorno colaborativo e inclusivo mediante la participación activa de todos los integrantes en la definición de metas claras, planificación de tareas y asignación de responsabilidades durante el Sprint 1. Esta organización permitió cumplir los objetivos trazados, como el desarrollo y despliegue de la landing page y la maqueta funcional de la aplicación web, asegurando que cada miembro contribuyera desde sus fortalezas y con autonomía.
 
+**TB2** <br>
+En esta etapa del proyecto, el equipo estableció metas claras, planificó tareas estratégicas y cumplió los objetivos trazados para esta entrega. Se crearon los repositorios de Edge API y Backend, fundamentales para visualizar los niveles de gas en tiempo real, y se integraron exitosamente con el frontend de la aplicación. Además, mediante entrevistas de validación, se recopiló feedback clave para alinear el desarrollo con las necesidades reales de los usuarios.
+
 Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
 Para esta entrega se identificaron los usuarios objetivos del proyecto, por lo que se analizaron sus habilidades, necesidades y frustraciones para diseñar el producto de manera que pueda cumplir de manera eficiente todas estas cosas. Además se identificaron los competidores para conocer las distintas tacticas y funciones que ofrecen para poder mejorar y apuntar a objetivos mas especifico y asi diferenciarnos de la competencia. Todo este estudio se llevo a cabo para ofrecer la mejor version de la solucion IoT y asi atacar eficientemente al problema al que se dirige nuestro proyecto.
@@ -333,12 +351,18 @@ Para esta entrega se identificaron los usuarios objetivos del proyecto, por lo q
 **TP** <br>
 Para esta entrega se usaron herramientas de maquetado de interfaces de usuario, además de documentar flujos acorde a los requerimientos core de la aplicación. También, se desarrollaron videos demostrativos para explicar el prototipo de la aplicación mobile.
 
+**TB2** <br>
+Para esta entrega utilizamos distintos IDEs de desarrollo y herramientas. Para la simulacion del dispositivo fisico se utilizo la herramienta online Wokwi, para la programacion de la API se utilizó IntelliJ de jetbrains. Tambien se utilizaron Docker y Google Cloud platform para el despliegue
+
 Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
 En esta entrega, se logró redactar las historias de usuario, tomando en cuenta los posibles módulos de nuestra solución propuesta. También se priorizaron estos requerimientos para agilizar el desarrollo de las principales necesidades identificadas. Además, se realizó escenarios donde nuestra solución lograr satisfacer necesidades, resolver problemas y marcar una diferencia frente a la competencia.
 
 **TP** <br>
 En esta entrega se logró diseñar una interfaz de usuario que cumple con buenas prácticas y principios de usabilidad y consistencia. Por medio de la herramienta Figma, se elaboraron los prototipos respectivos para la landing page y la aplicacion web, además de definir los User Flow para conocer el recorrido y objetivo de cada pantalla o vista elaborada.
+
+**TB2** <br>
+En esta entrega se desarrolló el Edge API y el backend utilizando frameworks adecuados, se aplicaron metodologías Domain Driven Design para la estructura y lógica de ambos repositorios. Además, se clasificaron en niveles de severidad los problemas identificados por nuestros usuarios a través de entrevistas de validación.
 
 Ticona Luque Rony Piero <br>
 **TB1** <br>
@@ -1026,7 +1050,7 @@ Las entrevistas realizadas muestran una clara preocupación por la seguridad fre
 
 ### 2.3.5. As-is Scenario Mapping
 
-<img src="./assets/scenario-mapping/as-is.png" alt="as-is scenario mapping">
+<img src="./assets/scenario_mapping/as-is.png" alt="as-is scenario mapping">
 
 Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540110425&cot=14">As-Is Scenario Mapping - GasGuard</a>
 
@@ -2921,27 +2945,27 @@ Estos mecanismos asegurarán una experiencia de navegación consistente y accesi
 
 <strong>Desktop Web Browser</strong>
 
-<img src="./assets/landing-ui/landing_wf.png" alt="Landing Page Wireframe"/>
+<img style="display: block; margin: auto" width="500px" src="./assets/landing-ui/landing_wf.png" alt="Landing Page Wireframe"/>
 
 <br>
 
 <strong>Mobile Web Browser</strong>
 
-<img src="./assets/landing-ui/wireframe_mobile.png" alt="Landing Page Wireframe Mobile"/>
+<img style="display: block; margin: auto" width="250px" src="./assets/landing-ui/wireframe_mobile.png" alt="Landing Page Wireframe Mobile"/>
 
 ### 5.3.2. Landing Page Mock-up
 
 <strong>Desktop Web Browser</strong>
 
-<img src="./assets/landing-ui/mockup_1.png" alt="Landing Page Mockup_1"/>
+<img style="display: block; margin: auto" width="500px" src="./assets/landing-ui/mockup_1.png" alt="Landing Page Mockup_1"/>
 
-<img src="./assets/landing-ui/mockup_2.png" alt="Landing Page Mockup_2"/>
+<img style="display: block; margin: auto" width="500px" src="./assets/landing-ui/mockup_2.png" alt="Landing Page Mockup_2"/>
 
 <br>
 
 <strong>Mobile Web Browser</strong>
 
-<img src="./assets/landing-ui/mockup_mobile.png" alt="Landing Page Mockup Mobile"/>
+<img style="display: block; margin: auto" width="250px" src="./assets/landing-ui/mockup_mobile.png" alt="Landing Page Mockup Mobile"/>
 
 <br>
 <br>
@@ -4158,7 +4182,688 @@ En este sprint, el equipo se organizó según los principales componentes del si
 **C = Colaborador en el componente**
 
 #### 6.2.2.3. Sprint Backlog 2
+
+<table border="1" style="width:100%; border-collapse:collapse; text-align:center;">
+    <thead>
+        <tr>
+            <th colspan="8">Sprint Backlog - Sprint 2</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Engineering Tasks</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned to</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="4">E1-US01</td>
+            <td rowspan="4">Detectar niveles peligrosos de gas</td>
+            <td>W26</td>
+            <td>Integración de sensores en WoWKi</td>
+            <td>Integrar sensores de gas con prototipo WoWKi</td>
+            <td>6</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W27</td>
+            <td>Configuración del umbral</td>
+            <td>Configurar umbrales de peligrosidad en WoWKi</td>
+            <td>3</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W28</td>
+            <td>Sistema de alarmas</td>
+            <td>Implementar alarmas auditivas en prototipo</td>
+            <td>5</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W29</td>
+            <td>Integración de WebSocket</td>
+            <td>Desarrollar WebSocket para los niveles de gas</td>
+            <td>6</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E3-US05</td>
+            <td rowspan="3">Ver historial de alertas por fugas</td>
+            <td>W01</td>
+            <td>Historial de alertas UI (Web)</td>
+            <td>Desarrollar pantalla web de historial de alertas</td>
+            <td>6</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W02</td>
+            <td>Historial de alertas UI (Mobile)</td>
+            <td>Desarrollar versión mobile del historial de alertas</td>
+            <td>5</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W04</td>
+            <td>Historial de alertas Storage</td>
+            <td>Implementar lógica para registrar alertas en base de datos</td>
+            <td>4</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E3-US06</td>
+            <td rowspan="3">Ver reporte de niveles diarios de gas</td>
+            <td>W05</td>
+            <td>Reporte de Funcionamiento Estándar UI (Web)</td>
+            <td>Desarrollar pantalla web de reportes de lectura estándar</td>
+            <td>5</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W06</td>
+            <td>Reporte de Funcionamiento Estándar UI (Mobile)</td>
+            <td>Desarrollar versión mobile de reportes de lectura</td>
+            <td>4</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W07</td>
+            <td>Events Logger</td>
+            <td>Implementar servicio para registrar lecturas de sensores</td>
+            <td>6</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">E4-US08</td>
+            <td rowspan="2">Ajuste automático de iluminación</td>
+            <td>W08</td>
+            <td>Iluminación automática UI (Web)</td>
+            <td>Desarrollar panel web de control para iluminación automática</td>
+            <td>5</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W09</td>
+            <td>Iluminación automática UI (Mobile)</td>
+            <td>Desarrollar versión mobile del control de iluminación</td>
+            <td>4</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E4-US09</td>
+            <td rowspan="3">Modificar manualmente la iluminación</td>
+            <td>W11</td>
+            <td>Iluminación Manual UI (Web)</td>
+            <td>Desarrollar control deslizante web para ajuste manual</td>
+            <td>4</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W12</td>
+            <td>Iluminación Manual UI (Mobile)</td>
+            <td>Desarrollar versión mobile del control manual</td>
+            <td>3</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W13</td>
+            <td>Iluminación Manual en Wowki</td>
+            <td>Desarrollar simulación del ajuste de iluminación en Wowki</td>
+            <td>3</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E7-US17</td>
+            <td rowspan="3">Notificar a miembros del hogar</td>
+            <td>W14</td>
+            <td>Miembros del hogar UI (Web)</td>
+            <td>Desarrollar pantalla web de gestión de miembros</td>
+            <td>6</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W15</td>
+            <td>Miembros del hogar UI (Mobile)</td>
+            <td>Desarrollar versión mobile de gestión de miembros</td>
+            <td>5</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W16</td>
+            <td>Miembros del hogar API</td>
+            <td>Implementar CRUD para miembros del hogar</td>
+            <td>8</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="4">E5-US10</td>
+            <td rowspan="4">Agregar nuevo dispositivo</td>
+            <td>W18</td>
+            <td>Registro de dispositivos UI (Web)</td>
+            <td>Desarrollar formulario web de registro de dispositivos</td>
+            <td>5</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W19</td>
+            <td>Registro de dispositivos UI (Mobile)</td>
+            <td>Desarrollar versión mobile del registro de dispositivos</td>
+            <td>4</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W20</td>
+            <td>Dispositivos API</td>
+            <td>Implementar endpoint para registrar dispositivos</td>
+            <td>6</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W21</td>
+            <td>Validación de dispositivos</td>
+            <td>Implementar lógica de validación de dispositivos</td>
+            <td>4</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E5-US11</td>
+            <td rowspan="3">Editar información de dispositivo</td>
+            <td>W22</td>
+            <td>Editar dispositivos UI (Web)</td>
+            <td>Desarrollar pantalla web para editar dispositivos</td>
+            <td>4</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W23</td>
+            <td>Editar dispositivos UI (Mobile)</td>
+            <td>Desarrollar versión mobile de edición de dispositivos</td>
+            <td>3</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W24</td>
+            <td>Dispositivos API</td>
+            <td>Implementar endpoint para editar dispositivos</td>
+            <td>6</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E5-US12</td>
+            <td rowspan="3">Eliminar dispositivo</td>
+            <td>W25</td>
+            <td>Eliminar dispositivo UI (Web)</td>
+            <td>Desarrollar pantalla web para eliminar dispositivos</td>
+            <td>3</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W26</td>
+            <td>Eliminar dispositivo UI (Mobile)</td>
+            <td>Desarrollar versión mobile para eliminar dispositivos</td>
+            <td>2</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W27</td>
+            <td>Dispositivos API</td>
+            <td>Implementar endpoint para eliminar dispositivos</td>
+            <td>6</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
+
 #### 6.2.2.4. Development Evidence for Sprint Review
+
+<table style="width:400px; height:100px;">
+ <tr>
+    <th> <strong> Repository </strong> </th>
+    <th> <strong> Branch </strong> </th>
+    <th> <strong> Commit ID</strong> </th>
+    <th> <strong> Commit Message </strong> </th>
+     <th> <strong> Commit Message (Body) </strong> </th>
+     <th> <strong> Commited on (Date) </strong> </th>
+ </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> 197c4a2f6ba0e58509bb97f18f5d34cded550492 </th>
+   <th> Initial commit </th>
+   <th> </th>
+   <th> 07/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> e9b6a0e75fdda4e2760d02ef0d8313f3a2a1d2e8 </th>
+   <th> feat(monitoring): add websocket config </th>
+   <th> </th>
+   <th> 07/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> e41e4e3b4fd7f50e5bc651fbf6face2eebb012da </th>
+   <th> feat(user): add user authentication </th>
+   <th> </th>
+   <th> 07/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> d246463c2d4d56b3a454b6b31152c94564bc0949 </th>
+   <th> feat: add Dockerfile </th>
+   <th> </th>
+   <th> 10/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> e668bc46ec2ed0aeea2ff28e5c0e77523ecc42ba </th>
+   <th> refactor(websocket): fix config </th>
+   <th> </th>
+   <th> 11/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/profiles </th>
+   <th> fdad61d850ed7ff4f4f377c5c93f2db30b34af47 </th>
+   <th> feat: add profile </th>
+   <th> </th>
+   <th> 11/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/devices </th>
+   <th> 9253b361fdd4b60bd009035bba1ceebea8e93745 </th>
+   <th> feat(devices): add create device </th>
+   <th> </th>
+   <th> 12/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/devices </th>
+   <th> e688d40209e8abd7325b8c6dc48e874ca6118d44 </th>
+   <th> feat(devices): add update and delete </th>
+   <th> </th>
+   <th> 12/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/devices </th>
+   <th> 88d27f41bacb79206e6fd2f2613f3f5cbeadb36e </th>
+   <th> feat(monitoring): add websocket deviceId channels </th>
+   <th> </th>
+   <th> 12/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/reports </th>
+   <th> ad282adf62bf8cef89268731f58b4c886b36f7b6 </th>
+   <th> feat: add report </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/reports </th>
+   <th> 6c414e99e9101d71b33c18200c1253d5334dfbb5 </th>
+   <th> feat(mqtt): add mqtt event </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/household-member </th>
+   <th> 6c414e99e9101d71b33c18200c1253d5334dfbb5 </th>
+   <th> feat: add household member </th>
+   <th> </th>
+   <th> 16/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop </th>
+   <th> 75f4adf200325c3105fa214689ea714be432d1cb </th>
+   <th> chore: add mqtts credentials </th>
+   <th> </th>
+   <th> 16/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> develop </th>
+   <th> 4d2a94264361062c3032b774502100b3378a9453 </th>
+   <th> initial commit </th>
+   <th> </th>
+   <th> 10/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> develop </th>
+   <th> 4d2a94264361062c3032b774502100b3378a9453 </th>
+   <th> initial commit </th>
+   <th> </th>
+   <th> 10/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> refactor/structure </th>
+   <th> 845675ba639b29503a6aea06c50b0d160f4d00bb </th>
+   <th> refactor(websocket): add validations  </th>
+   <th> </th>
+   <th> 11/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> refactor/structure </th>
+   <th> 845675ba639b29503a6aea06c50b0d160f4d00bb </th>
+   <th> refactor: websocket payload  </th>
+   <th> </th>
+   <th> 12/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> refactor/structure </th>
+   <th> 1adeab31b3b75081b9132620a1ec380dd1d45153 </th>
+   <th> feat: add report  </th>
+   <th> </th>
+   <th> 14/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> feat/alert-report </th>
+   <th> 94772869368a83ad253922fdb4445d046f47b2dd </th>
+   <th> feat: add sqlite connection  </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> feat/alert-report </th>
+   <th> dc311cf2f446e1a1b95289262c3c20037173acd4 </th>
+   <th> feat: add publish report topic  </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> feat/alert-report </th>
+   <th> 3f7a9d3b126c3e95cfb0c23711d175e6ad259f48 </th>
+   <th> fix: report attribute  </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Edge</th> 
+   <th> chore/env-variables </th>
+   <th> 0a98af166cfaf66ba3da149200e9de4dd48cb788 </th>
+   <th> chore: add mqtts variables  </th>
+   <th> </th>
+   <th> 16/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> develop </th>
+   <th> 0a98af166cfaf66ba3da149200e9de4dd48cb788 </th>
+   <th> feat: add Windows runner files for Flutter application  </th>
+   <th> </th>
+   <th> 09/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/ousehold_members_screen </th>
+   <th> 3539b9888b925c12c53dd8e4877b11d7bf8eb661 </th>
+   <th> feat: add screen auth and common  </th>
+   <th> </th>
+   <th> 09/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/ousehold_members_screen </th>
+   <th> 6a3465677b2b7d8e60149f434f9ae28e68dcfcce </th>
+   <th>feat: add screen dashboard an menu top utils </th>
+   <th> </th>
+   <th> 09/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/ousehold_members_screen </th>
+   <th> ca6a0cb46e3d94edb9408b0c2828afa0b49f705a </th>
+   <th>feat: add screen devices </th>
+   <th> </th>
+   <th> 09/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/reports_analytics_screen </th>
+   <th> 6424f6e2d91d0ab7e905bf6945ae824e3c275c51 </th>
+   <th>feat: Implement gas reading and system status models </th>
+   <th> </th>
+   <th> 13/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/reports_analytics_screen </th>
+   <th> 0213c71070689d16adba5e87163e3a37a7eb2d9b </th>
+   <th>feat: Refactor DevicesScreen to use Device model and improve loading state </th>
+   <th> </th>
+   <th> 13/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/reports_analytics_screen </th>
+   <th> b35a45b41d30ab989efb0f776df4647212ddabc0 </th>
+   <th>feat: Add device chart and status components </th>
+   <th> </th>
+   <th> 13/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/lighting_screen </th>
+   <th> 7aadf56b0e64dcbebe00cb6dd727f71abe25beb1 </th>
+   <th>feat: add lighting screen with master control and zone control components </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/household_members_screen </th>
+   <th> 6ef106b9d49f8e2bc34fd384cf3bdd7dd18feef4 </th>
+   <th>feat: add household members management screen with add/edit functionality </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/household_members_screen </th>
+   <th> 7101e1bcfd3ea8839a1dc170addbc2c3c1a645a1 </th>
+   <th>feat: implement multi-step dialog for adding/editing household members with enhanced UI and validation </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/household_members_screen </th>
+   <th> e39abbf2d1414fc89ccf5ecc10f68cffbfce3f12 </th>
+   <th>feat: add search filter bar for household members with emergency contact toggle </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-Mobile</th> 
+   <th> feat/household_members_screen </th>
+   <th> 1c2db1a5451642b0a3909dca5a2db6d07dd0fa75 </th>
+   <th>feat: remove back button from household members screen header </th>
+   <th> </th>
+   <th> 15/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App</th> 
+   <th> feature/monitoring </th>
+   <th> 13437a96e76d212cea43b108f91a1e6f9f42b0d3 </th>
+   <th>feat: add websocket connection </th>
+   <th> </th>
+   <th> 14/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App</th> 
+   <th> feature/monitoring </th>
+   <th> 4986c72219a39ad7c92fad4634e35c4073489df5 </th>
+   <th>feat: add login and authentication </th>
+   <th> </th>
+   <th> 20/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App</th> 
+   <th> feature/monitoring </th>
+   <th> e6f3aa3a949f99df4fa43a85a768eb05d3fced1d </th>
+   <th>feat: add device CRUD and refactor device management </th>
+   <th> </th>
+   <th> 20/06/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App</th> 
+   <th> feature/monitoring </th>
+   <th> 23a5cb028603cd6368173f898a519a854935c08a </th>
+   <th>feat: add and edit household members with API</th>
+   <th> </th>
+   <th> 20/06/2025 </th>
+  </tr>
+   <tr>
+   <th> GasGuard-App</th> 
+   <th> feature/release </th>
+   <th> e8692244f3813c0c1da300819f3fa4ef1a30c33b </th>
+   <th>fix: localhost access only in client </th>
+   <th> </th>
+   <th> 20/06/2025 </th>
+  </tr>
+  
+  </table>
+
+**Web App**
+**Protipo en Wowki integrado al FrontEnd**
+<br></br>
+<img src="./assets/sprint2/webExecution.png">
+- Link al deploy de la aplicación web: https://gasguardiot.netlify.app/
+- Link al prototipo en Wowki: https://wokwi.com/projects/433132853696941057 
+
+**Device Managment**
+<br>
+- Lista de dispositivos
+<br></br>
+<img src="./assets/sprint2/listDevices.PNG">
+
+- Crear dispositivo
+<br></br>
+<img src="./assets/sprint2/newDevice.PNG">
+
+- Editar dispositivo
+<br></br>
+<img src="./assets/sprint2/editDevice1.PNG">
+<img src="./assets/sprint2/editDevice2.PNG">
+
+- Eliminar dispositivo
+<br></br>
+<img src="./assets/sprint2/deleteDevice.PNG">
+
+<br></br>
+
+**Household Management**
+
+- Lista miembros del hogar
+<br></br>
+<img src="./assets/sprint2/listHouseholdMembers.PNG">
+
+- Agregar miembro del hogar
+<br></br>
+<img src="./assets/sprint2/newMember1.PNG">
+<img src="./assets/sprint2/newMember2.PNG">
+
+- Editar miembro del hogar
+<br></br>
+<img src="./assets/sprint2/editMember1.PNG">
+<img src="./assets/sprint2/editMember2.PNG">
+
+- Eliminar miembro del hogar
+<br></br>
+<img src="./assets/sprint2/deleteMember.PNG">
+
+**Reports**
+- Lista de alertas
+  <img src="./assets/sprint2/reports.PNG">
+
+**Lights management**
+- Dashboard de control
+  <img src="./assets/sprint2/lights.PNG">
+
+---
+**Mobile App**
+**Device Managment**
+<br>
+- Lista de dispositivos
+<br></br>
+<img src="./assets/sprint2/mobileListDevices.png">
+
+- Crear dispositivo
+<br></br>
+<img src="./assets/sprint2/mobileNewDevice.png">
+
+
+<br></br>
+
+**Household Management**
+
+- Lista miembros del hogar
+<br></br>
+<img src="./assets/sprint2/mobileListMembers.png">
+
+- Agregar miembro del hogar
+<br></br>
+<img src="./assets/sprint2/mobileAddMember (2).png">
+
+**Reports**
+- Lista de alertas
+  <img src="./assets/sprint2/mobileReports.png">
+
+**Lights management**
+- Dashboard de control
+  <img src="./assets/sprint2/mobileLights.png">
+
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
@@ -4171,16 +4876,435 @@ Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de
 
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+<img src="./assets/services_documentation/services.png">
+
+**Auth**
+| Método | Endpoint             | Descripción                                             |
+|--------|----------------------|---------------------------------------------------------|
+| POST   | /api/v1/auth/sign-up | Registra un nuevo usuario en la plataforma.            |
+| POST   | /api/v1/auth/sign-in | Inicia sesión y devuelve el token JWT para autenticación. |
+
+**Profile**
+| Método | Endpoint                 | Descripción                                 |
+|--------|--------------------------|---------------------------------------------|
+| GET    | /api/v1/profiles/{id}    | Obtiene los datos del perfil por su ID.     |
+
+
+**Device Management**
+| Método | Endpoint                          | Descripción                                               |
+|--------|-----------------------------------|-----------------------------------------------------------|
+| POST   | /api/v1/devices                   | Crea un nuevo dispositivo vinculado al usuario o perfil.  |
+| DELETE | /api/v1/devices/{id}              | Elimina un dispositivo existente por ID.                  |
+| PATCH  | /api/v1/devices/{id}              | Actualiza la configuración o datos de un dispositivo.     |
+| GET    | /api/v1/devices/profile/{id}      | Lista todos los dispositivos asociados a un perfil.       |
+
+
+**Reports**
+| Método | Endpoint                               | Descripción                                                        |
+|--------|----------------------------------------|--------------------------------------------------------------------|
+| GET    | /api/v1/reports/device/{deviceId}      | Obtiene reportes de fuga de gas vinculados a un dispositivo.       |
+
+**Emergency Contacts**
+| Método | Endpoint                             | Descripción                                                 |
+|--------|--------------------------------------|-------------------------------------------------------------|
+| POST   | /api/v1/contacts                     | Añade un nuevo miembro del hogar (contacto de emergencia).  |
+| GET    | /api/v1/contacts/profile/{id}        | Lista los miembros del hogar vinculados a un perfil.        |
+
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
+  En este sprint 2, se ha desployado la versión inicial de la api y base de datos de GasGuard en Google Cloud Platform:
+
+    **Despliegue de la API en Google Cloud Platform (GCP)**:
+    - Se creó un proyecto en GCP y se habilitaron los servicios necesarios para el despliegue de la API.
+    - Se configuró una instancia de Google App Engine para alojar la API, asegurando que las rutas y endpoints estén correctamente definidos.
+    - Se implementó la API utilizando Docker, creando un contenedor que se subió a Google Container Registry y luego se desplegó en App Engine.
+
+<img src="./assets/deployment/deploy backend.png">
+
+<img src="./assets/deployment/deploy database.png">
+
+<img src="./assets/deployment/deploy success.png">
+
+    **Triggers**
+    - Se configuraron triggers en GCP para automatizar el despliegue de la API cada vez que se realicen cambios en el repositorio de GitHub.
+    
+<img src="./assets/deployment/trigger1.png">
+
+<img src="./assets/deployment/trigger2.png">
+
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
+<table>
+  <thead>
+    <tr> 
+      <th> <strong> Alumno </strong></th>
+      <th> <strong> Actividad </strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr> 
+      <td> Alvarez Araguache, Samira Jetzabel  </td>
+      <td>  Desarrollo de la aplicación web. Conexión al API.  </td>
+    </tr>
+    <tr> 
+      <td> Llacchua Peralta, Joseph Ulysses </td>
+      <td> Desarrollo de la aplicación móvil. Conexión al API.  </td>
+    </tr>
+    <tr> 
+      <td> Quilla Luyo, Jorge Gerardo  </td>
+      <td> Desarrollo del API REST.   </td>
+    </tr>
+    <tr> 
+      <td> Ramirez Contreras, Zaid Valentino 	 </td>
+      <td> Desarrollo del código del Wokwi. </td>
+    </tr> 
+    <tr> 
+      <td> Ticona Luque, Rony Piero  </td>
+      <td> Desarrollo del API REST. </td>
+    </tr>
+  </tbody>
+</table>
+
+
+A continuación, se presentara la tabla de colaboradores en los repositorios para identificar las contribuciones de cada integrante del equipo en el desarrollo de los puntos establecidos en este sprint 2.
+
+<strong>Tabla de integrantes:</strong>
+
+<table>
+    <thead>
+        <tr>
+            <th>Username (GitHub)</th>
+            <th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Samira-AA</td>
+            <td>Alvarez Araguache, Samira Jetzabel</td>
+        </tr>
+        <tr>
+            <td>JosephLlachua</td>
+            <td>Llacchua Peralta, Joseph Ulysses</td>
+        </tr>
+        <tr>
+            <td>GerardoQuilla</td>
+            <td>Quilla Luyo, Jorge Gerardo</td>
+        </tr>
+        <tr>
+            <td>ZadoR205</td>
+            <td>Ramirez Contreras, Zaid Valentino</td>
+        </tr>
+        <tr>
+            <td>pticona</td>
+            <td>Ticona Luque, Rony Piero</td>
+        </tr>
+    </tbody>
+</table>
+
+A continuación, se enseñarán los insights de ambos repositorios, donde se podrá observar los commits que se han realizado para cumplir con las metas de este sprint:
+
+**Web App**
+
+<img src="./assets/collaboration_insights_sprint2/webapp/branch_flow.png" alt="Sprint 2 Web App - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<!-- <img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes -->
+
+<img src="./assets/collaboration_insights_sprint2/webapp/commits_over_time.png" alt="Sprint 2 Web App - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/webapp/insights.png" alt="Sprint 2 Web App - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**API REST**
+
+<img src="./assets/collaboration_insights_sprint2/api_rest/branch_flow.png" alt="Sprint 2 API REST - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint2/api_rest/overview.png" alt="Sprint 2 API REST - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/api_rest/commits_over_time.png" alt="Sprint 2 API REST - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/api_rest/insights.png" alt="Sprint 2 API REST - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Wowki**
+
+<!-- <img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Wokwi - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes -->
+
+<img src="./assets/collaboration_insights_sprint2/wokwi/commits.png" alt="Sprint 2 Wokwi - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/wokwi/insights.png" alt="Sprint 2 Wokwi - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Mobile App**
+
+<img src="./assets/collaboration_insights_sprint2/mobile_app/branch_flow.png" alt="Sprint 2 Mobile App - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint2/mobile_app/overview.png" alt="Sprint 2 Mobile App - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/mobile_app/commits_over_time.png" alt="Sprint 2 Mobile App - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/mobile_app/insights.png" alt="Sprint 2 Mobile App - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Edge API**
+
+<img src="./assets/collaboration_insights_sprint2/edge_api/branch_flow.png" alt="Sprint 2 Edge Api - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint2/edge_api/overview.png" alt="Sprint 2 Edge Api - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/edge_api/commit_over_time.png" alt="Sprint 2 Edge Api - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint2/edge_api/insights.png" alt="Sprint 2 Edge Api - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
+
+Introducción
+
+¿Cuantos años tiene, y en que trabaja o estudia?
+
+Presentación de la aplicación web.
+
+¿Te resulta clara la interfaz de la app al momento de visualizar el nivel de gas y el estado de los dispositivos?
+
+¿Consideras útil poder ver el historial de alertas y eventos dentro de la aplicación? ¿Con qué frecuencia crees que consultarías esta información?
+
+¿Confías en que un sistema automático (como GasGuard) pueda ejecutar protocolos de seguridad sin intervención humana? ¿Por qué sí o por qué no?
+
+¿Te gustaría recibir notificaciones personalizables (por ejemplo, elegir entre sonido, vibración, mensaje o llamada) en caso de una fuga de gas?
+
+¿La posibilidad de controlar la iluminación de tu hogar desde la app representa un valor añadido o una distracción? ¿La usarías frecuentemente?
+
+¿Cómo valorarías tener un resumen diario o semanal del comportamiento del sistema, incluyendo niveles de gas e intervenciones realizadas?
+
+¿Qué tan fácil o difícil te resulta agregar, editar o eliminar un dispositivo desde la app (sensor, actuador, etc.)?
+
+¿Crees que el sistema debería contar con una opción de “modo prueba” para simular una fuga y ver cómo actúa sin generar pánico o notificar a otros?
+
+¿El diseño visual y los flujos de interacción de la app (tanto móvil como web) te parecen intuitivos y rápidos de aprender? ¿Qué mejorarías?
+
+¿Sientes que los protocolos activados en una emergencia (abrir ventanas, cortar electricidad, enviar SMS, etc.) son suficientes? ¿Agregarías algo más?
+
 ### 6.3.2. Registro de Entrevistas
+
+<strong>Entrevista 1</strong>
+
+Entrevistador: Jorge Gerardo Quilla Luyo
+
+Entrevistado: Jorge Carlos Quilla Luyo
+
+Edad: 18 años
+
+Residencia: Lima - La Victoria
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EeloiKs0aS5KqFQOUFUaR8IBoh3KHAilAePJIfLlsmgOBA?e=IVwhX5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Link a la entrevista</a>
+
+<img src="./assets/validation-interviews/carlos.png" alt="Entrevista Jorge Quilla">
+
+**Resumen:**
+Se presentó la aplicación web al entrevistado, y pudo apreciar la detección de niveles de gas en tiempo real a través de una gráfica. Considera que la interfaz ofrece una vista intuitiva y clara de su principal propósito que es la detección de fugas de gas en un hogar. Se mostró positivo sobre confiarle su seguridad a un dispositivo de Internet de las Cosas (IoT). Cree que es necesario que la aplicación ofrezca una simulación ante una fuga de gas para que los miembros del hogar puedan evaluar acciones. También sugirió que se implemente inteligencia artificial para la toma de decisiones basada en datos.
+
+<br>
+
+<strong>Entrevista 2</strong>
+
+Entrevistador: Diego Nicolas Ramirez Rodriguez
+
+Entrevistado: Diego Nicolas Ramirez Rodriguez
+
+Edad: 20 años
+
+Residencia: Lima - San Felipe
+
+<a href="https://youtu.be/5WOUu7lO8LY" >Link a la entrevista</a>
+
+<img src="./assets/validation-interviews/Diego.png" alt="Entrevista Diego Ramirez">
+
+**Resumen:**
+Luego de mostrarle la aplicación, tanto movil como web, y el prototipo del dispositivo, el entrevistado mostró interés en la aplicación y su funcionalidad. Considera que la interfaz es clara y fácil de usar, destacando la importancia de poder ver el historial de alertas y eventos. Expresó confianza en que un sistema automático pueda ejecutar protocolos de seguridad, aunque sugirió que sería útil tener una opción de "modo prueba" para simular situaciones sin generar pánico. También valoró positivamente la posibilidad de recibir notificaciones personalizables y controlar la iluminación del hogar desde la app. En general, mostró una actitud positiva hacia el proyecto y sugirió algunas mejoras en el diseño visual para hacerlo más intuitivo.
+
+<br>
+
+
+<strong>Entrevista 3</strong>
+
+Entrevistador: Rony Piero Ticona Luque
+
+Entrevistada: Alexandra Mariella Cabezas
+
+Edad: 29 años
+
+Residencia: Lima - Breña
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/EZdJ9LyttsFBo-pZQtgZELABf5r6dMRep0tcDbwU4DLExA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SYQWmQ">Link a la entrevista</a>
+
+<img src="./assets/validation-interviews/alexandra.png" alt="Entrevista Piero Ticona">
+
+**Resumen:**
+En la entrevista con Alexandra Cabezas logramos validar las primeras vistas de la aplicación web en donde va a poder apreciar los niveles de gas en el ambiente, histórico de niveles, dispositivos, reportes de alertas. En las primeras impresiones le pareció un a aplicación fácil de utilizar muy intuitiva gracias a los iconos y datos bien señalados, menciono que vive con 2 personas adultos mayores y le gastaría recibir las notificaciones de un alerta, el modo prueba le ayudaria a comprobar si el sistema siempre esta alerta con el protocolo y que los datos historicos lo revisaria de forma semanal o mensual. Adicional nos menciono como parte de mejora en el diseño que sea personalizable para que puede cambiarle el fondo de la aplicacion.
+
+<br>
+
 ### 6.3.3. Evaluaciones según heurísticas
 
+<br>
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability - Inclusive Design - Information Architecture**
+
+<br>
+
+**Site o App a evaluar:**
+GasGuard
+<br>
+
+**Tareas a evaluar:**
+1. Visualización de niveles de gas en tiempo real
+2. Activar automaticamente los protocolos de seguridad
+3. Crear, editar y eliminar dispositivos
+4. Visualización de reportes
+5. Controlar iluminación en el ambiente
+
+<br>
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|**Nivel**|**Descripción**|
+| - | - |
+|1|Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+<br>
+
+**TABLA DE RESUMEN:**
+
+|N|Problema|Escala de severidad|Heurística/Principio violada(o)|
+| - | - | - | - |
+|1| Comparación limitada entre sensores | 2 | Arquitectura de información |
+|2| Adulto mayor con limitaciones visuales o tecnológicas | 3 | Usabilidad/Inclusión |
+|3| Falta de personalización virtual | 2 | Diseño inclusivo |
+
+<br>
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+<br>
+
+**Problema 1:**
+
+Severidad: 2
+
+Heurística violada: Arquitectura de Información / Visibilidad del estado del sistema / Flexibilidad y eficiencia de uso
+
+Problema:
+
+La aplicación no permite visualizar los niveles de gas de múltiples sensores simultáneamente, obligando al usuario a cambiar entre dispositivos para comparar datos.
+
+<img src="./assets/heuristics/problema1.png" alt="problema1">
+
+<br>Recomendación:
+
+Añadir una vista comparativa con una gráfica multi-dispositivo donde se diferencien por colores o etiquetas.
+Permitir filtrar y seleccionar sensores para análisis conjunto.
+Esto mejoraría eficiencia y claridad para usuarios con múltiples dispositivos.
+
+<br><br>
+
+**Problema #2:**
+
+Severidad: 3
+
+Heurística violada: Usabilidad / Inclusión
+
+Problema:
+
+La alerta de fuga de gas es solo visual o textual, lo que dificulta que adultos mayores con limitaciones visuales o tecnológicas la perciban rápidamente.
+
+<img src="./assets/heuristics/problema2.png" alt="problema2">
+
+<br>Recomendación:
+
+Incorporar alertas auditivas claras (como una voz o sirena) que acompañen al mensaje visual.
+Permitir configuración personalizada de alertas según necesidades del usuario.
+Incluir accesibilidad por hardware (como altavoz local) si es posible.
+
+<br>
+
+**Problema 3:**
+
+Severidad: 2
+
+Heurística violada: Estética y diseño minimalista / Flexibilidad y eficiencia de uso / Diseño inclusivo
+
+Problema:
+
+La aplicación no permite personalizar el diseño visual, como cambiar el fondo o estilos gráficos, lo cual limita la experiencia para usuarios con preferencias visuales distintas.
+
+<img src="./assets/heuristics/problema3.png" alt="problema3">
+
+<br>Recomendación:
+
+Agregar opciones de personalización visual como temas, fondos o estilos gráficos.
+Permitir seleccionar paletas de color o vista clara/oscura.
+Esto mejora la conexión emocional y accesibilidad visual.
+
 ## 6.4. Video About-the-Product
+En esta sección, presentamos un video detallado que muestra las características, beneficios y usos de nuestro producto. El video está diseñado para ofrecer una experiencia visual atractiva e informativa, permitiendo a los clientes entender fácilmente cómo el producto puede satisfacer sus necesidades.
+
+Link al video About The Product: https://youtu.be/UXmic8v83xk 
 
 # Conclusiones y Recomendaciones
 En conclusión, el proyecto GasGuard es sustendado bajo un análisis riguroso de las necesidades reales de los usuarios, apoyado por entrevistas, investigación de mercado y herramientas de diseño centradas en las personas. A lo largo del proceso, se identificaron problemáticas críticas relacionadas con la seguridad doméstica frente a fugas de gas, así como oportunidades para ofrecer una solución tecnológica accesible, preventiva y automatizada.
@@ -4214,3 +5338,7 @@ Repositorio del informe: https://github.com/IoT-GasGuard/Project-report
 Link al deploy de la landing page: https://iot-gasguard.github.io/GasGuard-LandingPage/ 
 
 Link al deploy de la aplicación web: https://gasguardiot.netlify.app/  
+
+Link al prototipo en Wowki: https://wokwi.com/projects/433132853696941057 
+
+Link al video About The Product: https://youtu.be/UXmic8v83xk 
