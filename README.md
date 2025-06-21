@@ -305,7 +305,7 @@ En esta entrega, se utilizó una herramienta de modelado C4 en Structurizr para 
 En esta entrega se detallaron las principales herramientas que se utilizarán a lo largo del proyecto, tales como Markdown, Git, GitHub, Figma, Miro, Structurizr, UXPressia y Visual Studio Code, todas seleccionadas por su utilidad en las distintas etapas del desarrollo. Además, se establecieron las convenciones de codificación y buenas prácticas que guiarán el trabajo del equipo. Finalmente, se documentó la configuración del despliegue de la landing page, la cual fue publicada a través de GitHub Pages.
 
 **TB2** <br>
-En esta entrega, se realizo las pruebas testing con formato Gherkin para los escenarios de visualizar los datos en tiempo real de la aplicación web, visuaizar reportes de alertar, crear nuevo dispositivo y finalmente la creacion de un nuevo usuario.
+En esta entrega, se realizo las pruebas testing con formato Gherkin para los escenarios de visualizar los datos en tiempo real de la aplicación web, visualizar reportes de alertar, crear nuevo dispositivo y finalmente la creacion de un nuevo usuario.
 
 Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
@@ -326,13 +326,16 @@ En este sprint, participé activamente en la coordinación y comunicación del e
 TP: Conclusiones 
 		En conclusión, el desarrollo del Sprint Backlog 1 evidenció un trabajo colaborativo sólido, marcado por una distribución equitativa de responsabilidades, liderazgo compartido y una planificación orientada a resultados. La entrega incluyó avances significativos como el despliegue inicial de la aplicación web y la landing page, respaldados por documentación detallada, prototipos funcionales y videos demostrativos. El uso estratégico de herramientas especializadas, junto con la definición de buenas prácticas y convenciones de codificación, sentó una base técnica robusta para el proyecto. Además, se fortaleció la comunicación y cohesión del equipo, mientras que la investigación centrada en la experiencia de usuario aportó una visión valiosa para el diseño de interfaces en contextos críticos, garantizando un enfoque integral y orientado al usuario.
      
-
+<br>
+TB2: Conclusiones <br>
+En este sprint, el equipo demostró un trabajo colaborativo bajo un liderazgo compartido, logrando hitos clave como la creación y conexión de los repositorios de Edge API y Backend con el frontend, esenciales para la visualización en tiempo real de los niveles de gas. Se validaron requerimientos con usuarios y se implementaron pruebas Gherkin para garantizar la calidad en funciones críticas (alertas, gestión de dispositivos y usuarios). La simulación del dispositivo IoT (Wokwi) y su conexión vía WebSockets sentaron las bases para la integración de los módulos. Gracias a la coordinación activa y la resolución conjunta de desafíos técnicos, se cumplieron todos los objetivos planeados, consolidando un avance sólido hacia el producto final.
   <tr>
             <td align = "center">Crea un entorno colaborativo e
 inclusivo, establece metas,
 planifica tareas y cumple
 objetivos</td>
             <td>
+            
 
 Alvarez Araguache, Samira Jetzabel  <br>
 **TB1** <br>
@@ -392,7 +395,12 @@ La investigación con usuarios permitió definir requerimientos prioritarios y d
 
 <br>
 TP: Conclusiones <br>
-		En resumen, la primera entrega del proyecto destacó por su enfoque colaborativo, inclusivo y orientado a resultados, permitiendo que cada integrante contribuyera activamente desde sus habilidades individuales. Gracias a una planificación clara y una asignación eficiente de responsabilidades, se alcanzaron hitos importantes como el desarrollo y despliegue de la landing page, así como la elaboración de prototipos funcionales de la aplicación web y móvil. Se aplicaron buenas prácticas de diseño centrado en el usuario, asegurando interfaces accesibles, consistentes y adaptadas a situaciones críticas. Asimismo, se establecieron las herramientas clave y convenciones técnicas que guiarán el desarrollo del proyecto, garantizando cohesión y eficiencia en el trabajo conjunto. La definición de una arquitectura de información clara y una guía de estilo integral consolidó una base sólida para el diseño de una experiencia de usuario intuitiva y confiable, alineada con los objetivos de GasGuard.       
+		En resumen, la primera entrega del proyecto destacó por su enfoque colaborativo, inclusivo y orientado a resultados, permitiendo que cada integrante contribuyera activamente desde sus habilidades individuales. Gracias a una planificación clara y una asignación eficiente de responsabilidades, se alcanzaron hitos importantes como el desarrollo y despliegue de la landing page, así como la elaboración de prototipos funcionales de la aplicación web y móvil. Se aplicaron buenas prácticas de diseño centrado en el usuario, asegurando interfaces accesibles, consistentes y adaptadas a situaciones críticas. Asimismo, se establecieron las herramientas clave y convenciones técnicas que guiarán el desarrollo del proyecto, garantizando cohesión y eficiencia en el trabajo conjunto. La definición de una arquitectura de información clara y una guía de estilo integral consolidó una base sólida para el diseño de una experiencia de usuario intuitiva y confiable, alineada con los objetivos de GasGuard.
+
+<br>
+TB2: Conclusiones <br>       
+El equipo demostró su capacidad para crear un entorno colaborativo e inclusivo mediante una comunicación constante y la distribución de tareas según las fortalezas individuales. Se establecieron metas claras (desarrollo de APIs, integración y validación con usuarios) y se planificaron tareas estratégicas (metodología DDD, pruebas Gherkin). Como resultado, se cumplieron todos los objetivos: implementación técnica funcional, pruebas de calidad y avance en la integración del sistema, reforzando el trabajo en equipo y la alineación con las necesidades del proyecto.
+
 </td>
        <tr>
 </table>
@@ -4105,11 +4113,11 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
       </tr>
        <tr>
           <td style="font-weight: bold;"> Sprint 2 Velocity </td>
-          <td>  25  <td>
+          <td>  35  <td>
       </tr>
       <tr>
           <td style="font-weight: bold;"> Sum of Story Points </td>
-          <td> 25 <td>
+          <td> 60 <td>
       </tr>
 </table>
 
@@ -4183,6 +4191,10 @@ En este sprint, el equipo se organizó según los principales componentes del si
 
 #### 6.2.2.3. Sprint Backlog 2
 
+<img src="./assets/sprint2/trello.PNG">
+<br>
+Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
+<br>
 <table border="1" style="width:100%; border-collapse:collapse; text-align:center;">
     <thead>
         <tr>
@@ -4790,6 +4802,7 @@ Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de
 <img src="./assets/sprint2/webExecution.png">
 - Link al deploy de la aplicación web: https://gasguardiot.netlify.app/
 - Link al prototipo en Wowki: https://wokwi.com/projects/433132853696941057 
+- Link al deploy del backend: https://gasguard-api-282272338419.southamerica-west1.run.app 
 
 **Device Managment**
 <br>
@@ -4913,7 +4926,7 @@ Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
   En este sprint 2, se ha desployado la versión inicial de la api y base de datos de GasGuard en Google Cloud Platform:
 
-    **Despliegue de la API en Google Cloud Platform (GCP)**:
+**Despliegue de la API en Google Cloud Platform (GCP)**:
     - Se creó un proyecto en GCP y se habilitaron los servicios necesarios para el despliegue de la API.
     - Se configuró una instancia de Google App Engine para alojar la API, asegurando que las rutas y endpoints estén correctamente definidos.
     - Se implementó la API utilizando Docker, creando un contenedor que se subió a Google Container Registry y luego se desplegó en App Engine.
@@ -4924,13 +4937,14 @@ Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de
 
 <img src="./assets/deployment/deploy success.png">
 
-    **Triggers**
+**Triggers**
     - Se configuraron triggers en GCP para automatizar el despliegue de la API cada vez que se realicen cambios en el repositorio de GitHub.
     
 <img src="./assets/deployment/trigger1.png">
 
 <img src="./assets/deployment/trigger2.png">
 
+Link al deploy: https://gasguard-api-282272338419.southamerica-west1.run.app 
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
