@@ -284,6 +284,9 @@ En esta etapa, el trabajo se hizo en conjunto donde cada integrante aportó su c
 **TP** <br>
 Para esta entrega se usaron herramientas de maquetado de interfaces de usuario, además de documentar flujos acorde a los requerimientos core de la aplicación. También, se desarrollaron videos demostrativos para explicar el prototipo del landing page y de la aplicación web.
 
+**TB2**<br>
+En este avance cada integrante se enfoco en una parte integral del proyecto en conectamos los componentes. El dispositivo IoT será simulado en wokwi, se conectara con la api mediante websockets lo que nos permitira conocer la información del dispositivo fisico al frontend movil y web.
+
 Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
 En esta entrega, se usaron herramientas visuales para la elaboración de escenarios donde nuestra propuesta resuelve la problemática planteada. Además, se usó un formato estándar y entendible para redactar los requerimientos de nuestros segmentos objetivos. La información recolectada por cada integrante del equipo fue necesario para la correcta elaboración de cada punto en esta entrega y así estar todos coordinados.
@@ -344,6 +347,9 @@ Para esta entrega se identificaron los usuarios objetivos del proyecto, por lo q
 
 **TP** <br>
 Para esta entrega se usaron herramientas de maquetado de interfaces de usuario, además de documentar flujos acorde a los requerimientos core de la aplicación. También, se desarrollaron videos demostrativos para explicar el prototipo de la aplicación mobile.
+
+**TB2** <br>
+Para esta entrega utilizamos distintos IDEs de desarrollo y herramientas. Para la simulacion del dispositivo fisico se utilizo la herramienta online Wokwi, para la programacion de la API se utilizó IntelliJ de jetbrains. Tambien se utilizaron Docker y Google Cloud platform para el despliegue
 
 Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
