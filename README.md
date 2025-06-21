@@ -288,7 +288,10 @@ En esta entrega, se utilizó una herramienta de modelado C4 en Structurizr para 
 
 **TP** <br>
 En esta entrega se detallaron las principales herramientas que se utilizarán a lo largo del proyecto, tales como Markdown, Git, GitHub, Figma, Miro, Structurizr, UXPressia y Visual Studio Code, todas seleccionadas por su utilidad en las distintas etapas del desarrollo. Además, se establecieron las convenciones de codificación y buenas prácticas que guiarán el trabajo del equipo. Finalmente, se documentó la configuración del despliegue de la landing page, la cual fue publicada a través de GitHub Pages.
- 
+
+**TB2** <br>
+En esta entrega, se realizo las pruebas testing con formato Gherkin para los escenarios de visualizar los datos en tiempo real de la aplicación web, visuaizar reportes de alertar, crear nuevo dispositivo y finalmente la creacion de un nuevo usuario.
+
 Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
 En esta entrega, trabajamos en la definición de metas claras, distribuyendo responsabilidades según las habilidades individuales mientras manteníamos un propósito colectivo. Mediante una planificación colaborativa, establecimos hitos y mecanismos de seguimiento que permitieron ajustar estrategias de manera ágil. Este proceso no solo optimizó la eficiencia, sino que también reforzó la confianza y el compromiso mutuo.
@@ -343,6 +346,9 @@ En esta entrega del proyecto, se avanzó en la definición y diseño de la soluc
 
 **TP** <br>
 Durante esta entrega del proyecto, se identificaron y presentaron las herramientas clave que se utilizarán durante el ciclo de desarrollo, tales como Markdown, Git, GitHub, Figma, Miro, Structurizr, UXPressia y Visual Studio Code, seleccionadas por su relevancia en cada etapa del proceso. También se acordaron las convenciones de codificación y buenas prácticas que facilitarán el trabajo colaborativo. Por último, se dejó registrada la configuración y el despliegue inicial de la landing page a través de GitHub Pages.
+
+**TB2** <br>
+En esta entrega, se realizo las pruebas testing con formato Gherkin para los escenarios de visualizar los datos en tiempo real de la aplicación web, visuaizar reportes de alertar, crear nuevo dispositivo y finalmente la creacion de un nuevo usuario.
 
 Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
@@ -4155,7 +4161,14 @@ En este sprint, el equipo se organizó según los principales componentes del si
 #### 6.2.2.4. Development Evidence for Sprint Review
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de pruebas Testing Suite Evidence, desarrolladas con el lenguaje Gherkin. Este lenguaje permitió describir de forma clara y comprensible los comportamientos esperados del sistema mediante escenarios en lenguaje natural. Gracias a esto, se facilitó la colaboración entre el equipo de desarrollo y los stakeholders, logrando una mejor definición y entendimiento de los criterios de aceptación del sprint.
+
+<img src="./assets/images/Evidence/Testing.png">
+
 #### 6.2.2.6. Execution Evidence for Sprint Review
+
+
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
