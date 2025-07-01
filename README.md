@@ -62,6 +62,12 @@
 <br>
 <br><br>
 <br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # Registro de Versiones del Informe
 <table>
@@ -243,6 +249,16 @@
       - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 2](#6231-sprint-planning-2)
+      - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)
+      - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+      - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -4188,6 +4204,11 @@ En este sprint, el equipo se organizó según los principales componentes del si
 
 **L = Líder del componente**
 **C = Colaborador en el componente**
+<br>
+<br>
+<br>
+<br>
+<br>
 
 #### 6.2.2.3. Sprint Backlog 2
 
@@ -4796,13 +4817,17 @@ Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
+**Landing Page**
+<img src="./assets/execution_evidence/sprint_1/hero-section.PNG">
+- Link al deploy de la landing page: <a href="https://iot-gasguard.github.io/GasGuard-LandingPage/">https://iot-gasguard.github.io/GasGuard-LandingPage/</a> 
+
 **Web App**
 **Protipo en Wowki integrado al FrontEnd**
 <br></br>
 <img src="./assets/sprint2/webExecution.png">
-- Link al deploy de la aplicación web: https://gasguardiot.netlify.app/
-- Link al prototipo en Wowki: https://wokwi.com/projects/433132853696941057 
-- Link al deploy del backend: https://gasguard-api-282272338419.southamerica-west1.run.app 
+- Link al deploy de la aplicación web: <a href="https://gasguardiot.netlify.app/">https://gasguardiot.netlify.app/</a>
+- Link al prototipo en Wowki: <a href="https://wokwi.com/projects/433132853696941057">https://wokwi.com/projects/433132853696941057</a> 
+- Link al deploy del backend: <a href="https://gasguard-api-282272338419.southamerica-west1.run.app"> https://gasguard-api-282272338419.southamerica-west1.run.app  </a>
 
 **Device Managment**
 <br>
@@ -4859,11 +4884,11 @@ Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de
 <br>
 - Lista de dispositivos
 <br></br>
-<img src="./assets/sprint2/mobileListDevices.png">
+<img src="./assets/sprint2/mobileListDevices.png" style="height:500px">
 
 - Crear dispositivo
 <br></br>
-<img src="./assets/sprint2/mobileNewDevice.png">
+<img src="./assets/sprint2/mobileNewDevice.png" style="height:500px">
 
 
 <br></br>
@@ -4872,23 +4897,23 @@ Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de
 
 - Lista miembros del hogar
 <br></br>
-<img src="./assets/sprint2/mobileListMembers.png">
+<img src="./assets/sprint2/mobileListMembers.png" style="height:500px">
 
 - Agregar miembro del hogar
 <br></br>
-<img src="./assets/sprint2/mobileAddMember (2).png">
+<img src="./assets/sprint2/mobileAddMember (2).png" style="height:500px">
 
 **Reports**
 - Lista de alertas
-  <img src="./assets/sprint2/mobileReports.png">
+<img src="./assets/sprint2/mobileReports.png" style="height:500px">
 
 **Lights management**
 - Dashboard de control
-  <img src="./assets/sprint2/mobileLights.png">
+  <img src="./assets/sprint2/mobileLights.png" style="height:500px">
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
-<img src="./assets/services_documentation/services.png">
+<img src="./assets/services_documentation/services.png" style="height:500px">
 
 **Auth**
 | Método | Endpoint             | Descripción                                             |
@@ -4944,7 +4969,7 @@ Durante la revisión del Sprint 2, se presentaron las evidencias del conjunto de
 
 <img src="./assets/deployment/trigger2.png">
 
-Link al deploy: https://gasguard-api-282272338419.southamerica-west1.run.app 
+Link al deploy: <a href=" https://gasguard-api-282272338419.southamerica-west1.run.app"> https://gasguard-api-282272338419.southamerica-west1.run.app </a>
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
@@ -5116,6 +5141,46 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 **Anexo:** Colaboration insights  en el periodo de 1 mes
 
 <br>
+
+
+### 6.2.3. Sprint 3
+
+
+#### 6.2.3.1. Sprint Planning 2
+
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+
+
+
+
+
+#### 6.2.3.3. Sprint Backlog 3
+
+
+#### 6.2.3.4. Development Evidence for Sprint Review
+
+
+
+
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+
+#### 6.2.3.6. Execution Evidence for Sprint Review
+
+
+
+
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
@@ -5316,7 +5381,9 @@ Esto mejora la conexión emocional y accesibilidad visual.
 ## 6.4. Video About-the-Product
 En esta sección, presentamos un video detallado que muestra las características, beneficios y usos de nuestro producto. El video está diseñado para ofrecer una experiencia visual atractiva e informativa, permitiendo a los clientes entender fácilmente cómo el producto puede satisfacer sus necesidades.
 
-Link al video About The Product: https://youtu.be/UXmic8v83xk 
+Link al video About The Product: <a href="https://youtu.be/UXmic8v83xk "> https://youtu.be/UXmic8v83xk </a>
+
+
 
 # Conclusiones y Recomendaciones
 En conclusión, el proyecto GasGuard es sustendado bajo un análisis riguroso de las necesidades reales de los usuarios, apoyado por entrevistas, investigación de mercado y herramientas de diseño centradas en las personas. A lo largo del proceso, se identificaron problemáticas críticas relacionadas con la seguridad doméstica frente a fugas de gas, así como oportunidades para ofrecer una solución tecnológica accesible, preventiva y automatizada.
@@ -5354,3 +5421,5 @@ Link al deploy de la aplicación web: https://gasguardiot.netlify.app/
 Link al prototipo en Wowki: https://wokwi.com/projects/433132853696941057 
 
 Link al video About The Product: https://youtu.be/UXmic8v83xk 
+
+Link de la exposición de la TB2: https://youtu.be/xp6MWUQAXcc
