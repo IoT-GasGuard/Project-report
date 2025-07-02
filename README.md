@@ -250,7 +250,7 @@
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
     - [6.2.3. Sprint 3](#623-sprint-3)
-      - [6.2.3.1. Sprint Planning 2](#6231-sprint-planning-2)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
       - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
       - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)
       - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
@@ -1825,35 +1825,6 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <strong>Dado que</strong> el usuario tiene una cuenta creada
       <br>
       <strong>Cuando</strong> ingrese credenciales incorrectas
-      <br>
-      <strong>Entonces</strong> el sistema mostrará un error
-    </td>
-    <td>E8</td>
-  </tr>
-  <tr>
-    <td>US21</td>
-    <td>Recuperar contraseña</td>
-    <td>
-      <strong>Como </strong>usuario 
-      <br>
-      <strong>Quiero </strong>recibir un correo
-      <br>
-      <strong>Para </strong>reestablecer mi contraseña
-    </td>
-    <td>
-      <strong>Escenario 1: Recuperación exitosa</strong>
-      <br>
-      <strong>Dado que</strong> el usuario solicitó recuperación
-      <br>
-      <strong>Cuando</strong> ingrese un correo registrado
-      <br>
-      <strong>Entonces</strong> el sistema enviará un enlace de recuperación
-      <br><br>
-      <strong>Escenario 2: Recuperación fallida</strong>
-      <br>
-      <strong>Dado que</strong> el usuario solicitó recuperación
-      <br>
-      <strong>Cuando</strong> ingrese un correo no registrado
       <br>
       <strong>Entonces</strong> el sistema mostrará un error
     </td>
@@ -4251,7 +4222,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W27</td>
             <td>Configuración del umbral</td>
             <td>Configurar umbrales de peligrosidad en WoWKi</td>
-            <td>3</td>
+            <td>4</td>
             <td>Zaid Ramirez</td>
             <td>Done</td>
         </tr>
@@ -4355,7 +4326,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W12</td>
             <td>Iluminación Manual UI (Mobile)</td>
             <td>Desarrollar versión mobile del control manual</td>
-            <td>3</td>
+            <td>4</td>
             <td>Joseph Llacchua</td>
             <td>Done</td>
         </tr>
@@ -4363,7 +4334,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W13</td>
             <td>Iluminación Manual en Wowki</td>
             <td>Desarrollar simulación del ajuste de iluminación en Wowki</td>
-            <td>3</td>
+            <td>4</td>
             <td>Zaid Ramirez</td>
             <td>Done</td>
         </tr>
@@ -4441,7 +4412,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W23</td>
             <td>Editar dispositivos UI (Mobile)</td>
             <td>Desarrollar versión mobile de edición de dispositivos</td>
-            <td>3</td>
+            <td>4</td>
             <td>Joseph Llacchua</td>
             <td>Done</td>
         </tr>
@@ -4459,7 +4430,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W25</td>
             <td>Eliminar dispositivo UI (Web)</td>
             <td>Desarrollar pantalla web para eliminar dispositivos</td>
-            <td>3</td>
+            <td>4</td>
             <td>Samira Alvarez</td>
             <td>Done</td>
         </tr>
@@ -4467,7 +4438,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W26</td>
             <td>Eliminar dispositivo UI (Mobile)</td>
             <td>Desarrollar versión mobile para eliminar dispositivos</td>
-            <td>2</td>
+            <td>4</td>
             <td>Joseph Llacchua</td>
             <td>Done</td>
         </tr>
@@ -5146,7 +5117,7 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 ### 6.2.3. Sprint 3
 
 
-#### 6.2.3.1. Sprint Planning 2
+#### 6.2.3.1. Sprint Planning 3
 
 
 #### 6.2.3.2. Aspect Leaders and Collaborators
@@ -5157,6 +5128,171 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 #### 6.2.3.3. Sprint Backlog 3
 
+<table border="1" style="width:100%; border-collapse:collapse; text-align:center;">
+    <thead>
+        <tr>
+            <th colspan="8">Sprint Backlog - Sprint 3</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Engineering Tasks</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned to</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">E1-US01</td>
+            <td rowspan="3">Detectar niveles peligrosos de gas</td>
+            <td>W28</td>
+            <td>Calibración de sensores (ESP32)</td>
+            <td>Ajustar valores de sensores MQ en prototipo físico</td>
+            <td>6</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W29</td>
+            <td>Pruebas en ambiente real (ESP32)</td>
+            <td>Validar lecturas con gas real en diferentes concentraciones</td>
+            <td>5</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="4">E1-US02</td>
+            <td rowspan="4">Ejecutar protocolos de seguridad</td>
+            <td>W28</td>
+            <td>Protocolos de seguridad (ESP32)</td>
+            <td>Simular corte de suministro eléctrico, apertura de puertas y alarmas visuales y sonoras en prototipo</td>
+            <td>5</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E3-US07</td>
+            <td rowspan="3">Ver historial de eventos</td>
+            <td>W35</td>
+            <td>Eventos UI (Web)</td>
+            <td>Desarrollar pantalla de historial de eventos del sistema</td>
+            <td>6</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W36</td>
+            <td>Eventos UI (Mobile)</td>
+            <td>Versión mobile del historial de eventos</td>
+            <td>5</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W37</td>
+            <td>Eventos API</td>
+            <td>Implementar servicio para consulta de eventos</td>
+            <td>7</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E4-US08</td>
+            <td rowspan="3">Ajuste automático de iluminación</td>
+            <td>W40</td>
+            <td>Sensor LDR </td>
+            <td>Integrar fotoresistor y calibrar valores</td>
+            <td>4</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W41</td>
+            <td>Control PWM (ESP32)</td>
+            <td>Implementar regulación de intensidad lumínica</td>
+            <td>5</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W42</td>
+            <td>Iluminación API</td>
+            <td>Crear servicio para ajustes automáticos</td>
+            <td>5</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="4">E7-US18</td>
+            <td rowspan="4">Notificaciones de alerta</td>
+            <td>W46</td>
+            <td>Emergencias API</td>
+            <td>Conectar con servicios externos </td>
+            <td>7</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E8-US19</td>
+            <td rowspan="3">Registrar cuenta</td>
+            <td>W45</td>
+            <td>Signup UI (Web)</td>
+            <td>Desarrollar formulario de registro web</td>
+            <td>5</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W46</td>
+            <td>Signup UI (Mobile)</td>
+            <td>Versión mobile del formulario de registro</td>
+            <td>4</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W47</td>
+            <td>Auth API</td>
+            <td>Implementar servicio de registro de usuarios</td>
+            <td>7</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E8-US20</td>
+            <td rowspan="3">Iniciar sesión</td>
+            <td>W48</td>
+            <td>Login UI (Web)</td>
+            <td>Desarrollar formulario de login web</td>
+            <td>4</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W49</td>
+            <td>Login UI (Mobile)</td>
+            <td>Versión mobile del formulario de login</td>
+            <td>4</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W50</td>
+            <td>Auth Service</td>
+            <td>Implementar lógica de autenticación JWT</td>
+            <td>6</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
