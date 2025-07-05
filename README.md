@@ -5296,9 +5296,129 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
-
-
-
+<table style="width:400px; height:100px;">
+ <tr>
+    <th> <strong> Repository </strong> </th>
+    <th> <strong> Branch </strong> </th>
+    <th> <strong> Commit ID</strong> </th>
+    <th> <strong> Commit Message </strong> </th>
+     <th> <strong> Commit Message (Body) </strong> </th>
+     <th> <strong> Commited on (Date) </strong> </th>
+ </tr>
+  <tr>
+   <th> GasGuard-edge-api </th> 
+   <th> feat/auto-lighting </th>
+   <th> f18588fc13f38572ed3d2fab13697f7a6cb28025 </th>
+   <th> feat: add lighting ws connection </th>
+   <th> </th>
+   <th> 01/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-APP </th> 
+   <th> feature/lighting </th>
+   <th>5e025d2a0e85be971ab420085414c727a960b6ac </th>
+   <th> feat(ws): add lighting control </th>
+   <th> </th>
+   <th> 01/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/automatic-lighting </th>
+   <th>600c9dd56e1f06ef89dc1c4036639e1f9312770a </th>
+   <th> feat(ws): add auto-lighting channel </th>
+   <th> </th>
+   <th> 30/06/2025 </th>
+  </tr>
+   <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/automatic-lighting </th>
+   <th>37147873d1f28b58d827a569011747a41a946953</th>
+   <th> fix(ws): fix channel </th>
+   <th> </th>
+   <th> 01/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop  </th>
+   <th>37147873d1f28b58d827a569011747a41a946953</th>
+   <th> chore: add swagger server </th>
+   <th> </th>
+   <th> 02/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/household-members-connection  </th>
+   <th>9d420f82615a6f924fb2f367267079a4ebb4945f</th>
+   <th> feat: add delete and update household member </th>
+   <th> </th>
+   <th> 03/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/reports-connection  </th>
+   <th>bf8e1852c9b55211f118f126b83952fcdb97ebf3</th>
+   <th> feat: add get report endpoint in gas-incidents-report </th>
+   <th> </th>
+   <th> 03/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-control  </th>
+   <th>bf8e1852c9b55211f118f126b83952fcdb97ebf3</th>
+   <th> feat: add get report endpoint in gas-incidents-report </th>
+   <th> </th>
+   <th> 03/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-control  </th>
+   <th>f5491ca70db1e283fd9cae1a16c6362607b7ea26</th>
+   <th> feat: add loading component </th>
+   <th> </th>
+   <th> 03/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-control  </th>
+   <th>629a4ebee4c009d109d9af4dfc7b7c1414934013</th>
+   <th> feat: add reactive subscription to websocket by deviceId </th>
+   <th> </th>
+   <th> 03/07/2025 </th>
+  </tr>
+   <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-control  </th>
+   <th>3106ac8529d91a372f367e99e250c7bab6227acd</th>
+   <th> feat: add endpoint for lighting control </th>
+   <th> </th>
+   <th> 04/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-control  </th>
+   <th>010d49998e367b0c01834c7e9c1b885699ed4a9c</th>
+   <th> feat: add pdf report for gas incidents </th>
+   <th> </th>
+   <th> 04/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/release  </th>
+   <th>e70fc0765560dfb4c46f7f059a5df0e5f07969eb</th>
+   <th> fix: device management variable </th>
+   <th> </th>
+   <th> 04/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/release  </th>
+   <th>367d3774ff057441ba39d1554a16c8c21b94deb0</th>
+   <th>fix: localhost use in device-management </th>
+   <th> </th>
+   <th> 04/07/2025 </th>
+  </tr>
+  
+  </table>
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
