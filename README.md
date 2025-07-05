@@ -5312,8 +5312,64 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
 
+<img src="./assets/services_documentation/services.png" style="height:500px">
+
+**Auth**
+| Método | Endpoint             | Descripción                                             |
+|--------|----------------------|---------------------------------------------------------|
+| POST   | /api/v1/auth/sign-up | Registra un nuevo usuario en la plataforma.            |
+| POST   | /api/v1/auth/sign-in | Inicia sesión y devuelve el token JWT para autenticación. |
+
+**Profile**
+| Método | Endpoint                 | Descripción                                 |
+|--------|--------------------------|---------------------------------------------|
+| GET    | /api/v1/profiles/{id}    | Obtiene los datos del perfil por su ID.     |
+
+
+**Device Management**
+| Método | Endpoint                          | Descripción                                               |
+|--------|-----------------------------------|-----------------------------------------------------------|
+| POST   | /api/v1/devices                   | Crea un nuevo dispositivo vinculado al usuario o perfil.  |
+| DELETE | /api/v1/devices/{id}              | Elimina un dispositivo existente por ID.                  |
+| PATCH  | /api/v1/devices/{id}              | Actualiza la configuración o datos de un dispositivo.     |
+| GET    | /api/v1/devices/profile/{id}      | Lista todos los dispositivos asociados a un perfil.       |
+
+
+**Reports**
+| Método | Endpoint                               | Descripción                                                        |
+|--------|----------------------------------------|--------------------------------------------------------------------|
+| GET    | /api/v1/reports/device/{deviceId}      | Obtiene reportes de fuga de gas vinculados a un dispositivo.       |
+
+**Emergency Contacts**
+| Método | Endpoint                             | Descripción                                                 |
+|--------|--------------------------------------|-------------------------------------------------------------|
+| POST   | /api/v1/contacts                     | Añade un nuevo miembro del hogar (contacto de emergencia).  |
+| GET    | /api/v1/contacts/profile/{id}        | Lista los miembros del hogar vinculados a un perfil.        |
+
+
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
+  En este sprint 3, se mejoro el deploy del sprint 2, teniendo la versión final de la de la api y base de datos de GasGuard en Google Cloud Platform:
+
+**Despliegue de la API en Google Cloud Platform (GCP)**:
+    - Se creó un proyecto en GCP y se habilitaron los servicios necesarios para el despliegue de la API.
+    - Se configuró una instancia de Google App Engine para alojar la API, asegurando que las rutas y endpoints estén correctamente definidos.
+    - Se implementó la API utilizando Docker, creando un contenedor que se subió a Google Container Registry y luego se desplegó en App Engine.
+
+<img src="./assets/deployment/deploy backend.png">
+
+<img src="./assets/deployment/deploy database.png">
+
+<img src="./assets/deployment/deploy success.png">
+
+**Triggers**
+    - Se configuraron triggers en GCP para automatizar el despliegue de la API cada vez que se realicen cambios en el repositorio de GitHub.
+    
+<img src="./assets/deployment/trigger1.png">
+
+<img src="./assets/deployment/trigger2.png">
+
+Link al deploy: <a href=" https://gasguard-api-282272338419.southamerica-west1.run.app"> https://gasguard-api-282272338419.southamerica-west1.run.app </a>
 
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
