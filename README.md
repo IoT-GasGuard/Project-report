@@ -5150,8 +5150,8 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
     </thead>
     <tbody>
         <tr>
-            <td rowspan="3">E1-US01</td>
-            <td rowspan="3">Detectar niveles peligrosos de gas</td>
+            <td rowspan="2">E1-US01</td>
+            <td rowspan="2">Detectar niveles peligrosos de gas</td>
             <td>W28</td>
             <td>Calibración de sensores (ESP32)</td>
             <td>Ajustar valores de sensores MQ en prototipo físico</td>
@@ -5168,8 +5168,8 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
             <td>Done</td>
         </tr>
         <tr>
-            <td rowspan="4">E1-US02</td>
-            <td rowspan="4">Ejecutar protocolos de seguridad</td>
+            <td rowspan="1">E1-US02</td>
+            <td rowspan="1">Ejecutar protocolos de seguridad</td>
             <td>W28</td>
             <td>Protocolos de seguridad (ESP32)</td>
             <td>Simular corte de suministro eléctrico, apertura de puertas y alarmas visuales y sonoras en prototipo</td>
@@ -5230,8 +5230,8 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
             <td>Done</td>
         </tr>
         <tr>
-            <td rowspan="4">E7-US18</td>
-            <td rowspan="4">Notificaciones de alerta</td>
+            <td rowspan="1">E7-US18</td>
+            <td rowspan="1">Notificaciones de alerta</td>
             <td>W46</td>
             <td>Emergencias API</td>
             <td>Conectar con servicios externos </td>
