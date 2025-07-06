@@ -5495,6 +5495,15 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 Link al deploy: <a href=" https://gasguard-api-282272338419.southamerica-west1.run.app"> https://gasguard-api-282272338419.southamerica-west1.run.app </a>
 
+**Twilio SMS Integration**
+Para la integración de SMS con Twilio, se ha configurado el servicio para enviar notificaciones de alerta a los usuarios en caso de detección de fuga de gas. Se ha implementado un endpoint en la API que permite enviar mensajes SMS a los números registrados en el sistema.
+
+<img src="./assets/deployment/Twilio1.png" width="800px">
+
+<img src="./assets/deployment/Twilio2.png" width="800px">
+
+<img src="./assets/deployment/Twilio3.png" width="800px">
+
 **Physical Prototype Connection**
 
 <img src="./assets/physical_prototype/proto.png" style="width:800px">
