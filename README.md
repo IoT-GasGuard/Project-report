@@ -5494,6 +5494,175 @@ Link al deploy: <a href=" https://gasguard-api-282272338419.southamerica-west1.r
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
 
+<table>
+  <thead>
+    <tr> 
+      <th> <strong> Alumno </strong></th>
+      <th> <strong> Actividad </strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr> 
+      <td> Alvarez Araguache, Samira Jetzabel  </td>
+      <td>  Desarrollo de la aplicación web. Conexión al API.  </td>
+    </tr>
+    <tr> 
+      <td> Llacchua Peralta, Joseph Ulysses </td>
+      <td> Desarrollo de la aplicación móvil. Conexión al API.  </td>
+    </tr>
+    <tr> 
+      <td> Quilla Luyo, Jorge Gerardo  </td>
+      <td> Desarrollo del API REST.   </td>
+    </tr>
+    <tr> 
+      <td> Ramirez Contreras, Zaid Valentino 	 </td>
+      <td> Desarrollo del código del Wokwi. </td>
+    </tr> 
+    <tr> 
+      <td> Ticona Luque, Rony Piero  </td>
+      <td> Desarrollo del API REST. </td>
+    </tr>
+  </tbody>
+</table>
+
+
+A continuación, se presentara la tabla de colaboradores en los repositorios para identificar las contribuciones de cada integrante del equipo en el desarrollo de los puntos establecidos en este sprint 2.
+
+<strong>Tabla de integrantes:</strong>
+
+<table>
+    <thead>
+        <tr>
+            <th>Username (GitHub)</th>
+            <th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Samira-AA</td>
+            <td>Alvarez Araguache, Samira Jetzabel</td>
+        </tr>
+        <tr>
+            <td>JosephLlachua</td>
+            <td>Llacchua Peralta, Joseph Ulysses</td>
+        </tr>
+        <tr>
+            <td>GerardoQuilla</td>
+            <td>Quilla Luyo, Jorge Gerardo</td>
+        </tr>
+        <tr>
+            <td>ZadoR205</td>
+            <td>Ramirez Contreras, Zaid Valentino</td>
+        </tr>
+        <tr>
+            <td>pticona</td>
+            <td>Ticona Luque, Rony Piero</td>
+        </tr>
+    </tbody>
+</table>
+
+A continuación, se enseñarán los insights de ambos repositorios, donde se podrá observar los commits que se han realizado para cumplir con las metas de este sprint:
+
+**Web App**
+
+<img src="./assets/collaboration_insights_sprint3/webapp/branch_flow.png" alt="Sprint 3 Web App - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<!-- <img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes -->
+
+<img src="./assets/collaboration_insights_sprint3/webapp/commits_over_time.png" alt="Sprint 3 Web App - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/webapp/insights.png" alt="Sprint 3 Web App - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**API REST**
+
+<img src="./assets/collaboration_insights_sprint3/api_rest/branch_flow.png" alt="Sprint 3 API REST - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint3/api_rest/overview.png" alt="Sprint 3 API REST - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/api_rest/commits_over_time.png" alt="Sprint 3 API REST - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/api_rest/insights.png" alt="Sprint 3 API REST - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Wowki**
+
+<!-- <img src="./assets/collaboration_insights_sprint3/" alt="Sprint 2 Wokwi - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint3/" alt="Sprint 2 Wokwi - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes -->
+
+<img src="./assets/collaboration_insights_sprint3/wokwi/commits.png" alt="Sprint 3 Wokwi - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/wokwi/insights.png" alt="Sprint 3 Wokwi - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Mobile App**
+
+<img src="./assets/collaboration_insights_sprint3/mobile_app/branch_flow.png" alt="Sprint 3 Mobile App - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint3/mobile_app/overview.png" alt="Sprint 3 Mobile App - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/mobile_app/commits_over_time.png" alt="Sprint 3 Mobile App - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/mobile_app/insights.png" alt="Sprint 3 Mobile App - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Edge API**
+
+<img src="./assets/collaboration_insights_sprint3/edge_api/branch_flow.png" alt="Sprint 3 Edge Api - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint3/edge_api/overview.png" alt="Sprint 3 Edge Api - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/edge_api/commit_over_time.png" alt="Sprint 3 Edge Api - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/edge_api/insights.png" alt="Sprint 3 Edge Api - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
 
