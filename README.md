@@ -5308,7 +5308,7 @@ Esta distribución permitió que cada aspecto crítico del sprint tuviera un res
 
 #### 6.2.3.3. Sprint Backlog 3
 
-<img src="./assets/sprint3/sprint3-backlog.png">
+<img src="./assets/sprint3/sprint3-backlog.PNG">
 
 Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
 
