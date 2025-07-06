@@ -93,7 +93,13 @@
             <td align = "center">TB2</td>
             <td>20/06/2025</td>
             <td> Grupo 2
-            <td>Se agregó el contenido del capítulo 6 </td>
+            <td>Se agregó el contenido del capítulo 6.2.2 </td>
+        </tr>
+        <tr>
+            <td align = "center">TF</td>
+            <td>06/07/2025</td>
+            <td> Grupo 2
+            <td>Se agregó el contenido del capítulo 6.2.3 </td>
         </tr>
 </table>
 <br>
@@ -6137,6 +6143,11 @@ Hemos planteado hipótesis claras que orientan el desarrollo del sistema, priori
 
 Luego de validar las necesidades del usuario y definir la arquitectura y los procesos clave del sistema, se desarrolló y desplegó la landing page de GasGuard, junto con una maqueta inicial de la aplicación web que muestra sus primeras interfaces, a la espera de conexión con el backend para habilitar su funcionalidad.
 
+Como parte del proceso, se desplegó la landing page de GasGuard y se desarrolló por completo la aplicación web y móvil, integradas con el backend y el dispositivo físico IoT. Además, se realizaron pruebas exhaustivas (incluyendo testing en Gherkin) para garantizar el correcto funcionamiento de los protocolos de seguridad, las alertas y la comunicación entre componentes.
+
+Como resultado, GasGuard no solo es un prototipo funcional, sino una solución lista para su implementación, con potencial para mejorar la seguridad en hogares y reducir riesgos asociados a fugas de gas.
+
+Con este proyecto, se demuestra la viabilidad técnica y la relevancia social de la propuesta, cerrando un ciclo de desarrollo.
 
 
 # Bibliografía
@@ -6165,6 +6176,10 @@ Link al deploy de la aplicación web: https://gasguardiot.netlify.app/
 
 Link al prototipo en Wowki: https://wokwi.com/projects/433132853696941057 
 
+Link de la exposición de la TB2: https://youtu.be/xp6MWUQAXcc
+
+Link al video About The Team: https://youtu.be/CK0NQ7IzQiE 
+
 Link al video About The Product: https://youtu.be/UXmic8v83xk 
 
-Link de la exposición de la TB2: https://youtu.be/xp6MWUQAXcc
+Link de la exposición del TF: 
