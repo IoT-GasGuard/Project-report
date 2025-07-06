@@ -6182,4 +6182,4 @@ Link al video About The Team: https://youtu.be/CK0NQ7IzQiE
 
 Link al video About The Product: https://youtu.be/UXmic8v83xk 
 
-Link de la exposición del TF: 
+Link de la exposición del TF: https://youtu.be/oDjYddZAHRA
