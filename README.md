@@ -5134,7 +5134,7 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 #### 6.2.3.3. Sprint Backlog 3
 
-<img src="./assets/sprint3/sprint3-backlog.PNG">
+<img src="./assets/sprint3/sprint3-backlog.png">
 
 Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
 
@@ -5180,7 +5180,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
         <tr>
             <td rowspan="1">E1-US02</td>
             <td rowspan="1">Ejecutar protocolos de seguridad</td>
-            <td>W28</td>
+            <td>W30</td>
             <td>Protocolos de seguridad (ESP32)</td>
             <td>Simular corte de suministro eléctrico, apertura de puertas y alarmas visuales y sonoras en prototipo</td>
             <td>5</td>
@@ -5190,7 +5190,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
         <tr>
             <td rowspan="3">E3-US07</td>
             <td rowspan="3">Ver historial de eventos</td>
-            <td>W35</td>
+            <td>W31</td>
             <td>Eventos UI (Web)</td>
             <td>Desarrollar pantalla de historial de eventos del sistema</td>
             <td>6</td>
@@ -5198,7 +5198,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
             <td>Done</td>
         </tr>
         <tr>
-            <td>W36</td>
+            <td>W32</td>
             <td>Eventos UI (Mobile)</td>
             <td>Versión mobile del historial de eventos</td>
             <td>5</td>
@@ -5206,7 +5206,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
             <td>Done</td>
         </tr>
         <tr>
-            <td>W37</td>
+            <td>W33</td>
             <td>Eventos API</td>
             <td>Implementar servicio para consulta de eventos</td>
             <td>7</td>
@@ -5216,7 +5216,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
         <tr>
             <td rowspan="3">E4-US08</td>
             <td rowspan="3">Ajuste automático de iluminación</td>
-            <td>W40</td>
+            <td>W34</td>
             <td>Sensor LDR </td>
             <td>Integrar fotoresistor y calibrar valores</td>
             <td>4</td>
@@ -5224,7 +5224,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
             <td>Done</td>
         </tr>
         <tr>
-            <td>W41</td>
+            <td>W35</td>
             <td>Control PWM (ESP32)</td>
             <td>Implementar regulación de intensidad lumínica</td>
             <td>5</td>
@@ -5232,7 +5232,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
             <td>Done</td>
         </tr>
         <tr>
-            <td>W42</td>
+            <td>W36</td>
             <td>Iluminación API</td>
             <td>Crear servicio para ajustes automáticos</td>
             <td>5</td>
@@ -5240,9 +5240,27 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
             <td>Done</td>
         </tr>
         <tr>
+            <td rowspan="3">E4-US09</td>
+            <td rowspan="3">Modificar manualmente la iluminación</td>
+            <td>W37</td>
+            <td>Control PWM (ESP32)</td>
+            <td>Implementar regulación de intensidad lumínica</td>
+            <td>5</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W38</td>
+            <td>Iluminación API</td>
+            <td>Crear servicio para ajuste manual</td>
+            <td>5</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
             <td rowspan="1">E7-US18</td>
             <td rowspan="1">Notificaciones de alerta</td>
-            <td>W46</td>
+            <td>W39</td>
             <td>Emergencias API</td>
             <td>Conectar con servicios externos </td>
             <td>7</td>
@@ -5252,7 +5270,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
         <tr>
             <td rowspan="3">E8-US19</td>
             <td rowspan="3">Registrar cuenta</td>
-            <td>W45</td>
+            <td>W40</td>
             <td>Signup UI (Web)</td>
             <td>Desarrollar formulario de registro web</td>
             <td>5</td>
@@ -5260,7 +5278,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
             <td>Done</td>
         </tr>
         <tr>
-            <td>W46</td>
+            <td>W41</td>
             <td>Signup UI (Mobile)</td>
             <td>Versión mobile del formulario de registro</td>
             <td>4</td>
@@ -5268,7 +5286,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
             <td>Done</td>
         </tr>
         <tr>
-            <td>W47</td>
+            <td>W42</td>
             <td>Auth API</td>
             <td>Implementar servicio de registro de usuarios</td>
             <td>7</td>
@@ -5278,7 +5296,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
         <tr>
             <td rowspan="3">E8-US20</td>
             <td rowspan="3">Iniciar sesión</td>
-            <td>W48</td>
+            <td>W43</td>
             <td>Login UI (Web)</td>
             <td>Desarrollar formulario de login web</td>
             <td>4</td>
@@ -5286,7 +5304,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
             <td>Done</td>
         </tr>
         <tr>
-            <td>W49</td>
+            <td>W44</td>
             <td>Login UI (Mobile)</td>
             <td>Versión mobile del formulario de login</td>
             <td>4</td>
@@ -5294,7 +5312,7 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
             <td>Done</td>
         </tr>
         <tr>
-            <td>W50</td>
+            <td>W45</td>
             <td>Auth Service</td>
             <td>Implementar lógica de autenticación JWT</td>
             <td>6</td>
