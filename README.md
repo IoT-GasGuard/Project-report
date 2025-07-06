@@ -313,6 +313,9 @@ Para esta entrega se utilizaron herramientas de maquetado de interfaces de usuar
 **TB2** <br>
 Para esta entrega se crearon los repositorios de Edege Api y el backend, los cuales serán intermediarios para lograr la visualización de niveles de gas en tiepo real. También se evaluaron heurísticas sobre las entrevistas de validación hechas a usuarios objetivo.
 
+**TF**<br>
+En esta ultima entrega se hicieron las ultimas mejores en el frontend y backend. Además, se arrmó el prototipo físico donde se probó la funcionalidad completa conectada con nuestro software. Comprobando que nuestra solución funciona correctamente. 
+
 **TF** <br>
 Para esta entrega se desarrollaron las actividades que formaron parte del último Sprint, se culminaron las tareas del Edge Api y backend, listas y preparadas para usarse en las aplicaciones web y móviles de GasGuard.
 
@@ -380,6 +383,9 @@ Para esta entrega se usaron herramientas de maquetado de interfaces de usuario, 
 
 **TB2** <br>
 Para esta entrega utilizamos distintos IDEs de desarrollo y herramientas. Para la simulacion del dispositivo fisico se utilizo la herramienta online Wokwi, para la programacion de la API se utilizó IntelliJ de jetbrains. Tambien se utilizaron Docker y Google Cloud platform para el despliegue
+
+**TF** <br>
+Se pudo alcanzar la meta de nuestro proyecto en esta ultima entrega integrando el dispositivo fisico con nuestro software de domótica. Gracias a esto se alcanzaron las competencias del curso y se mostraron mediante un video about the team
 
 Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
