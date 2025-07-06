@@ -326,6 +326,9 @@ En esta entrega se detallaron las principales herramientas que se utilizarán a 
 **TB2** <br>
 En esta entrega, se realizo las pruebas testing con formato Gherkin para los escenarios de visualizar los datos en tiempo real de la aplicación web, visualizar reportes de alertar, crear nuevo dispositivo y finalmente la creacion de un nuevo usuario.
 
+**TF** <br>
+En esta entrega, se realizo las pruebas testing con el equipos IOT en formato Gherkin para los escenarios de visualizar como se ejecuta los protocolos de seguridad, alerta de detección de gas y enviar SMS a un contacto de emergencia, adicional se apoyo en el desarrollo del equipo IOT.
+
 Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
 En esta entrega, trabajamos en la definición de metas claras, distribuyendo responsabilidades según las habilidades individuales mientras manteníamos un propósito colectivo. Mediante una planificación colaborativa, establecimos hitos y mecanismos de seguimiento que permitieron ajustar estrategias de manera ágil. Este proceso no solo optimizó la eficiencia, sino que también reforzó la confianza y el compromiso mutuo.
@@ -400,6 +403,9 @@ Durante esta entrega del proyecto, se identificaron y presentaron las herramient
 
 **TB2** <br>
 En esta entrega, se realizo las pruebas testing con formato Gherkin para los escenarios de visualizar los datos en tiempo real de la aplicación web, visuaizar reportes de alertar, crear nuevo dispositivo y finalmente la creacion de un nuevo usuario.
+
+**TF** <br>
+En esta entrega, se realizo las evidencias de los desarrollos del proyecto en conjunto con el equipo IOT adicional se realizo las pruebas testing con el equipos IOT en formato Gherkin para los escenarios de visualizar como se ejecuta los protocolos de seguridad, alerta de detección de gas y enviar SMS a un contacto de emergencia, adicional se apoyo en el desarrollo del equipo IOT.
 
 Llacchua Peralta, Joseph Ulysses <br>
 **TB1** <br>
@@ -5592,12 +5598,63 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
+Durante la revisión del Sprint 3, se presentaron las evidencias del conjunto de pruebas desarrolladas para las historias de usuario enfocadas en la detección de niveles peligrosos de gas, la activación automática de protocolos de seguridad, la visualización de reportes diarios y la alerta a servicios de emergencia. Estas pruebas fueron descritas mediante escenarios en lenguaje Gherkin, lo que permitió documentar de forma estructurada y comprensible el comportamiento esperado del sistema ante distintos eventos críticos. Esta metodología facilitó la validación de los criterios de aceptación definidos y fomentó una mejor comunicación entre los desarrolladores y los stakeholders, asegurando que las funcionalidades entregadas respondieran a los requerimientos planteados en el Sprint.
+
+<img src="./assets/images/Evidence/Testing_IOT.png" alt="Testing IOT">
+
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
+Desarrollo del dispositivo IoT Físico:
+
+El dispositivo IoT diseñado para la detección de fugas de gas está compuesto por varios elementos electrónicos que trabajan de manera conjunta para garantizar un sistema funcional, seguro y automatizado. En el núcleo del sistema se encuentra el ESP32, que actúa como unidad de control principal, encargándose de procesar los datos del sensor y coordinar las respuestas del dispositivo ante posibles situaciones de riesgo.
+
+El sensor de gas MQ2 es el componente responsable de detectar la presencia y concentración de gases inflamables en el ambiente. Al identificar niveles peligrosos, el sistema activa dos mecanismos de alerta: un buzzer, que emite una señal sonora para advertir a las personas cercanas, y un LED, que proporciona una señal visual clara del estado del sistema.
+
+Como parte de las medidas de respuesta activa, se incluye un servomotor, el cual simula un sistema automatizado de ventilación o apertura de ventanas, permitiendo la evacuación del gas en caso de una detección crítica. Este mecanismo mejora la seguridad al no depender únicamente de la intervención humana.
+
+El montaje del circuito se realiza sobre una protoboard, lo que facilita una configuración ordenada y flexible. Se utilizan resistencias para limitar la corriente y proteger los componentes electrónicos, mientras que los cables de conexión permiten una distribución eficiente de las señales y alimentación eléctrica.
+
+Este conjunto de componentes convierte al sistema en una solución IoT efectiva para monitorear ambientes con riesgo de fuga de gas, integrando detección, alerta y respuesta automática.
+
+<img src="./assets/images/Evidence/Dispositivo_IOT_2.jpeg" alt="Sprint 3 Dispositivo IOT" style="height:500px">
+
+<img src="./assets/images/Evidence/Dispositivo_IOT_1.jpeg" alt="Sprint 3 Evidence" style="height:500px">
 
 
+**Landing Page**
+<img src="./assets/execution_evidence/sprint_1/hero-section.PNG">
+- Link al deploy de la landing page: <a href="https://iot-gasguard.github.io/GasGuard-LandingPage/">https://iot-gasguard.github.io/GasGuard-LandingPage/</a> 
 
+**Web App**
+**Protipo en Wowki integrado al FrontEnd**
+<br></br>
+<img src="./assets/sprint2/webExecution.png">
+- Link al deploy de la aplicación web: <a href="https://gasguardiot.netlify.app/">https://gasguardiot.netlify.app/</a>
+- Link al prototipo en Wowki: <a href="https://wokwi.com/projects/433132853696941057">https://wokwi.com/projects/433132853696941057</a> 
+- Link al deploy del backend: <a href="https://gasguard-api-282272338419.southamerica-west1.run.app"> https://gasguard-api-282272338419.southamerica-west1.run.app  </a>
+
+**Reportes**
+<br>
+- Reportes
+<br></br>
+<img src="./assets/images/Evidence/Reports.png">
+
+---
+**Mobile App**
+**Device Managment**
+<br>
+- Lista de dispositivos
+<br></br>
+<img src="./assets/sprint2/mobileListDevices.png" style="height:500px">
+
+- Crear dispositivo
+<br></br>
+<img src="./assets/sprint2/mobileNewDevice.png" style="height:500px">
+
+- SMS de Emergencia
+<br></br>
+<img src="./assets/images/Evidence/SMS_Emergecia.png" style="height:500px">
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
