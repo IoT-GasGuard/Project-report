@@ -5134,6 +5134,10 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 #### 6.2.3.3. Sprint Backlog 3
 
+<img src="./assets/sprint3/sprint3-backlog.PNG">
+
+Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
+
 <table border="1" style="width:100%; border-collapse:collapse; text-align:center;">
     <thead>
         <tr>
