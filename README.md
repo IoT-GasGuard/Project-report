@@ -250,7 +250,7 @@
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
     - [6.2.3. Sprint 3](#623-sprint-3)
-      - [6.2.3.1. Sprint Planning 2](#6231-sprint-planning-2)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
       - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
       - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)
       - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
@@ -1825,35 +1825,6 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
       <strong>Dado que</strong> el usuario tiene una cuenta creada
       <br>
       <strong>Cuando</strong> ingrese credenciales incorrectas
-      <br>
-      <strong>Entonces</strong> el sistema mostrará un error
-    </td>
-    <td>E8</td>
-  </tr>
-  <tr>
-    <td>US21</td>
-    <td>Recuperar contraseña</td>
-    <td>
-      <strong>Como </strong>usuario 
-      <br>
-      <strong>Quiero </strong>recibir un correo
-      <br>
-      <strong>Para </strong>reestablecer mi contraseña
-    </td>
-    <td>
-      <strong>Escenario 1: Recuperación exitosa</strong>
-      <br>
-      <strong>Dado que</strong> el usuario solicitó recuperación
-      <br>
-      <strong>Cuando</strong> ingrese un correo registrado
-      <br>
-      <strong>Entonces</strong> el sistema enviará un enlace de recuperación
-      <br><br>
-      <strong>Escenario 2: Recuperación fallida</strong>
-      <br>
-      <strong>Dado que</strong> el usuario solicitó recuperación
-      <br>
-      <strong>Cuando</strong> ingrese un correo no registrado
       <br>
       <strong>Entonces</strong> el sistema mostrará un error
     </td>
@@ -4251,7 +4222,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W27</td>
             <td>Configuración del umbral</td>
             <td>Configurar umbrales de peligrosidad en WoWKi</td>
-            <td>3</td>
+            <td>4</td>
             <td>Zaid Ramirez</td>
             <td>Done</td>
         </tr>
@@ -4355,7 +4326,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W12</td>
             <td>Iluminación Manual UI (Mobile)</td>
             <td>Desarrollar versión mobile del control manual</td>
-            <td>3</td>
+            <td>4</td>
             <td>Joseph Llacchua</td>
             <td>Done</td>
         </tr>
@@ -4363,7 +4334,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W13</td>
             <td>Iluminación Manual en Wowki</td>
             <td>Desarrollar simulación del ajuste de iluminación en Wowki</td>
-            <td>3</td>
+            <td>4</td>
             <td>Zaid Ramirez</td>
             <td>Done</td>
         </tr>
@@ -4441,7 +4412,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W23</td>
             <td>Editar dispositivos UI (Mobile)</td>
             <td>Desarrollar versión mobile de edición de dispositivos</td>
-            <td>3</td>
+            <td>4</td>
             <td>Joseph Llacchua</td>
             <td>Done</td>
         </tr>
@@ -4459,7 +4430,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W25</td>
             <td>Eliminar dispositivo UI (Web)</td>
             <td>Desarrollar pantalla web para eliminar dispositivos</td>
-            <td>3</td>
+            <td>4</td>
             <td>Samira Alvarez</td>
             <td>Done</td>
         </tr>
@@ -4467,7 +4438,7 @@ Link al Trello: https://trello.com/b/dKqxXVmT/gasguard-sprint-2
             <td>W26</td>
             <td>Eliminar dispositivo UI (Mobile)</td>
             <td>Desarrollar versión mobile para eliminar dispositivos</td>
-            <td>2</td>
+            <td>4</td>
             <td>Joseph Llacchua</td>
             <td>Done</td>
         </tr>
@@ -5146,7 +5117,7 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 ### 6.2.3. Sprint 3
 
 
-#### 6.2.3.1. Sprint Planning 2
+#### 6.2.3.1. Sprint Planning 3
 
 
 #### 6.2.3.2. Aspect Leaders and Collaborators
@@ -5157,12 +5128,297 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 
 #### 6.2.3.3. Sprint Backlog 3
 
+<table border="1" style="width:100%; border-collapse:collapse; text-align:center;">
+    <thead>
+        <tr>
+            <th colspan="8">Sprint Backlog - Sprint 3</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Engineering Tasks</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned to</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">E1-US01</td>
+            <td rowspan="2">Detectar niveles peligrosos de gas</td>
+            <td>W28</td>
+            <td>Calibración de sensores (ESP32)</td>
+            <td>Ajustar valores de sensores MQ en prototipo físico</td>
+            <td>6</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W29</td>
+            <td>Pruebas en ambiente real (ESP32)</td>
+            <td>Validar lecturas con gas real en diferentes concentraciones</td>
+            <td>5</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="1">E1-US02</td>
+            <td rowspan="1">Ejecutar protocolos de seguridad</td>
+            <td>W28</td>
+            <td>Protocolos de seguridad (ESP32)</td>
+            <td>Simular corte de suministro eléctrico, apertura de puertas y alarmas visuales y sonoras en prototipo</td>
+            <td>5</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E3-US07</td>
+            <td rowspan="3">Ver historial de eventos</td>
+            <td>W35</td>
+            <td>Eventos UI (Web)</td>
+            <td>Desarrollar pantalla de historial de eventos del sistema</td>
+            <td>6</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W36</td>
+            <td>Eventos UI (Mobile)</td>
+            <td>Versión mobile del historial de eventos</td>
+            <td>5</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W37</td>
+            <td>Eventos API</td>
+            <td>Implementar servicio para consulta de eventos</td>
+            <td>7</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E4-US08</td>
+            <td rowspan="3">Ajuste automático de iluminación</td>
+            <td>W40</td>
+            <td>Sensor LDR </td>
+            <td>Integrar fotoresistor y calibrar valores</td>
+            <td>4</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W41</td>
+            <td>Control PWM (ESP32)</td>
+            <td>Implementar regulación de intensidad lumínica</td>
+            <td>5</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W42</td>
+            <td>Iluminación API</td>
+            <td>Crear servicio para ajustes automáticos</td>
+            <td>5</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="1">E7-US18</td>
+            <td rowspan="1">Notificaciones de alerta</td>
+            <td>W46</td>
+            <td>Emergencias API</td>
+            <td>Conectar con servicios externos </td>
+            <td>7</td>
+            <td>Gerardo Quilla</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E8-US19</td>
+            <td rowspan="3">Registrar cuenta</td>
+            <td>W45</td>
+            <td>Signup UI (Web)</td>
+            <td>Desarrollar formulario de registro web</td>
+            <td>5</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W46</td>
+            <td>Signup UI (Mobile)</td>
+            <td>Versión mobile del formulario de registro</td>
+            <td>4</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W47</td>
+            <td>Auth API</td>
+            <td>Implementar servicio de registro de usuarios</td>
+            <td>7</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E8-US20</td>
+            <td rowspan="3">Iniciar sesión</td>
+            <td>W48</td>
+            <td>Login UI (Web)</td>
+            <td>Desarrollar formulario de login web</td>
+            <td>4</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W49</td>
+            <td>Login UI (Mobile)</td>
+            <td>Versión mobile del formulario de login</td>
+            <td>4</td>
+            <td>Joseph Llacchua</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>W50</td>
+            <td>Auth Service</td>
+            <td>Implementar lógica de autenticación JWT</td>
+            <td>6</td>
+            <td>Piero Ticona</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
-
-
-
+<table style="width:400px; height:100px;">
+ <tr>
+    <th> <strong> Repository </strong> </th>
+    <th> <strong> Branch </strong> </th>
+    <th> <strong> Commit ID</strong> </th>
+    <th> <strong> Commit Message </strong> </th>
+     <th> <strong> Commit Message (Body) </strong> </th>
+     <th> <strong> Commited on (Date) </strong> </th>
+ </tr>
+  <tr>
+   <th> GasGuard-edge-api </th> 
+   <th> feat/auto-lighting </th>
+   <th> f18588fc13f38572ed3d2fab13697f7a6cb28025 </th>
+   <th> feat: add lighting ws connection </th>
+   <th> </th>
+   <th> 01/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-APP </th> 
+   <th> feature/lighting </th>
+   <th>5e025d2a0e85be971ab420085414c727a960b6ac </th>
+   <th> feat(ws): add lighting control </th>
+   <th> </th>
+   <th> 01/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/automatic-lighting </th>
+   <th>600c9dd56e1f06ef89dc1c4036639e1f9312770a </th>
+   <th> feat(ws): add auto-lighting channel </th>
+   <th> </th>
+   <th> 30/06/2025 </th>
+  </tr>
+   <tr>
+   <th> GasGuard-API </th> 
+   <th> feat/automatic-lighting </th>
+   <th>37147873d1f28b58d827a569011747a41a946953</th>
+   <th> fix(ws): fix channel </th>
+   <th> </th>
+   <th> 01/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-API </th> 
+   <th> develop  </th>
+   <th>37147873d1f28b58d827a569011747a41a946953</th>
+   <th> chore: add swagger server </th>
+   <th> </th>
+   <th> 02/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/household-members-connection  </th>
+   <th>9d420f82615a6f924fb2f367267079a4ebb4945f</th>
+   <th> feat: add delete and update household member </th>
+   <th> </th>
+   <th> 03/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/reports-connection  </th>
+   <th>bf8e1852c9b55211f118f126b83952fcdb97ebf3</th>
+   <th> feat: add get report endpoint in gas-incidents-report </th>
+   <th> </th>
+   <th> 03/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-control  </th>
+   <th>bf8e1852c9b55211f118f126b83952fcdb97ebf3</th>
+   <th> feat: add get report endpoint in gas-incidents-report </th>
+   <th> </th>
+   <th> 03/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-control  </th>
+   <th>f5491ca70db1e283fd9cae1a16c6362607b7ea26</th>
+   <th> feat: add loading component </th>
+   <th> </th>
+   <th> 03/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-control  </th>
+   <th>629a4ebee4c009d109d9af4dfc7b7c1414934013</th>
+   <th> feat: add reactive subscription to websocket by deviceId </th>
+   <th> </th>
+   <th> 03/07/2025 </th>
+  </tr>
+   <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-control  </th>
+   <th>3106ac8529d91a372f367e99e250c7bab6227acd</th>
+   <th> feat: add endpoint for lighting control </th>
+   <th> </th>
+   <th> 04/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/device-control  </th>
+   <th>010d49998e367b0c01834c7e9c1b885699ed4a9c</th>
+   <th> feat: add pdf report for gas incidents </th>
+   <th> </th>
+   <th> 04/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/release  </th>
+   <th>e70fc0765560dfb4c46f7f059a5df0e5f07969eb</th>
+   <th> fix: device management variable </th>
+   <th> </th>
+   <th> 04/07/2025 </th>
+  </tr>
+  <tr>
+   <th> GasGuard-App </th> 
+   <th> feature/release  </th>
+   <th>367d3774ff057441ba39d1554a16c8c21b94deb0</th>
+   <th>fix: localhost use in device-management </th>
+   <th> </th>
+   <th> 04/07/2025 </th>
+  </tr>
+  
+  </table>
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
@@ -5176,11 +5432,236 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
 
+<img src="./assets/services_documentation/services.png" style="height:500px">
+
+**Auth**
+| Método | Endpoint             | Descripción                                             |
+|--------|----------------------|---------------------------------------------------------|
+| POST   | /api/v1/auth/sign-up | Registra un nuevo usuario en la plataforma.            |
+| POST   | /api/v1/auth/sign-in | Inicia sesión y devuelve el token JWT para autenticación. |
+
+**Profile**
+| Método | Endpoint                 | Descripción                                 |
+|--------|--------------------------|---------------------------------------------|
+| GET    | /api/v1/profiles/{id}    | Obtiene los datos del perfil por su ID.     |
+
+
+**Device Management**
+| Método | Endpoint                          | Descripción                                               |
+|--------|-----------------------------------|-----------------------------------------------------------|
+| POST   | /api/v1/devices                   | Crea un nuevo dispositivo vinculado al usuario o perfil.  |
+| DELETE | /api/v1/devices/{id}              | Elimina un dispositivo existente por ID.                  |
+| PATCH  | /api/v1/devices/{id}              | Actualiza la configuración o datos de un dispositivo.     |
+| GET    | /api/v1/devices/profile/{id}      | Lista todos los dispositivos asociados a un perfil.       |
+
+
+**Reports**
+| Método | Endpoint                               | Descripción                                                        |
+|--------|----------------------------------------|--------------------------------------------------------------------|
+| GET    | /api/v1/reports/device/{deviceId}      | Obtiene reportes de fuga de gas vinculados a un dispositivo.       |
+
+**Emergency Contacts**
+| Método | Endpoint                             | Descripción                                                 |
+|--------|--------------------------------------|-------------------------------------------------------------|
+| POST   | /api/v1/contacts                     | Añade un nuevo miembro del hogar (contacto de emergencia).  |
+| GET    | /api/v1/contacts/profile/{id}        | Lista los miembros del hogar vinculados a un perfil.        |
+
+
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
+  En este sprint 3, se mejoro el deploy del sprint 2, teniendo la versión final de la de la api y base de datos de GasGuard en Google Cloud Platform:
+
+**Despliegue de la API en Google Cloud Platform (GCP)**:
+    - Se creó un proyecto en GCP y se habilitaron los servicios necesarios para el despliegue de la API.
+    - Se configuró una instancia de Google App Engine para alojar la API, asegurando que las rutas y endpoints estén correctamente definidos.
+    - Se implementó la API utilizando Docker, creando un contenedor que se subió a Google Container Registry y luego se desplegó en App Engine.
+
+<img src="./assets/deployment/deploy backend.png">
+
+<img src="./assets/deployment/deploy database.png">
+
+<img src="./assets/deployment/deploy success.png">
+
+**Triggers**
+    - Se configuraron triggers en GCP para automatizar el despliegue de la API cada vez que se realicen cambios en el repositorio de GitHub.
+    
+<img src="./assets/deployment/trigger1.png">
+
+<img src="./assets/deployment/trigger2.png">
+
+Link al deploy: <a href=" https://gasguard-api-282272338419.southamerica-west1.run.app"> https://gasguard-api-282272338419.southamerica-west1.run.app </a>
 
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
+
+<table>
+  <thead>
+    <tr> 
+      <th> <strong> Alumno </strong></th>
+      <th> <strong> Actividad </strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr> 
+      <td> Alvarez Araguache, Samira Jetzabel  </td>
+      <td>  Desarrollo de la aplicación web. Conexión al API.  </td>
+    </tr>
+    <tr> 
+      <td> Llacchua Peralta, Joseph Ulysses </td>
+      <td> Desarrollo de la aplicación móvil. Conexión al API.  </td>
+    </tr>
+    <tr> 
+      <td> Quilla Luyo, Jorge Gerardo  </td>
+      <td> Desarrollo del API REST.   </td>
+    </tr>
+    <tr> 
+      <td> Ramirez Contreras, Zaid Valentino 	 </td>
+      <td> Desarrollo del código del Wokwi. </td>
+    </tr> 
+    <tr> 
+      <td> Ticona Luque, Rony Piero  </td>
+      <td> Desarrollo del API REST. </td>
+    </tr>
+  </tbody>
+</table>
+
+
+A continuación, se presentara la tabla de colaboradores en los repositorios para identificar las contribuciones de cada integrante del equipo en el desarrollo de los puntos establecidos en este sprint 2.
+
+<strong>Tabla de integrantes:</strong>
+
+<table>
+    <thead>
+        <tr>
+            <th>Username (GitHub)</th>
+            <th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Samira-AA</td>
+            <td>Alvarez Araguache, Samira Jetzabel</td>
+        </tr>
+        <tr>
+            <td>JosephLlachua</td>
+            <td>Llacchua Peralta, Joseph Ulysses</td>
+        </tr>
+        <tr>
+            <td>GerardoQuilla</td>
+            <td>Quilla Luyo, Jorge Gerardo</td>
+        </tr>
+        <tr>
+            <td>ZadoR205</td>
+            <td>Ramirez Contreras, Zaid Valentino</td>
+        </tr>
+        <tr>
+            <td>pticona</td>
+            <td>Ticona Luque, Rony Piero</td>
+        </tr>
+    </tbody>
+</table>
+
+A continuación, se enseñarán los insights de ambos repositorios, donde se podrá observar los commits que se han realizado para cumplir con las metas de este sprint:
+
+**Web App**
+
+<img src="./assets/collaboration_insights_sprint3/webapp/branch_flow.png" alt="Sprint 3 Web App - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<!-- <img src="./assets/collaboration_insights_sprint2/" alt="Sprint 2 Web App - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes -->
+
+<img src="./assets/collaboration_insights_sprint3/webapp/commits_over_time.png" alt="Sprint 3 Web App - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/webapp/insights.png" alt="Sprint 3 Web App - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**API REST**
+
+<img src="./assets/collaboration_insights_sprint3/api_rest/branch_flow.png" alt="Sprint 3 API REST - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint3/api_rest/overview.png" alt="Sprint 3 API REST - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/api_rest/commits_over_time.png" alt="Sprint 3 API REST - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/api_rest/insights.png" alt="Sprint 3 API REST - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Wowki**
+
+<!-- <img src="./assets/collaboration_insights_sprint3/" alt="Sprint 2 Wokwi - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint3/" alt="Sprint 2 Wokwi - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes -->
+
+<img src="./assets/collaboration_insights_sprint3/wokwi/commits.png" alt="Sprint 3 Wokwi - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/wokwi/insights.png" alt="Sprint 3 Wokwi - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Mobile App**
+
+<img src="./assets/collaboration_insights_sprint3/mobile_app/branch_flow.png" alt="Sprint 3 Mobile App - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint3/mobile_app/overview.png" alt="Sprint 3 Mobile App - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/mobile_app/commits_over_time.png" alt="Sprint 3 Mobile App - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/mobile_app/insights.png" alt="Sprint 3 Mobile App - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
+
+**Edge API**
+
+<img src="./assets/collaboration_insights_sprint3/edge_api/branch_flow.png" alt="Sprint 3 Edge Api - Flujo entre ramas">
+
+**Anexo:** Flujo entre ramas
+
+<img src="./assets/collaboration_insights_sprint3/edge_api/overview.png" alt="Sprint 3 Edge Api - Tabla de commits">
+
+**Anexo:** Tabla de commits en el periodo de 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/edge_api/commit_over_time.png" alt="Sprint 3 Edge Api - Flujo de trabajo">
+
+**Anexo:** Flujo de trabajo realizado en 1 mes
+
+<img src="./assets/collaboration_insights_sprint3/edge_api/insights.png" alt="Sprint 3 Edge Api - Insights">
+
+**Anexo:** Colaboration insights  en el periodo de 1 mes
+
+<br>
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
