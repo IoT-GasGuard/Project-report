@@ -5432,7 +5432,8 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
 
-<img src="./assets/services_documentation/services.png" style="height:500px">
+<img src="./assets/services_documentation_3/doc1.png" style="width:800px">
+<img src="./assets/services_documentation_3/doc2.png" style="width:800px">
 
 **Auth**
 | Método | Endpoint             | Descripción                                             |
@@ -5444,9 +5445,10 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 | Método | Endpoint                 | Descripción                                 |
 |--------|--------------------------|---------------------------------------------|
 | GET    | /api/v1/profiles/{id}    | Obtiene los datos del perfil por su ID.     |
+| PATCH  | /api/v1/profiles/{id}    | Actualiza los datos del perfil por su ID.   |
 
 
-**Device Management**
+**Devices**
 | Método | Endpoint                          | Descripción                                               |
 |--------|-----------------------------------|-----------------------------------------------------------|
 | POST   | /api/v1/devices                   | Crea un nuevo dispositivo vinculado al usuario o perfil.  |
@@ -5464,12 +5466,14 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 | Método | Endpoint                             | Descripción                                                 |
 |--------|--------------------------------------|-------------------------------------------------------------|
 | POST   | /api/v1/contacts                     | Añade un nuevo miembro del hogar (contacto de emergencia).  |
+|DELETE | /api/v1/contacts/{id}                | Elimina un miembro del hogar por ID.                         |
+| PATCH  | /api/v1/contacts/{id}                | Actualiza los datos de un miembro del hogar por ID.          |
 | GET    | /api/v1/contacts/profile/{id}        | Lista los miembros del hogar vinculados a un perfil.        |
 
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
-  En este sprint 3, se mejoro el deploy del sprint 2, teniendo la versión final de la de la api y base de datos de GasGuard en Google Cloud Platform:
+  En este sprint 3, se mejoro el deploy del sprint 2, teniendo la versión final de la de la api y base de datos de GasGuard en Google Cloud Platform: 
 
 **Despliegue de la API en Google Cloud Platform (GCP)**:
     - Se creó un proyecto en GCP y se habilitaron los servicios necesarios para el despliegue de la API.
@@ -5490,6 +5494,19 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 <img src="./assets/deployment/trigger2.png">
 
 Link al deploy: <a href=" https://gasguard-api-282272338419.southamerica-west1.run.app"> https://gasguard-api-282272338419.southamerica-west1.run.app </a>
+
+**Twilio SMS Integration**
+Para la integración de SMS con Twilio, se ha configurado el servicio para enviar notificaciones de alerta a los usuarios en caso de detección de fuga de gas. Se ha implementado un endpoint en la API que permite enviar mensajes SMS a los números registrados en el sistema.
+
+<img src="./assets/deployment/Twilio1.png" width="800px">
+
+<img src="./assets/deployment/Twilio2.png" width="800px">
+
+<img src="./assets/deployment/Twilio3.png" width="800px">
+
+**Physical Prototype Connection**
+
+<img src="./assets/physical_prototype/proto.png" style="width:800px">
 
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
