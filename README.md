@@ -290,8 +290,11 @@ Para esta entrega, el trabajo se llevó a cabo de manera cooperativa, involucran
 **TP** <br>
 Se trabajó de manera colaborativa en el desarrollo del Sprint Backlog 1, asignando de forma equitativa las historias de usuario entre los integrantes del equipo, lo cual permitió una organización efectiva y liderazgo compartido. Como resultado, se presentó la evidencia del avance logrado, incluyendo el despliegue inicial de la aplicación web y de la landing page, mostrando el compromiso y la coordinación del equipo en alcanzar los objetivos establecidos.
 
-**TB2** 
+**TB2** <br>
 Para esta entrega, el equipo trabajó de manera coordinada bajo un liderazgo conjunto, logrando avances clave en el proyecto. Se crearon los repositorios de Edge API y Backend, que servirán como intermediarios para la visualización de niveles de gas en tiempo real, y se completó su conexión con el frontend de la aplicación. Además, se realizaron entrevistas de validación con usuarios para asegurar que el desarrollo se alinee con sus necesidades. 
+
+**TF**<br>
+Para esta entrega, el equipo trabajó de manera coordinada y comprometida, logrando la finalización exitosa de todos los componentes clave del proyecto. Se completó el desarrollo de la aplicación web y móvil, asegurando su correcta integración y funcionamiento en conjunto. Asimismo, se concluyó el ensamblaje del prototipo IoT, conectando todos los módulos para garantizar su operatividad. Con esto, se consolida la entrega de un sistema completo y funcional
 
 Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
@@ -303,6 +306,10 @@ Para esta entrega se usaron herramientas de maquetado de interfaces de usuario, 
 **TB2**<br>
 En este avance cada integrante se enfoco en una parte integral del proyecto en conectamos los componentes. El dispositivo IoT será simulado en wokwi, se conectara con la api mediante websockets lo que nos permitira conocer la información del dispositivo fisico al frontend movil y web.
 
+
+**TF**<br>
+En esta ultima entrega se hicieron las ultimas mejores en el frontend y backend. Además, se arrmó el prototipo físico donde se probó la funcionalidad completa conectada con nuestro software. Comprobando que nuestra solución funciona correctamente. 
+
 Quilla Luyo, Jorge Gerardo <br>
 **TB1** <br>
 En esta entrega, se usaron herramientas visuales para la elaboración de escenarios donde nuestra propuesta resuelve la problemática planteada. Además, se usó un formato estándar y entendible para redactar los requerimientos de nuestros segmentos objetivos. La información recolectada por cada integrante del equipo fue necesario para la correcta elaboración de cada punto en esta entrega y así estar todos coordinados.
@@ -312,9 +319,6 @@ Para esta entrega se utilizaron herramientas de maquetado de interfaces de usuar
 
 **TB2** <br>
 Para esta entrega se crearon los repositorios de Edege Api y el backend, los cuales serán intermediarios para lograr la visualización de niveles de gas en tiepo real. También se evaluaron heurísticas sobre las entrevistas de validación hechas a usuarios objetivo.
-
-**TF**<br>
-En esta ultima entrega se hicieron las ultimas mejores en el frontend y backend. Además, se arrmó el prototipo físico donde se probó la funcionalidad completa conectada con nuestro software. Comprobando que nuestra solución funciona correctamente. 
 
 **TF** <br>
 Para esta entrega se desarrollaron las actividades que formaron parte del último Sprint, se culminaron las tareas del Edge Api y backend, listas y preparadas para usarse en las aplicaciones web y móviles de GasGuard.
@@ -356,6 +360,10 @@ TP: Conclusiones
 <br>
 TB2: Conclusiones <br>
 En este sprint, el equipo demostró un trabajo colaborativo bajo un liderazgo compartido, logrando hitos clave como la creación y conexión de los repositorios de Edge API y Backend con el frontend, esenciales para la visualización en tiempo real de los niveles de gas. Se validaron requerimientos con usuarios y se implementaron pruebas Gherkin para garantizar la calidad en funciones críticas (alertas, gestión de dispositivos y usuarios). La simulación del dispositivo IoT (Wokwi) y su conexión vía WebSockets sentaron las bases para la integración de los módulos. Gracias a la coordinación activa y la resolución conjunta de desafíos técnicos, se cumplieron todos los objetivos planeados, consolidando un avance sólido hacia el producto final.
+<br>
+TF: Conclusiones <br>
+En esta última fase del proyecto, el equipo logró culminar con éxito todas las actividades planificadas, implementando las mejoras finales tanto en el frontend como en el backend. Se completó el ensamblaje del prototipo físico IoT, verificando mediante pruebas exhaustivas su correcta integración con el software desarrollado. Las pruebas en formato Gherkin permitieron validar los protocolos de seguridad, la detección de fugas de gas y el envío de notificaciones por SMS, confirmando así el cumplimiento de los requisitos funcionales. Como resultado, se obtuvo una solución tecnológica integral y funcional, que demuestra el compromiso del equipo con la calidad y la entrega de un producto que satisface las necesidades planteadas inicialmente. 
+
   <tr>
             <td align = "center">Crea un entorno colaborativo e
 inclusivo, establece metas,
@@ -373,6 +381,9 @@ Se fomentó un entorno colaborativo e inclusivo mediante la participación activ
 
 **TB2** <br>
 En esta etapa del proyecto, el equipo estableció metas claras, planificó tareas estratégicas y cumplió los objetivos trazados para esta entrega. Se crearon los repositorios de Edge API y Backend, fundamentales para visualizar los niveles de gas en tiempo real, y se integraron exitosamente con el frontend de la aplicación. Además, mediante entrevistas de validación, se recopiló feedback clave para alinear el desarrollo con las necesidades reales de los usuarios.
+
+**TF**<br>
+En esta entrega, el equipo demostró un fuerte compromiso, fomentando un entorno donde cada miembro contribuyó activamente al desarrollo del proyecto. Gracias a una planificación detallada y un seguimiento constante, se logró cumplir con todos los objetivos propuestos: la finalización de las aplicaciones web y móvil, su integración funcional y el ensamblaje exitoso del prototipo IoT. 
 
 Ramirez Contreras, Zaid Valentino <br>
 **TB1** <br>
@@ -438,6 +449,9 @@ TP: Conclusiones <br>
 <br>
 TB2: Conclusiones <br>       
 El equipo demostró su capacidad para crear un entorno colaborativo e inclusivo mediante una comunicación constante y la distribución de tareas según las fortalezas individuales. Se establecieron metas claras (desarrollo de APIs, integración y validación con usuarios) y se planificaron tareas estratégicas (metodología DDD, pruebas Gherkin). Como resultado, se cumplieron todos los objetivos: implementación técnica funcional, pruebas de calidad y avance en la integración del sistema, reforzando el trabajo en equipo y la alineación con las necesidades del proyecto.
+<br>
+TF: Conclusiones <br>
+En esta fase final del proyecto, el equipo logró integrar exitosamente el dispositivo físico con el software de domótica desarrollado, cumpliendo así con los objetivos planteados y demostrando las competencias adquiridas durante el curso. Como evidencia de este logro, se elaboró un video que resume las actividades clave, los retos superados y los aprendizajes obtenidos a lo largo del desarrollo del proyecto.  Este enfoque colaborativo no solo facilitó el cumplimiento de los plazos establecidos, sino que también contribuyó a la entrega de un producto funcional y de calidad.
 
 </td>
        <tr>
