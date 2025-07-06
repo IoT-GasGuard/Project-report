@@ -333,6 +333,8 @@ Durante esta fase, prioricé la creación de un espacio de trabajo colaborativo 
 **TB2** <br>
 En este sprint, participé activamente en la coordinación y comunicación del equipo, apoyando la integración de los diferentes componentes (frontend, backend, edge API, simulador IoT y app móvil). Colaboré en la planificación de tareas y en la revisión de avances, procurando que todos los miembros pudieran aportar y resolver dudas técnicas en conjunto. Gracias a este trabajo colaborativo, logramos cumplir con los objetivos principales del sprint y avanzar en la integración de los módulos del sistema.
 
+**TF** <br> Durante el desarrollo del TF, participé en la coordinación de tareas y en la toma de decisiones grupales, apoyando la integración de los diferentes módulos del sistema y colaborando en la resolución de problemas técnicos. Mantuve una comunicación constante con los demás integrantes para asegurar el avance del proyecto y el cumplimiento de los objetivos establecidos. 
+
 
 </td>
          <td> TB1: Conclusiones <br>
@@ -402,6 +404,8 @@ En esta etapa, lideré el desarrollo de la arquitectura de información y direct
 
 **TB2** <br>
 Durante esta entrega, contribuí a mantener un ambiente de trabajo participativo y ordenado, ayudando a definir metas semanales y a distribuir tareas según las fortalezas del equipo. Fomenté la comunicación constante y la colaboración, lo que permitió cumplir con los objetivos planteados y avanzar en el desarrollo de los distintos componentes del proyecto.
+
+**TF** <br> En esta etapa, contribuí a definir metas semanales y a distribuir tareas de acuerdo a las fortalezas del equipo. Fomenté la colaboración y el intercambio de ideas, lo que facilitó el cumplimiento de los objetivos y la entrega de un producto final funcional. | La planificación y el ambiente colaborativo favorecieron el cumplimiento de los plazos y la calidad del trabajo, permitiendo que el equipo alcance los resultados esperados en el TF.
 
 </td>
             <td> TB1: Conclusiones<br>
@@ -5146,14 +5150,152 @@ A continuación, se enseñarán los insights de ambos repositorios, donde se pod
 ### 6.2.3. Sprint 3
 
 
-#### 6.2.3.1. Sprint Planning 2
+#### 6.2.3.1. Sprint Planning 3
 
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 3</th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="7">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Date</td>
+    <td>01/07/2025</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Time</td>
+    <td>16:00 horas (GMT-5)</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Location</td>
+    <td>Modalidad remota a través de la aplicación Discord</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Prepared By</td>
+    <td>Llacchua Peralta, Joseph Ulysses</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Attendees (to planning meeting)</td>
+    <td>
+      Alvarez Araguache, Samira Jetzabel<br>
+      Llacchua Peralta, Joseph Ulysses<br>
+      Quilla Luyo, Jorge Gerardo<br>
+      Ramirez Contreras, Zaid Valentino<br>
+      Ticona Luque, Rony Piero
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 2 Review Summary</td>
+    <td>
+      En el Sprint 2 se avanzó en la integración de la API, la app web, la app móvil y la simulación IoT (Wokwi). Se implementaron funcionalidades clave como el registro e inicio de sesión, gestión de dispositivos, reportes y notificaciones. Se logró conectar el prototipo virtual con el frontend y se desplegó la API en la nube. El feedback recibido permitió ajustar detalles en la experiencia de usuario y la integración entre módulos.
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 2 Retrospective Summary</td>
+    <td>
+      <strong>Lo que hicimos bien:</strong><br>
+      - Integración exitosa entre backend, frontend y simulador IoT<br>
+      - Despliegue de la API y la app web<br>
+      - Mejoras en la comunicación y seguimiento de tareas<br>
+      <strong>Lo que podemos mejorar:</strong><br>
+      - Optimizar tiempos de pruebas en hardware real<br>
+      - Documentar mejor los procesos de despliegue<br>
+      <strong>Plan de acción:</strong><br>
+      - Realizar pruebas continuas en hardware físico<br>
+      - Registrar incidencias y soluciones en la wiki del repositorio<br>
+      - Coordinar sesiones de revisión de la app móvil antes del despliegue final
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="7">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 3 Goal</td>
+    <td>
+      En este sprint, el objetivo principal es finalizar y conectar la aplicación móvil con los servicios backend, realizar el prototipo físico utilizando los componentes adquiridos (ESP32, sensores, LEDs, etc.), y validar el funcionamiento en ambiente real. Además, se busca generar la APK de la app móvil para su despliegue y pruebas, y dejar documentado el proceso de integración hardware-software. Al cierre del sprint, el sistema debe estar completamente funcional, con la app móvil conectada al backend y el prototipo físico operativo.
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 3 Velocity</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sum of Story Points</td>
+    <td>60</td>
+  </tr>
+</table>
 
 #### 6.2.3.2. Aspect Leaders and Collaborators
 
+En este sprint, el equipo se organizó según los principales componentes y entregables finales del sistema, asignando líderes y colaboradores para cada uno:
 
+<table>
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>App Móvil (L/C)</th>
+      <th>Backend API (L/C)</th>
+      <th>Edge API (L/C)</th>
+      <th>Simulación IoT Física (L/C)</th>
+      <th>Integración y Deploy (L/C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alvarez Araguache, Samira Jetzabel</td>
+      <td>Samira-AA</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Llacchua Peralta, Joseph Ulysses</td>
+      <td>JosephLlachua</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Quilla Luyo, Jorge Gerardo</td>
+      <td>GerardoQuilla</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ramirez Contreras, Zaid Valentino</td>
+      <td>ZadoR205</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Ticona Luque, Rony Piero</td>
+      <td>pticona</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
 
+**L = Líder del componente**  
+**C = Colaborador en el componente**
 
+Esta distribución permitió que cada aspecto crítico del sprint tuviera un responsable principal y el apoyo colaborativo del resto del equipo, asegurando la finalización e integración de todos los módulos del sistema GasGuard.
 
 #### 6.2.3.3. Sprint Backlog 3
 
