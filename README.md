@@ -313,6 +313,9 @@ Para esta entrega se utilizaron herramientas de maquetado de interfaces de usuar
 **TB2** <br>
 Para esta entrega se crearon los repositorios de Edege Api y el backend, los cuales serán intermediarios para lograr la visualización de niveles de gas en tiepo real. También se evaluaron heurísticas sobre las entrevistas de validación hechas a usuarios objetivo.
 
+**TF** <br>
+Para esta entrega se desarrollaron las actividades que formaron parte del último Sprint, se culminaron las tareas del Edge Api y backend, listas y preparadas para usarse en las aplicaciones web y móviles de GasGuard.
+
 Ticona Luque, Rony Piero <br>
 **TB1** <br>
 En esta entrega, se utilizó una herramienta de modelado C4 en Structurizr para el desarrollo de los diagramas de contexto, contenedores y componentes que serán implementados en el proyecto. Además, se emplearon herramientas como Lucidchart y Vertabelo para crear los diagramas de las bases de datos. También se realizaron entrevistas para identificar y comprender mejor las necesidades del segmento de público objetivo, lo cual fue fundamental para definir las funcionalidades clave del proyecto.
@@ -382,6 +385,9 @@ En esta entrega se logró diseñar una interfaz de usuario que cumple con buenas
 
 **TB2** <br>
 En esta entrega se desarrolló el Edge API y el backend utilizando frameworks adecuados, se aplicaron metodologías Domain Driven Design para la estructura y lógica de ambos repositorios. Además, se clasificaron en niveles de severidad los problemas identificados por nuestros usuarios a través de entrevistas de validación.
+
+**TF** <br>
+En esta entrega se realizaron las respectivas correcciones y se implementaron los últimos servicios del backend. Además, se elaboró un video mencionando las principales actividades, retos y competencias alcanzadas.
 
 Ticona Luque Rony Piero <br>
 **TB1** <br>
@@ -496,7 +502,7 @@ Ser una empresa referente en el ámbito de la seguridad con tecnología IoT, cen
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://media.licdn.com/dms/image/v2/D4E03AQESEoiwSF0wVg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711066191126?e=1750291200&v=beta&t=MjZOYpRFS9wjwe28DYvAkiGW4LOsiI8pupY9ohTLhbM" alt="Joseph" style="margin-bottom: 5px;" width="150"/>
+            <img src="./assets/team_img/joseph.jpg" alt="Joseph" style="margin-bottom: 5px;" width="150"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -986,7 +992,7 @@ Edad: 18 años
 
 Residencia: Lima - La Victoria
 
-<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/ERD-BT5hLC5EpKAYPNymmsUB043RTDuk0x3Hc6QE13G2pA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1CcGsV">Link a la entrevista</a>
+Link a la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/ERD-BT5hLC5EpKAYPNymmsUB043RTDuk0x3Hc6QE13G2pA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1CcGsV">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/ERD-BT5hLC5EpKAYPNymmsUB043RTDuk0x3Hc6QE13G2pA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1CcGsV</a>
 
 <img src="./assets/interviews/entrevista_jorge_quilla.png" alt="Entrevista Jorge Quilla">
 
@@ -1006,7 +1012,7 @@ Edad: 20 años
 
 Residencia: Lima - San Felipe
 
-<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218472_upc_edu_pe/EY2xMPNuv5ZFhTiGBvLWvTcBq1WC5vwQnOJlPXIKIMxn_Q?e=rskZbD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" >Link a la entrevista</a>
+Link a la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218472_upc_edu_pe/EY2xMPNuv5ZFhTiGBvLWvTcBq1WC5vwQnOJlPXIKIMxn_Q?e=rskZbD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" >https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218472_upc_edu_pe/EY2xMPNuv5ZFhTiGBvLWvTcBq1WC5vwQnOJlPXIKIMxn_Q?e=rskZbD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a>
 
 <img src="./assets/interviews/entrevista_diego_ramirez.png" alt="Entrevista Diego Ramirez">
 
@@ -1027,7 +1033,7 @@ Edad: 29 años
 
 Residencia: Lima - Breña
 
-<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/ER6IMmm720xKssiJipPkNDgBu0oYowaPz2dTQ_KsdV0Vlw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KqPf7q">Link a la entrevista</a>
+Link a la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/ER6IMmm720xKssiJipPkNDgBu0oYowaPz2dTQ_KsdV0Vlw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KqPf7q">https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/ER6IMmm720xKssiJipPkNDgBu0oYowaPz2dTQ_KsdV0Vlw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KqPf7q</a>
 
 <img src="./assets/interviews/entrevista_piero_ticona.png" alt="Entrevista Piero Ticona">
 
@@ -1076,7 +1082,7 @@ Las entrevistas realizadas muestran una clara preocupación por la seguridad fre
 
 <img src="./assets/scenario_mapping/as-is.png" alt="as-is scenario mapping">
 
-Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540110425&cot=14">As-Is Scenario Mapping - GasGuard</a>
+As-Is Scenario Mapping - GasGuard Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540110425&cot=14">https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540110425&cot=14</a>
 
 ## 2.4. Ubiquitous Language
 
@@ -1107,7 +1113,7 @@ Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=345
 
 <img src="./assets/scenario_mapping/to-be.png" alt="to-be scenario">
 
-Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540224366&cot=14">To-Be Scenario Mapping - GasGuard</a>
+To-Be Scenario Mapping - GasGuard Link al Miro: <a href="https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540224366&cot=14">https://miro.com/app/board/uXjVIDkps3Q=/?moveToWidget=3458764624540224366&cot=14</a>
 
 ## 3.2. User Stories
 
@@ -5721,7 +5727,7 @@ Edad: 18 años
 
 Residencia: Lima - La Victoria
 
-<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EeloiKs0aS5KqFQOUFUaR8IBoh3KHAilAePJIfLlsmgOBA?e=IVwhX5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Link a la entrevista</a>
+Link a la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EeloiKs0aS5KqFQOUFUaR8IBoh3KHAilAePJIfLlsmgOBA?e=IVwhX5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EeloiKs0aS5KqFQOUFUaR8IBoh3KHAilAePJIfLlsmgOBA?e=IVwhX5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a>
 
 <img src="./assets/validation-interviews/carlos.png" alt="Entrevista Jorge Quilla">
 
@@ -5740,7 +5746,7 @@ Edad: 20 años
 
 Residencia: Lima - San Felipe
 
-<a href="https://youtu.be/5WOUu7lO8LY" >Link a la entrevista</a>
+Link a la entrevista: <a href="https://youtu.be/5WOUu7lO8LY">https://youtu.be/5WOUu7lO8LY</a>
 
 <img src="./assets/validation-interviews/Diego.png" alt="Entrevista Diego Ramirez">
 
@@ -5760,7 +5766,7 @@ Edad: 29 años
 
 Residencia: Lima - Breña
 
-<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/EZdJ9LyttsFBo-pZQtgZELABf5r6dMRep0tcDbwU4DLExA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SYQWmQ">Link a la entrevista</a>
+Link a la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/EZdJ9LyttsFBo-pZQtgZELABf5r6dMRep0tcDbwU4DLExA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SYQWmQ">https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/EZdJ9LyttsFBo-pZQtgZELABf5r6dMRep0tcDbwU4DLExA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SYQWmQ</a>
 
 <img src="./assets/validation-interviews/alexandra.png" alt="Entrevista Piero Ticona">
 
