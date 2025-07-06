@@ -5240,8 +5240,8 @@ Link al tablero de Trello: https://trello.com/b/TGg7LohF/gasguard-sprint-3
             <td>Done</td>
         </tr>
         <tr>
-            <td rowspan="3">E4-US09</td>
-            <td rowspan="3">Modificar manualmente la iluminación</td>
+            <td rowspan="2">E4-US09</td>
+            <td rowspan="2">Modificar manualmente la iluminación</td>
             <td>W37</td>
             <td>Control PWM (ESP32)</td>
             <td>Implementar regulación de intensidad lumínica</td>
